@@ -270,13 +270,6 @@
       border-radius: 9px; color: #b91c1c; font-size: 13px; line-height: 1.5;
     }
 
-    /* ── Data notice ── */
-    .data-notice {
-      padding: 7px 15px; background: #fffbeb;
-      border-top: 1px solid #fde68a; font-size: 11px;
-      color: #92400e; flex-shrink: 0; text-align: center; line-height: 1.6;
-    }
-
     /* ── Responsive ── */
     @media (max-width: 700px) {
       body { overflow: auto; }
@@ -358,7 +351,6 @@
         <div class="state-sub" data-i18n="emptySub">הכנס כתובת בשדה למעלה<br>או לחץ על "מיקום נוכחי"</div>
       </div>
     </div>
-    <div class="data-notice" id="data-notice" style="display:none"></div>
   </div>
 </div>
 
@@ -393,7 +385,6 @@ const STRINGS = {
     inRadius:   r   => `בטווח ${r}`,
     govLabel:   n   => `${n} ממסד ממשלתי`,
     osmLabel:   n   => `${n} מ-OSM`,
-    dataNotice:     '🏚️ מקלטים: OSM + מאגר ארצי + gov.il (שלם לבאר שבע · ירושלים · <strong>תל אביב</strong>). 🏫🅿️ בתי ספר וחניונים: נתוני OSM — <strong>מרחבים מוגנים פוטנציאליים בלבד</strong>.',
     myLocation:     '📍 מיקומך',
     gpsDetected:    '📍 מיקום GPS זוהה',
     detectingGPS:   '⏳',
@@ -444,7 +435,6 @@ const STRINGS = {
     inRadius:   r   => `within ${r}`,
     govLabel:   n   => `${n} from gov database`,
     osmLabel:   n   => `${n} from OSM`,
-    dataNotice:     '🏚️ Shelters: OSM + National DB + gov.il (full data for Beer Sheva, Jerusalem & <strong>Tel Aviv</strong>). 🏫🅿️ Schools & parking: OSM data — <strong>potential protected spaces only</strong>.',
     myLocation:     '📍 Your location',
     gpsDetected:    '📍 GPS location detected',
     detectingGPS:   '⏳',
@@ -503,8 +493,6 @@ function setLang(lang) {
     `<option value="${v}"${v === cur ? ' selected' : ''}>${label}</option>`
   ).join('');
   if (!sel.value) sel.value = '1000';
-
-  document.getElementById('data-notice').innerHTML = s.dataNotice;
 
   if (lastShelters !== null) {
     const filtered = getFiltered(lastShelters);
@@ -682,9 +670,6 @@ async function loadShelters() {
     lastRadiusM  = radiusM;
     lastSources  = data.sources;
 
-    document.getElementById('data-notice').style.display = 'block';
-    document.getElementById('data-notice').innerHTML = t().dataNotice;
-
     updateRadius(radiusM);
     const filtered = getFiltered(data.shelters);
     renderList(filtered);
@@ -696,6 +681,36 @@ async function loadShelters() {
 }
 
 function onRadiusChange() { if (userLat !== null) loadShelters(); }
+
+// ═══════════════════════════════════
+// NAME LOCALIZATION (HE → EN)
+// ═══════════════════════════════════
+const HE_EN = {
+  'מקלט ציבורי':       'Public Shelter',
+  'מקלט פצצות':        'Bomb Shelter',
+  'מקלט חירום':        'Emergency Shelter',
+  'מרחב מוגן':         'Protected Space',
+  'מרחב מוגן דירתי':   'Residential Safe Room',
+  'גן ילדים':          'Kindergarten',
+  'בית ספר':           'School',
+  'חניון קומות':       'Multi-storey Parking',
+  'חניון מקורה':       'Covered Parking',
+  'חניון מחסה לציבור': 'Public Parking Shelter',
+  'מקלט בשטח חניון':   'Parking Lot Shelter',
+  'מקלט':              'Shelter',
+};
+
+function localizeName(name) {
+  if (currentLang !== 'en' || !name) return name;
+  if (HE_EN[name]) return HE_EN[name];
+  if (name.startsWith('מקלט – '))        return 'Shelter – '            + name.slice('מקלט – '.length);
+  if (name.startsWith('מקלט ת"א #'))     return 'Tel Aviv Shelter #'    + name.slice('מקלט ת"א #'.length);
+  if (name.startsWith('מקלט ירושלים #')) return 'Jerusalem Shelter #'   + name.slice('מקלט ירושלים #'.length);
+  if (name.startsWith('מקלט באר שבע #')) return 'Beer Sheva Shelter #'  + name.slice('מקלט באר שבע #'.length);
+  if (name.startsWith('מקלט נס ציונה #')) return 'Ness Ziona Shelter #' + name.slice('מקלט נס ציונה #'.length);
+  if (name.startsWith('מקלט '))          return 'Shelter '              + name.slice('מקלט '.length);
+  return name;
+}
 
 // ═══════════════════════════════════
 // RENDER
@@ -712,8 +727,9 @@ function renderList(shelters) {
   }
 
   list.innerHTML = shelters.map((s, i) => {
-    const cat   = s.category || 'public';
-    const dCls  = cat === 'school' ? 'school' : cat === 'parking' ? 'parking'
+    const cat  = s.category || 'public';
+    const name = localizeName(s.name);
+    const dCls = cat === 'school' ? 'school' : cat === 'parking' ? 'parking'
                   : s.dist < 0.5 ? 'near' : s.dist < 2 ? 'medium' : 'far';
     const addr  = [s.address, s.city].filter(Boolean).join(', ');
     const waze  = `https://waze.com/ul?ll=${s.lat},${s.lon}&navigate=yes`;
@@ -734,7 +750,7 @@ function renderList(shelters) {
     return `<div class="card cat-${cat}" id="card-${esc(s.id)}" onclick="focusShelter('${esc(s.id)}',${s.lat},${s.lon},${i})">
       <div class="rank ${dCls}">${i + 1}</div>
       <div class="card-body">
-        <div class="card-name" title="${esc(s.name)}">${esc(s.name)}</div>
+        <div class="card-name" title="${esc(name)}">${esc(name)}</div>
         ${addr ? `<div class="card-addr">📍 ${esc(addr)}</div>` : ''}
         <div class="card-meta">
           <span class="pill pill-dist ${cat === 'school' || cat === 'parking' ? '' : dCls}">🚶 ${t().distFmt(s.dist)}</span>
@@ -770,7 +786,7 @@ function renderMarkers(shelters) {
     const addr = [s.address, s.city].filter(Boolean).join(', ');
     const m = L.marker([s.lat, s.lon], { icon })
       .addTo(map)
-      .bindPopup(`<div dir="${t().dir}"><b>${esc(s.name)}</b>${addr ? '<br>' + esc(addr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
+      .bindPopup(`<div dir="${t().dir}"><b>${esc(localizeName(s.name))}</b>${addr ? '<br>' + esc(addr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
     m.on('click', () => {
       const card = document.getElementById('card-' + s.id);
       if (card) card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
