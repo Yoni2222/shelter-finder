@@ -703,12 +703,22 @@ const HE_EN = {
 function localizeName(name) {
   if (currentLang !== 'en' || !name) return name;
   if (HE_EN[name]) return HE_EN[name];
-  if (name.startsWith('מקלט – '))        return 'Shelter – '            + name.slice('מקלט – '.length);
-  if (name.startsWith('מקלט ת"א #'))     return 'Tel Aviv Shelter #'    + name.slice('מקלט ת"א #'.length);
-  if (name.startsWith('מקלט ירושלים #')) return 'Jerusalem Shelter #'   + name.slice('מקלט ירושלים #'.length);
-  if (name.startsWith('מקלט באר שבע #')) return 'Beer Sheva Shelter #'  + name.slice('מקלט באר שבע #'.length);
-  if (name.startsWith('מקלט נס ציונה #')) return 'Ness Ziona Shelter #' + name.slice('מקלט נס ציונה #'.length);
-  if (name.startsWith('מקלט '))          return 'Shelter '              + name.slice('מקלט '.length);
+  // shelter prefixes
+  if (name.startsWith('מקלט – '))         return 'Shelter – '            + name.slice('מקלט – '.length);
+  if (name.startsWith('מקלט ת"א #'))      return 'Tel Aviv Shelter #'    + name.slice('מקלט ת"א #'.length);
+  if (name.startsWith('מקלט ירושלים #'))  return 'Jerusalem Shelter #'   + name.slice('מקלט ירושלים #'.length);
+  if (name.startsWith('מקלט באר שבע #'))  return 'Beer Sheva Shelter #'  + name.slice('מקלט באר שבע #'.length);
+  if (name.startsWith('מקלט נס ציונה #')) return 'Ness Ziona Shelter #'  + name.slice('מקלט נס ציונה #'.length);
+  if (name.startsWith('מקלט '))           return 'Shelter '              + name.slice('מקלט '.length);
+  if (name.startsWith('מרחב מוגן '))      return 'Protected Space '      + name.slice('מרחב מוגן '.length);
+  // school/kindergarten prefixes
+  if (name.startsWith('בית ספר '))        return 'School '               + name.slice('בית ספר '.length);
+  if (name.startsWith('בית-ספר '))        return 'School '               + name.slice('בית-ספר '.length);
+  if (name.startsWith('גן ילדים '))       return 'Kindergarten '         + name.slice('גן ילדים '.length);
+  if (name.startsWith('גן '))             return 'Kindergarten '         + name.slice('גן '.length);
+  // parking prefixes
+  if (name.startsWith('חניון '))          return 'Parking '              + name.slice('חניון '.length);
+  if (name.startsWith('חנייה '))          return 'Parking '              + name.slice('חנייה '.length);
   return name;
 }
 
