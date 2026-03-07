@@ -1,0 +1,549 @@
+'use strict';
+
+const express = require('express');
+const fetch   = require('node-fetch');
+const path    = require('path');
+
+const app  = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+// ─────────────────────────────────────────────
+// Known data.gov.il shelter resources (CSV/tabular via CKAN API)
+// ─────────────────────────────────────────────
+const GOV_RESOURCES = [
+  {
+    id: 'e191d913-11e4-4d87-a4b2-91587aab6611',
+    city: 'באר שבע',
+    latField: 'lat',
+    lonField: 'lon',
+    nameField: 'name',
+  },
+];
+
+// ─────────────────────────────────────────────
+// GeoJSON shelter sources
+// ─────────────────────────────────────────────
+const GEOJSON_RESOURCES = [
+  {
+    url: 'https://jerusalem.datacity.org.il/dataset/3e97d0fc-4268-4aea-844d-12588f55d809/resource/b9bd9575-d431-4f9d-af4b-1413d3c13590/download/data.geojson',
+    city: 'ירושלים',
+    nameField: 'מספר מקלט',
+  },
+];
+
+// ─────────────────────────────────────────────
+// National ArcGIS shelter FeatureServer (Israel nationwide)
+// Discovered via: arcgis.com/apps/instant/nearby/?appid=95254f2f07d74a1eab51254851cb2fb0
+// ─────────────────────────────────────────────
+const ARCGIS_SHELTER_URL =
+  'https://services-eu1.arcgis.com/1SaThKhnIOL6Cfhz/arcgis/rest/services/miklatim/FeatureServer/0';
+
+// ─────────────────────────────────────────────
+// In-memory caches
+// ─────────────────────────────────────────────
+const govCache     = {};
+const geojsonCache = {};
+const GOV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+// ─────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const toRad = x => (x * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+// Deduplicate shelters within a single list (prefer gov/arcgis over OSM)
+function deduplicate(shelters, thresholdKm = 0.03) {
+  const out = [];
+  for (const s of shelters) {
+    const dup = out.find(x => haversine(x.lat, x.lon, s.lat, s.lon) < thresholdKm);
+    if (!dup) {
+      out.push(s);
+    } else if (s.source === 'gov' || s.source === 'arcgis') {
+      Object.assign(dup, { ...s, id: dup.id });
+    }
+  }
+  return out;
+}
+
+// Deduplicate per category independently (schools ≠ shelters ≠ parking)
+function deduplicateAll(shelters, thresholdKm = 0.03) {
+  const byCategory = {};
+  for (const s of shelters) {
+    const cat = s.category || 'public';
+    if (!byCategory[cat]) byCategory[cat] = [];
+    byCategory[cat].push(s);
+  }
+  const result = [];
+  for (const list of Object.values(byCategory)) {
+    result.push(...deduplicate(list, thresholdKm));
+  }
+  return result;
+}
+
+// ─────────────────────────────────────────────
+// Fetch from OpenStreetMap Overpass API
+// Single query covers: public shelters + schools + covered/multi-storey parking
+// ─────────────────────────────────────────────
+async function fetchOverpass(lat, lon, radiusM) {
+  const query = `
+[out:json][timeout:30];
+(
+  node["amenity"="shelter"]["shelter_type"!="public_transport"]["shelter_type"!="weather"](around:${radiusM},${lat},${lon});
+  way["amenity"="shelter"]["shelter_type"!="public_transport"]["shelter_type"!="weather"](around:${radiusM},${lat},${lon});
+  node["building"="shelter"](around:${radiusM},${lat},${lon});
+  way["building"="shelter"](around:${radiusM},${lat},${lon});
+  node["emergency"="shelter"](around:${radiusM},${lat},${lon});
+  way["emergency"="shelter"](around:${radiusM},${lat},${lon});
+  node["shelter_type"="public_shelter"](around:${radiusM},${lat},${lon});
+  node["shelter_type"="bomb_shelter"](around:${radiusM},${lat},${lon});
+  node["amenity"="public_shelter"](around:${radiusM},${lat},${lon});
+  node["miklat"="yes"](around:${radiusM},${lat},${lon});
+  node["shelter"="yes"](around:${radiusM},${lat},${lon});
+  node["amenity"="school"](around:${radiusM},${lat},${lon});
+  way["amenity"="school"](around:${radiusM},${lat},${lon});
+  node["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
+  way["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
+  node["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
+  way["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
+  node["amenity"="parking"]["covered"="yes"](around:${radiusM},${lat},${lon});
+  way["amenity"="parking"]["covered"="yes"](around:${radiusM},${lat},${lon});
+);
+out center meta;`;
+
+  const res = await fetch('https://overpass-api.de/api/interpreter', {
+    method: 'POST',
+    headers: { 'Content-Type': 'text/plain' },
+    body: query,
+  });
+
+  if (!res.ok) throw new Error(`Overpass HTTP ${res.status}`);
+  const json = await res.json();
+
+  return json.elements
+    .map(el => {
+      const sLat = el.type === 'way' ? el.center?.lat : el.lat;
+      const sLon = el.type === 'way' ? el.center?.lon : el.lon;
+      if (!sLat || !sLon) return null;
+
+      const t = el.tags || {};
+      let category, name, type;
+
+      if (t.amenity === 'school' || t.amenity === 'kindergarten') {
+        category = 'school';
+        name = t.name || t['name:he'] || t['name:en'] ||
+               (t.amenity === 'kindergarten' ? 'גן ילדים' : 'בית ספר');
+        type = t.amenity === 'kindergarten' ? 'גן ילדים' : 'בית ספר';
+      } else if (t.amenity === 'parking') {
+        category = 'parking';
+        name = t.name || t['name:he'] || t['name:en'] ||
+               (t.parking === 'multi-storey' ? 'חניון קומות' : 'חניון מקורה');
+        type = t.parking === 'multi-storey' ? 'חניון קומות' : 'חניון מקורה';
+      } else {
+        category = 'public';
+        name = t.name || t['name:he'] || t['name:en'] || osmDefaultName(t);
+        type = t['shelter_type'] || t['emergency'] || 'מקלט';
+      }
+
+      return {
+        id: `osm_${el.id}`,
+        lat: sLat,
+        lon: sLon,
+        name,
+        address: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(' '),
+        city: t['addr:city'] || t['addr:suburb'] || t['addr:quarter'] || '',
+        capacity: t.capacity || t['max_capacity'] || '',
+        type,
+        source: 'osm',
+        category,
+      };
+    })
+    .filter(Boolean);
+}
+
+function osmDefaultName(t) {
+  if (t['shelter_type'] === 'bomb_shelter')   return 'מקלט פצצות';
+  if (t['shelter_type'] === 'public_shelter') return 'מקלט ציבורי';
+  if (t['building']      === 'shelter')       return 'מקלט';
+  if (t['emergency']     === 'shelter')       return 'מקלט חירום';
+  return 'מקלט ציבורי';
+}
+
+// ─────────────────────────────────────────────
+// Fetch from Tel Aviv Municipality GIS (MapServer layer 592: מקלטים)
+// https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer/592
+// Fields: Full_Address, t_sug (type), lat, lon, shetach_mr (m²), pail (readiness), opening_times
+// ─────────────────────────────────────────────
+const TEL_AVIV_SHELTER_URL =
+  'https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer/592/query';
+
+async function fetchTelAviv(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry: bbox,
+    geometryType: 'esriGeometryEnvelope',
+    spatialRel: 'esriSpatialRelIntersects',
+    inSR: '4326',
+    outSR: '4326',
+    outFields: 'Full_Address,t_sug,lat,lon,shetach_mr,pail,opening_times,shem',
+    returnGeometry: 'true',
+    f: 'json',
+  });
+
+  const res = await fetch(`${TEL_AVIV_SHELTER_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Tel Aviv GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Tel Aviv GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a = feat.attributes || {};
+      // Use attribute lat/lon (WGS84) if available, fall back to geometry
+      let fLat = a.lat;
+      let fLon = a.lon;
+      if ((!fLat || !fLon) && feat.geometry) {
+        fLon = feat.geometry.x;
+        fLat = feat.geometry.y;
+      }
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const addr    = a.Full_Address || a.shem || '';
+      const type    = a.t_sug || 'מקלט ציבורי';
+      // t_sug values that indicate a parking shelter: חניון מחסה לציבור / מקלט בשטח חניון
+      const isParking = type.includes('חניון');
+      const sizeSqm = a.shetach_mr;
+      const readiness = a.pail || '';
+      const hours     = a.opening_times || '';
+
+      return {
+        id:       `tlv_${a.UniqueId || a.oid_mitkan || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name:     addr || `מקלט ת"א #${i + 1}`,
+        address:  addr,
+        city:     'תל אביב-יפו',
+        capacity: sizeSqm ? `${sizeSqm} מ"ר` : '',
+        type,
+        hours:    hours || readiness || '',
+        source:   'gov',
+        category: isParking ? 'parking' : 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from national ArcGIS shelter FeatureServer
+// ─────────────────────────────────────────────
+async function fetchArcGIS(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry: bbox,
+    geometryType: 'esriGeometryEnvelope',
+    spatialRel: 'esriSpatialRelIntersects',
+    inSR: '4326',
+    outSR: '4326',
+    outFields: 'כתובת,שימוש,גודל_מר',
+    returnGeometry: 'true',
+    f: 'geojson',
+  });
+
+  const res = await fetch(`${ARCGIS_SHELTER_URL}/query?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`ArcGIS HTTP ${res.status}`);
+  const json = await res.json();
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const [fLon, fLat] = feat.geometry?.coordinates || [];
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const props  = feat.properties || {};
+      const addr   = props['כתובת'] || '';
+      const sizeSqm = props['גודל_מר'];
+      return {
+        id: `arcgis_${feat.id ?? i}`,
+        lat: fLat,
+        lon: fLon,
+        name: addr ? `מקלט – ${addr}` : 'מקלט ציבורי',
+        address: addr,
+        city: '',
+        capacity: sizeSqm ? `${sizeSqm} מ"ר` : '',
+        type: 'מקלט ציבורי',
+        source: 'arcgis',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from data.gov.il (with caching)
+// ─────────────────────────────────────────────
+async function loadGovResource(resource) {
+  const cached = govCache[resource.id];
+  if (cached && Date.now() - cached.ts < GOV_CACHE_TTL) return cached.data;
+
+  console.log(`[gov] Loading resource ${resource.id} (${resource.city})...`);
+  const res = await fetch(
+    `https://data.gov.il/api/3/action/datastore_search?resource_id=${resource.id}&limit=10000`
+  );
+  if (!res.ok) throw new Error(`data.gov.il HTTP ${res.status}`);
+  const json = await res.json();
+  if (!json.success) throw new Error('data.gov.il: success=false');
+
+  const shelters = json.result.records
+    .map(rec => {
+      const lat = parseFloat(rec[resource.latField]);
+      const lon = parseFloat(rec[resource.lonField]);
+      if (!lat || !lon || isNaN(lat) || isNaN(lon)) return null;
+
+      const rawName = rec[resource.nameField];
+      const name = rawName
+        ? (rawName.startsWith('מקלט') ? rawName : `מקלט ${rawName}`)
+        : `מקלט #${rec._id}`;
+
+      return {
+        id: `gov_${resource.id}_${rec._id}`,
+        lat, lon, name,
+        address: rec.address || rec.ADDRESS || rec['כתובת'] || rec.street || '',
+        city: rec.city || rec.CITY || rec['עיר'] || resource.city,
+        capacity: rec.capacity || rec.CAPACITY || rec['קיבולת'] || '',
+        type: 'מקלט ציבורי',
+        source: 'gov',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+
+  console.log(`[gov] Loaded ${shelters.length} shelters for ${resource.city}`);
+  govCache[resource.id] = { data: shelters, ts: Date.now() };
+  return shelters;
+}
+
+async function fetchDataGov(userLat, userLon, radiusM) {
+  const results = [];
+  for (const resource of GOV_RESOURCES) {
+    try {
+      const all    = await loadGovResource(resource);
+      const nearby = all.filter(s => haversine(userLat, userLon, s.lat, s.lon) * 1000 <= radiusM);
+      results.push(...nearby);
+    } catch (e) {
+      console.warn(`[gov] resource ${resource.id} failed:`, e.message);
+    }
+  }
+  return results;
+}
+
+// ─────────────────────────────────────────────
+// GeoJSON sources
+// ─────────────────────────────────────────────
+async function loadGeoJsonResource(resource) {
+  const cached = geojsonCache[resource.url];
+  if (cached && Date.now() - cached.ts < GOV_CACHE_TTL) return cached.data;
+
+  console.log(`[geojson] Loading ${resource.city}...`);
+  const res = await fetch(resource.url, {
+    redirect: 'follow',
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`GeoJSON HTTP ${res.status}`);
+  const json = await res.json();
+
+  const shelters = (json.features || [])
+    .map((feat, i) => {
+      const [lon, lat] = feat.geometry?.coordinates || [];
+      if (!lat || !lon) return null;
+      const props   = feat.properties || {};
+      const rawName = props[resource.nameField];
+      const name    = rawName ? `מקלט ${rawName}` : `מקלט ${resource.city} #${i + 1}`;
+      return {
+        id: `geojson_${resource.city}_${props.OBJECTID || i}`,
+        lat, lon, name,
+        address:  props['כתובת'] || props.address || props.ADDRESS || '',
+        city:     resource.city,
+        capacity: props['קיבולת'] || props.capacity || '',
+        type:     'מקלט ציבורי',
+        source:   'gov',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+
+  console.log(`[geojson] Loaded ${shelters.length} shelters for ${resource.city}`);
+  geojsonCache[resource.url] = { data: shelters, ts: Date.now() };
+  return shelters;
+}
+
+async function fetchGeoJsonSources(userLat, userLon, radiusM) {
+  const results = [];
+  for (const resource of GEOJSON_RESOURCES) {
+    try {
+      const all    = await loadGeoJsonResource(resource);
+      const nearby = all.filter(s => haversine(userLat, userLon, s.lat, s.lon) * 1000 <= radiusM);
+      results.push(...nearby);
+    } catch (e) {
+      console.warn(`[geojson] ${resource.city} failed:`, e.message);
+    }
+  }
+  return results;
+}
+
+// ─────────────────────────────────────────────
+// Pre-warm caches on startup
+// ─────────────────────────────────────────────
+(async () => {
+  for (const resource of GOV_RESOURCES) {
+    try { await loadGovResource(resource); }
+    catch (e) { console.warn('[gov] pre-warm failed for', resource.city, '–', e.message); }
+  }
+  for (const resource of GEOJSON_RESOURCES) {
+    try { await loadGeoJsonResource(resource); }
+    catch (e) { console.warn('[geojson] pre-warm failed for', resource.city, '–', e.message); }
+  }
+})();
+
+// ─────────────────────────────────────────────
+// API: GET /api/geocode?q=<address>
+// ─────────────────────────────────────────────
+app.get('/api/geocode', async (req, res) => {
+  const { q } = req.query;
+  if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
+
+  try {
+    const params = new URLSearchParams({
+      format: 'json',
+      q: q.includes('ישראל') ? q : q + ', ישראל',
+      limit: 6,
+      addressdetails: 1,
+    });
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
+      headers: { 'Accept-Language': 'he,en', 'User-Agent': 'ShelterFinderApp/1.0' },
+    });
+    if (!r.ok) throw new Error(`Nominatim HTTP ${r.status}`);
+    res.json(await r.json());
+  } catch (e) {
+    console.error('[geocode]', e.message);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─────────────────────────────────────────────
+// API: GET /api/shelters?lat=&lon=&radius=
+// ─────────────────────────────────────────────
+app.get('/api/shelters', async (req, res) => {
+  const { lat, lon, radius = 2000 } = req.query;
+
+  if (!lat || !lon) return res.status(400).json({ error: 'Missing lat and/or lon' });
+
+  const userLat = parseFloat(lat);
+  const userLon = parseFloat(lon);
+  const radiusM = Math.min(Math.max(parseInt(radius, 10) || 2000, 100), 10000);
+
+  if (isNaN(userLat) || isNaN(userLon))
+    return res.status(400).json({ error: 'Invalid lat/lon values' });
+
+  try {
+    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult] = await Promise.allSettled([
+      fetchOverpass(userLat, userLon, radiusM),
+      fetchDataGov(userLat, userLon, radiusM),
+      fetchGeoJsonSources(userLat, userLon, radiusM),
+      fetchArcGIS(userLat, userLon, radiusM),
+      fetchTelAviv(userLat, userLon, radiusM),
+    ]);
+
+    let shelters = [];
+    if (osmResult.status     === 'fulfilled') shelters.push(...osmResult.value);
+    if (govResult.status     === 'fulfilled') shelters.push(...govResult.value);
+    if (geojsonResult.status === 'fulfilled') shelters.push(...geojsonResult.value);
+    if (arcgisResult.status  === 'fulfilled') shelters.push(...arcgisResult.value);
+    if (telAvivResult.status === 'fulfilled') shelters.push(...telAvivResult.value);
+
+    shelters = deduplicateAll(shelters);
+    shelters = shelters
+      .map(s => ({ ...s, dist: haversine(userLat, userLon, s.lat, s.lon) }))
+      .sort((a, b) => a.dist - b.dist)
+      .slice(0, 150);
+
+    // Count by category and source
+    const catCounts = { public: 0, school: 0, parking: 0 };
+    const srcCounts = { osm: 0, gov: 0, arcgis: 0 };
+    for (const s of shelters) {
+      catCounts[s.category] = (catCounts[s.category] || 0) + 1;
+      srcCounts[s.source]   = (srcCounts[s.source]   || 0) + 1;
+    }
+
+    console.log(
+      `[shelters] lat=${userLat} lon=${userLon} r=${radiusM}m → ` +
+      `public:${catCounts.public} school:${catCounts.school} parking:${catCounts.parking}`
+    );
+
+    res.json({
+      shelters,
+      total: shelters.length,
+      radius: radiusM,
+      sources: {
+        ...srcCounts,
+        ...catCounts,
+        osmError:     osmResult.status     === 'rejected' ? osmResult.reason?.message     : null,
+        govError:     govResult.status     === 'rejected' ? govResult.reason?.message     : null,
+        arcgisError:  arcgisResult.status  === 'rejected' ? arcgisResult.reason?.message  : null,
+        telAvivError: telAvivResult.status === 'rejected' ? telAvivResult.reason?.message : null,
+      },
+    });
+  } catch (e) {
+    console.error('[shelters]', e);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─────────────────────────────────────────────
+// Health check
+// ─────────────────────────────────────────────
+app.get('/api/health', (_req, res) => {
+  res.json({
+    status: 'ok',
+    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national'],
+    cities: [
+      ...GOV_RESOURCES.map(r => r.city),
+      ...GEOJSON_RESOURCES.map(r => r.city),
+    ],
+    cacheStatus: {
+      ...Object.fromEntries(GOV_RESOURCES.map(r => [
+        r.city,
+        govCache[r.id] ? `${govCache[r.id].data.length} shelters` : 'not loaded',
+      ])),
+      ...Object.fromEntries(GEOJSON_RESOURCES.map(r => [
+        r.city,
+        geojsonCache[r.url] ? `${geojsonCache[r.url].data.length} shelters` : 'not loaded',
+      ])),
+    },
+  });
+});
+
+// ─────────────────────────────────────────────
+// Start
+// ─────────────────────────────────────────────
+app.listen(PORT, () => {
+  console.log(`\n🏚️  Shelter Finder running on http://localhost:${PORT}\n`);
+});
