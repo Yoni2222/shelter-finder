@@ -686,18 +686,22 @@ function onRadiusChange() { if (userLat !== null) loadShelters(); }
 // NAME LOCALIZATION (HE → EN)
 // ═══════════════════════════════════
 const HE_EN = {
-  'מקלט ציבורי':       'Public Shelter',
-  'מקלט פצצות':        'Bomb Shelter',
-  'מקלט חירום':        'Emergency Shelter',
-  'מרחב מוגן':         'Protected Space',
-  'מרחב מוגן דירתי':   'Residential Safe Room',
-  'גן ילדים':          'Kindergarten',
-  'בית ספר':           'School',
-  'חניון קומות':       'Multi-storey Parking',
-  'חניון מקורה':       'Covered Parking',
-  'חניון מחסה לציבור': 'Public Parking Shelter',
-  'מקלט בשטח חניון':   'Parking Lot Shelter',
-  'מקלט':              'Shelter',
+  'מקלט ציבורי':            'Public Shelter',
+  'מקלט פצצות':             'Bomb Shelter',
+  'מקלט חירום':             'Emergency Shelter',
+  'מקלט בית ספרי':          'School Shelter',
+  'בית ספר - מתקן קליטה':  'School (Reception Facility)',
+  'מרחב מוגן':              'Protected Space',
+  'מרחב מוגן דירתי':        'Residential Safe Room',
+  'מיגונית':                'Safe Room',
+  'גן ילדים':               'Kindergarten',
+  'בית ספר':                'School',
+  'חניון קומות':            'Multi-storey Parking',
+  'חניון מקורה':            'Covered Parking',
+  'חניון מחסה לציבור':      'Public Parking Shelter',
+  'חניון תת-קרקעי':         'Underground Parking',
+  'מקלט בשטח חניון':        'Parking Lot Shelter',
+  'מקלט':                   'Shelter',
 };
 
 function localizeName(name) {
@@ -705,6 +709,8 @@ function localizeName(name) {
   if (HE_EN[name]) return HE_EN[name];
   // shelter prefixes
   if (name.startsWith('מקלט – '))         return 'Shelter – '            + name.slice('מקלט – '.length);
+  if (name.startsWith('מקלט חיפה – '))    return 'Haifa Shelter – '      + name.slice('מקלט חיפה – '.length);
+  if (name.startsWith('מקלט חיפה #'))     return 'Haifa Shelter #'       + name.slice('מקלט חיפה #'.length);
   if (name.startsWith('מקלט ת"א #'))      return 'Tel Aviv Shelter #'    + name.slice('מקלט ת"א #'.length);
   if (name.startsWith('מקלט ירושלים #'))  return 'Jerusalem Shelter #'   + name.slice('מקלט ירושלים #'.length);
   if (name.startsWith('מקלט באר שבע #'))  return 'Beer Sheva Shelter #'  + name.slice('מקלט באר שבע #'.length);

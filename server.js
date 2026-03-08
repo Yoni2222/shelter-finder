@@ -248,6 +248,78 @@ async function fetchTelAviv(lat, lon, radiusM) {
 }
 
 // ─────────────────────────────────────────────
+// Fetch from Haifa Municipality GIS (MapServer layer 1: מקומות מיגון)
+// https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1
+// Fields: Migun_FullAddress, Migun_Name, Migun_Type, QtyPeople, Migun_Area, Neighborhood
+// Migun_Type values: מקלט ציבורי, מקלט בית ספרי, בית ספר - מתקן קליטה, חניון תת-קרקעי, מיגונית
+// ─────────────────────────────────────────────
+const HAIFA_SHELTER_URL =
+  'https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1/query';
+
+async function fetchHaifa(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:      bbox,
+    geometryType:  'esriGeometryEnvelope',
+    spatialRel:    'esriSpatialRelIntersects',
+    inSR:          '4326',
+    outSR:         '4326',
+    outFields:     'Migun_FullAddress,Migun_Name,Migun_Type,QtyPeople,Migun_Area,Neighborhood,OBJECTID',
+    returnGeometry:'true',
+    f:             'json',
+  });
+
+  const res = await fetch(`${HAIFA_SHELTER_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Haifa GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Haifa GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a   = feat.attributes || {};
+      const g   = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const migunType = a.Migun_Type || '';
+      const isParking = migunType.includes('חניון');
+      const isSchool  = migunType.includes('ספר'); // מקלט בית ספרי / בית ספר - מתקן קליטה
+
+      const addr    = a.Migun_FullAddress || '';
+      const rawName = a.Migun_Name || '';
+      // Migun_Name is sometimes just a number (shelter ID) — not useful as a display name
+      const isNumericOnly = /^\d+$/.test(rawName.trim());
+      let name;
+      if (rawName && !isNumericOnly) name = rawName;     // real name (e.g. school name)
+      else if (addr)                 name = `מקלט חיפה – ${addr}`;
+      else                           name = `מקלט חיפה #${i + 1}`;
+
+      return {
+        id:       `haifa_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  addr,
+        city:     'חיפה',
+        capacity: a.QtyPeople
+          ? `${a.QtyPeople} אנשים`
+          : (a.Migun_Area ? `${a.Migun_Area} מ"ר` : ''),
+        type:     migunType || 'מקלט ציבורי',
+        source:   'gov',
+        category: isParking ? 'parking' : (isSchool ? 'school' : 'public'),
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
 // Fetch from national ArcGIS shelter FeatureServer
 // ─────────────────────────────────────────────
 async function fetchArcGIS(lat, lon, radiusM) {
@@ -464,12 +536,13 @@ app.get('/api/shelters', async (req, res) => {
     return res.status(400).json({ error: 'Invalid lat/lon values' });
 
   try {
-    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult] = await Promise.allSettled([
+    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult, haifaResult] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
       fetchGeoJsonSources(userLat, userLon, radiusM),
       fetchArcGIS(userLat, userLon, radiusM),
       fetchTelAviv(userLat, userLon, radiusM),
+      fetchHaifa(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -478,6 +551,7 @@ app.get('/api/shelters', async (req, res) => {
     if (geojsonResult.status === 'fulfilled') shelters.push(...geojsonResult.value);
     if (arcgisResult.status  === 'fulfilled') shelters.push(...arcgisResult.value);
     if (telAvivResult.status === 'fulfilled') shelters.push(...telAvivResult.value);
+    if (haifaResult.status   === 'fulfilled') shelters.push(...haifaResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -509,6 +583,7 @@ app.get('/api/shelters', async (req, res) => {
         govError:     govResult.status     === 'rejected' ? govResult.reason?.message     : null,
         arcgisError:  arcgisResult.status  === 'rejected' ? arcgisResult.reason?.message  : null,
         telAvivError: telAvivResult.status === 'rejected' ? telAvivResult.reason?.message : null,
+        haifaError:   haifaResult.status   === 'rejected' ? haifaResult.reason?.message   : null,
       },
     });
   } catch (e) {
@@ -523,10 +598,11 @@ app.get('/api/shelters', async (req, res) => {
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
-    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national'],
+    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national', 'haifa-gis', 'tel-aviv-gis'],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
+      'חיפה', 'תל אביב-יפו',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
