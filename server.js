@@ -34,6 +34,18 @@ const GEOJSON_RESOURCES = [
 ];
 
 // ─────────────────────────────────────────────
+// Petah Tikva Municipality GIS — ArcGIS FeatureServer
+// "מרחבים מוגנים ציבוריים" — 132 features with real WGS84 coordinates.
+// No Nominatim needed: coordinates come directly from the service.
+// Discovered via: arcgis.com org tfeLX7LFVABzD11G (muni-petah-tikva.opendata.arcgis.com)
+// Fields: Address, PlaceName, SUG (type), complex (1=public/4=institution),
+//         Neigborhood, Activated (1=active), Accessable (0/1), OBJECTID
+// ─────────────────────────────────────────────
+const PETAH_TIKVA_URL =
+  'https://services9.arcgis.com/tfeLX7LFVABzD11G/arcgis/rest/services/' +
+  '%D7%9E%D7%A8%D7%97%D7%91%D7%99%D7%9D/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
 // National ArcGIS shelter FeatureServer (Israel nationwide)
 // Discovered via: arcgis.com/apps/instant/nearby/?appid=95254f2f07d74a1eab51254851cb2fb0
 // ─────────────────────────────────────────────
@@ -45,7 +57,108 @@ const ARCGIS_SHELTER_URL =
 // ─────────────────────────────────────────────
 const govCache     = {};
 const geojsonCache = {};
+const municipalityListCache = {};
+const geocodeCache = {};
 const GOV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+const MUNI_LIST_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+const GEOCODE_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
+
+// ─────────────────────────────────────────────
+// Nominatim rate limiter — priority queue, 1.2s gap between ALL requests.
+//
+// Two priority levels:
+//   NOM_HIGH (10) — user-facing /api/geocode: jumps to front of queue
+//   NOM_LOW  (0)  — background municipality geocoding: waits at back
+//
+// The gap wait happens BEFORE dequeueing, so a high-priority request
+// that arrives mid-sleep will be picked up as soon as the gap expires.
+// ─────────────────────────────────────────────
+const NOMINATIM_GAP_MS = 1200;
+const NOM_HIGH = 10;   // user searches
+const NOM_LOW  = 0;    // background pre-geocoding
+
+let _nomLastMs   = 0;
+let _nomDraining = false;
+const _nomQueue  = []; // [{ priority, url, resolve, reject }, ...]
+const _NOM_HDR   = { 'Accept-Language': 'he,en', 'User-Agent': 'ShelterFinderApp/1.0' };
+
+// dropType: if set, any previously queued item with the SAME dropType is cancelled
+// before the new item is inserted. This keeps at most 1 autocomplete request in
+// the queue at any time, no matter how fast the user types.
+function nominatimFetch(q, { limit = 1, addressdetails = 0, priority = NOM_LOW, dropType } = {}) {
+  const url = `https://nominatim.openstreetmap.org/search?${new URLSearchParams({
+    format: 'json',
+    q: q.includes('ישראל') ? q : q + ', ישראל',
+    limit,
+    addressdetails,
+  })}`;
+
+  return new Promise((resolve, reject) => {
+    // Drop stale items of the same type (e.g. previous autocomplete requests)
+    if (dropType) {
+      for (let i = _nomQueue.length - 1; i >= 0; i--) {
+        if (_nomQueue[i].dropType === dropType) {
+          const [dropped] = _nomQueue.splice(i, 1);
+          dropped.reject(Object.assign(new Error('superseded'), { superseded: true }));
+        }
+      }
+    }
+
+    // Insert in priority order — highest priority first
+    let i = 0;
+    while (i < _nomQueue.length && _nomQueue[i].priority >= priority) i++;
+    _nomQueue.splice(i, 0, { priority, url, resolve, reject, dropType });
+    if (!_nomDraining) _nomDrain();
+  });
+}
+
+async function _nomDrain() {
+  _nomDraining = true;
+  while (_nomQueue.length > 0) {
+    // Wait for rate-limit gap BEFORE dequeueing so high-priority items can jump in
+    const gap = NOMINATIM_GAP_MS - (Date.now() - _nomLastMs);
+    if (gap > 0) await new Promise(r => setTimeout(r, gap));
+    if (_nomQueue.length === 0) break; // queue may have drained while sleeping
+
+    const { url, resolve, reject } = _nomQueue.shift(); // highest priority first
+    _nomLastMs = Date.now();
+    try {
+      resolve(await fetch(url, { headers: _NOM_HDR }));
+    } catch (e) {
+      reject(e);
+    }
+  }
+  _nomDraining = false;
+}
+
+// ─────────────────────────────────────────────
+// Photon geocoder (Komoot) — used as fallback when Nominatim is rate-limited.
+// Free, no API key, OSM-based, returns GeoJSON FeatureCollection.
+// We convert it to a Nominatim-compatible array so the frontend stays unchanged.
+// ─────────────────────────────────────────────
+async function photonFetch(q, limit = 5) {
+  const query = q.includes('ישראל') ? q : q + ' ישראל';
+  const params = new URLSearchParams({
+    q: query, limit: String(limit),
+    lat: '31.5', lon: '34.8',  // location bias: centre of Israel
+  });
+  const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!r.ok) throw new Error(`Photon HTTP ${r.status}`);
+  const json = await r.json();
+  return (json.features || []).map(f => {
+    const [fLon, fLat] = f.geometry.coordinates;
+    const p = f.properties;
+    const parts = [];
+    if (p.name)   parts.push(p.name);
+    if (p.street) parts.push(p.housenumber ? `${p.street} ${p.housenumber}` : p.street);
+    const city = p.city || p.town || p.village;
+    if (city)     parts.push(city);
+    if (p.state)  parts.push(p.state);
+    return { lat: String(fLat), lon: String(fLon), display_name: parts.filter(Boolean).join(', ') || q };
+  }).filter(f => f.lat && f.lon);
+}
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -320,6 +433,73 @@ async function fetchHaifa(lat, lon, radiusM) {
 }
 
 // ─────────────────────────────────────────────
+// Fetch from Petah Tikva Municipality GIS (ArcGIS FeatureServer)
+// "מרחבים מוגנים ציבוריים" — 132 shelters/protected spaces with real coordinates.
+// complex: 1=ציבורי (public shelter), 4=מוסד (institution/school)
+// SUG: 2=תת קרקעי (underground), 1=other, null=general
+// ─────────────────────────────────────────────
+async function fetchPetahTikva(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'Address,PlaceName,MERHAV,SUG,complex,Neigborhood,Activated,Accessable,OBJECTID',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${PETAH_TIKVA_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Petah Tikva GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Petah Tikva GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const addr      = a.Address   || '';
+      const placeName = a.PlaceName || '';
+      const isSchool  = a.complex === 4;  // מוסד (institution / school)
+      const typeLabel = a.SUG === 2 ? 'מקלט תת-קרקעי'
+                      : isSchool    ? 'מרחב מוגן – מוסד'
+                      :              'מרחב מוגן ציבורי';
+
+      const name = placeName
+        ? `${placeName}${addr ? ' – ' + addr : ''}`
+        : addr
+          ? `מרחב מוגן – ${addr}`
+          : `מרחב מוגן פ"ת #${i + 1}`;
+
+      return {
+        id:       `ptikva_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  addr,
+        city:     'פתח תקווה',
+        capacity: '',
+        type:     typeLabel,
+        source:   'gov',
+        category: isSchool ? 'school' : 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
 // Fetch from national ArcGIS shelter FeatureServer
 // ─────────────────────────────────────────────
 async function fetchArcGIS(lat, lon, radiusM) {
@@ -367,6 +547,173 @@ async function fetchArcGIS(lat, lon, radiusM) {
       };
     })
     .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Geocode a single address (Nominatim), with cache.
+// Uses the global rate limiter — safe to call from any context.
+// ─────────────────────────────────────────────
+async function geocodeAddress(addressStr) {
+  const key = addressStr.trim();
+  if (!key) return null;
+  const cached = geocodeCache[key];
+  if (cached && Date.now() - cached.ts < GEOCODE_CACHE_TTL) return cached;
+
+  try {
+    const r = await nominatimFetch(key);
+    if (!r.ok) return null;
+    const arr = await r.json();
+    if (!arr || !arr[0]) return null;
+    const entry = { lat: parseFloat(arr[0].lat), lon: parseFloat(arr[0].lon), ts: Date.now() };
+    geocodeCache[key] = entry;
+    return entry;
+  } catch {
+    return null;
+  }
+}
+
+// ─────────────────────────────────────────────
+// Parse municipality HTML table (Petah Tikva style: שכונה | רחוב | מבנה | סוג מקלט | שם מקום | מס' מקלט | רובע | פתוח/סגור)
+// ─────────────────────────────────────────────
+function parseMunicipalityTable(html, cityName) {
+  const rows = [];
+  const strip = (s) => (s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const trRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let trMatch;
+  let skipHeader = true;
+  while ((trMatch = trRegex.exec(html)) !== null) {
+    const rowHtml = trMatch[1];
+    const cells = [];
+    const tdRegex = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+    let tdMatch;
+    while ((tdMatch = tdRegex.exec(rowHtml)) !== null) {
+      cells.push(strip(tdMatch[1]));
+    }
+    if (cells.length >= 6) {
+      if (skipHeader) {
+        const first = (cells[0] + cells[1]).replace(/\s/g, '');
+        if (first.includes('שכונה') || first.includes('רחוב') || first.includes('מבנה')) {
+          skipHeader = false;
+          continue;
+        }
+      }
+      const [neighborhood, street, buildingType, shelterType, placeName, shelterNum, district, openClosed] = cells;
+      if (!street && !placeName) continue;
+      const addressPart = street || placeName || neighborhood || '';
+      if (!addressPart) continue;
+      const fullAddress = `${addressPart}, ${cityName}`;
+      rows.push({
+        neighborhood: neighborhood || '',
+        street: street || '',
+        buildingType: buildingType || '',
+        shelterType: shelterType || '',
+        placeName: placeName || '',
+        shelterNum: shelterNum || '',
+        district: district || '',
+        openClosed: openClosed || '',
+        fullAddress,
+        displayName: placeName ? (buildingType ? `${placeName} (${buildingType})` : placeName) : (street ? `מקלט – ${street}` : `מקלט ${cityName}`),
+      });
+    }
+  }
+  return rows;
+}
+
+// ─────────────────────────────────────────────
+// Fetch municipality list page, parse table, return shelters using CACHED geocode only.
+// No on-demand Nominatim calls here — geocoding is done by preGeocodeAllMunicipalities()
+// at startup so it never blocks or rate-limits user requests.
+// ─────────────────────────────────────────────
+async function fetchMunicipalityListSource(source, userLat, userLon, radiusM) {
+  if (haversine(userLat, userLon, source.centerLat, source.centerLon) > source.maxRadiusKm) {
+    return [];
+  }
+
+  const rows = municipalityListCache[source.id] || [];
+  const shelters = [];
+
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    const cached = geocodeCache[row.fullAddress];
+    if (!cached) continue; // not yet geocoded — skip (background task will fill this in)
+    const coord = { lat: cached.lat, lon: cached.lon };
+    if (haversine(userLat, userLon, coord.lat, coord.lon) * 1000 > radiusM) continue;
+
+    shelters.push({
+      id: `muni_${source.id}_${i}_${(row.shelterNum || row.street || i).toString().replace(/\s/g, '_')}`,
+      lat: coord.lat,
+      lon: coord.lon,
+      name: row.displayName,
+      address: row.street ? `${row.street}${row.neighborhood ? ', ' + row.neighborhood : ''}` : row.placeName,
+      city: source.city,
+      capacity: '',
+      type: row.shelterType || 'מקלט ציבורי',
+      source: 'gov',
+      category: row.buildingType && (row.buildingType.includes('בית ספר') || row.buildingType.includes('גן')) ? 'school' : 'public',
+      openClosed: row.openClosed,
+    });
+  }
+  return shelters;
+}
+
+// ─────────────────────────────────────────────
+// Background startup: fetch municipality HTML + geocode all addresses (rate-limited).
+// Runs once after server starts; fills geocodeCache so fetchMunicipalityListSource
+// can serve results without touching Nominatim at request time.
+// ─────────────────────────────────────────────
+async function preGeocodeAllMunicipalities() {
+  for (const source of MUNICIPALITY_LIST_SOURCES) {
+    try {
+      // 1. Fetch & parse the HTML table (if not already cached)
+      if (!municipalityListCache[source.id]) {
+        const res = await fetch(source.url, {
+          headers: { 'User-Agent': 'ShelterFinderApp/1.0', 'Accept': 'text/html' },
+        });
+        if (!res.ok) {
+          console.warn(`[municipality] ${source.city}: HTTP ${res.status} — skipping`);
+          continue;
+        }
+        const html = await res.text();
+        const rows = parseMunicipalityTable(html, source.city);
+        municipalityListCache[source.id] = rows;
+        municipalityListCache[source.id + '_ts'] = Date.now();
+        console.log(`[municipality] Parsed ${rows.length} rows from ${source.city}`);
+      }
+
+      // 2. Geocode each address via the rate limiter (1.2s between calls)
+      const rows = municipalityListCache[source.id] || [];
+      let geocoded = 0;
+      for (const row of rows) {
+        if (geocodeCache[row.fullAddress]) continue; // already in cache
+        const result = await geocodeAddress(row.fullAddress); // uses rate limiter
+        if (result) geocoded++;
+      }
+      console.log(`[municipality] Pre-geocoded ${geocoded} new addresses for ${source.city}`);
+    } catch (e) {
+      console.warn(`[municipality] Pre-geocode failed for ${source.city}:`, e.message);
+    }
+  }
+}
+
+async function fetchMunicipalityLists(userLat, userLon, radiusM) {
+  const results = [];
+  for (const source of MUNICIPALITY_LIST_SOURCES) {
+    if (haversine(userLat, userLon, source.centerLat, source.centerLon) > source.maxRadiusKm) continue;
+    try {
+      const list = await fetchMunicipalityListSource(source, userLat, userLon, radiusM);
+      results.push(...list);
+    } catch (e) {
+      console.warn(`[municipality] ${source.city} failed:`, e.message);
+    }
+  }
+  return results;
+}
+
+function getMunicipalityListUrlForArea(userLat, userLon) {
+  const source = MUNICIPALITY_LIST_SOURCES.find(
+    (s) => haversine(userLat, userLon, s.centerLat, s.centerLon) <= s.maxRadiusKm
+  );
+  return source ? { url: source.url, city: source.city, label: source.listUrlLabel } : null;
 }
 
 // ─────────────────────────────────────────────
@@ -485,6 +832,7 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
 // Pre-warm caches on startup
 // ─────────────────────────────────────────────
 (async () => {
+  // 1. Warm data.gov.il + GeoJSON caches immediately (no rate limit needed)
   for (const resource of GOV_RESOURCES) {
     try { await loadGovResource(resource); }
     catch (e) { console.warn('[gov] pre-warm failed for', resource.city, '–', e.message); }
@@ -493,6 +841,11 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
     try { await loadGeoJsonResource(resource); }
     catch (e) { console.warn('[geojson] pre-warm failed for', resource.city, '–', e.message); }
   }
+
+  // NOTE: Background geocoding of municipality HTML lists (Petah Tikva etc.) is disabled.
+  // Geocoding 200+ addresses via Nominatim at startup reliably triggers rate-limiting (429),
+  // which breaks user geocode searches. These cities need a proper GIS/ArcGIS endpoint
+  // instead of Nominatim-geocoded HTML scraping.
 })();
 
 // ─────────────────────────────────────────────
@@ -502,16 +855,29 @@ app.get('/api/geocode', async (req, res) => {
   const { q } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
 
+  const isSuggest = req.query.suggest === '1';
+
+  // ── Autocomplete (suggest=1): skip Nominatim entirely → Photon is fast & has no rate-limit ──
+  if (isSuggest) {
+    try {
+      return res.json(await photonFetch(q, 5));
+    } catch (e) {
+      return res.status(503).json({ error: 'geocode_busy' });
+    }
+  }
+
+  // ── Explicit search: Nominatim first (best Hebrew quality), Photon fallback on 429 ──
   try {
-    const params = new URLSearchParams({
-      format: 'json',
-      q: q.includes('ישראל') ? q : q + ', ישראל',
-      limit: 6,
-      addressdetails: 1,
-    });
-    const r = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
-      headers: { 'Accept-Language': 'he,en', 'User-Agent': 'ShelterFinderApp/1.0' },
-    });
+    const r = await nominatimFetch(q, { limit: 6, addressdetails: 1, priority: NOM_HIGH });
+    if (r.status === 429) {
+      console.warn('[geocode] Nominatim 429 → Photon fallback');
+      try {
+        return res.json(await photonFetch(q, 6));
+      } catch (pe) {
+        console.error('[geocode] Photon fallback failed:', pe.message);
+        return res.status(503).json({ error: 'geocode_busy' });
+      }
+    }
     if (!r.ok) throw new Error(`Nominatim HTTP ${r.status}`);
     res.json(await r.json());
   } catch (e) {
@@ -536,13 +902,14 @@ app.get('/api/shelters', async (req, res) => {
     return res.status(400).json({ error: 'Invalid lat/lon values' });
 
   try {
-    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult, haifaResult] = await Promise.allSettled([
+    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult, haifaResult, petahTikvaResult] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
       fetchGeoJsonSources(userLat, userLon, radiusM),
       fetchArcGIS(userLat, userLon, radiusM),
       fetchTelAviv(userLat, userLon, radiusM),
       fetchHaifa(userLat, userLon, radiusM),
+      fetchPetahTikva(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -552,6 +919,7 @@ app.get('/api/shelters', async (req, res) => {
     if (arcgisResult.status  === 'fulfilled') shelters.push(...arcgisResult.value);
     if (telAvivResult.status === 'fulfilled') shelters.push(...telAvivResult.value);
     if (haifaResult.status   === 'fulfilled') shelters.push(...haifaResult.value);
+    if (petahTikvaResult.status  === 'fulfilled') shelters.push(...petahTikvaResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -579,11 +947,12 @@ app.get('/api/shelters', async (req, res) => {
       sources: {
         ...srcCounts,
         ...catCounts,
-        osmError:     osmResult.status     === 'rejected' ? osmResult.reason?.message     : null,
-        govError:     govResult.status     === 'rejected' ? govResult.reason?.message     : null,
-        arcgisError:  arcgisResult.status  === 'rejected' ? arcgisResult.reason?.message  : null,
-        telAvivError: telAvivResult.status === 'rejected' ? telAvivResult.reason?.message : null,
-        haifaError:   haifaResult.status   === 'rejected' ? haifaResult.reason?.message   : null,
+        osmError:        osmResult.status        === 'rejected' ? osmResult.reason?.message        : null,
+        govError:        govResult.status        === 'rejected' ? govResult.reason?.message        : null,
+        arcgisError:     arcgisResult.status     === 'rejected' ? arcgisResult.reason?.message     : null,
+        telAvivError:    telAvivResult.status    === 'rejected' ? telAvivResult.reason?.message    : null,
+        haifaError:      haifaResult.status      === 'rejected' ? haifaResult.reason?.message      : null,
+        petahTikvaError: petahTikvaResult.status === 'rejected' ? petahTikvaResult.reason?.message : null,
       },
     });
   } catch (e) {
@@ -598,11 +967,11 @@ app.get('/api/shelters', async (req, res) => {
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
-    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national', 'haifa-gis', 'tel-aviv-gis'],
+    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national', 'haifa-gis', 'tel-aviv-gis', 'petah-tikva-gis'],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
-      'חיפה', 'תל אביב-יפו',
+      'חיפה', 'תל אביב-יפו', 'פתח תקווה',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [

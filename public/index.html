@@ -190,6 +190,11 @@
     }
     .sidebar-hdr h2 { font-size: 14px; color: #1e40af; font-weight: 700; }
     .sidebar-hdr .sub { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+    .municipality-link {
+      display: inline-block; margin-top: 8px; font-size: 12px; color: #2563eb;
+      text-decoration: none; font-weight: 600;
+    }
+    .municipality-link:hover { text-decoration: underline; }
     .shelter-list { flex: 1; overflow-y: auto; }
     .shelter-list::-webkit-scrollbar { width: 4px; }
     .shelter-list::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -343,6 +348,7 @@
     <div class="sidebar-hdr">
       <h2 id="result-ttl" data-i18n="sidebarTitle">המקלטים הקרובים אליך</h2>
       <div class="sub" id="result-sub" data-i18n="sidebarSub">הכנס כתובת או לחץ "מיקום נוכחי"</div>
+      <a id="municipality-list-link" href="#" target="_blank" rel="noopener" class="municipality-link" style="display:none;"></a>
     </div>
     <div class="shelter-list" id="list">
       <div class="state">
@@ -400,6 +406,7 @@ const STRINGS = {
     enterAddr:      'אנא הכנס כתובת לחיפוש',
     loadErr:        'שגיאה בטעינת נתונים: ',
     geoSearchErr:   'שגיאת חיפוש: ',
+    geocodeBusy:    'שירות החיפוש עמוס כרגע — נסה שוב בעוד שנייה',
     distFmt:   km   => km < 1 ? `${Math.round(km*1000)} מ'` : `${km.toFixed(1)} ק"מ`,
     popupDist:      'מרחק:',
     govBadge:       '🏛️ gov.il',
@@ -409,6 +416,7 @@ const STRINGS = {
     parkingBadge:   '🅿️ חניון',
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
+    municipalityListLink: ' – רשימה רשמית',
   },
   en: {
     dir: 'ltr', lang: 'en',
@@ -450,6 +458,7 @@ const STRINGS = {
     enterAddr:      'Please enter an address to search',
     loadErr:        'Error loading data: ',
     geoSearchErr:   'Search error: ',
+    geocodeBusy:    'Search service is busy — please try again in a second',
     distFmt:   km   => km < 1 ? `${Math.round(km*1000)} m` : `${km.toFixed(1)} km`,
     popupDist:      'Distance:',
     govBadge:       '🏛️ gov.il',
@@ -459,6 +468,7 @@ const STRINGS = {
     parkingBadge:   '🅿️ Parking',
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
+    municipalityListLink: ' – Official list',
   }
 };
 
@@ -518,6 +528,7 @@ let activeCategories = new Set(['public', 'school', 'parking']);
 let lastShelters = null;
 let lastRadiusM  = 1000;
 let lastSources  = {};
+let lastMunicipalityListLink = null;
 
 // ═══════════════════════════════════
 // CATEGORY FILTER
@@ -604,9 +615,20 @@ function useGPS() {
 // ═══════════════════════════════════
 // GEOCODE (via server)
 // ═══════════════════════════════════
+
+// For explicit searches (Enter / Search button) — never dropped by server
 async function geocode(q) {
   const r = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
+  if (r.status === 503) throw new Error('__busy__');
   if (!r.ok) throw new Error('geocode error ' + r.status);
+  return r.json();
+}
+
+// For autocomplete suggestions — server drops stale pending requests automatically
+async function geocodeSuggest(q) {
+  const r = await fetch(`/api/geocode?q=${encodeURIComponent(q)}&suggest=1`);
+  if (r.status === 204 || r.status === 503) return []; // superseded or busy — silently empty
+  if (!r.ok) return [];
   return r.json();
 }
 
@@ -620,22 +642,24 @@ async function doSearch() {
     if (!results.length) { showErr(t().addrNotFound); return; }
     setUser(+results[0].lat, +results[0].lon);
     loadShelters();
-  } catch (e) { showErr(t().geoSearchErr + e.message); }
+  } catch (e) {
+    showErr(e.message === '__busy__' ? t().geocodeBusy : t().geoSearchErr + e.message);
+  }
 }
 
-// Autocomplete
+// Autocomplete — 600ms debounce (reduces Nominatim calls vs 350ms)
 document.getElementById('addr').addEventListener('input', function () {
   clearTimeout(sugTimer);
   const v = this.value.trim();
   if (v.length < 2) { hideSug(); return; }
-  sugTimer = setTimeout(() => fetchSug(v), 350);
+  sugTimer = setTimeout(() => fetchSug(v), 600);
 });
 document.getElementById('addr').addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
 document.addEventListener('click', e => { if (!e.target.closest('.input-wrap')) hideSug(); });
 
 async function fetchSug(q) {
   try {
-    const r = await geocode(q);
+    const r = await geocodeSuggest(q);
     if (!r.length) { hideSug(); return; }
     const box = document.getElementById('sug');
     box.innerHTML = r.slice(0, 5).map(item =>
@@ -669,12 +693,14 @@ async function loadShelters() {
     lastShelters = data.shelters;
     lastRadiusM  = radiusM;
     lastSources  = data.sources;
+    lastMunicipalityListLink = data.municipalityListLink || null;
 
     updateRadius(radiusM);
     const filtered = getFiltered(data.shelters);
     renderList(filtered);
     renderMarkers(filtered);
     updateHeader(filtered.length, radiusM, data.sources);
+    updateMunicipalityLink();
   } catch (e) {
     showErr(t().loadErr + e.message);
   }
@@ -849,6 +875,19 @@ function updateHeader(count, radiusM, sources) {
   document.getElementById('result-ttl').textContent = t().foundX(count);
   document.getElementById('result-sub').textContent =
     t().inRadius(radiusLabel) + (cats.length ? ' · ' + cats.join(' · ') : '');
+  updateMunicipalityLink();
+}
+
+function updateMunicipalityLink() {
+  const el = document.getElementById('municipality-list-link');
+  if (!el) return;
+  if (lastMunicipalityListLink && lastMunicipalityListLink.url) {
+    el.href = lastMunicipalityListLink.url;
+    el.textContent = '📋 ' + (lastMunicipalityListLink.label || lastMunicipalityListLink.city) + t().municipalityListLink;
+    el.style.display = 'inline-block';
+  } else {
+    el.style.display = 'none';
+  }
 }
 
 // ═══════════════════════════════════
