@@ -46,6 +46,198 @@ const PETAH_TIKVA_URL =
   '%D7%9E%D7%A8%D7%97%D7%91%D7%99%D7%9D/FeatureServer/0/query';
 
 // ─────────────────────────────────────────────
+// Yehud-Monosson — ArcGIS embedded feature collection (30 shelters)
+// Item: https://www.arcgis.com/home/item.html?id=5ea507fd44a049dd9c9b4babf2ab0e3f
+// Data: operationalLayers[0].featureCollection.featureSet.features[]
+// Fields: appld (shelter #), ld (address), latitude, longitude, type, title
+// Coordinates: attributes.latitude / attributes.longitude (WGS84) — no projection needed
+// ─────────────────────────────────────────────
+const YEHUD_ITEM_URL =
+  'https://www.arcgis.com/sharing/rest/content/items/5ea507fd44a049dd9c9b4babf2ab0e3f/data?f=json';
+
+async function loadYehud() {
+  if (_yehudCache && Date.now() - _yehudCacheTs < GOV_CACHE_TTL) return _yehudCache;
+
+  const res = await fetch(YEHUD_ITEM_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' } });
+  if (!res.ok) throw new Error(`Yehud ArcGIS item HTTP ${res.status}`);
+  const json = await res.json();
+
+  // Navigate into the embedded feature collection
+  const layer = (json.operationalLayers || [])[0];
+  const features = layer?.featureCollection?.featureSet?.features || [];
+
+  _yehudCache = features
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const fLat = parseFloat(a.latitude  ?? a.Latitude  ?? '');
+      const fLon = parseFloat(a.longitude ?? a.Longitude ?? '');
+      if (!fLat || !fLon || isNaN(fLat) || isNaN(fLon)) return null;
+
+      const addr  = a.ld      || a.Address || '';
+      const title = a.appld   || a.title   || '';
+      const type  = a.type    || 'מקלט ציבורי';
+
+      return {
+        id:       `yehud_${a.__OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name:     title || (addr ? `מקלט – ${addr}` : `מקלט יהוד #${i + 1}`),
+        address:  addr,
+        city:     'יהוד-מונוסון',
+        capacity: '',
+        type,
+        source:   'gov',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+
+  _yehudCacheTs = Date.now();
+  console.log(`[yehud] Cached ${_yehudCache.length} shelters`);
+  return _yehudCache;
+}
+
+async function fetchYehud(lat, lon, radiusM) {
+  const all = await loadYehud();
+  return all.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM);
+}
+
+// ─────────────────────────────────────────────
+// Rishon LeZion Municipality — HTML table of public shelters
+// Page: https://www.rishonlezion.muni.il/Residents/SecurityEmergency/pages/publicshelter.aspx
+// Columns: כותרת | כתובת | שכונה | תיאור | נגישות | מרחב מוגן
+// Address field already contains city name e.g. "מאיר אבנר 22 ראשון לציון"
+// ─────────────────────────────────────────────
+const RISHON_URL =
+  'https://www.rishonlezion.muni.il/Residents/SecurityEmergency/pages/publicshelter.aspx';
+
+function parseRishonTable(html) {
+  const strip = s => (s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const rows = [];
+  const trRx = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let trMatch;
+  let headerSeen = false;
+  while ((trMatch = trRx.exec(html)) !== null) {
+    const cells = [];
+    const tdRx = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+    let tdMatch;
+    while ((tdMatch = tdRx.exec(trMatch[1])) !== null) cells.push(strip(tdMatch[1]));
+    if (cells.length < 2) continue;
+    // Header row detection: first two columns are כותרת / כתובת
+    if (!headerSeen) {
+      const joined = cells.join('');
+      if (joined.includes('כותרת') || joined.includes('כתובת') || joined.includes('שכונה')) {
+        headerSeen = true; continue;
+      }
+    }
+    const [title, address, neighborhood, description] = cells;
+    if (!address || address.length < 3) continue;
+    rows.push({ title: title || '', address, neighborhood: neighborhood || '', description: description || '' });
+  }
+  return rows;
+}
+
+// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Nominatim → cache
+async function loadRishonLeZion() {
+  if (_rishonCache && Date.now() - _rishonCacheTs < GOV_CACHE_TTL) return _rishonCache;
+
+  const res = await fetch(RISHON_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' } });
+  if (!res.ok) throw new Error(`Rishon HTML HTTP ${res.status}`);
+  const html = await res.text();
+  const rows = parseRishonTable(html);
+  console.log(`[rishon] Parsed ${rows.length} shelters from HTML`);
+
+  const shelters = [];
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    // Address already has city name ("מאיר אבנר 22 ראשון לציון") — geocode as-is
+    try {
+      const r = await nominatimFetch(row.address, { limit: 1, addressdetails: 0, priority: NOM_LOW });
+      if (!r.ok) continue;
+      const arr = await r.json();
+      if (!arr || !arr[0]) continue;
+      const fLat = parseFloat(arr[0].lat);
+      const fLon = parseFloat(arr[0].lon);
+      if (!fLat || !fLon) continue;
+
+      // Parse area/capacity from description: "שטח 68 מ״ר ... כמות אנשים - 136"
+      const areaMatch = row.description.match(/שטח\s+(\d+)/);
+      const capMatch  = row.description.match(/כמות אנשים\s*[-–]\s*(\d+)/);
+      const area      = areaMatch ? areaMatch[1] : '';
+      const capacity  = capMatch  ? capMatch[1]  : '';
+
+      shelters.push({
+        id:       `rishon_${i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name:     row.title || `מקלט ראשל"צ #${i + 1}`,
+        address:  row.address.replace(/\s*ראשון לציון\s*$/i, '').trim(),
+        city:     'ראשון לציון',
+        capacity: capacity ? `${capacity} אנשים` : (area ? `${area} מ"ר` : ''),
+        type:     'מקלט ציבורי',
+        source:   'gov',
+        category: 'public',
+      });
+    } catch { /* skip on error */ }
+  }
+
+  _rishonCache   = shelters;
+  _rishonCacheTs = Date.now();
+  console.log(`[rishon] Geocoded ${shelters.length}/${rows.length} shelters`);
+  return shelters;
+}
+
+async function fetchRishonLeZion(lat, lon, radiusM) {
+  if (!_rishonCache) return []; // not loaded yet — startup geocoding in progress
+  return _rishonCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM);
+}
+
+// ─────────────────────────────────────────────
+// Herzliya Municipality GIS (ArcGIS FeatureServer)
+// "מקלטים_2025" — 125 features, WGS84 (inSR=4326 works)
+// Types: Public shelter, School shelter, Protective room, Accessible shelter
+// ─────────────────────────────────────────────
+const HERZLIYA_URL =
+  'https://services3.arcgis.com/9qGhZGtb39XMVQyR/arcgis/rest/services/' +
+  '%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D_2025/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
+// Ashkelon Municipality GIS (ArcGIS FeatureServer)
+// "PUBLIC_SHELTER" — 175 features, WGS84 via outSR=4326
+// Fields: כתובת (address), שכונה, NAME_HEB, גודל_ (m²), מצב, פתוח
+// ─────────────────────────────────────────────
+const ASHKELON_URL =
+  'https://services2.arcgis.com/5gNmRQS5QY72VLq4/ArcGIS/rest/services/' +
+  'PUBLIC_SHELTER/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
+// Holon Municipality GIS (ArcGIS FeatureServer)
+// "מקלטים" — 67 features, native WGS84 (WKID 4326)
+// Fields: OBJECTID, Miklat_Num, ADDRESS, PLACE, USAGE_, area, x, y
+// ─────────────────────────────────────────────
+const HOLON_URL =
+  'https://services2.arcgis.com/cjDo9oPmimdHxumn/arcgis/rest/services/' +
+  '%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
+// Kfar Saba Municipality GIS (ArcGIS FeatureServer)
+// "HlsFacilities" (מקלטים_ציבוריים) — 63 features, WGS84
+// Fields: NAME, PLACE, KIND, AREA1 (m²), PEOPLE (capacity), STR_NAME, SUG, NAME_1
+// ─────────────────────────────────────────────
+const KFAR_SABA_URL =
+  'https://services2.arcgis.com/CrAWtmFzBf9b3nM0/arcgis/rest/services/' +
+  'HlsFacilities/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
+// Rehovot Municipality GIS (ArcGIS FeatureServer view)
+// "מקלטים עם כלביא view" — 145 open shelters, Web Mercator → outSR=4326
+// Fields: MIKLAT_ID, NAME, STREET, HOUSE_N, area, sug
+// ─────────────────────────────────────────────
+const REHOVOT_URL =
+  'https://services6.arcgis.com/U71MeVnZSuYULYvK/arcgis/rest/services/' +
+  '%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9B%D7%9C%D7%91%D7%99%D7%90_view/FeatureServer/0/query';
+
+// ─────────────────────────────────────────────
 // National ArcGIS shelter FeatureServer (Israel nationwide)
 // Discovered via: arcgis.com/apps/instant/nearby/?appid=95254f2f07d74a1eab51254851cb2fb0
 // ─────────────────────────────────────────────
@@ -62,6 +254,19 @@ const geocodeCache = {};
 const GOV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
 const MUNI_LIST_CACHE_TTL = 60 * 60 * 1000; // 1 hour
 const GEOCODE_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
+
+// Tel Aviv: load all shelters once and cache (bbox inSR=4326 is ignored by WKID-2039 MapServer)
+let _telAvivCache   = null;
+let _telAvivCacheTs = 0;
+const TEL_AVIV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+// Rishon LeZion: HTML table page, geocoded with Nominatim at startup
+let _rishonCache   = null;
+let _rishonCacheTs = 0;
+
+// Yehud: ArcGIS embedded feature collection (not a live FeatureServer)
+let _yehudCache   = null;
+let _yehudCacheTs = 0;
 
 // ─────────────────────────────────────────────
 // Nominatim rate limiter — priority queue, 1.2s gap between ALL requests.
@@ -299,19 +504,18 @@ function osmDefaultName(t) {
 const TEL_AVIV_SHELTER_URL =
   'https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer/592/query';
 
-async function fetchTelAviv(lat, lon, radiusM) {
-  const latDelta = (radiusM / 1000) / 111;
-  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
-  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+// Load ALL Tel Aviv shelters once and cache them.
+// Fix for WKID-2039 MapServer that ignores inSR=4326 bbox — returns 0 features with bbox query.
+// Solution: fetch everything with where=1=1, cache for 1 hour, filter by haversine per request.
+async function loadTelAviv() {
+  if (_telAvivCache && Date.now() - _telAvivCacheTs < TEL_AVIV_CACHE_TTL) return _telAvivCache;
 
   const params = new URLSearchParams({
-    geometry: bbox,
-    geometryType: 'esriGeometryEnvelope',
-    spatialRel: 'esriSpatialRelIntersects',
-    inSR: '4326',
+    where: '1=1',
+    outFields: 'Full_Address,t_sug,lat,lon,shetach_mr,pail,opening_times,shem,UniqueId,oid_mitkan',
     outSR: '4326',
-    outFields: 'Full_Address,t_sug,lat,lon,shetach_mr,pail,opening_times,shem',
     returnGeometry: 'true',
+    resultRecordCount: '2000',
     f: 'json',
   });
 
@@ -322,10 +526,10 @@ async function fetchTelAviv(lat, lon, radiusM) {
   const json = await res.json();
   if (json.error) throw new Error(`Tel Aviv GIS: ${json.error.message}`);
 
-  return (json.features || [])
+  _telAvivCache = (json.features || [])
     .map((feat, i) => {
       const a = feat.attributes || {};
-      // Use attribute lat/lon (WGS84) if available, fall back to geometry
+      // Prefer attribute lat/lon (WGS84) over geometry (may be ITM-projected)
       let fLat = a.lat;
       let fLon = a.lon;
       if ((!fLat || !fLon) && feat.geometry) {
@@ -333,13 +537,11 @@ async function fetchTelAviv(lat, lon, radiusM) {
         fLat = feat.geometry.y;
       }
       if (!fLat || !fLon) return null;
-      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
 
-      const addr    = a.Full_Address || a.shem || '';
-      const type    = a.t_sug || 'מקלט ציבורי';
-      // t_sug values that indicate a parking shelter: חניון מחסה לציבור / מקלט בשטח חניון
+      const addr      = a.Full_Address || a.shem || '';
+      const type      = a.t_sug || 'מקלט ציבורי';
       const isParking = type.includes('חניון');
-      const sizeSqm = a.shetach_mr;
+      const sizeSqm   = a.shetach_mr;
       const readiness = a.pail || '';
       const hours     = a.opening_times || '';
 
@@ -358,6 +560,15 @@ async function fetchTelAviv(lat, lon, radiusM) {
       };
     })
     .filter(Boolean);
+
+  _telAvivCacheTs = Date.now();
+  console.log(`[tel-aviv] Cached ${_telAvivCache.length} shelters`);
+  return _telAvivCache;
+}
+
+async function fetchTelAviv(lat, lon, radiusM) {
+  const all = await loadTelAviv();
+  return all.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM);
 }
 
 // ─────────────────────────────────────────────
@@ -500,6 +711,309 @@ async function fetchPetahTikva(lat, lon, radiusM) {
 }
 
 // ─────────────────────────────────────────────
+// Fetch from Herzliya Municipality GIS (ArcGIS FeatureServer)
+// "מקלטים_2025" — 125 features, WGS84 (inSR=4326 bbox works)
+// Types (English): Public shelter, School shelter, Protective room, Accessible shelter
+// Fields: OBJECTID, כתובת, type, number_mik, negishot
+// ─────────────────────────────────────────────
+async function fetchHerzliya(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'OBJECTID,כתובת,type,number_mik,negishot',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${HERZLIYA_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Herzliya GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Herzliya GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const addr        = a['כתובת'] || '';
+      const shelterType = a.type || '';
+      const isSchool    = shelterType.toLowerCase().includes('school');
+
+      let typeHe = 'מקלט ציבורי';
+      if      (shelterType === 'School shelter')     typeHe = 'מקלט בית ספרי';
+      else if (shelterType === 'Protective room')    typeHe = 'מרחב מוגן';
+      else if (shelterType === 'Accessible shelter') typeHe = 'מקלט נגיש';
+
+      return {
+        id:       `herzliya_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name:     addr ? `מקלט – ${addr}` : `מקלט הרצליה #${i + 1}`,
+        address:  addr,
+        city:     'הרצליה',
+        capacity: '',
+        type:     typeHe,
+        source:   'gov',
+        category: isSchool ? 'school' : 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from Ashkelon Municipality GIS (ArcGIS FeatureServer)
+// "PUBLIC_SHELTER" — 175 features, WGS84 via outSR=4326
+// Fields: כתובת (address), שכונה, NAME_HEB, גודל_ (m²), מצב (פתוח/סגור), פתוח (1/0)
+// ─────────────────────────────────────────────
+async function fetchAshkelon(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'OBJECTID,כתובת,שכונה,NAME_HEB,גודל_,מצב',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${ASHKELON_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Ashkelon GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Ashkelon GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const addr     = a['כתובת'] || '';
+      const nameHeb  = a.NAME_HEB || '';
+      const hood     = a['שכונה'] || '';
+      const sizeSqm  = a['גודל_'];
+      const name     = nameHeb || (addr ? `מקלט – ${addr}` : `מקלט אשקלון #${i + 1}`);
+
+      return {
+        id:       `ashkelon_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  addr,
+        city:     'אשקלון',
+        capacity: sizeSqm ? `${sizeSqm} מ"ר` : '',
+        type:     'מקלט ציבורי',
+        source:   'gov',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from Holon Municipality GIS (ArcGIS FeatureServer)
+// "מקלטים" — 67 features, native WGS84 (WKID 4326)
+// Fields: OBJECTID, Miklat_Num, ADDRESS, PLACE, USAGE_, area, x (lon), y (lat)
+// ─────────────────────────────────────────────
+async function fetchHolon(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'OBJECTID,Miklat_Num,ADDRESS,PLACE,USAGE_,area',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${HOLON_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Holon GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Holon GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const addr  = a.ADDRESS || '';
+      const place = a.PLACE   || '';
+      const usage = a.USAGE_  || '';
+      const name  = place || (addr ? `מקלט – ${addr}` : `מקלט חולון #${i + 1}`);
+
+      return {
+        id:       `holon_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  addr,
+        city:     'חולון',
+        capacity: a.area ? `${a.area} מ"ר` : '',
+        type:     usage || 'מקלט ציבורי',
+        source:   'gov',
+        category: 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from Kfar Saba Municipality GIS (ArcGIS FeatureServer)
+// "HlsFacilities" (מקלטים_ציבוריים) — 63 features, WGS84
+// Fields: NAME (shelter #), PLACE, KIND, AREA1 (m²), PEOPLE (capacity), STR_NAME, SUG, NAME_1
+// SUG: תחתי = underground shelter
+// ─────────────────────────────────────────────
+async function fetchKfarSaba(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'OBJECTID,NAME,PLACE,KIND,AREA1,PEOPLE,STR_NAME,SUG,NAME_1',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${KFAR_SABA_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Kfar Saba GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Kfar Saba GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const street = a.STR_NAME || '';
+      const place  = a.NAME_1   || a.PLACE || '';
+      const sug    = a.SUG      || '';
+      const kind   = a.KIND     || '';
+      const isSchool = kind.includes('בית ספר') || kind.includes('ספר') || place.includes('בית ספר');
+      const typeLabel = sug.includes('תחתי') ? 'מקלט תת-קרקעי' : 'מקלט ציבורי';
+      const name = place || (street ? `מקלט – ${street}` : `מקלט כפר סבא #${i + 1}`);
+
+      return {
+        id:       `kfarsaba_${a.OBJECTID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  street,
+        city:     'כפר סבא',
+        capacity: a.PEOPLE ? `${a.PEOPLE} אנשים` : (a.AREA1 ? `${a.AREA1} מ"ר` : ''),
+        type:     typeLabel,
+        source:   'gov',
+        category: isSchool ? 'school' : 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
+// Fetch from Rehovot Municipality GIS (ArcGIS FeatureServer view)
+// "מקלטים עם כלביא view" (מקלטים פתוחים) — 145 open shelters
+// Spatial ref: Web Mercator (102100) → outSR=4326 for WGS84 output
+// Fields: MIKLAT_ID, NAME, STREET, HOUSE_N, area, sug
+// ─────────────────────────────────────────────
+async function fetchRehovot(lat, lon, radiusM) {
+  const latDelta = (radiusM / 1000) / 111;
+  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
+  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+
+  const params = new URLSearchParams({
+    geometry:       bbox,
+    geometryType:   'esriGeometryEnvelope',
+    spatialRel:     'esriSpatialRelIntersects',
+    inSR:           '4326',
+    outSR:          '4326',
+    outFields:      'OBJECTID,MIKLAT_ID,NAME,STREET,HOUSE_N,area,sug',
+    returnGeometry: 'true',
+    f:              'json',
+  });
+
+  const res = await fetch(`${REHOVOT_URL}?${params}`, {
+    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+  });
+  if (!res.ok) throw new Error(`Rehovot GIS HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`Rehovot GIS: ${json.error.message}`);
+
+  return (json.features || [])
+    .map((feat, i) => {
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
+      const fLon = g.x;
+      const fLat = g.y;
+      if (!fLat || !fLon) return null;
+      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
+
+      const street = a.STREET  || '';
+      const houseN = a.HOUSE_N != null ? String(a.HOUSE_N) : '';
+      const addr   = [street, houseN].filter(Boolean).join(' ');
+      const sug    = a.sug     || '';
+      const isSchool = sug.includes('בית ספר') || sug.includes('ספר');
+      const name   = a.NAME || (addr ? `מקלט – ${addr}` : `מקלט רחובות #${i + 1}`);
+
+      return {
+        id:       `rehovot_${a.OBJECTID || a.MIKLAT_ID || i}`,
+        lat:      fLat,
+        lon:      fLon,
+        name,
+        address:  addr,
+        city:     'רחובות',
+        capacity: a.area ? `${a.area} מ"ר` : '',
+        type:     isSchool ? 'מקלט בית ספרי' : 'מקלט ציבורי',
+        source:   'gov',
+        category: isSchool ? 'school' : 'public',
+      };
+    })
+    .filter(Boolean);
+}
+
+// ─────────────────────────────────────────────
 // Fetch from national ArcGIS shelter FeatureServer
 // ─────────────────────────────────────────────
 async function fetchArcGIS(lat, lon, radiusM) {
@@ -571,6 +1085,13 @@ async function geocodeAddress(addressStr) {
     return null;
   }
 }
+
+// ─────────────────────────────────────────────
+// Municipality HTML list sources (geocoded at startup via Nominatim)
+// Add entries here for cities whose shelter data is only available as HTML tables.
+// Each entry: { id, city, url, centerLat, centerLon, maxRadiusKm, listUrlLabel }
+// ─────────────────────────────────────────────
+const MUNICIPALITY_LIST_SOURCES = [];
 
 // ─────────────────────────────────────────────
 // Parse municipality HTML table (Petah Tikva style: שכונה | רחוב | מבנה | סוג מקלט | שם מקום | מס' מקלט | רובע | פתוח/סגור)
@@ -842,7 +1363,19 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
     catch (e) { console.warn('[geojson] pre-warm failed for', resource.city, '–', e.message); }
   }
 
-  // NOTE: Background geocoding of municipality HTML lists (Petah Tikva etc.) is disabled.
+  // 2. Pre-warm Tel Aviv cache (fetches all 502 shelters once, cached for 1 hour)
+  try { await loadTelAviv(); }
+  catch (e) { console.warn('[tel-aviv] pre-warm failed –', e.message); }
+
+  // 3. Load & geocode Rishon LeZion shelters (37 addresses, ~45s with 1.2s Nominatim gap)
+  //    fetchRishonLeZion() returns [] until this completes, so user requests still work.
+  loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed –', e.message));
+
+  // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
+  try { await loadYehud(); }
+  catch (e) { console.warn('[yehud] pre-warm failed –', e.message); }
+
+  // NOTE: Background geocoding of municipality HTML lists is disabled.
   // Geocoding 200+ addresses via Nominatim at startup reliably triggers rate-limiting (429),
   // which breaks user geocode searches. These cities need a proper GIS/ArcGIS endpoint
   // instead of Nominatim-geocoded HTML scraping.
@@ -902,7 +1435,12 @@ app.get('/api/shelters', async (req, res) => {
     return res.status(400).json({ error: 'Invalid lat/lon values' });
 
   try {
-    const [osmResult, govResult, geojsonResult, arcgisResult, telAvivResult, haifaResult, petahTikvaResult] = await Promise.allSettled([
+    const [
+      osmResult, govResult, geojsonResult, arcgisResult,
+      telAvivResult, haifaResult, petahTikvaResult,
+      herzliyaResult, ashkelonResult, holonResult, kfarSabaResult, rehovotResult,
+      rishonResult, yehudResult,
+    ] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
       fetchGeoJsonSources(userLat, userLon, radiusM),
@@ -910,16 +1448,30 @@ app.get('/api/shelters', async (req, res) => {
       fetchTelAviv(userLat, userLon, radiusM),
       fetchHaifa(userLat, userLon, radiusM),
       fetchPetahTikva(userLat, userLon, radiusM),
+      fetchHerzliya(userLat, userLon, radiusM),
+      fetchAshkelon(userLat, userLon, radiusM),
+      fetchHolon(userLat, userLon, radiusM),
+      fetchKfarSaba(userLat, userLon, radiusM),
+      fetchRehovot(userLat, userLon, radiusM),
+      fetchRishonLeZion(userLat, userLon, radiusM),
+      fetchYehud(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
-    if (osmResult.status     === 'fulfilled') shelters.push(...osmResult.value);
-    if (govResult.status     === 'fulfilled') shelters.push(...govResult.value);
-    if (geojsonResult.status === 'fulfilled') shelters.push(...geojsonResult.value);
-    if (arcgisResult.status  === 'fulfilled') shelters.push(...arcgisResult.value);
-    if (telAvivResult.status === 'fulfilled') shelters.push(...telAvivResult.value);
-    if (haifaResult.status   === 'fulfilled') shelters.push(...haifaResult.value);
-    if (petahTikvaResult.status  === 'fulfilled') shelters.push(...petahTikvaResult.value);
+    if (osmResult.status        === 'fulfilled') shelters.push(...osmResult.value);
+    if (govResult.status        === 'fulfilled') shelters.push(...govResult.value);
+    if (geojsonResult.status    === 'fulfilled') shelters.push(...geojsonResult.value);
+    if (arcgisResult.status     === 'fulfilled') shelters.push(...arcgisResult.value);
+    if (telAvivResult.status    === 'fulfilled') shelters.push(...telAvivResult.value);
+    if (haifaResult.status      === 'fulfilled') shelters.push(...haifaResult.value);
+    if (petahTikvaResult.status === 'fulfilled') shelters.push(...petahTikvaResult.value);
+    if (herzliyaResult.status   === 'fulfilled') shelters.push(...herzliyaResult.value);
+    if (ashkelonResult.status   === 'fulfilled') shelters.push(...ashkelonResult.value);
+    if (holonResult.status      === 'fulfilled') shelters.push(...holonResult.value);
+    if (kfarSabaResult.status   === 'fulfilled') shelters.push(...kfarSabaResult.value);
+    if (rehovotResult.status    === 'fulfilled') shelters.push(...rehovotResult.value);
+    if (rishonResult.status     === 'fulfilled') shelters.push(...rishonResult.value);
+    if (yehudResult.status      === 'fulfilled') shelters.push(...yehudResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -953,6 +1505,13 @@ app.get('/api/shelters', async (req, res) => {
         telAvivError:    telAvivResult.status    === 'rejected' ? telAvivResult.reason?.message    : null,
         haifaError:      haifaResult.status      === 'rejected' ? haifaResult.reason?.message      : null,
         petahTikvaError: petahTikvaResult.status === 'rejected' ? petahTikvaResult.reason?.message : null,
+        herzliyaError:   herzliyaResult.status   === 'rejected' ? herzliyaResult.reason?.message   : null,
+        ashkelonError:   ashkelonResult.status   === 'rejected' ? ashkelonResult.reason?.message   : null,
+        holonError:      holonResult.status      === 'rejected' ? holonResult.reason?.message      : null,
+        kfarSabaError:   kfarSabaResult.status   === 'rejected' ? kfarSabaResult.reason?.message   : null,
+        rehovotError:    rehovotResult.status    === 'rejected' ? rehovotResult.reason?.message    : null,
+        rishonError:     rishonResult.status     === 'rejected' ? rishonResult.reason?.message     : null,
+        yehudError:      yehudResult.status      === 'rejected' ? yehudResult.reason?.message      : null,
       },
     });
   } catch (e) {
@@ -967,11 +1526,17 @@ app.get('/api/shelters', async (req, res) => {
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
-    dataSources: ['osm', 'data.gov.il', 'geojson', 'arcgis-national', 'haifa-gis', 'tel-aviv-gis', 'petah-tikva-gis'],
+    dataSources: [
+      'osm', 'data.gov.il', 'geojson', 'arcgis-national',
+      'haifa-gis', 'tel-aviv-gis', 'petah-tikva-gis',
+      'herzliya-gis', 'ashkelon-gis', 'holon-gis', 'kfar-saba-gis', 'rehovot-gis',
+      'rishon-lezion-html',
+    ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
       'חיפה', 'תל אביב-יפו', 'פתח תקווה',
+      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
