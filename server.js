@@ -131,10 +131,11 @@ function parseRishonTable(html) {
   return rows;
 }
 
-// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Photon sequentially → cache.
-// Sequential (not parallel) because firing 30+ simultaneous Photon requests causes ETIMEDOUT
-// on some machines. Sequential with a 150ms gap works reliably and takes ~10-15s total.
-// Run fire-and-forget at startup so the server stays responsive during geocoding.
+// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Nominatim (NOM_LOW) → cache.
+// Uses Nominatim instead of Photon: Photon (photon.komoot.io) times out (ETIMEDOUT) on this
+// machine for any number of concurrent connections. Nominatim is reliable.
+// NOM_LOW priority means user searches (NOM_HIGH) always jump to the front of the queue.
+// Run fire-and-forget at startup (~44s total at 1.2s/address); server stays responsive.
 async function loadRishonLeZion() {
   if (_rishonCache && Date.now() - _rishonCacheTs < GOV_CACHE_TTL) return _rishonCache;
 
@@ -142,27 +143,20 @@ async function loadRishonLeZion() {
   if (!res.ok) throw new Error(`Rishon HTML HTTP ${res.status}`);
   const html = await res.text();
   const rows = parseRishonTable(html);
-  console.log(`[rishon] Parsed ${rows.length} shelter rows from HTML, geocoding sequentially…`);
+  console.log(`[rishon] Parsed ${rows.length} shelter rows from HTML, geocoding via Nominatim…`);
 
   const shelters = [];
   for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
     try {
-      // Geocode via Photon — sequential to avoid parallel-connection timeouts
-      const query = row.address.includes('ישראל') ? row.address : row.address + ' ישראל';
-      const params = new URLSearchParams({
-        q: query, limit: '1',
-        lat: '31.96', lon: '34.81',   // location bias: centre of Rishon LeZion
-      });
-      const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
-        headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-      });
-      if (!r.ok) { console.warn(`[rishon] Photon HTTP ${r.status} for "${row.address}"`); continue; }
-      const json = await r.json();
-      const feat = (json.features || [])[0];
-      if (!feat) { console.warn(`[rishon] No Photon result for "${row.address}"`); continue; }
-      const [fLon, fLat] = feat.geometry.coordinates;
-      if (!fLat || !fLon) continue;
+      // NOM_LOW: user searches (NOM_HIGH=10) always jump ahead in the rate-limiter queue
+      const r = await nominatimFetch(row.address, { priority: NOM_LOW });
+      if (!r.ok) { console.warn(`[rishon] Nominatim HTTP ${r.status} for "${row.address}"`); continue; }
+      const arr = await r.json();
+      if (!arr || !arr[0]) { console.warn(`[rishon] No result for "${row.address}"`); continue; }
+      const fLat = parseFloat(arr[0].lat);
+      const fLon = parseFloat(arr[0].lon);
+      if (!fLat || !fLon || isNaN(fLat) || isNaN(fLon)) continue;
 
       // Parse area/capacity from description: "שטח 68 מ²... כמות אנשים - 136"
       const areaMatch = row.description.match(/שטח\s+(\d+)/);
@@ -185,8 +179,7 @@ async function loadRishonLeZion() {
     } catch (e) {
       console.warn(`[rishon] geocode error for "${row.address}": ${e.message}`);
     }
-    // 150ms gap between requests — prevents simultaneous-connection timeouts
-    if (i < rows.length - 1) await new Promise(r => setTimeout(r, 150));
+    // No explicit delay needed — Nominatim rate limiter enforces 1.2s between all requests
   }
 
   // Sort by shelter number for consistent ordering
@@ -194,7 +187,7 @@ async function loadRishonLeZion() {
 
   _rishonCache   = shelters;
   _rishonCacheTs = Date.now();
-  console.log(`[rishon] Geocoded ${shelters.length}/${rows.length} shelters via Photon`);
+  console.log(`[rishon] Geocoded ${shelters.length}/${rows.length} shelters via Nominatim`);
   return shelters;
 }
 
@@ -1379,8 +1372,8 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
   try { await loadTelAviv(); }
   catch (e) { console.warn('[tel-aviv] pre-warm failed –', e.message); }
 
-  // 3. Load & geocode Rishon LeZion shelters (sequential Photon, ~10-15s — fire-and-forget)
-  // Do NOT await: sequential geocoding takes ~15s; server must stay responsive in the meantime.
+  // 3. Load & geocode Rishon LeZion shelters (Nominatim NOM_LOW, ~44s — fire-and-forget)
+  // Do NOT await: geocoding takes ~44s; user searches (NOM_HIGH) jump ahead in the queue.
   loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed –', e.message));
 
   // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
@@ -1402,11 +1395,20 @@ app.get('/api/geocode', async (req, res) => {
 
   const isSuggest = req.query.suggest === '1';
 
-  // ── Autocomplete (suggest=1): skip Nominatim entirely → Photon is fast & has no rate-limit ──
+  // ── Autocomplete (suggest=1): try Photon (fast, no rate-limit), fall back to Nominatim ──
   if (isSuggest) {
     try {
-      return res.json(await photonFetch(q, 5));
+      return res.json(await photonFetch(q, 5));  // 5s timeout — fails fast if unreachable
+    } catch (photonErr) {
+      console.warn('[geocode/suggest] Photon failed, using Nominatim:', photonErr.message);
+    }
+    // Photon failed — fall back to Nominatim with NOM_HIGH so user isn't blocked
+    try {
+      const r = await nominatimFetch(q, { limit: 5, priority: NOM_HIGH, dropType: 'autocomplete' });
+      if (!r.ok) return res.status(503).json({ error: 'geocode_busy' });
+      return res.json(await r.json());
     } catch (e) {
+      if (e.superseded) return res.status(204).end();
       return res.status(503).json({ error: 'geocode_busy' });
     }
   }
