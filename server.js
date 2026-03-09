@@ -131,9 +131,10 @@ function parseRishonTable(html) {
   return rows;
 }
 
-// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Photon (no rate limit) → cache.
-// Using Photon (Komoot) instead of Nominatim so geocoding completes in ~2s at startup
-// without blocking user search requests or competing with the Nominatim rate limiter.
+// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Photon sequentially → cache.
+// Sequential (not parallel) because firing 30+ simultaneous Photon requests causes ETIMEDOUT
+// on some machines. Sequential with a 150ms gap works reliably and takes ~10-15s total.
+// Run fire-and-forget at startup so the server stays responsive during geocoding.
 async function loadRishonLeZion() {
   if (_rishonCache && Date.now() - _rishonCacheTs < GOV_CACHE_TTL) return _rishonCache;
 
@@ -141,12 +142,13 @@ async function loadRishonLeZion() {
   if (!res.ok) throw new Error(`Rishon HTML HTTP ${res.status}`);
   const html = await res.text();
   const rows = parseRishonTable(html);
-  console.log(`[rishon] Parsed ${rows.length} shelter rows from HTML`);
+  console.log(`[rishon] Parsed ${rows.length} shelter rows from HTML, geocoding sequentially…`);
 
   const shelters = [];
-  await Promise.all(rows.map(async (row, i) => {
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
     try {
-      // Geocode via Photon — fast, no rate limit, OSM-backed, accurate for Israeli addresses
+      // Geocode via Photon — sequential to avoid parallel-connection timeouts
       const query = row.address.includes('ישראל') ? row.address : row.address + ' ישראל';
       const params = new URLSearchParams({
         q: query, limit: '1',
@@ -155,12 +157,12 @@ async function loadRishonLeZion() {
       const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
         headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
       });
-      if (!r.ok) return;
+      if (!r.ok) { console.warn(`[rishon] Photon HTTP ${r.status} for "${row.address}"`); continue; }
       const json = await r.json();
       const feat = (json.features || [])[0];
-      if (!feat) return;
+      if (!feat) { console.warn(`[rishon] No Photon result for "${row.address}"`); continue; }
       const [fLon, fLat] = feat.geometry.coordinates;
-      if (!fLat || !fLon) return;
+      if (!fLat || !fLon) continue;
 
       // Parse area/capacity from description: "שטח 68 מ²... כמות אנשים - 136"
       const areaMatch = row.description.match(/שטח\s+(\d+)/);
@@ -180,8 +182,12 @@ async function loadRishonLeZion() {
         source:   'gov',
         category: 'public',
       });
-    } catch { /* skip on geocode error */ }
-  }));
+    } catch (e) {
+      console.warn(`[rishon] geocode error for "${row.address}": ${e.message}`);
+    }
+    // 150ms gap between requests — prevents simultaneous-connection timeouts
+    if (i < rows.length - 1) await new Promise(r => setTimeout(r, 150));
+  }
 
   // Sort by shelter number for consistent ordering
   shelters.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
@@ -354,6 +360,7 @@ async function photonFetch(q, limit = 5) {
   });
   const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+    timeout: 5000,  // fail fast (5s) if Photon is unreachable — don't block autocomplete
   });
   if (!r.ok) throw new Error(`Photon HTTP ${r.status}`);
   const json = await r.json();
@@ -1372,9 +1379,9 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
   try { await loadTelAviv(); }
   catch (e) { console.warn('[tel-aviv] pre-warm failed –', e.message); }
 
-  // 3. Load & geocode Rishon LeZion shelters (parallel Photon geocoding, completes in ~2s)
-  try { await loadRishonLeZion(); }
-  catch (e) { console.warn('[rishon] startup load failed –', e.message); }
+  // 3. Load & geocode Rishon LeZion shelters (sequential Photon, ~10-15s — fire-and-forget)
+  // Do NOT await: sequential geocoding takes ~15s; server must stay responsive in the meantime.
+  loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed –', e.message));
 
   // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
   try { await loadYehud(); }
