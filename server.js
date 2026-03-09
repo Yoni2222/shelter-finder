@@ -112,32 +112,28 @@ const RISHON_URL =
   'https://www.rishonlezion.muni.il/Residents/SecurityEmergency/pages/publicshelter.aspx';
 
 function parseRishonTable(html) {
-  const strip = s => (s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const strip = s => (s || '').replace(/<[^>]+>/g, '').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim();
   const rows = [];
   const trRx = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
   let trMatch;
-  let headerSeen = false;
   while ((trMatch = trRx.exec(html)) !== null) {
     const cells = [];
     const tdRx = /<td[^>]*>([\s\S]*?)<\/td>/gi;
     let tdMatch;
     while ((tdMatch = tdRx.exec(trMatch[1])) !== null) cells.push(strip(tdMatch[1]));
     if (cells.length < 2) continue;
-    // Header row detection: first two columns are כותרת / כתובת
-    if (!headerSeen) {
-      const joined = cells.join('');
-      if (joined.includes('כותרת') || joined.includes('כתובת') || joined.includes('שכונה')) {
-        headerSeen = true; continue;
-      }
-    }
     const [title, address, neighborhood, description] = cells;
+    // Only keep actual shelter rows (מקלט N or מרחב מוגן) — skip news/event rows
+    if (!title || (!title.includes('מקלט') && !title.includes('מרחב מוגן'))) continue;
     if (!address || address.length < 3) continue;
-    rows.push({ title: title || '', address, neighborhood: neighborhood || '', description: description || '' });
+    rows.push({ title, address, neighborhood: neighborhood || '', description: description || '' });
   }
   return rows;
 }
 
-// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Nominatim → cache
+// Load Rishon LeZion shelters: fetch HTML → parse → geocode via Photon (no rate limit) → cache.
+// Using Photon (Komoot) instead of Nominatim so geocoding completes in ~2s at startup
+// without blocking user search requests or competing with the Nominatim rate limiter.
 async function loadRishonLeZion() {
   if (_rishonCache && Date.now() - _rishonCacheTs < GOV_CACHE_TTL) return _rishonCache;
 
@@ -145,22 +141,28 @@ async function loadRishonLeZion() {
   if (!res.ok) throw new Error(`Rishon HTML HTTP ${res.status}`);
   const html = await res.text();
   const rows = parseRishonTable(html);
-  console.log(`[rishon] Parsed ${rows.length} shelters from HTML`);
+  console.log(`[rishon] Parsed ${rows.length} shelter rows from HTML`);
 
   const shelters = [];
-  for (let i = 0; i < rows.length; i++) {
-    const row = rows[i];
-    // Address already has city name ("מאיר אבנר 22 ראשון לציון") — geocode as-is
+  await Promise.all(rows.map(async (row, i) => {
     try {
-      const r = await nominatimFetch(row.address, { limit: 1, addressdetails: 0, priority: NOM_LOW });
-      if (!r.ok) continue;
-      const arr = await r.json();
-      if (!arr || !arr[0]) continue;
-      const fLat = parseFloat(arr[0].lat);
-      const fLon = parseFloat(arr[0].lon);
-      if (!fLat || !fLon) continue;
+      // Geocode via Photon — fast, no rate limit, OSM-backed, accurate for Israeli addresses
+      const query = row.address.includes('ישראל') ? row.address : row.address + ' ישראל';
+      const params = new URLSearchParams({
+        q: query, limit: '1',
+        lat: '31.96', lon: '34.81',   // location bias: centre of Rishon LeZion
+      });
+      const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
+        headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
+      });
+      if (!r.ok) return;
+      const json = await r.json();
+      const feat = (json.features || [])[0];
+      if (!feat) return;
+      const [fLon, fLat] = feat.geometry.coordinates;
+      if (!fLat || !fLon) return;
 
-      // Parse area/capacity from description: "שטח 68 מ״ר ... כמות אנשים - 136"
+      // Parse area/capacity from description: "שטח 68 מ²... כמות אנשים - 136"
       const areaMatch = row.description.match(/שטח\s+(\d+)/);
       const capMatch  = row.description.match(/כמות אנשים\s*[-–]\s*(\d+)/);
       const area      = areaMatch ? areaMatch[1] : '';
@@ -170,7 +172,7 @@ async function loadRishonLeZion() {
         id:       `rishon_${i}`,
         lat:      fLat,
         lon:      fLon,
-        name:     row.title || `מקלט ראשל"צ #${i + 1}`,
+        name:     row.title,
         address:  row.address.replace(/\s*ראשון לציון\s*$/i, '').trim(),
         city:     'ראשון לציון',
         capacity: capacity ? `${capacity} אנשים` : (area ? `${area} מ"ר` : ''),
@@ -178,12 +180,15 @@ async function loadRishonLeZion() {
         source:   'gov',
         category: 'public',
       });
-    } catch { /* skip on error */ }
-  }
+    } catch { /* skip on geocode error */ }
+  }));
+
+  // Sort by shelter number for consistent ordering
+  shelters.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 
   _rishonCache   = shelters;
   _rishonCacheTs = Date.now();
-  console.log(`[rishon] Geocoded ${shelters.length}/${rows.length} shelters`);
+  console.log(`[rishon] Geocoded ${shelters.length}/${rows.length} shelters via Photon`);
   return shelters;
 }
 
@@ -789,7 +794,7 @@ async function fetchAshkelon(lat, lon, radiusM) {
     spatialRel:     'esriSpatialRelIntersects',
     inSR:           '4326',
     outSR:          '4326',
-    outFields:      'OBJECTID,כתובת,שכונה,NAME_HEB,גודל_,מצב',
+    outFields:      '*',   // Hebrew field names in outFields → 400 outside Ashkelon bbox
     returnGeometry: 'true',
     f:              'json',
   });
@@ -1367,9 +1372,9 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
   try { await loadTelAviv(); }
   catch (e) { console.warn('[tel-aviv] pre-warm failed –', e.message); }
 
-  // 3. Load & geocode Rishon LeZion shelters (37 addresses, ~45s with 1.2s Nominatim gap)
-  //    fetchRishonLeZion() returns [] until this completes, so user requests still work.
-  loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed –', e.message));
+  // 3. Load & geocode Rishon LeZion shelters (parallel Photon geocoding, completes in ~2s)
+  try { await loadRishonLeZion(); }
+  catch (e) { console.warn('[rishon] startup load failed –', e.message); }
 
   // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
   try { await loadYehud(); }
