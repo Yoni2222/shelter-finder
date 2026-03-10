@@ -58,7 +58,7 @@ const YEHUD_ITEM_URL =
 async function loadYehud() {
   if (_yehudCache && Date.now() - _yehudCacheTs < GOV_CACHE_TTL) return _yehudCache;
 
-  const res = await fetch(YEHUD_ITEM_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' }, timeout: 15000 });
+  const res = await fetch(YEHUD_ITEM_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' }, timeout: 6000 });
   if (!res.ok) throw new Error(`Yehud ArcGIS item HTTP ${res.status}`);
   const json = await res.json();
 
@@ -139,7 +139,7 @@ function parseRishonTable(html) {
 async function loadRishonLeZion() {
   if (_rishonCache && Date.now() - _rishonCacheTs < GOV_CACHE_TTL) return _rishonCache;
 
-  const res = await fetch(RISHON_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' }, timeout: 15000 });
+  const res = await fetch(RISHON_URL, { headers: { 'User-Agent': 'ShelterFinderApp/1.0' }, timeout: 6000 });
   if (!res.ok) throw new Error(`Rishon HTML HTTP ${res.status}`);
   const html = await res.text();
   const rows = parseRishonTable(html);
@@ -332,7 +332,7 @@ async function _nomDrain() {
     const { url, resolve, reject } = _nomQueue.shift(); // highest priority first
     _nomLastMs = Date.now();
     try {
-      resolve(await fetch(url, { headers: _NOM_HDR, timeout: 15000 }));
+      resolve(await fetch(url, { headers: _NOM_HDR, timeout: 6000 }));
     } catch (e) {
       reject(e);
     }
@@ -447,7 +447,7 @@ out center meta;`;
     method: 'POST',
     headers: { 'Content-Type': 'text/plain' },
     body: query,
-    timeout: 25000,
+    timeout: 10000,
   });
 
   if (!res.ok) throw new Error(`Overpass HTTP ${res.status}`);
@@ -527,7 +527,7 @@ async function loadTelAviv() {
 
   const res = await fetch(`${TEL_AVIV_SHELTER_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Tel Aviv GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -605,7 +605,7 @@ async function fetchHaifa(lat, lon, radiusM) {
 
   const res = await fetch(`${HAIFA_SHELTER_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Haifa GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -675,7 +675,7 @@ async function fetchPetahTikva(lat, lon, radiusM) {
 
   const res = await fetch(`${PETAH_TIKVA_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Petah Tikva GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -743,7 +743,7 @@ async function fetchHerzliya(lat, lon, radiusM) {
 
   const res = await fetch(`${HERZLIYA_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Herzliya GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -806,7 +806,7 @@ async function fetchAshkelon(lat, lon, radiusM) {
 
   const res = await fetch(`${ASHKELON_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Ashkelon GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -866,7 +866,7 @@ async function fetchHolon(lat, lon, radiusM) {
 
   const res = await fetch(`${HOLON_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Holon GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -926,7 +926,7 @@ async function fetchKfarSaba(lat, lon, radiusM) {
 
   const res = await fetch(`${KFAR_SABA_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Kfar Saba GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -989,7 +989,7 @@ async function fetchRehovot(lat, lon, radiusM) {
 
   const res = await fetch(`${REHOVOT_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`Rehovot GIS HTTP ${res.status}`);
   const json = await res.json();
@@ -1048,7 +1048,7 @@ async function fetchArcGIS(lat, lon, radiusM) {
 
   const res = await fetch(`${ARCGIS_SHELTER_URL}/query?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`ArcGIS HTTP ${res.status}`);
   const json = await res.json();
@@ -1204,7 +1204,7 @@ async function preGeocodeAllMunicipalities() {
       if (!municipalityListCache[source.id]) {
         const res = await fetch(source.url, {
           headers: { 'User-Agent': 'ShelterFinderApp/1.0', 'Accept': 'text/html' },
-          timeout: 15000,
+          timeout: 6000,
         });
         if (!res.ok) {
           console.warn(`[municipality] ${source.city}: HTTP ${res.status} — skipping`);
@@ -1263,7 +1263,7 @@ async function loadGovResource(resource) {
   console.log(`[gov] Loading resource ${resource.id} (${resource.city})...`);
   const res = await fetch(
     `https://data.gov.il/api/3/action/datastore_search?resource_id=${resource.id}&limit=10000`,
-    { timeout: 20000 }
+    { timeout: 7000 }
   );
   if (!res.ok) throw new Error(`data.gov.il HTTP ${res.status}`);
   const json = await res.json();
@@ -1323,7 +1323,7 @@ async function loadGeoJsonResource(resource) {
   const res = await fetch(resource.url, {
     redirect: 'follow',
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
+    timeout: 6000,
   });
   if (!res.ok) throw new Error(`GeoJSON HTTP ${res.status}`);
   const json = await res.json();
