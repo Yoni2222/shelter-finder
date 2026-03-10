@@ -8,6 +8,7 @@ body {
   background: #f0f2f5;
   color: #1a1a2e;
   height: 100vh;
+  height: 100dvh; /* accounts for mobile browser chrome (address bar) */
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -272,10 +273,48 @@ html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; }
 
 /* ── Responsive ── */
 @media (max-width: 700px) {
-  body { overflow: auto; }
-  .main { flex-direction: column; height: auto; }
-  .map-container { height: 300px; }
-  .sidebar { width: 100%; max-height: 380px; border-inline-start: none; border-top: 1px solid #e2e8f0; }
-  .hdr-badge { display: none; }
-  .cat-note  { display: none; }
+  /* ── Layout: vertical split (map top, sidebar bottom) ── */
+  .main { flex-direction: column; }
+
+  /* Map: fixed slice of the viewport */
+  .map-container { flex: none; height: 42vh; height: 42dvh; }
+
+  /* Sidebar: fills remaining space; shelter-list scrolls inside */
+  .sidebar {
+    width: 100%;
+    flex: 1;
+    min-height: 0;          /* required: allows flex child to shrink */
+    border-inline-start: none;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  /* ── Header: compact ── */
+  header { padding: 8px 14px; gap: 8px; }
+  .hdr-icon { font-size: 20px; }
+  .hdr-text h1 { font-size: 15px; }
+  .hdr-text p  { display: none; }   /* hide subtitle — saves 1 line */
+  .hdr-badge   { display: none; }
+
+  /* ── Search bar: compact, stays single row ── */
+  .search-bar { padding: 7px 10px; gap: 6px; }
+  .input-wrap { min-width: 0; }       /* allow shrinking so row doesn't wrap */
+  .search-input { font-size: 14px; padding: 8px 32px 8px 10px; }
+  html[dir="ltr"] .search-input { padding: 8px 10px 8px 32px; }
+
+  /* GPS button: show icon only, hide text label */
+  .btn-gps span:last-child { display: none; }
+  .btn { padding: 8px 11px; font-size: 12px; }
+
+  /* Radius selector: tighter */
+  .radius-wrap { gap: 4px; font-size: 12px; }
+  .radius-sel  { padding: 7px 6px; font-size: 12px; }
+
+  /* ── Category bar: compact ── */
+  .cat-bar  { padding: 5px 10px; gap: 5px; }
+  .cat-note { display: none; }
+  .cat-btn  { padding: 3px 9px; font-size: 11px; }
+
+  /* ── Sidebar header: compact ── */
+  .sidebar-hdr { padding: 7px 12px; }
+  .sidebar-hdr h2 { font-size: 13px; }
 }
