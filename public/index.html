@@ -686,9 +686,18 @@ async function loadShelters() {
   showLoading(t().searchingFmt(radiusLabel));
 
   try {
-    const r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}`);
+    let r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}`);
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    const data = await r.json();
+    let data = await r.json();
+
+    // Auto-retry once if 0 results — server caches may still be warming up on cold start
+    if (data.shelters.length === 0) {
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      showLoading(t().searchingFmt(radiusLabel));
+      r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      data = await r.json();
+    }
 
     lastShelters = data.shelters;
     lastRadiusM  = radiusM;
