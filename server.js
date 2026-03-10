@@ -1566,6 +1566,13 @@ app.get('/api/health', (_req, res) => {
 });
 
 // ─────────────────────────────────────────────
+// Production: serve built React app for all non-API routes
+// ─────────────────────────────────────────────
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'app', 'index.html'));
+});
+
+// ─────────────────────────────────────────────
 // Start
 // ─────────────────────────────────────────────
 app.listen(PORT, () => {
