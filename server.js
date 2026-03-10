@@ -264,11 +264,9 @@ let _telAvivCache   = null;
 let _telAvivCacheTs = 0;
 const TEL_AVIV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
 
-// Haifa: load all 217 shelters once and cache (same pattern as Tel Aviv — live per-request
-// bbox queries were unreliable: WKID-2039 server may ignore inSR=4326 for spatial filter)
-let _haifaCache   = null;
-let _haifaCacheTs = 0;
-const HAIFA_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+// Haifa: loaded from bundled static JSON (no runtime API calls — GIS server blocks bulk
+// queries from non-Israeli IPs). Refresh periodically: node scripts/build-haifa-data.js
+const _haifaCache = require('./data/haifa-shelters.json');
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -585,83 +583,15 @@ async function fetchTelAviv(lat, lon, radiusM) {
 }
 
 // ─────────────────────────────────────────────
-// Haifa Municipality GIS (MapServer layer 1: מקומות מיגון) — 217 shelters
-// https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1
-// Fields: Migun_FullAddress, Migun_Name, Migun_Type, QtyPeople, Migun_Area, Neighborhood
-// Migun_Type values: מקלט ציבורי, מקלט בית ספרי, בית ספר - מתקן קליטה, חניון תת-קרקעי, מיגונית
-// Strategy: load ALL shelters once at startup and cache (same as Tel Aviv).
-// Per-request bbox queries were unreliable — the server's native CRS is WKID-2039 (Israeli TM)
-// and the inSR=4326 spatial filter was sometimes ignored, causing missing results.
+// Haifa Municipality shelters (216 entries) — loaded from static bundled JSON.
+// Source: gisserver.haifa.muni.il MapServer layer 1 (מקומות מיגון).
+// The GIS server blocks bulk queries from non-Israeli IPs at runtime, so data
+// is pre-fetched and committed. Refresh: node scripts/build-haifa-data.js
 // ─────────────────────────────────────────────
-const HAIFA_SHELTER_URL =
-  'https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1/query';
-
-async function loadHaifa() {
-  if (_haifaCache && Date.now() - _haifaCacheTs < HAIFA_CACHE_TTL) return _haifaCache;
-
-  const params = new URLSearchParams({
-    where:             '1=1',
-    outFields:         'Migun_FullAddress,Migun_Name,Migun_Type,QtyPeople,Migun_Area,Neighborhood,OBJECTID',
-    outSR:             '4326',
-    returnGeometry:    'true',
-    resultRecordCount: '2000',
-    f:                 'json',
-  });
-
-  const res = await fetch(`${HAIFA_SHELTER_URL}?${params}`, {
-    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 10000,
-  });
-  if (!res.ok) throw new Error(`Haifa GIS HTTP ${res.status}`);
-  const json = await res.json();
-  if (json.error) throw new Error(`Haifa GIS: ${json.error.message}`);
-
-  _haifaCache = (json.features || [])
-    .map((feat, i) => {
-      const a    = feat.attributes || {};
-      const g    = feat.geometry   || {};
-      const fLon = g.x;
-      const fLat = g.y;
-      if (!fLat || !fLon) return null;
-
-      const migunType = a.Migun_Type || '';
-      const isParking = migunType.includes('חניון');
-      const isSchool  = migunType.includes('ספר'); // מקלט בית ספרי / בית ספר - מתקן קליטה
-
-      const addr    = a.Migun_FullAddress || '';
-      const rawName = a.Migun_Name || '';
-      // Migun_Name is sometimes just a number (shelter ID) — not useful as a display name
-      const isNumericOnly = /^\d+$/.test(rawName.trim());
-      let name;
-      if (rawName && !isNumericOnly) name = rawName;
-      else if (addr)                 name = `מקלט חיפה - ${addr}`;
-      else                           name = `מקלט חיפה #${i + 1}`;
-
-      return {
-        id:       `haifa_${a.OBJECTID || i}`,
-        lat:      fLat,
-        lon:      fLon,
-        name,
-        address:  addr,
-        city:     'חיפה',
-        capacity: a.QtyPeople
-          ? `${a.QtyPeople} אנשים`
-          : (a.Migun_Area ? `${a.Migun_Area} מ"ר` : ''),
-        type:     migunType || 'מקלט ציבורי',
-        source:   'gov',
-        category: isParking ? 'parking' : (isSchool ? 'school' : 'public'),
-      };
-    })
-    .filter(Boolean);
-
-  _haifaCacheTs = Date.now();
-  console.log(`[haifa] Cached ${_haifaCache.length} shelters`);
-  return _haifaCache;
-}
-
-async function fetchHaifa(lat, lon, radiusM) {
-  const all = await loadHaifa();
-  return all.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM);
+function fetchHaifa(lat, lon, radiusM) {
+  return Promise.resolve(
+    _haifaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
 }
 
 // ─────────────────────────────────────────────
@@ -1402,11 +1332,7 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
   // Do NOT await: geocoding takes ~44s; user searches (NOM_HIGH) jump ahead in the queue.
   loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed -', e.message));
 
-  // 4. Pre-warm Haifa cache (all 217 shelters, load-all strategy)
-  try { await loadHaifa(); }
-  catch (e) { console.warn('[haifa] pre-warm failed -', e.message); }
-
-  // 5. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
+  // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
   try { await loadYehud(); }
   catch (e) { console.warn('[yehud] pre-warm failed -', e.message); }
 
