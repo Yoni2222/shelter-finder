@@ -81,7 +81,7 @@ async function loadYehud() {
         id:       `yehud_${a.__OBJECTID || i}`,
         lat:      fLat,
         lon:      fLon,
-        name:     title || (addr ? `מקלט – ${addr}` : `מקלט יהוד #${i + 1}`),
+        name:     title || (addr ? `מקלט - ${addr}` : `מקלט יהוד #${i + 1}`),
         address:  addr,
         city:     'יהוד-מונוסון',
         capacity: '',
@@ -263,6 +263,12 @@ const GEOCODE_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 let _telAvivCache   = null;
 let _telAvivCacheTs = 0;
 const TEL_AVIV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+// Haifa: load all 217 shelters once and cache (same pattern as Tel Aviv — live per-request
+// bbox queries were unreliable: WKID-2039 server may ignore inSR=4326 for spatial filter)
+let _haifaCache   = null;
+let _haifaCacheTs = 0;
+const HAIFA_CACHE_TTL = 60 * 60 * 1000; // 1 hour
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -579,46 +585,44 @@ async function fetchTelAviv(lat, lon, radiusM) {
 }
 
 // ─────────────────────────────────────────────
-// Fetch from Haifa Municipality GIS (MapServer layer 1: מקומות מיגון)
+// Haifa Municipality GIS (MapServer layer 1: מקומות מיגון) — 217 shelters
 // https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1
 // Fields: Migun_FullAddress, Migun_Name, Migun_Type, QtyPeople, Migun_Area, Neighborhood
 // Migun_Type values: מקלט ציבורי, מקלט בית ספרי, בית ספר - מתקן קליטה, חניון תת-קרקעי, מיגונית
+// Strategy: load ALL shelters once at startup and cache (same as Tel Aviv).
+// Per-request bbox queries were unreliable — the server's native CRS is WKID-2039 (Israeli TM)
+// and the inSR=4326 spatial filter was sometimes ignored, causing missing results.
 // ─────────────────────────────────────────────
 const HAIFA_SHELTER_URL =
   'https://gisserver.haifa.muni.il/arcgiswebadaptor/rest/services/PublicSite/Haifa_Sec_Public/MapServer/1/query';
 
-async function fetchHaifa(lat, lon, radiusM) {
-  const latDelta = (radiusM / 1000) / 111;
-  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
-  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
+async function loadHaifa() {
+  if (_haifaCache && Date.now() - _haifaCacheTs < HAIFA_CACHE_TTL) return _haifaCache;
 
   const params = new URLSearchParams({
-    geometry:      bbox,
-    geometryType:  'esriGeometryEnvelope',
-    spatialRel:    'esriSpatialRelIntersects',
-    inSR:          '4326',
-    outSR:         '4326',
-    outFields:     'Migun_FullAddress,Migun_Name,Migun_Type,QtyPeople,Migun_Area,Neighborhood,OBJECTID',
-    returnGeometry:'true',
-    f:             'json',
+    where:             '1=1',
+    outFields:         'Migun_FullAddress,Migun_Name,Migun_Type,QtyPeople,Migun_Area,Neighborhood,OBJECTID',
+    outSR:             '4326',
+    returnGeometry:    'true',
+    resultRecordCount: '2000',
+    f:                 'json',
   });
 
   const res = await fetch(`${HAIFA_SHELTER_URL}?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 6000,
+    timeout: 10000,
   });
   if (!res.ok) throw new Error(`Haifa GIS HTTP ${res.status}`);
   const json = await res.json();
   if (json.error) throw new Error(`Haifa GIS: ${json.error.message}`);
 
-  return (json.features || [])
+  _haifaCache = (json.features || [])
     .map((feat, i) => {
-      const a   = feat.attributes || {};
-      const g   = feat.geometry   || {};
+      const a    = feat.attributes || {};
+      const g    = feat.geometry   || {};
       const fLon = g.x;
       const fLat = g.y;
       if (!fLat || !fLon) return null;
-      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
 
       const migunType = a.Migun_Type || '';
       const isParking = migunType.includes('חניון');
@@ -629,8 +633,8 @@ async function fetchHaifa(lat, lon, radiusM) {
       // Migun_Name is sometimes just a number (shelter ID) — not useful as a display name
       const isNumericOnly = /^\d+$/.test(rawName.trim());
       let name;
-      if (rawName && !isNumericOnly) name = rawName;     // real name (e.g. school name)
-      else if (addr)                 name = `מקלט חיפה – ${addr}`;
+      if (rawName && !isNumericOnly) name = rawName;
+      else if (addr)                 name = `מקלט חיפה - ${addr}`;
       else                           name = `מקלט חיפה #${i + 1}`;
 
       return {
@@ -649,6 +653,15 @@ async function fetchHaifa(lat, lon, radiusM) {
       };
     })
     .filter(Boolean);
+
+  _haifaCacheTs = Date.now();
+  console.log(`[haifa] Cached ${_haifaCache.length} shelters`);
+  return _haifaCache;
+}
+
+async function fetchHaifa(lat, lon, radiusM) {
+  const all = await loadHaifa();
+  return all.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM);
 }
 
 // ─────────────────────────────────────────────
@@ -698,9 +711,9 @@ async function fetchPetahTikva(lat, lon, radiusM) {
                       :              'מרחב מוגן ציבורי';
 
       const name = placeName
-        ? `${placeName}${addr ? ' – ' + addr : ''}`
+        ? `${placeName}${addr ? ' - ' + addr : ''}`
         : addr
-          ? `מרחב מוגן – ${addr}`
+          ? `מרחב מוגן - ${addr}`
           : `מרחב מוגן פ"ת #${i + 1}`;
 
       return {
@@ -771,7 +784,7 @@ async function fetchHerzliya(lat, lon, radiusM) {
         id:       `herzliya_${a.OBJECTID || i}`,
         lat:      fLat,
         lon:      fLon,
-        name:     addr ? `מקלט – ${addr}` : `מקלט הרצליה #${i + 1}`,
+        name:     addr ? `מקלט - ${addr}` : `מקלט הרצליה #${i + 1}`,
         address:  addr,
         city:     'הרצליה',
         capacity: '',
@@ -825,7 +838,7 @@ async function fetchAshkelon(lat, lon, radiusM) {
       const nameHeb  = a.NAME_HEB || '';
       const hood     = a['שכונה'] || '';
       const sizeSqm  = a['גודל_'];
-      const name     = nameHeb || (addr ? `מקלט – ${addr}` : `מקלט אשקלון #${i + 1}`);
+      const name     = nameHeb || (addr ? `מקלט - ${addr}` : `מקלט אשקלון #${i + 1}`);
 
       return {
         id:       `ashkelon_${a.OBJECTID || i}`,
@@ -884,7 +897,7 @@ async function fetchHolon(lat, lon, radiusM) {
       const addr  = a.ADDRESS || '';
       const place = a.PLACE   || '';
       const usage = a.USAGE_  || '';
-      const name  = place || (addr ? `מקלט – ${addr}` : `מקלט חולון #${i + 1}`);
+      const name  = place || (addr ? `מקלט - ${addr}` : `מקלט חולון #${i + 1}`);
 
       return {
         id:       `holon_${a.OBJECTID || i}`,
@@ -947,7 +960,7 @@ async function fetchKfarSaba(lat, lon, radiusM) {
       const kind   = a.KIND     || '';
       const isSchool = kind.includes('בית ספר') || kind.includes('ספר') || place.includes('בית ספר');
       const typeLabel = sug.includes('תחתי') ? 'מקלט תת-קרקעי' : 'מקלט ציבורי';
-      const name = place || (street ? `מקלט – ${street}` : `מקלט כפר סבא #${i + 1}`);
+      const name = place || (street ? `מקלט - ${street}` : `מקלט כפר סבא #${i + 1}`);
 
       return {
         id:       `kfarsaba_${a.OBJECTID || i}`,
@@ -1009,7 +1022,7 @@ async function fetchRehovot(lat, lon, radiusM) {
       const addr   = [street, houseN].filter(Boolean).join(' ');
       const sug    = a.sug     || '';
       const isSchool = sug.includes('בית ספר') || sug.includes('ספר');
-      const name   = a.NAME || (addr ? `מקלט – ${addr}` : `מקלט רחובות #${i + 1}`);
+      const name   = a.NAME || (addr ? `מקלט - ${addr}` : `מקלט רחובות #${i + 1}`);
 
       return {
         id:       `rehovot_${a.OBJECTID || a.MIKLAT_ID || i}`,
@@ -1066,7 +1079,7 @@ async function fetchArcGIS(lat, lon, radiusM) {
         id: `arcgis_${feat.id ?? i}`,
         lat: fLat,
         lon: fLon,
-        name: addr ? `מקלט – ${addr}` : 'מקלט ציבורי',
+        name: addr ? `מקלט - ${addr}` : 'מקלט ציבורי',
         address: addr,
         city: '',
         capacity: sizeSqm ? `${sizeSqm} מ"ר` : '',
@@ -1148,7 +1161,7 @@ function parseMunicipalityTable(html, cityName) {
         district: district || '',
         openClosed: openClosed || '',
         fullAddress,
-        displayName: placeName ? (buildingType ? `${placeName} (${buildingType})` : placeName) : (street ? `מקלט – ${street}` : `מקלט ${cityName}`),
+        displayName: placeName ? (buildingType ? `${placeName} (${buildingType})` : placeName) : (street ? `מקלט - ${street}` : `מקלט ${cityName}`),
       });
     }
   }
@@ -1374,24 +1387,28 @@ async function fetchGeoJsonSources(userLat, userLon, radiusM) {
   // 1. Warm data.gov.il + GeoJSON caches immediately (no rate limit needed)
   for (const resource of GOV_RESOURCES) {
     try { await loadGovResource(resource); }
-    catch (e) { console.warn('[gov] pre-warm failed for', resource.city, '–', e.message); }
+    catch (e) { console.warn('[gov] pre-warm failed for', resource.city, '-', e.message); }
   }
   for (const resource of GEOJSON_RESOURCES) {
     try { await loadGeoJsonResource(resource); }
-    catch (e) { console.warn('[geojson] pre-warm failed for', resource.city, '–', e.message); }
+    catch (e) { console.warn('[geojson] pre-warm failed for', resource.city, '-', e.message); }
   }
 
   // 2. Pre-warm Tel Aviv cache (fetches all 502 shelters once, cached for 1 hour)
   try { await loadTelAviv(); }
-  catch (e) { console.warn('[tel-aviv] pre-warm failed –', e.message); }
+  catch (e) { console.warn('[tel-aviv] pre-warm failed -', e.message); }
 
   // 3. Load & geocode Rishon LeZion shelters (Nominatim NOM_LOW, ~44s — fire-and-forget)
   // Do NOT await: geocoding takes ~44s; user searches (NOM_HIGH) jump ahead in the queue.
-  loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed –', e.message));
+  loadRishonLeZion().catch(e => console.warn('[rishon] startup load failed -', e.message));
 
-  // 4. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
+  // 4. Pre-warm Haifa cache (all 217 shelters, load-all strategy)
+  try { await loadHaifa(); }
+  catch (e) { console.warn('[haifa] pre-warm failed -', e.message); }
+
+  // 5. Pre-warm Yehud cache (ArcGIS embedded feature collection, fast)
   try { await loadYehud(); }
-  catch (e) { console.warn('[yehud] pre-warm failed –', e.message); }
+  catch (e) { console.warn('[yehud] pre-warm failed -', e.message); }
 
   // NOTE: Background geocoding of municipality HTML lists is disabled.
   // Geocoding 200+ addresses via Nominatim at startup reliably triggers rate-limiting (429),
