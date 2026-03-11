@@ -86,7 +86,7 @@ export const STRINGS: Record<Lang, Strings> = {
     detecting:      'מזהה…',
     searchingAddr:  'מחפש כתובת…',
     searchingFmt:   r => `מחפש בטווח ${r}…`,
-    addrNotFound:   'הכתובת לא נמצאה – נסה להיות יותר מפורט (עיר + רחוב + מספר)',
+    addrNotFound:   'הכתובת לא נמצאה - נסה להיות יותר מפורט (עיר + רחוב + מספר)',
     noGeo:          'הדפדפן אינו תומך בזיהוי מיקום',
     geoDenied:      'גישה נדחתה – אשר גישה למיקום בדפדפן',
     geoUnavail:     'המיקום אינו זמין',
@@ -105,7 +105,7 @@ export const STRINGS: Record<Lang, Strings> = {
     parkingBadge:   '🅿️ חניון',
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
-    municipalityListLink: ' – רשימה רשמית',
+    municipalityListLink: ' - רשימה רשמית',
   },
   en: {
     dir: 'ltr', lang: 'en',
@@ -138,9 +138,9 @@ export const STRINGS: Record<Lang, Strings> = {
     detecting:      'Detecting…',
     searchingAddr:  'Searching address…',
     searchingFmt:   r => `Searching within ${r}…`,
-    addrNotFound:   'Address not found – try to be more specific (city + street + number)',
+    addrNotFound:   'Address not found - try to be more specific (city + street + number)',
     noGeo:          'Your browser does not support geolocation',
-    geoDenied:      'Access denied – allow location access in your browser',
+    geoDenied:      'Access denied - allow location access in your browser',
     geoUnavail:     'Location unavailable',
     geoTimeout:     'Location timeout',
     geoErr:         'Error detecting location',
@@ -157,7 +157,7 @@ export const STRINGS: Record<Lang, Strings> = {
     parkingBadge:   '🅿️ Parking',
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
-    municipalityListLink: ' – Official list',
+    municipalityListLink: ' - Official list',
   },
 }
 
@@ -184,8 +184,8 @@ const HE_EN: Record<string, string> = {
 export function localizeName(name: string, lang: Lang): string {
   if (lang !== 'en' || !name) return name
   if (HE_EN[name]) return HE_EN[name]
-  if (name.startsWith('מקלט – '))         return 'Shelter – '           + name.slice('מקלט – '.length)
-  if (name.startsWith('מקלט חיפה – '))    return 'Haifa Shelter – '     + name.slice('מקלט חיפה – '.length)
+  if (name.startsWith('מקלט - '))         return 'Shelter - '           + name.slice('מקלט - '.length)
+  if (name.startsWith('מקלט חיפה - '))    return 'Haifa Shelter = '     + name.slice('מקלט חיפה - '.length)
   if (name.startsWith('מקלט חיפה #'))     return 'Haifa Shelter #'      + name.slice('מקלט חיפה #'.length)
   if (name.startsWith('מקלט ת"א #'))      return 'Tel Aviv Shelter #'   + name.slice('מקלט ת"א #'.length)
   if (name.startsWith('מקלט ירושלים #'))  return 'Jerusalem Shelter #'  + name.slice('מקלט ירושלים #'.length)
