@@ -284,6 +284,12 @@ const _kfarYonaCache = require('./data/kfar-yona-shelters.json');
 const _kiryatOnoCache = require('./data/kiryat-ono-shelters.json');
 // Dimona: loaded from bundled static JSON (municipality page)
 const _dimonaCache = require('./data/dimona-shelters.json');
+// Givatayim: loaded from bundled static JSON (municipality page)
+const _givatayimCache = require('./data/givatayim-shelters.json');
+// Bnei Brak: loaded from bundled static JSON (municipality page)
+const _bneiBrakCache = require('./data/bnei-brak-shelters.json');
+// Nesher: loaded from bundled static JSON (municipality page)
+const _nesherCache = require('./data/nesher-shelters.json');
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -641,6 +647,21 @@ function fetchKiryatOno(lat, lon, radiusM) {
 function fetchDimona(lat, lon, radiusM) {
   return Promise.resolve(
     _dimonaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchGivatayim(lat, lon, radiusM) {
+  return Promise.resolve(
+    _givatayimCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchBneiBrak(lat, lon, radiusM) {
+  return Promise.resolve(
+    _bneiBrakCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchNesher(lat, lon, radiusM) {
+  return Promise.resolve(
+    _nesherCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
   );
 }
 
@@ -1464,6 +1485,7 @@ app.get('/api/shelters', async (req, res) => {
       batYamResult,
       ashdodResult, orYehudaResult,
       kfarYonaResult, kiryatOnoResult, dimonaResult,
+      givatayimResult, bneiBrakResult, nesherResult,
     ] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
@@ -1486,6 +1508,9 @@ app.get('/api/shelters', async (req, res) => {
       fetchKfarYona(userLat, userLon, radiusM),
       fetchKiryatOno(userLat, userLon, radiusM),
       fetchDimona(userLat, userLon, radiusM),
+      fetchGivatayim(userLat, userLon, radiusM),
+      fetchBneiBrak(userLat, userLon, radiusM),
+      fetchNesher(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -1510,6 +1535,9 @@ app.get('/api/shelters', async (req, res) => {
     if (kfarYonaResult.status  === 'fulfilled') shelters.push(...kfarYonaResult.value);
     if (kiryatOnoResult.status === 'fulfilled') shelters.push(...kiryatOnoResult.value);
     if (dimonaResult.status    === 'fulfilled') shelters.push(...dimonaResult.value);
+    if (givatayimResult.status === 'fulfilled') shelters.push(...givatayimResult.value);
+    if (bneiBrakResult.status  === 'fulfilled') shelters.push(...bneiBrakResult.value);
+    if (nesherResult.status    === 'fulfilled') shelters.push(...nesherResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -1557,6 +1585,9 @@ app.get('/api/shelters', async (req, res) => {
         kfarYonaError:   kfarYonaResult.status   === 'rejected' ? kfarYonaResult.reason?.message   : null,
         kiryatOnoError:  kiryatOnoResult.status  === 'rejected' ? kiryatOnoResult.reason?.message  : null,
         dimonaError:     dimonaResult.status     === 'rejected' ? dimonaResult.reason?.message     : null,
+        givatayimError:  givatayimResult.status  === 'rejected' ? givatayimResult.reason?.message  : null,
+        bneiBrakError:   bneiBrakResult.status   === 'rejected' ? bneiBrakResult.reason?.message   : null,
+        nesherError:     nesherResult.status     === 'rejected' ? nesherResult.reason?.message     : null,
       },
     });
   } catch (e) {
@@ -1579,12 +1610,13 @@ app.get('/api/health', (_req, res) => {
       'netanya-static',
       'bat-yam-static', 'ashdod-static', 'or-yehuda-static',
       'kfar-yona-static', 'kiryat-ono-static', 'dimona-static',
+      'givatayim-static', 'bnei-brak-static', 'nesher-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
       'חיפה', 'תל אביב-יפו', 'פתח תקווה',
-      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון', 'נתניה', 'בת ים', 'אשדוד', 'אור יהודה', 'כפר יונה', 'קריית אונו', 'דימונה',
+      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון', 'נתניה', 'בת ים', 'אשדוד', 'אור יהודה', 'כפר יונה', 'קריית אונו', 'דימונה', 'גבעתיים', 'בני ברק', 'נשר',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [

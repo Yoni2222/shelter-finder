@@ -1,0 +1,110 @@
+[
+  {
+    "id": "גבעתיים-1",
+    "lat": 32.0658601,
+    "lon": 34.8049616,
+    "name": "ילדי טהרן",
+    "address": "עפק 24",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-2",
+    "lat": 32.0702418,
+    "lon": 34.8098486,
+    "name": "גן קורצ'ק",
+    "address": "שדה בוקר 4",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-3",
+    "lat": 32.0702418,
+    "lon": 34.8098486,
+    "name": "ויצו",
+    "address": "שדה בוקר 16",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-4",
+    "lat": 32.0724155,
+    "lon": 34.8132702,
+    "name": "הראל",
+    "address": "הראל 19",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-5",
+    "lat": 32.0719931,
+    "lon": 34.8130678,
+    "name": "גן הבנים",
+    "address": "ל\"ה 22",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-16",
+    "lat": 32.0639558,
+    "lon": 34.8043398,
+    "name": "עמישב",
+    "address": "עמישב 71",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-17",
+    "lat": 32.0728083,
+    "lon": 34.8048643,
+    "name": "הפלמ\"ח",
+    "address": "הפלמ\"ח 8",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-18",
+    "lat": 32.0772924,
+    "lon": 34.8125431,
+    "name": "בלוך",
+    "address": "בלוך 11",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "גבעתיים-19",
+    "lat": 32.0597751,
+    "lon": 34.8184392,
+    "name": "מרכז חירום עירוני",
+    "address": "טבנקין 32",
+    "city": "גבעתיים",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public"
+  }
+]
