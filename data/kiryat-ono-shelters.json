@@ -1,0 +1,110 @@
+[
+  {
+    "id": "kiryat-ono-22",
+    "lat": 32.0531293,
+    "lon": 34.8555368,
+    "name": "אביגדור ורשה",
+    "address": "נחל גמלא 10",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-23",
+    "lat": 32.057626,
+    "lon": 34.8595051,
+    "name": "תיכון קציר",
+    "address": "הזמיר 1",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-24",
+    "lat": 32.0512142,
+    "lon": 34.8628817,
+    "name": "ביה\"ס בראשית",
+    "address": "החבצלת 1",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-25",
+    "lat": 32.0626013,
+    "lon": 34.8410044,
+    "name": "ביה\"ס רונה רמון",
+    "address": "שולמית אלוני 3",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-26",
+    "lat": 32.0655108,
+    "lon": 34.8662188,
+    "name": "ביה\"ס יעקב כהן",
+    "address": "יצחק רבין 11",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-28",
+    "lat": 32.0550376,
+    "lon": 34.8662153,
+    "name": "ביה\"ס רימונים",
+    "address": "בר יהודה 22",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-29",
+    "lat": 32.0560804,
+    "lon": 34.8535034,
+    "name": "ביה\"ס עלומים",
+    "address": "הפרדס 6",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-30",
+    "lat": 32.0550376,
+    "lon": 34.8662153,
+    "name": "חטיבת פרס",
+    "address": "בר יהודה 1",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  },
+  {
+    "id": "kiryat-ono-31",
+    "lat": 32.0493284,
+    "lon": 34.8582303,
+    "name": "חטיבת שז\"ר",
+    "address": "נהר הירדן 6",
+    "city": "קריית אונו",
+    "neighborhood": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "school"
+  }
+]

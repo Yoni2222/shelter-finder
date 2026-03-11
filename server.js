@@ -278,6 +278,12 @@ const _ashdodCache = require('./data/ashdod-shelters.json');
 
 // Or Yehuda: loaded from bundled static JSON (municipality page)
 const _orYehudaCache = require('./data/or-yehuda-shelters.json');
+// Kfar Yona: loaded from bundled static JSON (municipality page)
+const _kfarYonaCache = require('./data/kfar-yona-shelters.json');
+// Kiryat Ono: loaded from bundled static JSON (municipality page)
+const _kiryatOnoCache = require('./data/kiryat-ono-shelters.json');
+// Dimona: loaded from bundled static JSON (municipality page)
+const _dimonaCache = require('./data/dimona-shelters.json');
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -620,6 +626,21 @@ function fetchAshdod(lat, lon, radiusM) {
 }
 function fetchOrYehuda(lat, lon, radiusM) {
   return Promise.resolve(    _orYehudaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchKfarYona(lat, lon, radiusM) {
+  return Promise.resolve(
+    _kfarYonaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchKiryatOno(lat, lon, radiusM) {
+  return Promise.resolve(
+    _kiryatOnoCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchDimona(lat, lon, radiusM) {
+  return Promise.resolve(
+    _dimonaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
   );
 }
 
@@ -1442,6 +1463,7 @@ app.get('/api/shelters', async (req, res) => {
       netanyaResult,
       batYamResult,
       ashdodResult, orYehudaResult,
+      kfarYonaResult, kiryatOnoResult, dimonaResult,
     ] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
@@ -1461,6 +1483,9 @@ app.get('/api/shelters', async (req, res) => {
       fetchBatYam(userLat, userLon, radiusM),
       fetchAshdod(userLat, userLon, radiusM),
       fetchOrYehuda(userLat, userLon, radiusM),
+      fetchKfarYona(userLat, userLon, radiusM),
+      fetchKiryatOno(userLat, userLon, radiusM),
+      fetchDimona(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -1482,6 +1507,9 @@ app.get('/api/shelters', async (req, res) => {
     if (batYamResult.status     === 'fulfilled') shelters.push(...batYamResult.value);
     if (ashdodResult.status     === 'fulfilled') shelters.push(...ashdodResult.value);
     if (orYehudaResult.status  === 'fulfilled') shelters.push(...orYehudaResult.value);
+    if (kfarYonaResult.status  === 'fulfilled') shelters.push(...kfarYonaResult.value);
+    if (kiryatOnoResult.status === 'fulfilled') shelters.push(...kiryatOnoResult.value);
+    if (dimonaResult.status    === 'fulfilled') shelters.push(...dimonaResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -1526,6 +1554,9 @@ app.get('/api/shelters', async (req, res) => {
         batYamError:     batYamResult.status     === 'rejected' ? batYamResult.reason?.message     : null,
         ashdodError:     ashdodResult.status     === 'rejected' ? ashdodResult.reason?.message     : null,
         orYehudaError:   orYehudaResult.status   === 'rejected' ? orYehudaResult.reason?.message   : null,
+        kfarYonaError:   kfarYonaResult.status   === 'rejected' ? kfarYonaResult.reason?.message   : null,
+        kiryatOnoError:  kiryatOnoResult.status  === 'rejected' ? kiryatOnoResult.reason?.message  : null,
+        dimonaError:     dimonaResult.status     === 'rejected' ? dimonaResult.reason?.message     : null,
       },
     });
   } catch (e) {
@@ -1547,12 +1578,13 @@ app.get('/api/health', (_req, res) => {
       'rishon-lezion-html',
       'netanya-static',
       'bat-yam-static', 'ashdod-static', 'or-yehuda-static',
+      'kfar-yona-static', 'kiryat-ono-static', 'dimona-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
       'חיפה', 'תל אביב-יפו', 'פתח תקווה',
-      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון', 'נתניה', 'בת ים', 'אשדוד', 'אור יהודה',
+      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון', 'נתניה', 'בת ים', 'אשדוד', 'אור יהודה', 'כפר יונה', 'קריית אונו', 'דימונה',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [

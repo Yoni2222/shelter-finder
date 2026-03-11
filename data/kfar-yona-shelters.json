@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kfar-yona-1",
+    "lat": 32.3168027,
+    "lon": 34.9456984,
+    "name": "מקלט 1",
+    "address": "אלפסי 47",
+    "city": "כפר יונה",
+    "neighborhood": "",
+    "type": "תחתי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "kfar-yona-3",
+    "lat": 32.3168027,
+    "lon": 34.9456984,
+    "name": "מקלט 3",
+    "address": "אלפסי 1",
+    "city": "כפר יונה",
+    "neighborhood": "",
+    "type": "דו מפלסי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "kfar-yona-5",
+    "lat": 32.316298,
+    "lon": 34.9418568,
+    "name": "מקלט 5",
+    "address": "רמב\"ם 10",
+    "city": "כפר יונה",
+    "neighborhood": "",
+    "type": "תת-קרקעי",
+    "source": "gov",
+    "category": "public"
+  },
+  {
+    "id": "kfar-yona-6",
+    "lat": 32.3183413,
+    "lon": 34.9409194,
+    "name": "מקלט 6",
+    "address": "הנרקיס 4",
+    "city": "כפר יונה",
+    "neighborhood": "",
+    "type": "עילי",
+    "source": "gov",
+    "category": "public"
+  }
+]
