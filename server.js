@@ -271,6 +271,13 @@ const _haifaCache = require('./data/haifa-shelters.json');
 // Netanya: loaded from bundled static JSON (SharePoint page, client-side rendered — cannot
 // be scraped server-side). Refresh periodically: node scripts/build-netanya-data.js
 const _netanyaCache = require('./data/netanya-shelters.json');
+// Bat Yam: loaded from bundled static JSON (municipality page)
+const _batYamCache = require('./data/bat-yam-shelters.json');
+// Ashdod: loaded from bundled static JSON (municipality page)
+const _ashdodCache = require('./data/ashdod-shelters.json');
+
+// Or Yehuda: loaded from bundled static JSON (municipality page)
+const _orYehudaCache = require('./data/or-yehuda-shelters.json');
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -600,6 +607,19 @@ function fetchHaifa(lat, lon, radiusM) {
 function fetchNetanya(lat, lon, radiusM) {
   return Promise.resolve(
     _netanyaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchBatYam(lat, lon, radiusM) {
+  return Promise.resolve(
+    _batYamCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchAshdod(lat, lon, radiusM) {
+  return Promise.resolve(    _ashdodCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchOrYehuda(lat, lon, radiusM) {
+  return Promise.resolve(    _orYehudaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
   );
 }
 
@@ -1420,6 +1440,8 @@ app.get('/api/shelters', async (req, res) => {
       herzliyaResult, ashkelonResult, holonResult, kfarSabaResult, rehovotResult,
       rishonResult, yehudResult,
       netanyaResult,
+      batYamResult,
+      ashdodResult, orYehudaResult,
     ] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
@@ -1436,6 +1458,9 @@ app.get('/api/shelters', async (req, res) => {
       fetchRishonLeZion(userLat, userLon, radiusM),
       fetchYehud(userLat, userLon, radiusM),
       fetchNetanya(userLat, userLon, radiusM),
+      fetchBatYam(userLat, userLon, radiusM),
+      fetchAshdod(userLat, userLon, radiusM),
+      fetchOrYehuda(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -1454,6 +1479,9 @@ app.get('/api/shelters', async (req, res) => {
     if (rishonResult.status     === 'fulfilled') shelters.push(...rishonResult.value);
     if (yehudResult.status      === 'fulfilled') shelters.push(...yehudResult.value);
     if (netanyaResult.status    === 'fulfilled') shelters.push(...netanyaResult.value);
+    if (batYamResult.status     === 'fulfilled') shelters.push(...batYamResult.value);
+    if (ashdodResult.status     === 'fulfilled') shelters.push(...ashdodResult.value);
+    if (orYehudaResult.status  === 'fulfilled') shelters.push(...orYehudaResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -1495,6 +1523,9 @@ app.get('/api/shelters', async (req, res) => {
         rishonError:     rishonResult.status     === 'rejected' ? rishonResult.reason?.message     : null,
         yehudError:      yehudResult.status      === 'rejected' ? yehudResult.reason?.message      : null,
         netanyaError:    netanyaResult.status    === 'rejected' ? netanyaResult.reason?.message    : null,
+        batYamError:     batYamResult.status     === 'rejected' ? batYamResult.reason?.message     : null,
+        ashdodError:     ashdodResult.status     === 'rejected' ? ashdodResult.reason?.message     : null,
+        orYehudaError:   orYehudaResult.status   === 'rejected' ? orYehudaResult.reason?.message   : null,
       },
     });
   } catch (e) {
@@ -1515,12 +1546,13 @@ app.get('/api/health', (_req, res) => {
       'herzliya-gis', 'ashkelon-gis', 'holon-gis', 'kfar-saba-gis', 'rehovot-gis',
       'rishon-lezion-html',
       'netanya-static',
+      'bat-yam-static', 'ashdod-static', 'or-yehuda-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
       ...GEOJSON_RESOURCES.map(r => r.city),
       'חיפה', 'תל אביב-יפו', 'פתח תקווה',
-      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון',
+      'הרצליה', 'אשקלון', 'חולון', 'כפר סבא', 'רחובות', 'ראשון לציון', 'יהוד-מונוסון', 'נתניה', 'בת ים', 'אשדוד', 'אור יהודה',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
