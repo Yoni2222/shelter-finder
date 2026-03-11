@@ -16,9 +16,13 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
   const { t } = useLanguage()
   const [inputVal, setInputVal]   = useState('')
   const [showSug,  setShowSug]    = useState(false)
+  const [hlIndex,  setHlIndex]    = useState(-1)
   const wrapRef = useRef<HTMLDivElement>(null)
 
   const { suggestions, clear: clearSug } = useAutocomplete(showSug ? inputVal : '')
+
+  // Reset highlight when suggestions change
+  useEffect(() => { setHlIndex(-1) }, [suggestions])
 
   // Hide suggestions when clicking outside
   useEffect(() => {
@@ -52,6 +56,35 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     }
   }
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (!showSug || suggestions.length === 0) {
+      if (e.key === 'Enter') doSearch()
+      return
+    }
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault()
+        setHlIndex(prev => (prev + 1) % suggestions.length)
+        break
+      case 'ArrowUp':
+        e.preventDefault()
+        setHlIndex(prev => (prev <= 0 ? suggestions.length - 1 : prev - 1))
+        break
+      case 'Enter':
+        e.preventDefault()
+        if (hlIndex >= 0 && hlIndex < suggestions.length) {
+          pickSuggestion(suggestions[hlIndex])
+        } else {
+          doSearch()
+        }
+        break
+      case 'Escape':
+        setShowSug(false)
+        break
+    }
+  }
+
   const geoState = useGeolocation(
     (lat, lon) => {
       setInputVal('')
@@ -71,13 +104,25 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
           value={inputVal}
           autoComplete="off"
           onChange={e => { setInputVal(e.target.value); setShowSug(true) }}
-          onKeyDown={e => e.key === 'Enter' && doSearch()}
+          onKeyDown={handleKeyDown}
           onFocus={() => setShowSug(true)}
+          role="combobox"
+          aria-expanded={showSug && suggestions.length > 0}
+          aria-autocomplete="list"
+          aria-activedescendant={hlIndex >= 0 ? `sug-${hlIndex}` : undefined}
         />
         {showSug && suggestions.length > 0 && (
-          <div className="suggestions">
+          <div className="suggestions" role="listbox">
             {suggestions.map((s, i) => (
-              <div key={i} className="sug-item" onClick={() => pickSuggestion(s)}>
+              <div
+                key={i}
+                id={`sug-${i}`}
+                className={`sug-item${i === hlIndex ? ' sug-active' : ''}`}
+                role="option"
+                aria-selected={i === hlIndex}
+                onClick={() => pickSuggestion(s)}
+                onMouseEnter={() => setHlIndex(i)}
+              >
                 {s.display_name}
               </div>
             ))}

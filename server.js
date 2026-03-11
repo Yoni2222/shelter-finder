@@ -268,6 +268,10 @@ const TEL_AVIV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
 // queries from non-Israeli IPs). Refresh periodically: node scripts/build-haifa-data.js
 const _haifaCache = require('./data/haifa-shelters.json');
 
+// Netanya: loaded from bundled static JSON (SharePoint page, client-side rendered — cannot
+// be scraped server-side). Refresh periodically: node scripts/build-netanya-data.js
+const _netanyaCache = require('./data/netanya-shelters.json');
+
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
 let _rishonCacheTs = 0;
@@ -591,6 +595,11 @@ async function fetchTelAviv(lat, lon, radiusM) {
 function fetchHaifa(lat, lon, radiusM) {
   return Promise.resolve(
     _haifaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
+}
+function fetchNetanya(lat, lon, radiusM) {
+  return Promise.resolve(
+    _netanyaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
   );
 }
 
@@ -1410,6 +1419,7 @@ app.get('/api/shelters', async (req, res) => {
       telAvivResult, haifaResult, petahTikvaResult,
       herzliyaResult, ashkelonResult, holonResult, kfarSabaResult, rehovotResult,
       rishonResult, yehudResult,
+      netanyaResult,
     ] = await Promise.allSettled([
       fetchOverpass(userLat, userLon, radiusM),
       fetchDataGov(userLat, userLon, radiusM),
@@ -1425,6 +1435,7 @@ app.get('/api/shelters', async (req, res) => {
       fetchRehovot(userLat, userLon, radiusM),
       fetchRishonLeZion(userLat, userLon, radiusM),
       fetchYehud(userLat, userLon, radiusM),
+      fetchNetanya(userLat, userLon, radiusM),
     ]);
 
     let shelters = [];
@@ -1442,6 +1453,7 @@ app.get('/api/shelters', async (req, res) => {
     if (rehovotResult.status    === 'fulfilled') shelters.push(...rehovotResult.value);
     if (rishonResult.status     === 'fulfilled') shelters.push(...rishonResult.value);
     if (yehudResult.status      === 'fulfilled') shelters.push(...yehudResult.value);
+    if (netanyaResult.status    === 'fulfilled') shelters.push(...netanyaResult.value);
 
     shelters = deduplicateAll(shelters);
     shelters = shelters
@@ -1482,6 +1494,7 @@ app.get('/api/shelters', async (req, res) => {
         rehovotError:    rehovotResult.status    === 'rejected' ? rehovotResult.reason?.message    : null,
         rishonError:     rishonResult.status     === 'rejected' ? rishonResult.reason?.message     : null,
         yehudError:      yehudResult.status      === 'rejected' ? yehudResult.reason?.message      : null,
+        netanyaError:    netanyaResult.status    === 'rejected' ? netanyaResult.reason?.message    : null,
       },
     });
   } catch (e) {
@@ -1501,6 +1514,7 @@ app.get('/api/health', (_req, res) => {
       'haifa-gis', 'tel-aviv-gis', 'petah-tikva-gis',
       'herzliya-gis', 'ashkelon-gis', 'holon-gis', 'kfar-saba-gis', 'rehovot-gis',
       'rishon-lezion-html',
+      'netanya-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),

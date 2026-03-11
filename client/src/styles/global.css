@@ -68,7 +68,8 @@ header {
   box-shadow: 0 2px 6px rgba(0,0,0,.1);
   flex-shrink: 0;
   flex-wrap: wrap;
-  z-index: 50;
+  position: relative;
+  z-index: 1000;
 }
 .input-wrap { position: relative; flex: 1; min-width: 220px; }
 .search-input {
@@ -108,6 +109,7 @@ html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; }
 }
 .sug-item:last-child { border-bottom: none; }
 .sug-item:hover { background: #f0f7ff; }
+.sug-item.sug-active { background: #e0efff; }
 
 /* Buttons */
 .btn {
