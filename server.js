@@ -301,6 +301,12 @@ const _bneiBrakCache = require('./data/bnei-brak-shelters.json');
 const _nesherCache = require('./data/nesher-shelters.json');
 // Ramat Gan: loaded from bundled static JSON (municipality PDF)
 const _ramatGanCache = require('./data/ramat-gan-shelters.json');
+// Herzliya: loaded from bundled static JSON (municipality GIS, Google-geocoded)
+const _herzliyaCache = require('./data/herzliya-shelters.json');
+// Holon: loaded from bundled static JSON (municipality GIS, Google-geocoded)
+const _holonCache = require('./data/holon-shelters.json');
+// Kfar Saba: loaded from bundled static JSON (municipality GIS, Google-geocoded)
+const _kfarSabaCache = require('./data/kfar-saba-shelters.json');
 
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
@@ -758,62 +764,10 @@ async function fetchPetahTikva(lat, lon, radiusM) {
 // Types (English): Public shelter, School shelter, Protective room, Accessible shelter
 // Fields: OBJECTID, כתובת, type, number_mik, negishot
 // ─────────────────────────────────────────────
-async function fetchHerzliya(lat, lon, radiusM) {
-  const latDelta = (radiusM / 1000) / 111;
-  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
-  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
-
-  const params = new URLSearchParams({
-    geometry:       bbox,
-    geometryType:   'esriGeometryEnvelope',
-    spatialRel:     'esriSpatialRelIntersects',
-    inSR:           '4326',
-    outSR:          '4326',
-    outFields:      'OBJECTID,כתובת,type,number_mik,negishot',
-    returnGeometry: 'true',
-    f:              'json',
-  });
-
-  const res = await fetch(`${HERZLIYA_URL}?${params}`, {
-    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 6000,
-  });
-  if (!res.ok) throw new Error(`Herzliya GIS HTTP ${res.status}`);
-  const json = await res.json();
-  if (json.error) throw new Error(`Herzliya GIS: ${json.error.message}`);
-
-  return (json.features || [])
-    .map((feat, i) => {
-      const a    = feat.attributes || {};
-      const g    = feat.geometry   || {};
-      const fLon = g.x;
-      const fLat = g.y;
-      if (!fLat || !fLon) return null;
-      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
-
-      const addr        = a['כתובת'] || '';
-      const shelterType = a.type || '';
-      const isSchool    = shelterType.toLowerCase().includes('school');
-
-      let typeHe = 'מקלט ציבורי';
-      if      (shelterType === 'School shelter')     typeHe = 'מקלט בית ספרי';
-      else if (shelterType === 'Protective room')    typeHe = 'מרחב מוגן';
-      else if (shelterType === 'Accessible shelter') typeHe = 'מקלט נגיש';
-
-      return {
-        id:       `herzliya_${a.OBJECTID || i}`,
-        lat:      fLat,
-        lon:      fLon,
-        name:     addr ? `מקלט - ${addr}` : `מקלט הרצליה #${i + 1}`,
-        address:  addr,
-        city:     'הרצליה',
-        capacity: '',
-        type:     typeHe,
-        source:   'gov',
-        category: isSchool ? 'school' : 'public',
-      };
-    })
-    .filter(Boolean);
+function fetchHerzliya(lat, lon, radiusM) {
+  return Promise.resolve(
+    _herzliyaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
 }
 
 // ─────────────────────────────────────────────
@@ -881,58 +835,10 @@ async function fetchAshkelon(lat, lon, radiusM) {
 // "מקלטים" — 67 features, native WGS84 (WKID 4326)
 // Fields: OBJECTID, Miklat_Num, ADDRESS, PLACE, USAGE_, area, x (lon), y (lat)
 // ─────────────────────────────────────────────
-async function fetchHolon(lat, lon, radiusM) {
-  const latDelta = (radiusM / 1000) / 111;
-  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
-  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
-
-  const params = new URLSearchParams({
-    geometry:       bbox,
-    geometryType:   'esriGeometryEnvelope',
-    spatialRel:     'esriSpatialRelIntersects',
-    inSR:           '4326',
-    outSR:          '4326',
-    outFields:      'OBJECTID,Miklat_Num,ADDRESS,PLACE,USAGE_,area',
-    returnGeometry: 'true',
-    f:              'json',
-  });
-
-  const res = await fetch(`${HOLON_URL}?${params}`, {
-    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 6000,
-  });
-  if (!res.ok) throw new Error(`Holon GIS HTTP ${res.status}`);
-  const json = await res.json();
-  if (json.error) throw new Error(`Holon GIS: ${json.error.message}`);
-
-  return (json.features || [])
-    .map((feat, i) => {
-      const a    = feat.attributes || {};
-      const g    = feat.geometry   || {};
-      const fLon = g.x;
-      const fLat = g.y;
-      if (!fLat || !fLon) return null;
-      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
-
-      const addr  = a.ADDRESS || '';
-      const place = a.PLACE   || '';
-      const usage = a.USAGE_  || '';
-      const name  = place || (addr ? `מקלט - ${addr}` : `מקלט חולון #${i + 1}`);
-
-      return {
-        id:       `holon_${a.OBJECTID || i}`,
-        lat:      fLat,
-        lon:      fLon,
-        name,
-        address:  addr,
-        city:     'חולון',
-        capacity: a.area ? `${a.area} מ"ר` : '',
-        type:     usage || 'מקלט ציבורי',
-        source:   'gov',
-        category: 'public',
-      };
-    })
-    .filter(Boolean);
+function fetchHolon(lat, lon, radiusM) {
+  return Promise.resolve(
+    _holonCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
 }
 
 // ─────────────────────────────────────────────
@@ -941,61 +847,10 @@ async function fetchHolon(lat, lon, radiusM) {
 // Fields: NAME (shelter #), PLACE, KIND, AREA1 (m²), PEOPLE (capacity), STR_NAME, SUG, NAME_1
 // SUG: תחתי = underground shelter
 // ─────────────────────────────────────────────
-async function fetchKfarSaba(lat, lon, radiusM) {
-  const latDelta = (radiusM / 1000) / 111;
-  const lonDelta = (radiusM / 1000) / (111 * Math.cos(lat * Math.PI / 180));
-  const bbox = `${lon - lonDelta},${lat - latDelta},${lon + lonDelta},${lat + latDelta}`;
-
-  const params = new URLSearchParams({
-    geometry:       bbox,
-    geometryType:   'esriGeometryEnvelope',
-    spatialRel:     'esriSpatialRelIntersects',
-    inSR:           '4326',
-    outSR:          '4326',
-    outFields:      'OBJECTID,NAME,PLACE,KIND,AREA1,PEOPLE,STR_NAME,SUG,NAME_1',
-    returnGeometry: 'true',
-    f:              'json',
-  });
-
-  const res = await fetch(`${KFAR_SABA_URL}?${params}`, {
-    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 6000,
-  });
-  if (!res.ok) throw new Error(`Kfar Saba GIS HTTP ${res.status}`);
-  const json = await res.json();
-  if (json.error) throw new Error(`Kfar Saba GIS: ${json.error.message}`);
-
-  return (json.features || [])
-    .map((feat, i) => {
-      const a    = feat.attributes || {};
-      const g    = feat.geometry   || {};
-      const fLon = g.x;
-      const fLat = g.y;
-      if (!fLat || !fLon) return null;
-      if (haversine(lat, lon, fLat, fLon) * 1000 > radiusM) return null;
-
-      const street = a.STR_NAME || '';
-      const place  = a.NAME_1   || a.PLACE || '';
-      const sug    = a.SUG      || '';
-      const kind   = a.KIND     || '';
-      const isSchool = kind.includes('בית ספר') || kind.includes('ספר') || place.includes('בית ספר');
-      const typeLabel = sug.includes('תחתי') ? 'מקלט תת-קרקעי' : 'מקלט ציבורי';
-      const name = place || (street ? `מקלט - ${street}` : `מקלט כפר סבא #${i + 1}`);
-
-      return {
-        id:       `kfarsaba_${a.OBJECTID || i}`,
-        lat:      fLat,
-        lon:      fLon,
-        name,
-        address:  street,
-        city:     'כפר סבא',
-        capacity: a.PEOPLE ? `${a.PEOPLE} אנשים` : (a.AREA1 ? `${a.AREA1} מ"ר` : ''),
-        type:     typeLabel,
-        source:   'gov',
-        category: isSchool ? 'school' : 'public',
-      };
-    })
-    .filter(Boolean);
+function fetchKfarSaba(lat, lon, radiusM) {
+  return Promise.resolve(
+    _kfarSabaCache.filter(s => haversine(lat, lon, s.lat, s.lon) * 1000 <= radiusM)
+  );
 }
 
 // ─────────────────────────────────────────────
@@ -1627,7 +1482,7 @@ app.get('/api/health', (_req, res) => {
     dataSources: [
       'osm', 'data.gov.il', 'geojson', 'arcgis-national',
       'haifa-gis', 'tel-aviv-gis', 'petah-tikva-gis',
-      'herzliya-gis', 'ashkelon-gis', 'holon-gis', 'kfar-saba-gis', 'rehovot-gis',
+      'herzliya-static', 'ashkelon-gis', 'holon-static', 'kfar-saba-static', 'rehovot-gis',
       'rishon-lezion-html',
       'netanya-static',
       'bat-yam-static', 'ashdod-static', 'or-yehuda-static',

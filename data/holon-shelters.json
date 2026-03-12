@@ -1,6 +1,6 @@
 [
   {
-    "id": "undefined-1",
+    "id": "holon_1",
     "lat": 32.0223345,
     "lon": 34.7707314,
     "name": "מקלט 1",
@@ -9,10 +9,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yud Alef be-Adar St 2, Holon"
+    "addressEn": "Yud Alef be-Adar St 2, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-2",
+    "id": "holon_2",
     "lat": 32.019309,
     "lon": 34.7733037,
     "name": "מקלט 2",
@@ -21,10 +22,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bialik St 33, Holon"
+    "addressEn": "Bialik St 33, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-3",
+    "id": "holon_3",
     "lat": 32.0187113,
     "lon": 34.7817402,
     "name": "מקלט 3",
@@ -33,10 +35,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Reines St 8, Holon"
+    "addressEn": "Reines St 8, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-4",
+    "id": "holon_4",
     "lat": 32.013711,
     "lon": 34.796276,
     "name": "מקלט 4",
@@ -45,10 +48,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Amos St 33, Holon"
+    "addressEn": "Amos St 33, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-5",
+    "id": "holon_5",
     "lat": 32.0038465,
     "lon": 34.7666013,
     "name": "מקלט 5",
@@ -57,10 +61,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arba Aratsot St 5, Holon"
+    "addressEn": "Arba Aratsot St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-6",
+    "id": "holon_6",
     "lat": 32.026281,
     "lon": 34.7644987,
     "name": "מקלט 6",
@@ -69,10 +74,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mivtsa Sinai St 18, Holon"
+    "addressEn": "Mivtsa Sinai St 18, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-7",
+    "id": "holon_7",
     "lat": 32.0123175,
     "lon": 34.7889205,
     "name": "מקלט 7",
@@ -81,10 +87,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shakhar St 5, Holon"
+    "addressEn": "Ha-Shakhar St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-8",
+    "id": "holon_8",
     "lat": 32.0060192,
     "lon": 34.7659216,
     "name": "מקלט 8",
@@ -93,10 +100,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaOgen St 10, Holon"
+    "addressEn": "HaOgen St 10, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-9",
+    "id": "holon_9",
     "lat": 32.020656,
     "lon": 34.7886365,
     "name": "מקלט 9",
@@ -105,10 +113,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Balaban St 15, Holon"
+    "addressEn": "Balaban St 15, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-10",
+    "id": "holon_10",
     "lat": 32.0330507,
     "lon": 34.7639484,
     "name": "מקלט 10",
@@ -117,10 +126,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNitsanim St 5, Holon"
+    "addressEn": "HaNitsanim St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-11",
+    "id": "holon_11",
     "lat": 32.0055098,
     "lon": 34.7631123,
     "name": "מקלט 11",
@@ -129,10 +139,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Amora'im St 4, Holon"
+    "addressEn": "Ha-Amora'im St 4, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-12",
+    "id": "holon_12",
     "lat": 32.0191075,
     "lon": 34.7859442,
     "name": "מקלט 12",
@@ -141,10 +152,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shechter St 3, Holon"
+    "addressEn": "Shechter St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-13",
+    "id": "holon_13",
     "lat": 32.014735,
     "lon": 34.788061,
     "name": "מקלט 13",
@@ -153,10 +165,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva St 5, Holon"
+    "addressEn": "Rabbi Akiva St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-14",
+    "id": "holon_14",
     "lat": 32.0245099,
     "lon": 34.7731481,
     "name": "מקלט 14",
@@ -165,10 +178,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kaplan St 2, Holon"
+    "addressEn": "Kaplan St 2, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-15",
+    "id": "holon_15",
     "lat": 32.0116382,
     "lon": 34.769889,
     "name": "מקלט 15",
@@ -177,10 +191,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaAliya HaShniya St 37, Holon"
+    "addressEn": "HaAliya HaShniya St 37, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-16",
+    "id": "holon_16",
     "lat": 32.02794530000001,
     "lon": 34.7746934,
     "name": "מקלט 16",
@@ -189,10 +204,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Gil'ad St 3, Holon"
+    "addressEn": "Ha-Gil'ad St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-17",
+    "id": "holon_17",
     "lat": 32.0159402,
     "lon": 34.7803944,
     "name": "מקלט 17",
@@ -201,10 +217,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rosh Pina St 9, Holon"
+    "addressEn": "Rosh Pina St 9, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-18",
+    "id": "holon_18",
     "lat": 32.0170969,
     "lon": 34.7909299,
     "name": "מקלט 18",
@@ -213,10 +230,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Nevi'im St 19, Holon"
+    "addressEn": "Ha-Nevi'im St 19, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-19",
+    "id": "holon_19",
     "lat": 32.0114334,
     "lon": 34.791122,
     "name": "מקלט 19",
@@ -225,10 +243,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Brandeis St 19, Holon"
+    "addressEn": "Brandeis St 19, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-20",
+    "id": "holon_20",
     "lat": 32.0074672,
     "lon": 34.7684422,
     "name": "מקלט 20",
@@ -237,10 +256,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Aharonovich St 56, Holon"
+    "addressEn": "Yosef Aharonovich St 56, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-21",
+    "id": "holon_21",
     "lat": 32.0567822,
     "lon": 34.75996689999999,
     "name": "מקלט 21",
@@ -249,10 +269,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jerusalem Blvd 1, Tel Aviv-Yafo"
+    "addressEn": "Jerusalem Blvd 1, Tel Aviv-Yafo",
+    "city": "חולון"
   },
   {
-    "id": "undefined-22",
+    "id": "holon_22",
     "lat": 32.0515941,
     "lon": 34.7601191,
     "name": "מקלט 22",
@@ -261,10 +282,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Tkuma St 3, Tel Aviv-Yafo"
+    "addressEn": "Ha-Tkuma St 3, Tel Aviv-Yafo",
+    "city": "חולון"
   },
   {
-    "id": "undefined-23",
+    "id": "holon_23",
     "lat": 32.0338516,
     "lon": 34.7671165,
     "name": "מקלט 23",
@@ -273,10 +295,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMetsuda St 2, Holon"
+    "addressEn": "HaMetsuda St 2, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-24",
+    "id": "holon_24",
     "lat": 32.0279957,
     "lon": 34.7669568,
     "name": "מקלט 24",
@@ -285,10 +308,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Elkharizi St 15, Holon"
+    "addressEn": "Elkharizi St 15, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-25",
+    "id": "holon_25",
     "lat": 32.0273913,
     "lon": 34.7633034,
     "name": "מקלט 26",
@@ -297,10 +321,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Philadelphia St 5, Holon"
+    "addressEn": "Philadelphia St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-27",
+    "id": "holon_26",
     "lat": 32.0055157,
     "lon": 34.7642066,
     "name": "מקלט 28",
@@ -309,10 +334,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTana'im St 3, Holon"
+    "addressEn": "HaTana'im St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-28",
+    "id": "holon_27",
     "lat": 32.022624,
     "lon": 34.7938855,
     "name": "מקלט 29",
@@ -321,10 +347,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shim'on Dubnov St 14, Holon"
+    "addressEn": "Shim'on Dubnov St 14, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-29",
+    "id": "holon_28",
     "lat": 32.026532,
     "lon": 34.780497,
     "name": "מקלט 30",
@@ -333,10 +360,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Gdud ha-Ivri St 11, Holon"
+    "addressEn": "Ha-Gdud ha-Ivri St 11, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-30",
+    "id": "holon_29",
     "lat": 32.02018,
     "lon": 34.7721557,
     "name": "מקלט 31",
@@ -345,10 +373,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Herzl Garden, Ha-Histadrut St, Holon"
+    "addressEn": "Herzl Garden, Ha-Histadrut St, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-31",
+    "id": "holon_30",
     "lat": 32.0301466,
     "lon": 34.7611418,
     "name": "מקלט 32",
@@ -357,10 +386,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTothanim St 9, Holon"
+    "addressEn": "HaTothanim St 9, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-32",
+    "id": "holon_31",
     "lat": 32.0560161,
     "lon": 34.7868624,
     "name": "מקלט 33",
@@ -369,10 +399,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mordekhai Anielewicz St 5, Tel Aviv-Yafo"
+    "addressEn": "Mordekhai Anielewicz St 5, Tel Aviv-Yafo",
+    "city": "חולון"
   },
   {
-    "id": "undefined-33",
+    "id": "holon_32",
     "lat": 32.0182721,
     "lon": 34.77099520000001,
     "name": "מקלט 34",
@@ -381,10 +412,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Histadrut St 35, Holon"
+    "addressEn": "Ha-Histadrut St 35, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-34",
+    "id": "holon_33",
     "lat": 32.0053083,
     "lon": 34.7690152,
     "name": "מקלט 36",
@@ -393,10 +425,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ofir St 7, Holon"
+    "addressEn": "Ofir St 7, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-35",
+    "id": "holon_34",
     "lat": 32.0247744,
     "lon": 34.7751125,
     "name": "מקלט 37",
@@ -405,10 +438,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Avivim St 3, Holon"
+    "addressEn": "Avivim St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-36",
+    "id": "holon_35",
     "lat": 32.0186768,
     "lon": 34.7840023,
     "name": "מקלט 38",
@@ -417,10 +451,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mohiliver St 28, Holon"
+    "addressEn": "Mohiliver St 28, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-37",
+    "id": "holon_36",
     "lat": 32.0153609,
     "lon": 34.7864122,
     "name": "מקלט 39",
@@ -429,10 +464,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaKnesset St 5, Holon"
+    "addressEn": "HaKnesset St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-38",
+    "id": "holon_37",
     "lat": 32.0171127,
     "lon": 34.7841032,
     "name": "מקלט 40",
@@ -441,10 +477,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harimon St 13, Holon"
+    "addressEn": "Harimon St 13, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-39",
+    "id": "holon_38",
     "lat": 32.0184996,
     "lon": 34.7949888,
     "name": "מקלט 41",
@@ -453,10 +490,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Malachi St 8, Holon"
+    "addressEn": "Malachi St 8, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-40",
+    "id": "holon_39",
     "lat": 32.0199194,
     "lon": 34.7876873,
     "name": "מקלט 42",
@@ -465,10 +503,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Broderzon St 3, Holon"
+    "addressEn": "Broderzon St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-41",
+    "id": "holon_40",
     "lat": 32.0054413,
     "lon": 34.7614183,
     "name": "מקלט 43",
@@ -477,10 +516,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGe'onim St 34, Holon"
+    "addressEn": "HaGe'onim St 34, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-42",
+    "id": "holon_41",
     "lat": 32.00349,
     "lon": 34.764201,
     "name": "מקלט 44",
@@ -489,10 +529,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shivat Tsiyon St 1, Holon, 5858439"
+    "addressEn": "Shivat Tsiyon St 1, Holon, 5858439",
+    "city": "חולון"
   },
   {
-    "id": "undefined-43",
+    "id": "holon_42",
     "lat": 32.0034341,
     "lon": 34.7663717,
     "name": "מקלט 45",
@@ -501,10 +542,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arba Aratsot St 10, Holon"
+    "addressEn": "Arba Aratsot St 10, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-44",
+    "id": "holon_43",
     "lat": 32.0062771,
     "lon": 34.7628152,
     "name": "מקלט 46",
@@ -513,10 +555,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ein Gedi St 2, Holon"
+    "addressEn": "Ein Gedi St 2, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-45",
+    "id": "holon_44",
     "lat": 32.0078335,
     "lon": 34.7633902,
     "name": "מקלט 47",
@@ -525,10 +568,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ein Gedi St 14, Holon"
+    "addressEn": "Ein Gedi St 14, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-46",
+    "id": "holon_45",
     "lat": 32.0044046,
     "lon": 34.7634604,
     "name": "מקלט 48",
@@ -537,10 +581,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaSanhedrin St 25, Holon"
+    "addressEn": "HaSanhedrin St 25, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-47",
+    "id": "holon_46",
     "lat": 32.0065717,
     "lon": 34.7615801,
     "name": "מקלט 49",
@@ -549,10 +594,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yotvata St 32, Holon"
+    "addressEn": "Yotvata St 32, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-48",
+    "id": "holon_47",
     "lat": 32.009779,
     "lon": 34.7689388,
     "name": "מקלט 50",
@@ -561,10 +607,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Remez St 21, Holon"
+    "addressEn": "David Remez St 21, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-49",
+    "id": "holon_48",
     "lat": 32.0180655,
     "lon": 34.7706369,
     "name": "מקלט 51",
@@ -573,10 +620,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "1111, Holon"
+    "addressEn": "1111, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-50",
+    "id": "holon_49",
     "lat": 32.0318487,
     "lon": 34.7624628,
     "name": "מקלט 52",
@@ -585,10 +633,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khazit Khamesh St 1-7, Holon"
+    "addressEn": "Khazit Khamesh St 1-7, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-51",
+    "id": "holon_50",
     "lat": 32.0327535,
     "lon": 34.7619043,
     "name": "מקלט 53",
@@ -597,10 +646,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "He-Khatsav St 1-5, Holon"
+    "addressEn": "He-Khatsav St 1-5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-52",
+    "id": "holon_51",
     "lat": 32.03228,
     "lon": 34.762773,
     "name": "מקלט 54",
@@ -609,10 +659,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTsiporen St 8, Holon"
+    "addressEn": "HaTsiporen St 8, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-53",
+    "id": "holon_52",
     "lat": 32.0330184,
     "lon": 34.7651131,
     "name": "מקלט 55",
@@ -621,10 +672,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMetsuda St 5, Holon"
+    "addressEn": "HaMetsuda St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-54",
+    "id": "holon_53",
     "lat": 32.0039475,
     "lon": 34.768331,
     "name": "מקלט 56",
@@ -633,10 +685,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Aharonovich St 91, Holon"
+    "addressEn": "Yosef Aharonovich St 91, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-55",
+    "id": "holon_54",
     "lat": 32.0328637,
     "lon": 34.7646492,
     "name": "מקלט 57",
@@ -645,10 +698,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMetsuda St 7, Holon"
+    "addressEn": "HaMetsuda St 7, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-56",
+    "id": "holon_55",
     "lat": 32.0077656,
     "lon": 34.7684877,
     "name": "מקלט 58",
@@ -657,10 +711,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Aharonovich St 54, Holon"
+    "addressEn": "Yosef Aharonovich St 54, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-57",
+    "id": "holon_56",
     "lat": 32.0156113,
     "lon": 34.7814202,
     "name": "מקלט 59",
@@ -669,10 +724,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hatechiya St 10, Holon"
+    "addressEn": "Hatechiya St 10, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-58",
+    "id": "holon_57",
     "lat": 32.0231392,
     "lon": 34.7757397,
     "name": "מקלט 60",
@@ -681,10 +737,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sokolov St 49, Holon, 5826803"
+    "addressEn": "Sokolov St 49, Holon, 5826803",
+    "city": "חולון"
   },
   {
-    "id": "undefined-59",
+    "id": "holon_58",
     "lat": 32.0265359,
     "lon": 34.7747355,
     "name": "מקלט 62",
@@ -693,10 +750,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shomron St 6, Holon"
+    "addressEn": "Ha-Shomron St 6, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-60",
+    "id": "holon_59",
     "lat": 32.0068593,
     "lon": 34.7909654,
     "name": "מקלט 63",
@@ -705,10 +763,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Giv'at HaTahmoshet St 21, Holon"
+    "addressEn": "Giv'at HaTahmoshet St 21, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-61",
+    "id": "holon_60",
     "lat": 32.0267211,
     "lon": 34.7743196,
     "name": "מקלט 64",
@@ -717,10 +776,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Kugel 11, Holon, 5826233"
+    "addressEn": "Sderot Kugel 11, Holon, 5826233",
+    "city": "חולון"
   },
   {
-    "id": "undefined-63",
+    "id": "holon_61",
     "lat": 32.029413,
     "lon": 34.7612956,
     "name": "מקלט 67",
@@ -729,10 +789,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTothanim St 3, Holon"
+    "addressEn": "HaTothanim St 3, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-64",
+    "id": "holon_62",
     "lat": 32.0257853,
     "lon": 34.7626005,
     "name": "מקלט 68",
@@ -741,10 +802,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Tayasim St 15, Holon"
+    "addressEn": "Ha-Tayasim St 15, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-65",
+    "id": "holon_63",
     "lat": 32.0110344,
     "lon": 34.7709641,
     "name": "מקלט 69",
@@ -753,10 +815,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaAliya HaShniya St 38, Holon"
+    "addressEn": "HaAliya HaShniya St 38, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-66",
+    "id": "holon_64",
     "lat": 32.0137241,
     "lon": 34.7892871,
     "name": "מיגונית - רבי עקיבא 16",
@@ -765,10 +828,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva St 16, Holon"
+    "addressEn": "Rabbi Akiva St 16, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-67",
+    "id": "holon_65",
     "lat": 32.0071271,
     "lon": 34.7664922,
     "name": "מיגונית - הציונות 16",
@@ -777,10 +841,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Tsiyonut St 16, Holon"
+    "addressEn": "Ha-Tsiyonut St 16, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-68",
+    "id": "holon_66",
     "lat": 32.0076994,
     "lon": 34.7596928,
     "name": "מיגונית - דליה פינת הרב ניסים",
@@ -789,10 +854,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Yitshak Nisim St 5, Bat Yam"
+    "addressEn": "HaRav Yitshak Nisim St 5, Bat Yam",
+    "city": "חולון"
   },
   {
-    "id": "undefined-69",
+    "id": "holon_67",
     "lat": 32.00061,
     "lon": 34.788186,
     "name": "מיגונית - גבעת חולון 2",
@@ -801,10 +867,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גבעת חולון 7, Holon"
+    "addressEn": "גבעת חולון 7, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-70",
+    "id": "holon_68",
     "lat": 31.9956039,
     "lon": 34.7624978,
     "name": "מיגונית - דן שומרון (תחנת היובל)",
@@ -813,10 +880,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "דן שומרון 1, Holon"
+    "addressEn": "דן שומרון 1, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-71",
+    "id": "holon_69",
     "lat": 32.0202896,
     "lon": 34.7689433,
     "name": "מיגונית - הרצפלד 16",
@@ -825,10 +893,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harzfeld St 17, Holon"
+    "addressEn": "Harzfeld St 17, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-72",
+    "id": "holon_70",
     "lat": 32.0049161,
     "lon": 34.8072286,
     "name": "מיגונית - המרכבה 47",
@@ -837,10 +906,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rehov HaMerkava 47, Holon"
+    "addressEn": "Rehov HaMerkava 47, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-73",
+    "id": "holon_71",
     "lat": 32.0148791,
     "lon": 34.7954782,
     "name": "מיגונית - דבורה הנביאה פינת חברון",
@@ -849,10 +919,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dvora HaNevi'a St 5, Holon"
+    "addressEn": "Dvora HaNevi'a St 5, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-74",
+    "id": "holon_72",
     "lat": 32.012013,
     "lon": 34.764658,
     "name": "מיגונית - אילת 62",
@@ -861,10 +932,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Eilat St 62, Holon"
+    "addressEn": "Eilat St 62, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-75",
+    "id": "holon_73",
     "lat": 32.0098262,
     "lon": 34.7985067,
     "name": "מיגונית - הרוקמים 10",
@@ -873,10 +945,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harokmim St 9, Holon"
+    "addressEn": "Harokmim St 9, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-76",
+    "id": "holon_74",
     "lat": 32.0264436,
     "lon": 34.7661136,
     "name": "מיגונית - המעפילים 34",
@@ -885,10 +958,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "המעפילים/הרמב''ם, Holon"
+    "addressEn": "המעפילים/הרמב''ם, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-77",
+    "id": "holon_75",
     "lat": 32.026538,
     "lon": 34.7661451,
     "name": "מיגונית - המעפילים 36",
@@ -897,10 +971,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Ma'apilim St 35, Holon"
+    "addressEn": "Ha-Ma'apilim St 35, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-78",
+    "id": "holon_76",
     "lat": 32.0331329,
     "lon": 34.76493,
     "name": "מיגונית - מצודה (פילבוקס)",
@@ -909,10 +984,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMetsuda St 5a, Holon"
+    "addressEn": "HaMetsuda St 5a, Holon",
+    "city": "חולון"
   },
   {
-    "id": "undefined-79",
+    "id": "holon_77",
     "lat": 32.0077899,
     "lon": 34.7847189,
     "name": "מיגונית - דוד אלעזר (מולדת)",
@@ -921,6 +997,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "דוד אלעזר/קרן היסוד, Holon"
+    "addressEn": "דוד אלעזר/קרן היסוד, Holon",
+    "city": "חולון"
   }
 ]

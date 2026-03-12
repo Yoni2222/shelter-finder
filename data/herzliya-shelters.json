@@ -1,6 +1,6 @@
 [
   {
-    "id": "undefined-1",
+    "id": "herzliya_1",
     "lat": 32.1679058,
     "lon": 34.8240441,
     "name": "מקלט 217",
@@ -9,10 +9,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Nevo/Abie Natan, Herzliya"
+    "addressEn": "Yosef Nevo/Abie Natan, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-5",
+    "id": "herzliya_2",
     "lat": 32.1719806,
     "lon": 34.8126606,
     "name": "מקלט ה.פיתוח",
@@ -21,10 +22,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sha'ul ha-Melekh St 4, Herzliya"
+    "addressEn": "Sha'ul ha-Melekh St 4, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-6",
+    "id": "herzliya_3",
     "lat": 32.1599679,
     "lon": 34.8503281,
     "name": "מקלט 156",
@@ -33,10 +35,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Petakh Tikva St 22, Herzliya"
+    "addressEn": "Petakh Tikva St 22, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-7",
+    "id": "herzliya_4",
     "lat": 32.164283,
     "lon": 34.83243,
     "name": "מקלט 105",
@@ -45,10 +48,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashbam St 17, Herzliya"
+    "addressEn": "Rashbam St 17, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-8",
+    "id": "herzliya_5",
     "lat": 32.1639905,
     "lon": 34.833021,
     "name": "מקלט 106",
@@ -57,10 +61,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ibn Gabirol St 44, Herzliya"
+    "addressEn": "Ibn Gabirol St 44, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-9",
+    "id": "herzliya_6",
     "lat": 32.1666925,
     "lon": 34.8364145,
     "name": "מקלט 157",
@@ -69,10 +74,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Kotsrim St 10, Herzliya"
+    "addressEn": "Ha-Kotsrim St 10, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-10",
+    "id": "herzliya_7",
     "lat": 32.1765589,
     "lon": 34.854139,
     "name": "מקלט 101",
@@ -81,10 +87,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Bashan St 16, Herzliya"
+    "addressEn": "Ha-Bashan St 16, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-11",
+    "id": "herzliya_8",
     "lat": 32.173194,
     "lon": 34.8530806,
     "name": "מקלט 121",
@@ -93,10 +100,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Revivim St 17, Herzliya"
+    "addressEn": "Revivim St 17, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-12",
+    "id": "herzliya_9",
     "lat": 32.1742529,
     "lon": 34.854088,
     "name": "מקלט 123",
@@ -105,10 +113,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Atsmon St 16, Herzliya"
+    "addressEn": "Har Atsmon St 16, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-13",
+    "id": "herzliya_10",
     "lat": 32.17572330000001,
     "lon": 34.85441490000001,
     "name": "מקלט 130",
@@ -117,10 +126,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ma'apilei Maroko St 28, Herzliya"
+    "addressEn": "Ma'apilei Maroko St 28, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-14",
+    "id": "herzliya_11",
     "lat": 32.1757641,
     "lon": 34.8541128,
     "name": "מקלט 131",
@@ -129,10 +139,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ma'apilei Maroko St 22, Herzliya"
+    "addressEn": "Ma'apilei Maroko St 22, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-15",
+    "id": "herzliya_12",
     "lat": 32.1731738,
     "lon": 34.8523923,
     "name": "מקלט 132",
@@ -141,10 +152,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Sinai St 4, Herzliya"
+    "addressEn": "Har Sinai St 4, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-16",
+    "id": "herzliya_13",
     "lat": 32.1728133,
     "lon": 34.8524573,
     "name": "מקלט 133",
@@ -153,10 +165,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Revivim St 15, Herzliya"
+    "addressEn": "Revivim St 15, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-17",
+    "id": "herzliya_14",
     "lat": 32.1735853,
     "lon": 34.8529266,
     "name": "מקלט 134",
@@ -165,10 +178,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Sinai/Revivim, Herzliya"
+    "addressEn": "Har Sinai/Revivim, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-18",
+    "id": "herzliya_15",
     "lat": 32.1741887,
     "lon": 34.8526745,
     "name": "מקלט 158",
@@ -177,10 +191,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Revivim St 47, Herzliya"
+    "addressEn": "Revivim St 47, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-20",
+    "id": "herzliya_16",
     "lat": 32.176138,
     "lon": 34.8530825,
     "name": "מקלט 160",
@@ -189,10 +204,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harei HaGolan St 4, Herzliya"
+    "addressEn": "Harei HaGolan St 4, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-21",
+    "id": "herzliya_17",
     "lat": 32.1757854,
     "lon": 34.8560279,
     "name": "מקלט 161",
@@ -201,10 +217,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Shomron St 2, Herzliya"
+    "addressEn": "Har Shomron St 2, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-22",
+    "id": "herzliya_18",
     "lat": 32.1751498,
     "lon": 34.8541323,
     "name": "מקלט 162",
@@ -213,10 +230,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harei Gil'ad St 41, Herzliya"
+    "addressEn": "Harei Gil'ad St 41, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-23",
+    "id": "herzliya_19",
     "lat": 32.1733546,
     "lon": 34.85591000000001,
     "name": "מקלט 163",
@@ -225,10 +243,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Sinai St 32, Herzliya"
+    "addressEn": "Har Sinai St 32, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-24",
+    "id": "herzliya_20",
     "lat": 32.1651567,
     "lon": 34.8389432,
     "name": "מקלט 104",
@@ -237,10 +256,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 20, Herzliya"
+    "addressEn": "Bar Ilan St 20, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-25",
+    "id": "herzliya_21",
     "lat": 32.1714016,
     "lon": 34.8483396,
     "name": "מקלט 154",
@@ -249,10 +269,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hadar St 37, Herzliya"
+    "addressEn": "Hadar St 37, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-26",
+    "id": "herzliya_22",
     "lat": 32.164535,
     "lon": 34.8477791,
     "name": "מקלט 155",
@@ -261,10 +282,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Kuzari St 1, Herzliya"
+    "addressEn": "Ha-Kuzari St 1, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-28",
+    "id": "herzliya_23",
     "lat": 32.1636154,
     "lon": 34.8527194,
     "name": "מקלט 185",
@@ -273,10 +295,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Goren St 7, Herzliya"
+    "addressEn": "HaRav Goren St 7, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-29",
+    "id": "herzliya_24",
     "lat": 32.1566086,
     "lon": 34.8362976,
     "name": "מקלט 103",
@@ -285,10 +308,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Kochva St 86, Herzliya"
+    "addressEn": "Bar Kochva St 86, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-30",
+    "id": "herzliya_25",
     "lat": 32.1562114,
     "lon": 34.8364725,
     "name": "מקלט 119",
@@ -297,10 +321,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Se'adya Ga'on St 2, Herzliya"
+    "addressEn": "Se'adya Ga'on St 2, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-31",
+    "id": "herzliya_26",
     "lat": 32.1568874,
     "lon": 34.8395304,
     "name": "מקלט 136",
@@ -309,10 +334,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Kokhba/HaTsanhanim, Herzliya"
+    "addressEn": "Bar Kokhba/HaTsanhanim, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-32",
+    "id": "herzliya_27",
     "lat": 32.155812,
     "lon": 34.838009,
     "name": "מקלט 137",
@@ -321,10 +347,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Uziel St 85, Herzliya"
+    "addressEn": "HaRav Uziel St 85, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-33",
+    "id": "herzliya_28",
     "lat": 32.1329807,
     "lon": 34.8481421,
     "name": "מקלט 166",
@@ -333,10 +360,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Takhkemoni St 326, Ramat Hasharon"
+    "addressEn": "Takhkemoni St 326, Ramat Hasharon",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-34",
+    "id": "herzliya_29",
     "lat": 32.1545293,
     "lon": 34.8355008,
     "name": "מקלט 226",
@@ -345,10 +373,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shivtei Israel St 13, Herzliya"
+    "addressEn": "Shivtei Israel St 13, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-36",
+    "id": "herzliya_30",
     "lat": 32.1687126,
     "lon": 34.8565747,
     "name": "מקלט 118",
@@ -357,10 +386,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Berel Katzenelson St 21, Herzliya"
+    "addressEn": "Berel Katzenelson St 21, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-37",
+    "id": "herzliya_31",
     "lat": 32.171356,
     "lon": 34.859728,
     "name": "מקלט 125",
@@ -369,10 +399,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 63, Herzliya"
+    "addressEn": "Kibuts Galuyot St 63, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-38",
+    "id": "herzliya_32",
     "lat": 32.1611928,
     "lon": 34.8610634,
     "name": "מקלט 129",
@@ -381,10 +412,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rina St 18, Herzliya"
+    "addressEn": "Rina St 18, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-39",
+    "id": "herzliya_33",
     "lat": 32.1609557,
     "lon": 34.8624486,
     "name": "מקלט 141",
@@ -393,10 +425,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Gil St 36, Herzliya"
+    "addressEn": "Gil St 36, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-40",
+    "id": "herzliya_34",
     "lat": 32.1631722,
     "lon": 34.8606078,
     "name": "מקלט 142",
@@ -405,10 +438,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Derekh Rabbi Zecharya Garame 3, Hertsliya"
+    "addressEn": "Derekh Rabbi Zecharya Garame 3, Hertsliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-41",
+    "id": "herzliya_35",
     "lat": 32.16842440000001,
     "lon": 34.8625691,
     "name": "מקלט 145",
@@ -417,10 +451,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 100, Herzliya"
+    "addressEn": "Kibuts Galuyot St 100, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-42",
+    "id": "herzliya_36",
     "lat": 32.1614934,
     "lon": 34.8563399,
     "name": "מקלט 146",
@@ -429,10 +464,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaAri St 5, Herzliya"
+    "addressEn": "HaAri St 5, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-43",
+    "id": "herzliya_37",
     "lat": 32.1648244,
     "lon": 34.858246,
     "name": "מקלט 147",
@@ -441,10 +477,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitshak Sadeh St 34, Herzliya"
+    "addressEn": "Yitshak Sadeh St 34, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-44",
+    "id": "herzliya_38",
     "lat": 32.1650636,
     "lon": 34.862634,
     "name": "מקלט 148",
@@ -453,10 +490,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Portsei HaDerech 34, Hertsliya"
+    "addressEn": "Portsei HaDerech 34, Hertsliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-45",
+    "id": "herzliya_39",
     "lat": 32.1596932,
     "lon": 34.8624008,
     "name": "מקלט 149",
@@ -465,10 +503,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Gil St 79, Herzliya"
+    "addressEn": "Gil St 79, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-46",
+    "id": "herzliya_40",
     "lat": 32.1618386,
     "lon": 34.8583666,
     "name": "מקלט 150",
@@ -477,10 +516,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Y.L. Perets St 33, Herzliya"
+    "addressEn": "Y.L. Perets St 33, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-47",
+    "id": "herzliya_41",
     "lat": 32.16748,
     "lon": 34.856327,
     "name": "מקלט 151",
@@ -489,10 +529,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsahal St 7, Herzliya"
+    "addressEn": "Tsahal St 7, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-48",
+    "id": "herzliya_42",
     "lat": 32.16418,
     "lon": 34.858767,
     "name": "מקלט 152",
@@ -501,10 +542,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Giborei Etsyon St 23, Herzliya"
+    "addressEn": "Giborei Etsyon St 23, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-49",
+    "id": "herzliya_43",
     "lat": 32.1628376,
     "lon": 34.8536608,
     "name": "מקלט 167",
@@ -513,10 +555,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shaul Garden, Y.L. Perets St, Herzliya"
+    "addressEn": "Shaul Garden, Y.L. Perets St, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-50",
+    "id": "herzliya_44",
     "lat": 32.1712261,
     "lon": 34.8559051,
     "name": "מקלט 169",
@@ -525,10 +568,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Akhva St 5, Herzliya"
+    "addressEn": "Akhva St 5, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-52",
+    "id": "herzliya_45",
     "lat": 32.1719271,
     "lon": 34.8596723,
     "name": "מקלט 191",
@@ -537,10 +581,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rakhel St 11, Herzliya"
+    "addressEn": "Rakhel St 11, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-53",
+    "id": "herzliya_46",
     "lat": 32.1873959,
     "lon": 34.8094189,
     "name": "מקלט 208",
@@ -549,10 +594,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Haharuv St 6, Herzliya"
+    "addressEn": "Haharuv St 6, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-54",
+    "id": "herzliya_47",
     "lat": 32.172252,
     "lon": 34.845422,
     "name": "מקלט 210",
@@ -561,10 +607,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaAliya HaShniya St 14, Herzliya"
+    "addressEn": "HaAliya HaShniya St 14, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-55",
+    "id": "herzliya_48",
     "lat": 32.1842453,
     "lon": 34.8137856,
     "name": "מקלט 211",
@@ -573,10 +620,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'irit St 5, Herzliya"
+    "addressEn": "Ha'irit St 5, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-56",
+    "id": "herzliya_49",
     "lat": 32.1887357,
     "lon": 34.8147223,
     "name": "מקלט 212",
@@ -585,10 +633,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sprinzak St 1, Herzliya"
+    "addressEn": "Sprinzak St 1, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-57",
+    "id": "herzliya_50",
     "lat": 32.1866412,
     "lon": 34.80725,
     "name": "מקלט 213",
@@ -597,10 +646,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yiga'el Yadin St 5, Herzliya"
+    "addressEn": "Yiga'el Yadin St 5, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-58",
+    "id": "herzliya_51",
     "lat": 32.189292,
     "lon": 34.809594,
     "name": "מקלט 214",
@@ -609,10 +659,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Netiv Ha Lamed Hei 8, Hertsliya"
+    "addressEn": "Netiv Ha Lamed Hei 8, Hertsliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-59",
+    "id": "herzliya_52",
     "lat": 32.1862941,
     "lon": 34.8091486,
     "name": "מקלט 220",
@@ -621,10 +672,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaBrosh St 23, Herzliya"
+    "addressEn": "HaBrosh St 23, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-60",
+    "id": "herzliya_53",
     "lat": 32.1848569,
     "lon": 34.83970780000001,
     "name": "מקלט 120",
@@ -633,10 +685,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "AlHarizi St 4, Herzliya"
+    "addressEn": "AlHarizi St 4, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-61",
+    "id": "herzliya_54",
     "lat": 32.1526055,
     "lon": 34.8436146,
     "name": "מקלט 102",
@@ -645,10 +698,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Ga'on mi-Vilna St 16, Herzliya"
+    "addressEn": "Ha-Ga'on mi-Vilna St 16, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-63",
+    "id": "herzliya_55",
     "lat": 32.1782797,
     "lon": 34.8502374,
     "name": "מקלט ביה\"ס אילנות 1",
@@ -657,10 +711,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Dekel St 35, Herzliya"
+    "addressEn": "Ha-Dekel St 35, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-65",
+    "id": "herzliya_56",
     "lat": 32.1719801,
     "lon": 34.8374555,
     "name": "מקלט ביה\"ס אלון",
@@ -669,10 +724,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Asher Barash St 7, Herzliya"
+    "addressEn": "Asher Barash St 7, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-66",
+    "id": "herzliya_57",
     "lat": 32.1705367,
     "lon": 34.8313791,
     "name": "מקלט ביה\"ס ארז מפתן",
@@ -681,10 +737,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNadiv St 73, Herzliya"
+    "addressEn": "HaNadiv St 73, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-67",
+    "id": "herzliya_58",
     "lat": 32.1658932,
     "lon": 34.840039,
     "name": "מקלט ביה\"ס בר אילן",
@@ -693,10 +750,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 14, Herzliya"
+    "addressEn": "Bar Ilan St 14, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-68",
+    "id": "herzliya_59",
     "lat": 32.1710061,
     "lon": 34.8157308,
     "name": "מקלט ביה\"ס ברנדיס 1",
@@ -705,10 +763,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nordau St 26, Herzliya"
+    "addressEn": "Nordau St 26, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-70",
+    "id": "herzliya_60",
     "lat": 32.1685844,
     "lon": 34.8503603,
     "name": "מקלט ביה\"ס ברנר 1",
@@ -717,10 +776,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yigal Alon St 42, Herzliya"
+    "addressEn": "Yigal Alon St 42, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-72",
+    "id": "herzliya_61",
     "lat": 32.1643582,
     "lon": 34.8569196,
     "name": "מקלט ביה\"ס גורדון 1",
@@ -729,10 +789,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitshak Sadeh St 20, Herzliya"
+    "addressEn": "Yitshak Sadeh St 20, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-74",
+    "id": "herzliya_62",
     "lat": 32.1698608,
     "lon": 34.860797,
     "name": "מקלט ביה\"ס וולפסון",
@@ -741,10 +802,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mordei ha-Geta'ot St 58, Herzliya"
+    "addressEn": "Mordei ha-Geta'ot St 58, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-75",
+    "id": "herzliya_63",
     "lat": 32.164583,
     "lon": 34.8359141,
     "name": "מקלט ביה\"ס ויצמן 1",
@@ -753,10 +815,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Weizman St 14, Herzliya"
+    "addressEn": "Weizman St 14, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-78",
+    "id": "herzliya_64",
     "lat": 32.1728336,
     "lon": 34.8509051,
     "name": "מקלט ביה\"ס יוחנני",
@@ -765,10 +828,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Hagana St 64, Herzliya"
+    "addressEn": "Ha-Hagana St 64, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-79",
+    "id": "herzliya_65",
     "lat": 32.1541456,
     "lon": 34.8437474,
     "name": "מקלט ביה\"ס לב טוב 1",
@@ -777,10 +841,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabi Akiva St 7, Herzliya"
+    "addressEn": "Rabi Akiva St 7, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-81",
+    "id": "herzliya_66",
     "lat": 32.1860028,
     "lon": 34.8130562,
     "name": "מקלט ביה\"ס נוף ים",
@@ -789,10 +854,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'nassi Y. Ben-Zvi St 29, Herzliya"
+    "addressEn": "Ha'nassi Y. Ben-Zvi St 29, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-82",
+    "id": "herzliya_67",
     "lat": 32.1564661,
     "lon": 34.8356764,
     "name": "מקלט ביה\"ס נתיב",
@@ -801,10 +867,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rukhama St 4, Herzliya"
+    "addressEn": "Rukhama St 4, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-83",
+    "id": "herzliya_68",
     "lat": 32.16062420000001,
     "lon": 34.8538854,
     "name": "מקלט ביה\"ס רמב\"ם",
@@ -813,10 +880,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Pinkas St 2, Herzliya"
+    "addressEn": "Pinkas St 2, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-84",
+    "id": "herzliya_69",
     "lat": 32.1664751,
     "lon": 34.8506761,
     "name": "מקלט ביה\"ס שזר",
@@ -825,10 +893,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "בית ספר שז\"ר, הנוטרים 11, הרצליה"
+    "addressEn": "בית ספר שז\"ר, הנוטרים 11, הרצליה",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-85",
+    "id": "herzliya_70",
     "lat": 32.1519017,
     "lon": 34.8479436,
     "name": "מקלט חט\"ב זאב 1",
@@ -837,10 +906,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Nasi St 90, Herzliya"
+    "addressEn": "Yehuda ha-Nasi St 90, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-87",
+    "id": "herzliya_71",
     "lat": 32.1648232,
     "lon": 34.8267441,
     "name": "מקלט חט\"ב יד גיורא 1",
@@ -849,10 +919,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jabotinski St 3, Herzliya"
+    "addressEn": "Jabotinski St 3, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-89",
+    "id": "herzliya_72",
     "lat": 32.16867,
     "lon": 34.8032222,
     "name": "מקלט חט\"ב סמדר",
@@ -861,10 +932,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Wingate St 150, Herzliya"
+    "addressEn": "Wingate St 150, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-90",
+    "id": "herzliya_73",
     "lat": 32.1770743,
     "lon": 34.8530013,
     "name": "מקלט חט\"ב רעות 1",
@@ -873,10 +945,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "A.L. Ziso St 10, Herzliya"
+    "addressEn": "A.L. Ziso St 10, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-92",
+    "id": "herzliya_74",
     "lat": 32.1777756,
     "lon": 34.85439300000001,
     "name": "מקלט חט\"ב רעות בוסתן",
@@ -885,10 +958,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "A.L. Ziso St 11, Herzliya"
+    "addressEn": "A.L. Ziso St 11, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-93",
+    "id": "herzliya_75",
     "lat": 32.1668249,
     "lon": 34.8333306,
     "name": "מקלט חט\"ב שמואל הנגיד",
@@ -897,10 +971,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shmu'el HaNagid St 21, Herzliya"
+    "addressEn": "Shmu'el HaNagid St 21, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-94",
+    "id": "herzliya_76",
     "lat": 32.1737966,
     "lon": 34.8548699,
     "name": "מקלט תיכון אחי\"ה",
@@ -909,10 +984,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Sinai St 24, Herzliya"
+    "addressEn": "Har Sinai St 24, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-95",
+    "id": "herzliya_77",
     "lat": 32.1714603,
     "lon": 34.85449,
     "name": "מקלט תיכון דור",
@@ -921,10 +997,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Revivim St 1, Herzliya"
+    "addressEn": "Revivim St 1, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-96",
+    "id": "herzliya_78",
     "lat": 32.1734143,
     "lon": 34.8352419,
     "name": "מקלט תיכון היובל 1",
@@ -933,10 +1010,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Shim'oni St 27, Herzliya"
+    "addressEn": "David Shim'oni St 27, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-98",
+    "id": "herzliya_79",
     "lat": 32.1646605,
     "lon": 34.826267,
     "name": "מקלט תיכון עירוני חדש 1",
@@ -945,10 +1023,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shiv'at Hakohavim Blvd 2, Herzliya"
+    "addressEn": "Shiv'at Hakohavim Blvd 2, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-101",
+    "id": "herzliya_80",
     "lat": 32.1622238,
     "lon": 34.8393117,
     "name": "מקלט תיכון ראשונים",
@@ -957,10 +1036,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Kook St 30, Herzliya"
+    "addressEn": "HaRav Kook St 30, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-102",
+    "id": "herzliya_81",
     "lat": 32.1783514,
     "lon": 34.8449721,
     "name": "מיגונית גן רשל האילנות",
@@ -969,10 +1049,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Ilanot/HaBustan, Herzliya"
+    "addressEn": "Ha'Ilanot/HaBustan, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-103",
+    "id": "herzliya_82",
     "lat": 32.1796206,
     "lon": 34.8394683,
     "name": "מיגונית נחלת עדה כנפי נשרים",
@@ -981,10 +1062,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kanfei Nesharim St 0, Herzliya"
+    "addressEn": "Kanfei Nesharim St 0, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-104",
+    "id": "herzliya_83",
     "lat": 32.1648301,
     "lon": 34.8578406,
     "name": "מיגונית נווה עמל יצחק שדה",
@@ -993,10 +1075,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitshak Sadeh St 45, Herzliya"
+    "addressEn": "Yitshak Sadeh St 45, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-105",
+    "id": "herzliya_84",
     "lat": 32.1767758,
     "lon": 34.8525716,
     "name": "מיגונית יד התשעה הרי גולן",
@@ -1005,10 +1088,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harei HaGolan St 12, Herzliya"
+    "addressEn": "Harei HaGolan St 12, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-106",
+    "id": "herzliya_85",
     "lat": 32.1589773,
     "lon": 34.835827,
     "name": "מיגונית נווה ישראל בר כוכבא",
@@ -1017,10 +1101,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Kochva St 31, Herzliya, 4644033"
+    "addressEn": "Bar Kochva St 31, Herzliya, 4644033",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-107",
+    "id": "herzliya_86",
     "lat": 32.182793,
     "lon": 34.8355914,
     "name": "מיגונית איגרת תימן",
@@ -1029,10 +1114,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Eldad ha-Dani St 5, Herzliya"
+    "addressEn": "Eldad ha-Dani St 5, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-108",
+    "id": "herzliya_87",
     "lat": 32.1754628,
     "lon": 34.809255,
     "name": "מיגונית שבט מנשה",
@@ -1041,10 +1127,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shevet Menashe St 23, Herzliya"
+    "addressEn": "Shevet Menashe St 23, Herzliya",
+    "city": "הרצליה"
   },
   {
-    "id": "undefined-109",
+    "id": "herzliya_88",
     "lat": 32.162413,
     "lon": 34.844675,
     "name": "מיגונית אלמוג המפל הגעש",
@@ -1053,6 +1140,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sara Malkhin St 16, Herzliya"
+    "addressEn": "Sara Malkhin St 16, Herzliya",
+    "city": "הרצליה"
   }
 ]

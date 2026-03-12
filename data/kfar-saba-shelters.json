@@ -1,6 +1,6 @@
 [
   {
-    "id": "undefined-1",
+    "id": "kfarsaba_1",
     "lat": 32.1703898,
     "lon": 34.9072129,
     "name": "בי\"ס אוסישקין",
@@ -9,10 +9,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rothschild St 2, Kefar Sava"
+    "addressEn": "Rothschild St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-2",
+    "id": "kfarsaba_2",
     "lat": 32.1886492,
     "lon": 34.9374623,
     "name": "בי\"ס אופירה נבון",
@@ -21,10 +22,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ovadya ha-Navi St 2, Kefar Sava"
+    "addressEn": "Ovadya ha-Navi St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-3",
+    "id": "kfarsaba_3",
     "lat": 32.1960252,
     "lon": 34.8884314,
     "name": "בי\"ס אורנה פורת (שכ' 80)",
@@ -33,10 +35,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "צמוד לצומח 80, Zetler St 5, Kfar Saba"
+    "addressEn": "צמוד לצומח 80, Zetler St 5, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-4",
+    "id": "kfarsaba_4",
     "lat": 32.1818959,
     "lon": 34.9023681,
     "name": "בי\"ס בן גוריון",
@@ -45,10 +48,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsviya Lubetkin St 15, Kefar Sava"
+    "addressEn": "Tsviya Lubetkin St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-5",
+    "id": "kfarsaba_5",
     "lat": 32.1775001,
     "lon": 34.9122007,
     "name": "בי\"ס בר אילן",
@@ -57,10 +61,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 2, Kefar Sava"
+    "addressEn": "Bar Ilan St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-6",
+    "id": "kfarsaba_6",
     "lat": 32.1773799,
     "lon": 34.8969936,
     "name": "בי\"ס ברנר",
@@ -69,10 +74,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 2, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-7",
+    "id": "kfarsaba_7",
     "lat": 32.1803782,
     "lon": 34.9118723,
     "name": "בי\"ס גולדה",
@@ -81,10 +87,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shalom St 11, Kefar Sava"
+    "addressEn": "Ha-Shalom St 11, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-8",
+    "id": "kfarsaba_8",
     "lat": 32.1777356,
     "lon": 34.9186246,
     "name": "בי\"ס גורדון",
@@ -93,10 +100,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Galil St 48, Kefar Sava"
+    "addressEn": "Ha-Galil St 48, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-9",
+    "id": "kfarsaba_9",
     "lat": 32.1843904,
     "lon": 34.9277673,
     "name": "בי\"ס דבורה עומר",
@@ -105,10 +113,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamir St 3, Kefar Sava"
+    "addressEn": "Zamir St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-10",
+    "id": "kfarsaba_10",
     "lat": 32.191937,
     "lon": 34.9393494,
     "name": "בי\"ס דמוקרטי - חזן (א'-יב')",
@@ -117,10 +126,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Trei Asar St 24, Kefar Sava"
+    "addressEn": "Trei Asar St 24, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-11",
+    "id": "kfarsaba_11",
     "lat": 32.1869041,
     "lon": 34.9007696,
     "name": "בי\"ס חב\"ד",
@@ -129,10 +139,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ya'ara St 11, Kefar Sava"
+    "addressEn": "Ya'ara St 11, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-12",
+    "id": "kfarsaba_12",
     "lat": 32.1714783,
     "lon": 34.917463,
     "name": "בי\"ס יצחק שדה",
@@ -141,10 +152,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Gdud ha-Ivri St 3, Kefar Sava"
+    "addressEn": "Ha-Gdud ha-Ivri St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-13",
+    "id": "kfarsaba_13",
     "lat": 32.1970412,
     "lon": 34.889982,
     "name": "בי\"ס לאה גולדברג (שכ' 80)",
@@ -153,10 +165,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sapir St 20, Kefar Sava, 4465228"
+    "addressEn": "Sapir St 20, Kefar Sava, 4465228",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-14",
+    "id": "kfarsaba_14",
     "lat": 32.1849204,
     "lon": 34.9010785,
     "name": "בי\"ס סורקיס",
@@ -165,10 +178,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Levinski St 4, Kefar Sava"
+    "addressEn": "Levinski St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-15",
+    "id": "kfarsaba_15",
     "lat": 32.1891355,
     "lon": 34.8926982,
     "name": "בי\"ס רחל המשוררת (שכ' 60)",
@@ -177,10 +191,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yair Rozenblum St 25, Kefar Sava"
+    "addressEn": "Yair Rozenblum St 25, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-16",
+    "id": "kfarsaba_16",
     "lat": 32.1787054,
     "lon": 34.9370901,
     "name": "בי\"ס רמז",
@@ -189,10 +204,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Eli Hurvitz Rd 23, Kefar Sava"
+    "addressEn": "Eli Hurvitz Rd 23, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-17",
+    "id": "kfarsaba_17",
     "lat": 32.1930906,
     "lon": 34.890038,
     "name": "בי\"ס ש\"י עגנון (שכ' 80)",
@@ -201,10 +217,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sapir St 6, Kefar Sava"
+    "addressEn": "Sapir St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-18",
+    "id": "kfarsaba_18",
     "lat": 32.1732712,
     "lon": 34.8991928,
     "name": "בי\"ס שילה",
@@ -213,10 +230,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ge'ula St 30, Kefar Sava"
+    "addressEn": "Ge'ula St 30, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-19",
+    "id": "kfarsaba_19",
     "lat": 32.1897719,
     "lon": 34.8936038,
     "name": "בי\"ס שמעון פרס (שכ' 60)",
@@ -225,10 +243,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yair Rozenblum St 29, Kefar Sava"
+    "addressEn": "Yair Rozenblum St 29, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-20",
+    "id": "kfarsaba_20",
     "lat": 32.1786959,
     "lon": 34.915699,
     "name": "אולפנית הראל",
@@ -237,10 +256,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel-Hay St 70, Kefar Sava"
+    "addressEn": "Tel-Hay St 70, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-21",
+    "id": "kfarsaba_21",
     "lat": 32.1844623,
     "lon": 34.905815,
     "name": "חט\"ב אילן רמון",
@@ -249,10 +269,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azar St 18, Kefar Sava"
+    "addressEn": "Azar St 18, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-22",
+    "id": "kfarsaba_22",
     "lat": 32.176403,
     "lon": 34.896647,
     "name": "חט\"ב אלון",
@@ -261,10 +282,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 6, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-23",
+    "id": "kfarsaba_23",
     "lat": 32.1834974,
     "lon": 34.9174724,
     "name": "חט\"ב בר לב",
@@ -273,10 +295,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel-Hay St 102, Kefar Sava"
+    "addressEn": "Tel-Hay St 102, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-24",
+    "id": "kfarsaba_24",
     "lat": 32.1881927,
     "lon": 34.8911669,
     "name": "חט\"ב יורם טהרלב",
@@ -285,10 +308,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Naomi Shemer St 4, Kefar Sava"
+    "addressEn": "Naomi Shemer St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-25",
+    "id": "kfarsaba_25",
     "lat": 32.1731969,
     "lon": 34.8967377,
     "name": "חט\"ב שז\"ר",
@@ -297,10 +321,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 27, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 27, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-26",
+    "id": "kfarsaba_26",
     "lat": 32.1724736,
     "lon": 34.8964889,
     "name": "חט\"ב שרת",
@@ -309,10 +334,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 29, Kefar Sava, 44261"
+    "addressEn": "Ze'ev Geler St 29, Kefar Sava, 44261",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-27",
+    "id": "kfarsaba_27",
     "lat": 32.1813225,
     "lon": 34.915775,
     "name": "תורה ומדע ע\"ש זבולון המר",
@@ -321,10 +347,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel-Hay St 87, Kefar Sava"
+    "addressEn": "Tel-Hay St 87, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-28",
+    "id": "kfarsaba_28",
     "lat": 32.1847081,
     "lon": 34.9082597,
     "name": "תיכון גלילי",
@@ -333,10 +360,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azar St 41, Kefar Sava"
+    "addressEn": "Azar St 41, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-29",
+    "id": "kfarsaba_29",
     "lat": 32.1841398,
     "lon": 34.9107305,
     "name": "תיכון הרצוג",
@@ -345,10 +373,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azar St 49, Kefar Sava"
+    "addressEn": "Azar St 49, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-30",
+    "id": "kfarsaba_30",
     "lat": 32.1846358,
     "lon": 34.9089974,
     "name": "תיכון כצנלסון",
@@ -357,10 +386,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azar St 43, Kefar Sava"
+    "addressEn": "Azar St 43, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-31",
+    "id": "kfarsaba_31",
     "lat": 32.1838667,
     "lon": 34.9138897,
     "name": "תיכון מפתן",
@@ -369,10 +399,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 73, Kefar Sava"
+    "addressEn": "Bar Ilan St 73, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-32",
+    "id": "kfarsaba_32",
     "lat": 32.1847162,
     "lon": 34.9120366,
     "name": "תיכון רבין",
@@ -381,10 +412,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Khish St 9, Kefar Sava"
+    "addressEn": "Ha-Khish St 9, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-33",
+    "id": "kfarsaba_33",
     "lat": 32.1710942,
     "lon": 34.9233012,
     "name": "תיכון שמיר",
@@ -393,10 +425,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Alkalai St 1, Kefar Sava"
+    "addressEn": "Alkalai St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-34",
+    "id": "kfarsaba_34",
     "lat": 32.1786875,
     "lon": 34.9157454,
     "name": "בי\"ס גוונים",
@@ -405,10 +438,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel-Hay St 68א, Kefar Sava"
+    "addressEn": "Tel-Hay St 68א, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-35",
+    "id": "kfarsaba_35",
     "lat": 32.1832636,
     "lon": 34.9135507,
     "name": "בי\"ס סאלד",
@@ -417,10 +451,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 35, Kefar Sava"
+    "addressEn": "Bar Ilan St 35, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-36",
+    "id": "kfarsaba_36",
     "lat": 32.187369,
     "lon": 34.89114,
     "name": "בי\"ס קשת",
@@ -429,10 +464,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Naomi Shemer St 1, Kefar Sava"
+    "addressEn": "Naomi Shemer St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-37",
+    "id": "kfarsaba_37",
     "lat": 32.1943816,
     "lon": 34.8906307,
     "name": "סקיבין 6",
@@ -441,10 +477,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Masha ve-Dov Skibin St 6, Kefar Sava"
+    "addressEn": "Masha ve-Dov Skibin St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-39",
+    "id": "kfarsaba_38",
     "lat": 32.1779725,
     "lon": 34.9163444,
     "name": "המפלס 5",
@@ -453,10 +490,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMefales St 5, Kefar Sava"
+    "addressEn": "HaMefales St 5, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-40",
+    "id": "kfarsaba_39",
     "lat": 32.1737349,
     "lon": 34.8950367,
     "name": "אירוס 6",
@@ -465,10 +503,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khavatselet ha-Sharon St 22, Kefar Sava"
+    "addressEn": "Khavatselet ha-Sharon St 22, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-41",
+    "id": "kfarsaba_40",
     "lat": 32.171534,
     "lon": 34.9160521,
     "name": "גבורות 19",
@@ -477,10 +516,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGvurot St 17, Kefar Sava"
+    "addressEn": "HaGvurot St 17, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-42",
+    "id": "kfarsaba_41",
     "lat": 32.1908171,
     "lon": 34.9378451,
     "name": "בת יפתח 4",
@@ -489,10 +529,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גן אורן, Bat Yiftakh St 4, Kfar Saba"
+    "addressEn": "גן אורן, Bat Yiftakh St 4, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-43",
+    "id": "kfarsaba_42",
     "lat": 32.1855128,
     "lon": 34.8922604,
     "name": "יוסף הדר 3",
@@ -501,10 +542,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Hadar St 3, Kefar Sava"
+    "addressEn": "Yosef Hadar St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-44",
+    "id": "kfarsaba_43",
     "lat": 32.183442,
     "lon": 34.9406728,
     "name": "דוד המלך 3",
@@ -513,10 +555,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTish'a Garden, David HaMelech St 3, Kefar Sava"
+    "addressEn": "HaTish'a Garden, David HaMelech St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-45",
+    "id": "kfarsaba_44",
     "lat": 32.1857741,
     "lon": 34.9370531,
     "name": "הושע 9",
@@ -525,10 +568,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hoshe'a St 10, Kefar Sava"
+    "addressEn": "Hoshe'a St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-46",
+    "id": "kfarsaba_45",
     "lat": 32.1853555,
     "lon": 34.9301923,
     "name": "פשוש 6",
@@ -537,10 +581,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Pashosh St 6, Kefar Sava"
+    "addressEn": "Pashosh St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-47",
+    "id": "kfarsaba_46",
     "lat": 32.1760756,
     "lon": 34.9129174,
     "name": "אלתרמן 11",
@@ -549,10 +594,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Natan Alterman St 15, Kefar Sava"
+    "addressEn": "Natan Alterman St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-48",
+    "id": "kfarsaba_47",
     "lat": 32.195223,
     "lon": 34.894752,
     "name": "אנגל 25",
@@ -561,10 +607,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Engel St 25, Kefar Sava, 4465331"
+    "addressEn": "Engel St 25, Kefar Sava, 4465331",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-49",
+    "id": "kfarsaba_48",
     "lat": 32.1808956,
     "lon": 34.9295234,
     "name": "בקעת בית נטופה 6",
@@ -573,10 +620,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bikat Beit Netofa St 6, Kefar Sava"
+    "addressEn": "Bikat Beit Netofa St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-50",
+    "id": "kfarsaba_49",
     "lat": 32.1978267,
     "lon": 34.891139,
     "name": "אנגל 76",
@@ -585,10 +633,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Engel St 76, Kefar Sava"
+    "addressEn": "Engel St 76, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-51",
+    "id": "kfarsaba_50",
     "lat": 32.1837933,
     "lon": 34.9388027,
     "name": "הנביאים 33",
@@ -597,10 +646,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNevi'im St 33, Kefar Sava"
+    "addressEn": "HaNevi'im St 33, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-52",
+    "id": "kfarsaba_51",
     "lat": 32.195243,
     "lon": 34.894254,
     "name": "אנגל 23",
@@ -609,10 +659,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Engel St 23, Kefar Sava"
+    "addressEn": "Engel St 23, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-53",
+    "id": "kfarsaba_52",
     "lat": 32.1804798,
     "lon": 34.9299272,
     "name": "בקעת צין 5",
@@ -621,10 +672,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mish'ol Bik'at Tsin 5, Kfar Saba"
+    "addressEn": "Mish'ol Bik'at Tsin 5, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-54",
+    "id": "kfarsaba_53",
     "lat": 32.1705027,
     "lon": 34.9069719,
     "name": "רוטשילד 4",
@@ -633,10 +685,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rothschild St 4, Kefar Sava, 4444306"
+    "addressEn": "Rothschild St 4, Kefar Sava, 4444306",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-55",
+    "id": "kfarsaba_54",
     "lat": 32.1808215,
     "lon": 34.9301465,
     "name": "בקעת באר שבע 5",
@@ -645,10 +698,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גן חסידה, Mish'ol Bik'at Be'er Sheva 5, Kfar Saba"
+    "addressEn": "גן חסידה, Mish'ol Bik'at Be'er Sheva 5, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-57",
+    "id": "kfarsaba_55",
     "lat": 32.170095,
     "lon": 34.9090863,
     "name": "הרצל 1",
@@ -657,10 +711,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hertsel St 1, Kefar Sava"
+    "addressEn": "Hertsel St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-58",
+    "id": "kfarsaba_56",
     "lat": 32.1722163,
     "lon": 34.9143928,
     "name": "הארזים 6",
@@ -669,10 +724,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arazim St 6, Kefar Sava"
+    "addressEn": "Arazim St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-59",
+    "id": "kfarsaba_57",
     "lat": 32.175782,
     "lon": 34.9018715,
     "name": "החרמון 5",
@@ -681,10 +737,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hahermon St 8, Kefar Sava"
+    "addressEn": "Hahermon St 8, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-60",
+    "id": "kfarsaba_58",
     "lat": 32.1780876,
     "lon": 34.9156666,
     "name": "המפלס 1",
@@ -693,10 +750,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMefales St 1, Kefar Sava"
+    "addressEn": "HaMefales St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-61",
+    "id": "kfarsaba_59",
     "lat": 32.1770655,
     "lon": 34.907836,
     "name": "כנרת 7",
@@ -705,10 +763,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kinneret St 7, Kefar Sava"
+    "addressEn": "Kinneret St 7, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-62",
+    "id": "kfarsaba_60",
     "lat": 32.1806429,
     "lon": 34.9337989,
     "name": "עמק דותן 15",
@@ -717,10 +776,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Emek Dotan St 10, Kefar Sava"
+    "addressEn": "Emek Dotan St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-63",
+    "id": "kfarsaba_61",
     "lat": 32.178195,
     "lon": 34.90761,
     "name": "יא' הספורטאים 6",
@@ -729,10 +789,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "0, Kfar Saba"
+    "addressEn": "0, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-64",
+    "id": "kfarsaba_62",
     "lat": 32.1845648,
     "lon": 34.92776449999999,
     "name": "זמיר 5",
@@ -741,10 +802,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamir/HaNesher, Kefar Sava"
+    "addressEn": "Zamir/HaNesher, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-65",
+    "id": "kfarsaba_63",
     "lat": 32.1785354,
     "lon": 34.9010899,
     "name": "גולומב 34",
@@ -753,10 +815,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Golomb St 34, Kefar Sava"
+    "addressEn": "Golomb St 34, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-66",
+    "id": "kfarsaba_64",
     "lat": 32.1925846,
     "lon": 34.8916282,
     "name": "רפפורט 6",
@@ -765,10 +828,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rapaport St 3, Kefar Sava"
+    "addressEn": "Rapaport St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-67",
+    "id": "kfarsaba_65",
     "lat": 32.1820809,
     "lon": 34.93994,
     "name": "הגפן 12",
@@ -777,10 +841,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGefen St 12, Kefar Sava"
+    "addressEn": "HaGefen St 12, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-68",
+    "id": "kfarsaba_66",
     "lat": 32.1720389,
     "lon": 34.9031554,
     "name": "אהרונוביץ 15",
@@ -789,10 +854,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Aharonovich St 15, Kefar Sava"
+    "addressEn": "Aharonovich St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-69",
+    "id": "kfarsaba_67",
     "lat": 32.1802613,
     "lon": 34.9023997,
     "name": "חצרות הדר 9",
@@ -801,10 +867,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khatsrot Hadar St 9, Kefar Sava"
+    "addressEn": "Khatsrot Hadar St 9, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-71",
+    "id": "kfarsaba_68",
     "lat": 32.1829871,
     "lon": 34.9358745,
     "name": "לבונה 10",
@@ -813,10 +880,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Levona St 10, Kefar Sava"
+    "addressEn": "Levona St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-72",
+    "id": "kfarsaba_69",
     "lat": 32.1795422,
     "lon": 34.8926252,
     "name": "מרכוס 10",
@@ -825,10 +893,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Marcus St 10, Kefar Sava"
+    "addressEn": "Marcus St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-73",
+    "id": "kfarsaba_70",
     "lat": 32.1856566,
     "lon": 34.9001327,
     "name": "לוינסקי 10",
@@ -837,10 +906,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Levinski St 10, Kefar Sava"
+    "addressEn": "Levinski St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-74",
+    "id": "kfarsaba_71",
     "lat": 32.1713775,
     "lon": 34.9160085,
     "name": "גבורות 9",
@@ -849,10 +919,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGvurot St 9, Kefar Sava"
+    "addressEn": "HaGvurot St 9, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-75",
+    "id": "kfarsaba_72",
     "lat": 32.1811082,
     "lon": 34.9084837,
     "name": "רש\"י 9",
@@ -861,10 +932,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashi St 9, Kefar Sava"
+    "addressEn": "Rashi St 9, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-76",
+    "id": "kfarsaba_73",
     "lat": 32.1844158,
     "lon": 34.89724100000001,
     "name": "תלם 4",
@@ -873,10 +945,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dr Moshe Sne St 13, Kefar Sava"
+    "addressEn": "Dr Moshe Sne St 13, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-77",
+    "id": "kfarsaba_74",
     "lat": 32.1827341,
     "lon": 34.9121173,
     "name": "הרב קוק 9",
@@ -885,10 +958,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Kuk St 12, Kefar Sava"
+    "addressEn": "HaRav Kuk St 12, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-78",
+    "id": "kfarsaba_75",
     "lat": 32.177717,
     "lon": 34.915648,
     "name": "המפלס 4",
@@ -897,10 +971,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMefales St 4, Kefar Sava"
+    "addressEn": "HaMefales St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-79",
+    "id": "kfarsaba_76",
     "lat": 32.1745241,
     "lon": 34.9052867,
     "name": "ירושלים 17",
@@ -909,10 +984,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jerusalem St 17, Kefar Sava"
+    "addressEn": "Jerusalem St 17, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-80",
+    "id": "kfarsaba_77",
     "lat": 32.1875972,
     "lon": 34.8936038,
     "name": "מאיר אריאל 2",
@@ -921,10 +997,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Me'ir Ari'el St 2, Kefar Sava"
+    "addressEn": "Me'ir Ari'el St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-81",
+    "id": "kfarsaba_78",
     "lat": 32.1870296,
     "lon": 34.9272329,
     "name": "סמ שחף 3",
@@ -933,10 +1010,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Simtat Shahaf 5, Kfar Saba"
+    "addressEn": "Simtat Shahaf 5, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-82",
+    "id": "kfarsaba_79",
     "lat": 32.1762895,
     "lon": 34.9129827,
     "name": "אלתרמן 13",
@@ -945,10 +1023,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Natan Alterman St 15, Kefar Sava"
+    "addressEn": "Natan Alterman St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-83",
+    "id": "kfarsaba_80",
     "lat": 32.1796348,
     "lon": 34.912513,
     "name": "השלום 10",
@@ -957,10 +1036,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Ilan St 15, Kefar Sava"
+    "addressEn": "Bar Ilan St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-84",
+    "id": "kfarsaba_81",
     "lat": 32.1889888,
     "lon": 34.895234,
     "name": "בנאי יוסי 3",
@@ -969,10 +1049,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Me'ir Ari'el St 14/4, Kefar Sava"
+    "addressEn": "Me'ir Ari'el St 14/4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-85",
+    "id": "kfarsaba_82",
     "lat": 32.1730672,
     "lon": 34.9121689,
     "name": "קרן אברהם 37",
@@ -981,10 +1062,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaBanim St 11, Kefar Sava"
+    "addressEn": "HaBanim St 11, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-86",
+    "id": "kfarsaba_83",
     "lat": 32.1793251,
     "lon": 34.9110565,
     "name": "סמ אביבים 6",
@@ -993,10 +1075,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Avivim St 6, Kefar Sava"
+    "addressEn": "Avivim St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-87",
+    "id": "kfarsaba_84",
     "lat": 32.168611,
     "lon": 34.92101,
     "name": "הראשונים 29",
@@ -1005,10 +1088,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Rishonim St 29, Kefar Sava"
+    "addressEn": "Ha-Rishonim St 29, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-88",
+    "id": "kfarsaba_85",
     "lat": 32.1713568,
     "lon": 34.9122535,
     "name": "בן גוריון 60",
@@ -1017,10 +1101,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ben Gurion St 60, Kefar Sava"
+    "addressEn": "Ben Gurion St 60, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-89",
+    "id": "kfarsaba_86",
     "lat": 32.1757472,
     "lon": 34.9106349,
     "name": "המייסדים 27",
@@ -1029,10 +1114,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Meyasdim St 27, Kefar Sava"
+    "addressEn": "Ha-Meyasdim St 27, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-91",
+    "id": "kfarsaba_87",
     "lat": 32.1897541,
     "lon": 34.8996778,
     "name": "ויתקין 12",
@@ -1041,10 +1127,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Vitkin St 12, Kefar Sava"
+    "addressEn": "Vitkin St 12, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-92",
+    "id": "kfarsaba_88",
     "lat": 32.1752638,
     "lon": 34.9032262,
     "name": "אנה פרנק 14",
@@ -1053,10 +1140,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Anne Frank St 14, Kefar Sava"
+    "addressEn": "Anne Frank St 14, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-93",
+    "id": "kfarsaba_89",
     "lat": 32.1777359,
     "lon": 34.915913,
     "name": "המפלס 6",
@@ -1065,10 +1153,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMefales St 6, Kefar Sava"
+    "addressEn": "HaMefales St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-94",
+    "id": "kfarsaba_90",
     "lat": 32.1732946,
     "lon": 34.9140471,
     "name": "תל חי 26",
@@ -1077,10 +1166,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel-Hay St 26, Kefar Sava"
+    "addressEn": "Tel-Hay St 26, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-95",
+    "id": "kfarsaba_91",
     "lat": 32.1714267,
     "lon": 34.9201155,
     "name": "יציאת אירופה 24",
@@ -1089,10 +1179,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yetsi'at Eropa St 24, Kefar Sava"
+    "addressEn": "Yetsi'at Eropa St 24, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-96",
+    "id": "kfarsaba_92",
     "lat": 32.1758942,
     "lon": 34.8971542,
     "name": "גולד זאב 13",
@@ -1101,10 +1192,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 13, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 13, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-97",
+    "id": "kfarsaba_93",
     "lat": 32.1851163,
     "lon": 34.8960529,
     "name": "סנה משה 19",
@@ -1113,10 +1205,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dr Moshe Sne St 19, Kefar Sava"
+    "addressEn": "Dr Moshe Sne St 19, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-98",
+    "id": "kfarsaba_94",
     "lat": 32.1742316,
     "lon": 34.9158361,
     "name": "העמק 28",
@@ -1125,10 +1218,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Emek St 28, Kefar Sava"
+    "addressEn": "Ha-Emek St 28, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-99",
+    "id": "kfarsaba_95",
     "lat": 32.1751126,
     "lon": 34.8964048,
     "name": "גלר זאב 18",
@@ -1137,10 +1231,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 18, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 18, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-101",
+    "id": "kfarsaba_96",
     "lat": 32.1717517,
     "lon": 34.9157099,
     "name": "חטיבת הראל 13",
@@ -1149,10 +1244,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGvurot St 13, Kefar Sava"
+    "addressEn": "HaGvurot St 13, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-102",
+    "id": "kfarsaba_97",
     "lat": 32.1752361,
     "lon": 34.8967143,
     "name": "גלר זאב 14",
@@ -1161,10 +1257,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Geler St 12, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 12, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-103",
+    "id": "kfarsaba_98",
     "lat": 32.1895575,
     "lon": 34.8955269,
     "name": "רוזנבלום יאיר 24",
@@ -1173,10 +1270,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yair Rozenblum St 24, Kefar Sava"
+    "addressEn": "Yair Rozenblum St 24, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-104",
+    "id": "kfarsaba_99",
     "lat": 32.1795627,
     "lon": 34.9024091,
     "name": "הוז דב 25",
@@ -1185,10 +1283,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dov Hoz St 25, Kefar Sava"
+    "addressEn": "Dov Hoz St 25, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-105",
+    "id": "kfarsaba_100",
     "lat": 32.1869188,
     "lon": 34.9264282,
     "name": "חסידה 4",
@@ -1197,10 +1296,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hasida St 4, Kefar Sava"
+    "addressEn": "Hasida St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-106",
+    "id": "kfarsaba_101",
     "lat": 32.185395,
     "lon": 34.903527,
     "name": "אז\"ר 5",
@@ -1209,10 +1309,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azar St 8, Kefar Sava"
+    "addressEn": "Azar St 8, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-108",
+    "id": "kfarsaba_102",
     "lat": 32.1881037,
     "lon": 34.9382332,
     "name": "יונה 10",
@@ -1221,10 +1322,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Eliyahu ha-Tishbi St 2, Kefar Sava"
+    "addressEn": "Eliyahu ha-Tishbi St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-110",
+    "id": "kfarsaba_103",
     "lat": 32.1754712,
     "lon": 34.9103034,
     "name": "גבורי ישראל 4",
@@ -1233,10 +1335,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Giborei Yisra'el St 4, Kefar Sava"
+    "addressEn": "Giborei Yisra'el St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-111",
+    "id": "kfarsaba_104",
     "lat": 32.1743461,
     "lon": 34.9051755,
     "name": "ירושלים 15",
@@ -1245,10 +1348,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jerusalem St 15, Kefar Sava"
+    "addressEn": "Jerusalem St 15, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-112",
+    "id": "kfarsaba_105",
     "lat": 32.1720286,
     "lon": 34.8998845,
     "name": "שלום אש 4",
@@ -1257,10 +1361,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shalom Ash St 4, Kefar Sava"
+    "addressEn": "Shalom Ash St 4, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-113",
+    "id": "kfarsaba_106",
     "lat": 32.179626,
     "lon": 34.890239,
     "name": "מורדי הגטאות 41",
@@ -1269,10 +1374,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mordei ha-Geta'ot St 41, Kefar Sava"
+    "addressEn": "Mordei ha-Geta'ot St 41, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-114",
+    "id": "kfarsaba_107",
     "lat": 32.1797825,
     "lon": 34.9093745,
     "name": "השחר 19",
@@ -1281,10 +1387,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaShahar St 19, Kefar Sava"
+    "addressEn": "HaShahar St 19, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-115",
+    "id": "kfarsaba_108",
     "lat": 32.194778,
     "lon": 34.8900104,
     "name": "סקיבין 1",
@@ -1293,10 +1400,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Masha ve-Dov Skibin St 1, Kefar Sava"
+    "addressEn": "Masha ve-Dov Skibin St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-116",
+    "id": "kfarsaba_109",
     "lat": 32.1845476,
     "lon": 34.9359818,
     "name": "דניאל 10",
@@ -1305,10 +1413,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Daniel St 10, Kefar Sava"
+    "addressEn": "Daniel St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-117",
+    "id": "kfarsaba_110",
     "lat": 32.1693459,
     "lon": 34.9246099,
     "name": "אלחריזי 9",
@@ -1317,10 +1426,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "AlHarizi St 9, Kefar Sava"
+    "addressEn": "AlHarizi St 9, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-118",
+    "id": "kfarsaba_111",
     "lat": 32.1832411,
     "lon": 34.9420687,
     "name": "יהודה המכבי 3",
@@ -1329,10 +1439,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 3, Kefar Sava"
+    "addressEn": "Yehuda ha-Maccabi St 3, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-119",
+    "id": "kfarsaba_112",
     "lat": 32.1746963,
     "lon": 34.8986042,
     "name": "הפרדס 10",
@@ -1341,10 +1452,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaPardes St 10, Kefar Sava"
+    "addressEn": "HaPardes St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-120",
+    "id": "kfarsaba_113",
     "lat": 32.181071,
     "lon": 34.9175764,
     "name": "טירת צבי 14",
@@ -1353,10 +1465,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tirat Tsvi St 14, Kefar Sava"
+    "addressEn": "Tirat Tsvi St 14, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-122",
+    "id": "kfarsaba_114",
     "lat": 32.187714,
     "lon": 34.8937445,
     "name": "מאיר אריאל 1",
@@ -1365,10 +1478,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Me'ir Ari'el St 2, Kefar Sava"
+    "addressEn": "Me'ir Ari'el St 2, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-123",
+    "id": "kfarsaba_115",
     "lat": 32.1722119,
     "lon": 34.9121989,
     "name": "קרן אברהם 24",
@@ -1377,10 +1491,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Avraham Keren St 24, Kefar Sava"
+    "addressEn": "Avraham Keren St 24, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-124",
+    "id": "kfarsaba_116",
     "lat": 32.192347,
     "lon": 34.892751,
     "name": "רפפורט 8",
@@ -1389,10 +1504,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rapaport St 8, Kefar Sava"
+    "addressEn": "Rapaport St 8, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-125",
+    "id": "kfarsaba_117",
     "lat": 32.1851409,
     "lon": 34.93382709999999,
     "name": "יואל 1",
@@ -1401,10 +1517,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yoel St 1, Kefar Sava"
+    "addressEn": "Yoel St 1, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-127",
+    "id": "kfarsaba_118",
     "lat": 32.1740656,
     "lon": 34.9170823,
     "name": "הגליל 6",
@@ -1413,10 +1530,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Galil St 6, Kefar Sava"
+    "addressEn": "Ha-Galil St 6, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-128",
+    "id": "kfarsaba_119",
     "lat": 32.1724147,
     "lon": 34.9002087,
     "name": "איינשטיין 5",
@@ -1425,10 +1543,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Blum St 10, Kefar Sava"
+    "addressEn": "Blum St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-129",
+    "id": "kfarsaba_120",
     "lat": 32.1820846,
     "lon": 34.9375257,
     "name": "האילנות 28",
@@ -1437,10 +1556,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Beit HaBad St 21, Kefar Sava"
+    "addressEn": "Beit HaBad St 21, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-130",
+    "id": "kfarsaba_121",
     "lat": 32.1831583,
     "lon": 34.942072,
     "name": "יהודה המכבי 10",
@@ -1449,10 +1569,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 10, Kefar Sava"
+    "addressEn": "Yehuda ha-Maccabi St 10, Kefar Sava",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-132",
+    "id": "kfarsaba_122",
     "lat": 32.1735202,
     "lon": 34.9122704,
     "name": "הבנים 10",
@@ -1461,10 +1582,11 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גן התבור, HaBanim St 10, Kfar Saba"
+    "addressEn": "גן התבור, HaBanim St 10, Kfar Saba",
+    "city": "כפר סבא"
   },
   {
-    "id": "undefined-133",
+    "id": "kfarsaba_123",
     "lat": 32.173785,
     "lon": 34.921272,
     "name": "אח\"י אילת 14",
@@ -1473,6 +1595,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ahi Eilat St 14, Kefar Sava"
+    "addressEn": "Ahi Eilat St 14, Kefar Sava",
+    "city": "כפר סבא"
   }
 ]
