@@ -40,8 +40,8 @@
   },
   {
     "id": "אשדוד-4",
-    "lat": 31.804381,
-    "lon": 34.655314,
+    "lat": 31.8094,
+    "lon": 34.6455,
     "name": "כוכב הים",
     "address": "מרזוק 17",
     "city": "אשדוד",
@@ -49,7 +49,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rambam St 16, Ashdod"
+    "addressEn": "Moshe Marzuk and Shmuel Ezer St 10, Ashdod"
   },
   {
     "id": "אשדוד-5",
@@ -183,8 +183,8 @@
   },
   {
     "id": "אשדוד-15",
-    "lat": 31.804381,
-    "lon": 34.655314,
+    "lat": 31.805864,
+    "lon": 34.6479689,
     "name": "הלכיש",
     "address": "אילת 12",
     "city": "אשדוד",
@@ -192,7 +192,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rambam St 16, Ashdod"
+    "addressEn": "Ahi Eilat St 12, Ashdod"
   },
   {
     "id": "אשדוד-16",
@@ -209,8 +209,8 @@
   },
   {
     "id": "אשדוד-17",
-    "lat": 31.804381,
-    "lon": 34.655314,
+    "lat": 31.8061943,
+    "lon": 34.6483116,
     "name": "הקונכיה",
     "address": "אילת 10",
     "city": "אשדוד",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rambam St 16, Ashdod"
+    "addressEn": "Ahi Eilat St 10, Ashdod"
   },
   {
     "id": "אשדוד-18",
@@ -261,8 +261,8 @@
   },
   {
     "id": "אשדוד-21",
-    "lat": 31.804381,
-    "lon": 34.655314,
+    "lat": 31.8050369,
+    "lon": 34.6480796,
     "name": "מצולות",
     "address": "אילת 21",
     "city": "אשדוד",
@@ -270,7 +270,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rambam St 16, Ashdod"
+    "addressEn": "Ahi Eilat St 21, Ashdod"
   },
   {
     "id": "אשדוד-22",
@@ -287,8 +287,8 @@
   },
   {
     "id": "אשדוד-23",
-    "lat": 31.804381,
-    "lon": 34.655314,
+    "lat": 31.8058853,
+    "lon": 34.6490037,
     "name": "פינגווין",
     "address": "אילת 11",
     "city": "אשדוד",
@@ -296,7 +296,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rambam St 16, Ashdod"
+    "addressEn": "Ahi Eilat St 11, Ashdod,"
   },
   {
     "id": "אשדוד-24",

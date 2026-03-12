@@ -112,7 +112,7 @@
       border-bottom: 1px solid #f1f5f9; transition: background .14s;
     }
     .sug-item:last-child { border-bottom: none; }
-    .sug-item:hover { background: #f0f7ff; }
+    .sug-item:hover, .sug-item.sug-active { background: #f0f7ff; }
 
     /* Buttons */
     .btn {
@@ -666,7 +666,42 @@ document.getElementById('addr').addEventListener('input', function () {
   if (v.length < 2) { hideSug(); return; }
   sugTimer = setTimeout(() => fetchSug(v), 600);
 });
-document.getElementById('addr').addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
+let sugIdx = -1; // currently highlighted autocomplete item
+
+document.getElementById('addr').addEventListener('keydown', e => {
+  const box = document.getElementById('sug');
+  const items = box.querySelectorAll('.sug-item');
+  if (box.style.display === 'block' && items.length) {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      sugIdx = Math.min(sugIdx + 1, items.length - 1);
+      items.forEach((el, i) => el.classList.toggle('sug-active', i === sugIdx));
+      items[sugIdx].scrollIntoView({ block: 'nearest' });
+      return;
+    }
+    if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      sugIdx = Math.max(sugIdx - 1, 0);
+      items.forEach((el, i) => el.classList.toggle('sug-active', i === sugIdx));
+      items[sugIdx].scrollIntoView({ block: 'nearest' });
+      return;
+    }
+    if (e.key === 'Escape') {
+      hideSug();
+      sugIdx = -1;
+      return;
+    }
+    if (e.key === 'Enter') {
+      if (sugIdx >= 0 && sugIdx < items.length) {
+        e.preventDefault();
+        items[sugIdx].click();
+        sugIdx = -1;
+        return;
+      }
+    }
+  }
+  if (e.key === 'Enter') doSearch();
+});
 document.addEventListener('click', e => { if (!e.target.closest('.input-wrap')) hideSug(); });
 
 async function fetchSug(q) {
@@ -678,6 +713,7 @@ async function fetchSug(q) {
       `<div class="sug-item" onclick="pickSug('${esc(item.display_name)}',${item.lat},${item.lon})">${esc(item.display_name)}</div>`
     ).join('');
     box.style.display = 'block';
+    sugIdx = -1;
   } catch { hideSug(); }
 }
 function pickSug(name, lat, lon) {
@@ -686,7 +722,7 @@ function pickSug(name, lat, lon) {
   setUser(+lat, +lon);
   loadShelters();
 }
-function hideSug() { document.getElementById('sug').style.display = 'none'; }
+function hideSug() { document.getElementById('sug').style.display = 'none'; sugIdx = -1; }
 
 // ═══════════════════════════════════
 // LOAD SHELTERS (from server)
@@ -808,10 +844,13 @@ function renderList(shelters) {
 
   list.innerHTML = shelters.map((s, i) => {
     const cat  = s.category || 'public';
-    const name = localizeName(s.name, s);
+    let name = localizeName(s.name, s);
     const dCls = cat === 'school' ? 'school' : cat === 'parking' ? 'parking'
                   : s.dist < 0.5 ? 'near' : s.dist < 2 ? 'medium' : 'far';
-    const addr  = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
+    let addr  = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
+    // If name is generic like "מקלט 1" or "Shelter 23", use address as title
+    const isGeneric = /^(מקלט|Shelter)\s+\d+$/.test(name.trim());
+    if (isGeneric && addr) { const tmp = name; name = addr; addr = tmp; }
     const waze  = `https://waze.com/ul?ll=${s.lat},${s.lon}&navigate=yes`;
     const gmaps = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lon}`;
 
@@ -863,10 +902,12 @@ function renderMarkers(shelters) {
       html: `<div style="width:26px;height:26px;background:${color};color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;box-shadow:0 2px 6px rgba(0,0,0,.35);border:2px solid #fff;">${i+1}</div>`,
       iconSize: [26, 26], iconAnchor: [13, 13]
     });
-    const addr = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
+    let popName = localizeName(s.name, s);
+    let popAddr = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
+    if (/^(מקלט|Shelter)\s+\d+$/.test(popName.trim()) && popAddr) { const tmp = popName; popName = popAddr; popAddr = tmp; }
     const m = L.marker([s.lat, s.lon], { icon })
       .addTo(map)
-      .bindPopup(`<div dir="${t().dir}"><b>${esc(localizeName(s.name, s))}</b>${addr ? '<br>' + esc(addr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
+      .bindPopup(`<div dir="${t().dir}"><b>${esc(popName)}</b>${popAddr ? '<br>' + esc(popAddr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
     m.on('click', () => {
       const card = document.getElementById('card-' + s.id);
       if (card) card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
