@@ -1,14 +1,21 @@
-// Generic shelter geocoder
-// Usage: node geocode-shelters.js <input.json> <output.json>
+// Generic shelter geocoder — Google Maps Geocoding API
+// Usage: GOOGLE_API_KEY=... node geocode-shelters.js <input.json> <output.json>
 // Input format: [{name, address, city, type, category, source, ...extra}]
 // Output format: same + lat, lon fields (entries that fail geocoding are dropped)
 
 const fs = require('fs');
 const https = require('https');
 
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+if (!GOOGLE_API_KEY) {
+  console.error('Error: GOOGLE_API_KEY environment variable is required');
+  console.error('Usage: GOOGLE_API_KEY=your_key node geocode-shelters.js <input.json> <output.json>');
+  process.exit(1);
+}
+
 const [,, inputFile, outputFile] = process.argv;
 if (!inputFile || !outputFile) {
-  console.error('Usage: node geocode-shelters.js <input.json> <output.json>');
+  console.error('Usage: GOOGLE_API_KEY=... node geocode-shelters.js <input.json> <output.json>');
   process.exit(1);
 }
 
@@ -19,19 +26,21 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function geocodeOnce(address) {
   return new Promise((resolve, reject) => {
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=il`;
-    https.get(url, { headers: { 'User-Agent': 'ShelterFinderBuilder/1.0' } }, res => {
-      if (res.statusCode === 429 || res.statusCode === 503) {
-        let d = ''; res.on('data', c => d += c);
-        res.on('end', () => reject(new Error('RATE_LIMITED_' + res.statusCode)));
-        return;
-      }
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=${GOOGLE_API_KEY}&language=he&region=il`;
+    https.get(url, res => {
       let data = '';
       res.on('data', d => data += d);
       res.on('end', () => {
         try {
-          const results = JSON.parse(data);
-          resolve(results.length > 0 ? results[0] : null);
+          const result = JSON.parse(data);
+          if (result.status === 'OK' && result.results.length > 0) {
+            const loc = result.results[0].geometry.location;
+            resolve({ lat: loc.lat, lon: loc.lng, formatted: result.results[0].formatted_address });
+          } else if (result.status === 'OVER_QUERY_LIMIT') {
+            reject(new Error('RATE_LIMITED'));
+          } else {
+            resolve(null); // ZERO_RESULTS or other non-error status
+          }
         } catch (e) { reject(new Error('PARSE_ERROR')); }
       });
     }).on('error', reject);
@@ -44,8 +53,8 @@ async function geocode(address, retries) {
     try {
       return await geocodeOnce(address);
     } catch (e) {
-      if (e.message.startsWith('RATE_LIMITED') || e.message === 'PARSE_ERROR') {
-        const wait = 3000 * (attempt + 1);
+      if (e.message === 'RATE_LIMITED' || e.message === 'PARSE_ERROR') {
+        const wait = 2000 * (attempt + 1);
         console.log('    Retrying in ' + (wait/1000) + 's (attempt ' + (attempt+1) + '/' + retries + ')...');
         await sleep(wait);
       } else {
@@ -69,8 +78,8 @@ async function main() {
       if (geo) {
         results.push({
           id: (s.cityKey || s.city) + '-' + (i + 1),
-          lat: parseFloat(geo.lat),
-          lon: parseFloat(geo.lon),
+          lat: geo.lat,
+          lon: geo.lon,
           name: s.name,
           address: s.address,
           city: s.city,
@@ -90,7 +99,8 @@ async function main() {
       console.log('  [' + (i+1) + '/' + shelters.length + '] FAIL ' + s.name + ' - error: ' + e.message);
     }
 
-    await sleep(1200);
+    // Google allows ~50 requests/sec, but let's be polite
+    await sleep(200);
   }
 
   fs.writeFileSync(outputFile, JSON.stringify(results, null, 2), 'utf8');
