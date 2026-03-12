@@ -9,7 +9,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Golda Me'ir 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_203",
@@ -21,7 +22,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nekhemya St 33, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_204",
@@ -33,7 +35,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaZayit St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_205",
@@ -45,7 +48,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "ירושלים, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_206",
@@ -57,7 +61,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eilat St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_207",
@@ -69,7 +74,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAyin Het St 18, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_208",
@@ -81,7 +87,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Akhad ha-Am St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_209",
@@ -93,7 +100,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordehai Narkis St 41, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_210",
@@ -105,7 +113,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giraffe Park, Ramban St 25, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_211",
@@ -117,7 +126,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda Alkalai St 8, Jerusalem, 9788702"
   },
   {
     "id": "geojson_jerusalem_212",
@@ -129,7 +139,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bostanai St 14, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_213",
@@ -141,7 +152,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Masaryk St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_214",
@@ -153,7 +165,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "60 63, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_215",
@@ -165,7 +178,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dan St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_216",
@@ -177,7 +191,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dan St 13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_217",
@@ -189,7 +204,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yekhezkel Marton St 5, Jerusalem, 9356005"
   },
   {
     "id": "geojson_jerusalem_218",
@@ -201,7 +217,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Shalom Yehuda St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_219",
@@ -213,7 +230,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emek Refa'im St 66, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_220",
@@ -225,7 +243,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "El'azar ha-Moda'I St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_221",
@@ -237,7 +256,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "El'azar Hamoda'i/Reish Lakish, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_222",
@@ -249,7 +269,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Reish Lakish St 2, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_223",
@@ -261,7 +282,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "El'azar ha-Moda'I St 7, Jerusalem, 93671"
   },
   {
     "id": "geojson_jerusalem_224",
@@ -273,7 +295,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ma'agalei Yavne St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_225",
@@ -285,7 +308,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mekor Haim St 50, Jerusalem, 93301"
   },
   {
     "id": "geojson_jerusalem_226",
@@ -297,7 +321,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Uruguay St 31, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_227",
@@ -309,7 +334,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Uruguay St 42, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_228",
@@ -321,7 +347,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Colombia St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_229",
@@ -333,7 +360,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Szold Institute/Colombia, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_230",
@@ -345,7 +373,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sha'arei Tora St 12, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_231",
@@ -357,7 +386,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShomer St 13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_232",
@@ -369,7 +399,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Beit Lehem Rd 164, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_233",
@@ -381,7 +412,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azri'el Hildesheimer St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_234",
@@ -393,7 +425,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rashi St 70, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_235",
@@ -405,7 +438,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ovadya mi-Bartenura St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_236",
@@ -417,7 +451,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gid'on St 13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_237",
@@ -429,7 +464,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaSaifan St 31, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_238",
@@ -441,7 +477,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaSanhedrin St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_239",
@@ -453,7 +490,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav BlauStreet 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_240",
@@ -465,7 +503,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav S Sha'ulzon St 51, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_241",
@@ -477,7 +516,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_242",
@@ -489,7 +529,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pnina St 11, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_243",
@@ -501,7 +542,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmiyahu St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_244",
@@ -513,7 +555,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rehovot Ha-Bocharim St 24, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_245",
@@ -525,7 +568,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rehovot Ha-Bocharim St 21, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_246",
@@ -537,7 +581,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabenu Gershom St 24, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_247",
@@ -549,7 +594,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoel St 13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_248",
@@ -561,7 +607,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabenu Gershom St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_249",
@@ -573,7 +620,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Musayof St 15, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_250",
@@ -585,7 +633,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bezalel Ashkenazi St 23, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_251",
@@ -597,7 +646,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehoshu'a Reichman St 37, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_252",
@@ -609,7 +659,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ezra St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_253",
@@ -621,7 +672,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hagai St 11, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_254",
@@ -633,7 +685,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avodat Yisra'el St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_255",
@@ -645,7 +698,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sha'arei Pina St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_256",
@@ -657,7 +711,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yohanan Yosef Mizrahi St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_257",
@@ -669,7 +724,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barukh Rapaport St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_258",
@@ -681,7 +737,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Zonenfeld St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_259",
@@ -693,7 +750,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shomrei Emunim 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_260",
@@ -705,7 +763,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Strauss St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_261",
@@ -717,7 +776,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Even Yehoshua St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_262",
@@ -729,7 +789,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Strauss St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_263",
@@ -741,7 +802,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jaffa St 72, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_264",
@@ -753,7 +815,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kfar Nahum St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_265",
@@ -765,7 +828,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Agripas St 149, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_266",
@@ -777,7 +841,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Angelo Levi Bianchini St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_267",
@@ -789,7 +854,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Heleni ha-Malka St 34, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_268",
@@ -801,7 +867,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daniel St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_269",
@@ -813,7 +880,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Abarbanel St 20, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_270",
@@ -825,7 +893,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yossi Ben Yo'ezer St 21, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_271",
@@ -837,7 +906,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaPalmach St 25, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_272",
@@ -849,7 +919,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גן ברודי, Chaim Brody St 15, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_273",
@@ -861,7 +932,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nili St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_274",
@@ -873,7 +945,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kaf Tet be-November St 33, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_275",
@@ -885,7 +958,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Haim Bajayo St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_276",
@@ -897,7 +971,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rachel Imenu St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_277",
@@ -909,7 +984,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Klein St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_278",
@@ -921,7 +997,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Masaryk St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_279",
@@ -933,7 +1010,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "60 47, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_280",
@@ -945,7 +1023,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai ha-Yehudi St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_281",
@@ -957,7 +1036,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_282",
@@ -969,7 +1049,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Gavriel St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_283",
@@ -981,7 +1062,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Leib Yafe St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_284",
@@ -993,7 +1075,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Beit Lehem Rd 99, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_285",
@@ -1005,7 +1088,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Amatsya St 5, Jerusalem, 9314808"
   },
   {
     "id": "geojson_jerusalem_286",
@@ -1017,7 +1101,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tchernichovsky St 50, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_287",
@@ -1029,7 +1114,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hizkiyahu HaMelech St 59, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_288",
@@ -1041,7 +1127,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Nasi St 23, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_289",
@@ -1053,7 +1140,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ma'agalei Yavne St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_290",
@@ -1065,7 +1153,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rashbag St 26, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_291",
@@ -1077,7 +1166,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Betera St 2-8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_292",
@@ -1089,7 +1179,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mikhvar St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_293",
@@ -1101,7 +1192,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli'ezer ha-Gadol St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_294",
@@ -1113,7 +1205,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nitai HaArbeli St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_295",
@@ -1125,7 +1218,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tkufa St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_296",
@@ -1137,7 +1231,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hose San Martin St 17, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_297",
@@ -1149,7 +1244,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Volta Ilit St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_298",
@@ -1161,7 +1257,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Costa Rica St 81, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_299",
@@ -1173,7 +1270,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNurit St 25, Jerusalem, 9651030"
   },
   {
     "id": "geojson_jerusalem_300",
@@ -1185,7 +1283,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNurit St 23, Jerusalem, 9651030"
   },
   {
     "id": "geojson_jerusalem_301",
@@ -1197,7 +1296,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaSaifan St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_302",
@@ -1209,7 +1309,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Republika ha-Dominikanit St 2, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_303",
@@ -1221,7 +1322,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehiel Chlenov St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_304",
@@ -1233,7 +1335,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Janus Korczak St 25, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_305",
@@ -1245,7 +1348,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Chile St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_306",
@@ -1257,7 +1361,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tora Va'Avoda St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_307",
@@ -1269,7 +1374,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Israel Zangvill St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_308",
@@ -1281,7 +1387,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Israel Zangvill St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_309",
@@ -1293,7 +1400,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khida St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_310",
@@ -1305,7 +1413,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "He-Khaluts St 72, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_311",
@@ -1317,7 +1426,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Banai St 23/1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_312",
@@ -1329,7 +1439,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "He-Khaluts St 38, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_313",
@@ -1341,7 +1452,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kiryat Moshe St 5, Jerusalem, 9610501"
   },
   {
     "id": "geojson_jerusalem_314",
@@ -1353,7 +1465,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaMe'iri 19, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_315",
@@ -1365,7 +1478,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zikhron Ya'akov St 4-16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_316",
@@ -1377,7 +1491,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivtei Israel St 48, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_317",
@@ -1389,7 +1504,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dov Hoz St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_318",
@@ -1401,7 +1517,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hose San Martin St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_319",
@@ -1413,7 +1530,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "AlHarizi St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_320",
@@ -1425,7 +1543,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Iceland St 34, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_321",
@@ -1437,7 +1556,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Olifant St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_322",
@@ -1449,7 +1569,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Elkabets St 24, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_323",
@@ -1461,7 +1582,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Uruguay St 20, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_324",
@@ -1473,7 +1595,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Borochov St 61, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_325",
@@ -1485,7 +1608,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTibonim St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_326",
@@ -1497,7 +1621,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabbi Meir St 11, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_327",
@@ -1509,7 +1634,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ohel Moshe St 42, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_328",
@@ -1521,7 +1647,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kikar Denya Light Rail Station/Herzl Blvd, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_329",
@@ -1533,7 +1660,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yossi Ben Yo'ezer St 39, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_330",
@@ -1545,7 +1673,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kana'e HaGalil, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_331",
@@ -1557,7 +1686,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Me'a She'arim St 102, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_332",
@@ -1569,7 +1699,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Iceland St 16/13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_333",
@@ -1581,7 +1712,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Raban Yohanan ben Zakai St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_334",
@@ -1593,7 +1725,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rakefet St 13, Jerusalem, 9650548"
   },
   {
     "id": "geojson_jerusalem_335",
@@ -1605,7 +1738,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zeharya St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_336",
@@ -1617,7 +1751,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabi Tsadok St 12, Jerusalem, 9334212"
   },
   {
     "id": "geojson_jerusalem_337",
@@ -1629,7 +1764,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Molkho St 5, Jerusalem, 9218511"
   },
   {
     "id": "geojson_jerusalem_338",
@@ -1641,7 +1777,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Re'uven St 18, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_339",
@@ -1653,7 +1790,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avinadav St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_340",
@@ -1665,7 +1803,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jaffa St 159, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_341",
@@ -1677,7 +1816,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisa Bracha St 47, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_342",
@@ -1689,7 +1829,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Yokhai St 47, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_343",
@@ -1701,7 +1842,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mexico St 22, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_344",
@@ -1713,7 +1855,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAvivit St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_345",
@@ -1725,7 +1868,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Kerem St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_346",
@@ -1737,7 +1881,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTurim St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_347",
@@ -1749,7 +1894,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Nerd St 6, Jerusalem, 9662639"
   },
   {
     "id": "geojson_jerusalem_348",
@@ -1761,7 +1907,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hose San Martin St 30, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_349",
@@ -1773,7 +1920,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat HaEmuna 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_350",
@@ -1785,7 +1933,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Karo St 35, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_351",
@@ -1797,7 +1946,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gesher HaHayim 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_352",
@@ -1809,7 +1959,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ovadya St 18, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_353",
@@ -1821,7 +1972,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Reish Lakish St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_354",
@@ -1833,7 +1985,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRadbaz St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_355",
@@ -1845,7 +1998,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zikhron Tuvya St 47, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_356",
@@ -1857,7 +2011,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ma'ane Simkha St 34, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_357",
@@ -1869,7 +2024,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kfar Bar'am St 49, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_358",
@@ -1881,7 +2037,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hizkiyahu HaMelech St 39, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_359",
@@ -1893,7 +2050,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nave Sha'anan St 8, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_360",
@@ -1905,7 +2063,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Shalom Yehuda St 30, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_361",
@@ -1917,7 +2076,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Haim Sireni St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_362",
@@ -1929,7 +2089,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tayasim St 38, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_363",
@@ -1941,7 +2102,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Evyatar HaCohen St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_364",
@@ -1953,7 +2115,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tverya St 30, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_365",
@@ -1965,7 +2128,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Israel Zangvill St 15, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_366",
@@ -1977,7 +2141,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גרינוולד 8, ירושלים"
   },
   {
     "id": "geojson_jerusalem_367",
@@ -1989,7 +2154,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hose San Martin St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_368",
@@ -2001,7 +2167,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Antignos St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_369",
@@ -2013,7 +2180,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yossi Ben Yo'ezer St 20, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_370",
@@ -2025,7 +2193,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaPalmach St 20, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_371",
@@ -2037,7 +2206,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Ezra St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_372",
@@ -2049,7 +2219,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "המלך ג'ורג'/קק''ל, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_373",
@@ -2061,7 +2232,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el ha-Nagid St 13, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_374",
@@ -2073,7 +2245,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Elmali'akh St 37, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_375",
@@ -2085,7 +2258,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gat St 12, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_376",
@@ -2097,7 +2271,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gat St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_377",
@@ -2109,7 +2284,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rosh Pina St 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_378",
@@ -2121,7 +2297,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rivka St 25, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_379",
@@ -2133,7 +2310,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Elmali'akh St 1, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_380",
@@ -2145,7 +2323,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "A.D. Gordon St 14, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_381",
@@ -2157,7 +2336,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Efrayim St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_382",
@@ -2169,7 +2349,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_383",
@@ -2181,7 +2362,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Raban Yohanan ben Zakai St 46, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_384",
@@ -2193,7 +2375,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsipora St 11, Jerusalem, 9362532"
   },
   {
     "id": "geojson_jerusalem_385",
@@ -2205,7 +2388,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Brazil St 28, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_386",
@@ -2217,7 +2401,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ma'alot Yitshak Tsvi Etinger St 29, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_387",
@@ -2229,7 +2414,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Kleinman St 2, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_388",
@@ -2241,7 +2427,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda St 11, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_389",
@@ -2253,7 +2440,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Taha Husein St 2, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_390",
@@ -2265,7 +2453,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Kochva St 63, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_391",
@@ -2277,7 +2466,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Costa Rica St 77, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_392",
@@ -2289,7 +2479,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Costa Rica St 75, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_393",
@@ -2301,7 +2492,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Colombia St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_394",
@@ -2313,7 +2505,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Uruguay St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_395",
@@ -2325,7 +2518,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Borochov St 61, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_396",
@@ -2337,7 +2531,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rosh Pina St 6, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_397",
@@ -2349,7 +2544,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rosh Pina St 6, Jerusalem, 9447115"
   },
   {
     "id": "geojson_jerusalem_398",
@@ -2361,7 +2557,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rishon Letsiyon St 9, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_399",
@@ -2373,7 +2570,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rishon Letsiyon St 10, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_400",
@@ -2385,7 +2583,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoel St 42, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_401",
@@ -2397,7 +2596,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Rokah St 41, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_402",
@@ -2409,7 +2609,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shimshon Polanski St 12, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_403",
@@ -2421,7 +2622,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Netsivin St 4, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_404",
@@ -2433,7 +2635,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Shmuel Salant St 26, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_405",
@@ -2445,7 +2648,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levi Yitshak Miberditchev St 16, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_406",
@@ -2457,7 +2661,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Stern St 65, Jerusalem, 9675051"
   },
   {
     "id": "geojson_jerusalem_407",
@@ -2469,7 +2674,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "פארק שייקה, Dr Ringelblum St, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_408",
@@ -2481,7 +2687,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Colombia St 7, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_409",
@@ -2493,7 +2700,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daniel St 5, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_410",
@@ -2505,7 +2713,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elisha St 14, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_411",
@@ -2517,7 +2726,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yordei ha-Sira St 29, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_412",
@@ -2529,7 +2739,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "סעדיה גאון 3, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_413",
@@ -2541,7 +2752,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jaffa St 210, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_414",
@@ -2553,7 +2765,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kdoshei Struma St 22, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_415",
@@ -2565,7 +2778,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabbi Haninna St 108, Jerusalem"
   },
   {
     "id": "geojson_jerusalem_416",
@@ -2577,6 +2791,7 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Abba Eban St 3, Jerusalem"
   }
 ]

@@ -9,7 +9,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tnu'at ha-Meri St 2, Kiryat Ono"
   },
   {
     "id": "קריית אונו-2",
@@ -21,7 +22,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Kakal 31, Kiryat Ono, 55216"
   },
   {
     "id": "קריית אונו-3",
@@ -33,7 +35,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sokolov St 7, Kiryat Ono"
   },
   {
     "id": "קריית אונו-4",
@@ -45,7 +48,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shai Agnon St 17, Kiryat Ono"
   },
   {
     "id": "קריית אונו-5",
@@ -57,7 +61,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jerusalem St 27, Kiryat Ono"
   },
   {
     "id": "קריית אונו-6",
@@ -69,7 +74,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 28, Kiryat Ono"
   },
   {
     "id": "קריית אונו-7",
@@ -81,7 +87,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ah'av St 2, Kiryat Ono"
   },
   {
     "id": "קריית אונו-8",
@@ -93,7 +100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ah'av St 2, Kiryat Ono"
   },
   {
     "id": "קריית אונו-9",
@@ -105,7 +113,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rashi St 8, Kiryat Ono"
   },
   {
     "id": "קריית אונו-10",
@@ -117,7 +126,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehudit St 13, Ramat Gan"
   },
   {
     "id": "קריית אונו-11",
@@ -129,7 +139,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 40, Kiryat Ono"
   },
   {
     "id": "קריית אונו-12",
@@ -141,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "שמואל הנגיד 17, Herzliya"
   },
   {
     "id": "קריית אונו-13",
@@ -153,7 +165,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yesha'ayahu St 3, Kiryat Ono"
   },
   {
     "id": "קריית אונו-14",
@@ -165,7 +178,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNasi St 57, Kiryat Ono"
   },
   {
     "id": "קריית אונו-15",
@@ -177,7 +191,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pinkas St 31, Kiryat Ono"
   },
   {
     "id": "קריית אונו-16",
@@ -189,7 +204,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair Stern St 1, Kiryat Ono"
   },
   {
     "id": "קריית אונו-17",
@@ -201,7 +217,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Yehuda HaMaccabi St 8, Kiryat Ono"
   },
   {
     "id": "קריית אונו-18",
@@ -213,7 +230,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Pinkas St 38, Kiryat Ono"
   },
   {
     "id": "קריית אונו-19",
@@ -225,7 +243,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "HaHadar St 10, Kiryat Ono"
   },
   {
     "id": "קריית אונו-20",
@@ -237,7 +256,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "HaZamir St 1, Kiryat Ono"
   },
   {
     "id": "קריית אונו-21",
@@ -249,7 +269,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Wingate St 22, Kiryat Ono"
   },
   {
     "id": "קריית אונו-22",
@@ -261,7 +282,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Nakhal Gamla St 10, Kiryat Ono"
   },
   {
     "id": "קריית אונו-23",
@@ -273,7 +295,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "HaZamir St 1, Kiryat Ono"
   },
   {
     "id": "קריית אונו-24",
@@ -285,7 +308,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Ha-Khavatselet St 1, Kiryat Ono"
   },
   {
     "id": "קריית אונו-25",
@@ -297,7 +321,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "שולמית אלוני 3, Kiryat Ono, 5552504"
   },
   {
     "id": "קריית אונו-26",
@@ -309,7 +334,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Yitskhak Rabin St 11, Kiryat Ono, 5551016"
   },
   {
     "id": "קריית אונו-27",
@@ -321,7 +347,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "נאוה סמל 16, Kiryat Ono"
   },
   {
     "id": "קריית אונו-28",
@@ -333,7 +360,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Bar Yehuda St 22, Kiryat Ono"
   },
   {
     "id": "קריית אונו-29",
@@ -345,7 +373,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Ha-Pardes St 6, Kiryat Ono"
   },
   {
     "id": "קריית אונו-30",
@@ -357,7 +386,8 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Bar Yehuda St 2, Kiryat Ono"
   },
   {
     "id": "קריית אונו-31",
@@ -369,6 +399,7 @@
     "neighborhood": "",
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
-    "category": "school"
+    "category": "school",
+    "addressEn": "Nehar HaYarden St 6, Kiryat Ono"
   }
 ]

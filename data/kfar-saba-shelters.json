@@ -8,7 +8,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rothschild St 2, Kefar Sava"
   },
   {
     "id": "undefined-2",
@@ -19,7 +20,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ovadya ha-Navi St 2, Kefar Sava"
   },
   {
     "id": "undefined-3",
@@ -30,7 +32,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "צמוד לצומח 80, Zetler St 5, Kfar Saba"
   },
   {
     "id": "undefined-4",
@@ -41,7 +44,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsviya Lubetkin St 15, Kefar Sava"
   },
   {
     "id": "undefined-5",
@@ -52,7 +56,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan St 2, Kefar Sava"
   },
   {
     "id": "undefined-6",
@@ -63,7 +68,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 2, Kefar Sava"
   },
   {
     "id": "undefined-7",
@@ -74,7 +80,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shalom St 11, Kefar Sava"
   },
   {
     "id": "undefined-8",
@@ -85,7 +92,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Galil St 48, Kefar Sava"
   },
   {
     "id": "undefined-9",
@@ -96,7 +104,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zamir St 3, Kefar Sava"
   },
   {
     "id": "undefined-10",
@@ -107,7 +116,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trei Asar St 24, Kefar Sava"
   },
   {
     "id": "undefined-11",
@@ -118,7 +128,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 11, Kefar Sava"
   },
   {
     "id": "undefined-12",
@@ -129,7 +140,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Gdud ha-Ivri St 3, Kefar Sava"
   },
   {
     "id": "undefined-13",
@@ -140,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sapir St 20, Kefar Sava, 4465228"
   },
   {
     "id": "undefined-14",
@@ -151,7 +164,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levinski St 4, Kefar Sava"
   },
   {
     "id": "undefined-15",
@@ -162,7 +176,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair Rozenblum St 25, Kefar Sava"
   },
   {
     "id": "undefined-16",
@@ -173,7 +188,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli Hurvitz Rd 23, Kefar Sava"
   },
   {
     "id": "undefined-17",
@@ -184,7 +200,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sapir St 6, Kefar Sava"
   },
   {
     "id": "undefined-18",
@@ -195,7 +212,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ge'ula St 30, Kefar Sava"
   },
   {
     "id": "undefined-19",
@@ -206,7 +224,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair Rozenblum St 29, Kefar Sava"
   },
   {
     "id": "undefined-20",
@@ -217,7 +236,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tel-Hay St 70, Kefar Sava"
   },
   {
     "id": "undefined-21",
@@ -228,7 +248,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azar St 18, Kefar Sava"
   },
   {
     "id": "undefined-22",
@@ -239,7 +260,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 6, Kefar Sava"
   },
   {
     "id": "undefined-23",
@@ -250,7 +272,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tel-Hay St 102, Kefar Sava"
   },
   {
     "id": "undefined-24",
@@ -261,7 +284,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Naomi Shemer St 4, Kefar Sava"
   },
   {
     "id": "undefined-25",
@@ -272,7 +296,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 27, Kefar Sava"
   },
   {
     "id": "undefined-26",
@@ -283,7 +308,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 29, Kefar Sava, 44261"
   },
   {
     "id": "undefined-27",
@@ -294,7 +320,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tel-Hay St 87, Kefar Sava"
   },
   {
     "id": "undefined-28",
@@ -305,7 +332,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azar St 41, Kefar Sava"
   },
   {
     "id": "undefined-29",
@@ -316,7 +344,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azar St 49, Kefar Sava"
   },
   {
     "id": "undefined-30",
@@ -327,7 +356,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azar St 43, Kefar Sava"
   },
   {
     "id": "undefined-31",
@@ -338,7 +368,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan St 73, Kefar Sava"
   },
   {
     "id": "undefined-32",
@@ -349,7 +380,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khish St 9, Kefar Sava"
   },
   {
     "id": "undefined-33",
@@ -360,7 +392,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alkalai St 1, Kefar Sava"
   },
   {
     "id": "undefined-34",
@@ -371,7 +404,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tel-Hay St 68א, Kefar Sava"
   },
   {
     "id": "undefined-35",
@@ -382,7 +416,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan St 35, Kefar Sava"
   },
   {
     "id": "undefined-36",
@@ -393,7 +428,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Naomi Shemer St 1, Kefar Sava"
   },
   {
     "id": "undefined-37",
@@ -404,7 +440,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Masha ve-Dov Skibin St 6, Kefar Sava"
   },
   {
     "id": "undefined-39",
@@ -415,7 +452,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMefales St 5, Kefar Sava"
   },
   {
     "id": "undefined-40",
@@ -426,7 +464,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khavatselet ha-Sharon St 22, Kefar Sava"
   },
   {
     "id": "undefined-41",
@@ -437,7 +476,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGvurot St 17, Kefar Sava"
   },
   {
     "id": "undefined-42",
@@ -448,7 +488,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גן אורן, Bat Yiftakh St 4, Kfar Saba"
   },
   {
     "id": "undefined-43",
@@ -459,7 +500,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Hadar St 3, Kefar Sava"
   },
   {
     "id": "undefined-44",
@@ -470,7 +512,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTish'a Garden, David HaMelech St 3, Kefar Sava"
   },
   {
     "id": "undefined-45",
@@ -481,7 +524,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hoshe'a St 10, Kefar Sava"
   },
   {
     "id": "undefined-46",
@@ -492,7 +536,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pashosh St 6, Kefar Sava"
   },
   {
     "id": "undefined-47",
@@ -503,7 +548,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Alterman St 15, Kefar Sava"
   },
   {
     "id": "undefined-48",
@@ -514,7 +560,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Engel St 25, Kefar Sava, 4465331"
   },
   {
     "id": "undefined-49",
@@ -525,7 +572,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bikat Beit Netofa St 6, Kefar Sava"
   },
   {
     "id": "undefined-50",
@@ -536,7 +584,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Engel St 76, Kefar Sava"
   },
   {
     "id": "undefined-51",
@@ -547,7 +596,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNevi'im St 33, Kefar Sava"
   },
   {
     "id": "undefined-52",
@@ -558,7 +608,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Engel St 23, Kefar Sava"
   },
   {
     "id": "undefined-53",
@@ -569,7 +620,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Bik'at Tsin 5, Kfar Saba"
   },
   {
     "id": "undefined-54",
@@ -580,7 +632,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rothschild St 4, Kefar Sava, 4444306"
   },
   {
     "id": "undefined-55",
@@ -591,7 +644,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גן חסידה, Mish'ol Bik'at Be'er Sheva 5, Kfar Saba"
   },
   {
     "id": "undefined-57",
@@ -602,7 +656,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 1, Kefar Sava"
   },
   {
     "id": "undefined-58",
@@ -613,7 +668,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arazim St 6, Kefar Sava"
   },
   {
     "id": "undefined-59",
@@ -624,7 +680,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hahermon St 8, Kefar Sava"
   },
   {
     "id": "undefined-60",
@@ -635,7 +692,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMefales St 1, Kefar Sava"
   },
   {
     "id": "undefined-61",
@@ -646,7 +704,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kinneret St 7, Kefar Sava"
   },
   {
     "id": "undefined-62",
@@ -657,7 +716,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emek Dotan St 10, Kefar Sava"
   },
   {
     "id": "undefined-63",
@@ -668,7 +728,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "0, Kfar Saba"
   },
   {
     "id": "undefined-64",
@@ -679,7 +740,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zamir/HaNesher, Kefar Sava"
   },
   {
     "id": "undefined-65",
@@ -690,7 +752,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Golomb St 34, Kefar Sava"
   },
   {
     "id": "undefined-66",
@@ -701,7 +764,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rapaport St 3, Kefar Sava"
   },
   {
     "id": "undefined-67",
@@ -712,7 +776,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGefen St 12, Kefar Sava"
   },
   {
     "id": "undefined-68",
@@ -723,7 +788,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Aharonovich St 15, Kefar Sava"
   },
   {
     "id": "undefined-69",
@@ -734,7 +800,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khatsrot Hadar St 9, Kefar Sava"
   },
   {
     "id": "undefined-71",
@@ -745,7 +812,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levona St 10, Kefar Sava"
   },
   {
     "id": "undefined-72",
@@ -756,7 +824,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Marcus St 10, Kefar Sava"
   },
   {
     "id": "undefined-73",
@@ -767,7 +836,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levinski St 10, Kefar Sava"
   },
   {
     "id": "undefined-74",
@@ -778,7 +848,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGvurot St 9, Kefar Sava"
   },
   {
     "id": "undefined-75",
@@ -789,7 +860,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rashi St 9, Kefar Sava"
   },
   {
     "id": "undefined-76",
@@ -800,7 +872,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dr Moshe Sne St 13, Kefar Sava"
   },
   {
     "id": "undefined-77",
@@ -811,7 +884,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Kuk St 12, Kefar Sava"
   },
   {
     "id": "undefined-78",
@@ -822,7 +896,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMefales St 4, Kefar Sava"
   },
   {
     "id": "undefined-79",
@@ -833,7 +908,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jerusalem St 17, Kefar Sava"
   },
   {
     "id": "undefined-80",
@@ -844,7 +920,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Me'ir Ari'el St 2, Kefar Sava"
   },
   {
     "id": "undefined-81",
@@ -855,7 +932,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Shahaf 5, Kfar Saba"
   },
   {
     "id": "undefined-82",
@@ -866,7 +944,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Alterman St 15, Kefar Sava"
   },
   {
     "id": "undefined-83",
@@ -877,7 +956,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan St 15, Kefar Sava"
   },
   {
     "id": "undefined-84",
@@ -888,7 +968,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Me'ir Ari'el St 14/4, Kefar Sava"
   },
   {
     "id": "undefined-85",
@@ -899,7 +980,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaBanim St 11, Kefar Sava"
   },
   {
     "id": "undefined-86",
@@ -910,7 +992,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avivim St 6, Kefar Sava"
   },
   {
     "id": "undefined-87",
@@ -921,7 +1004,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rishonim St 29, Kefar Sava"
   },
   {
     "id": "undefined-88",
@@ -932,7 +1016,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Gurion St 60, Kefar Sava"
   },
   {
     "id": "undefined-89",
@@ -943,7 +1028,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Meyasdim St 27, Kefar Sava"
   },
   {
     "id": "undefined-91",
@@ -954,7 +1040,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Vitkin St 12, Kefar Sava"
   },
   {
     "id": "undefined-92",
@@ -965,7 +1052,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Anne Frank St 14, Kefar Sava"
   },
   {
     "id": "undefined-93",
@@ -976,7 +1064,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMefales St 6, Kefar Sava"
   },
   {
     "id": "undefined-94",
@@ -987,7 +1076,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tel-Hay St 26, Kefar Sava"
   },
   {
     "id": "undefined-95",
@@ -998,7 +1088,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yetsi'at Eropa St 24, Kefar Sava"
   },
   {
     "id": "undefined-96",
@@ -1009,7 +1100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 13, Kefar Sava"
   },
   {
     "id": "undefined-97",
@@ -1020,7 +1112,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dr Moshe Sne St 19, Kefar Sava"
   },
   {
     "id": "undefined-98",
@@ -1031,7 +1124,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Emek St 28, Kefar Sava"
   },
   {
     "id": "undefined-99",
@@ -1042,7 +1136,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 18, Kefar Sava"
   },
   {
     "id": "undefined-101",
@@ -1053,7 +1148,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGvurot St 13, Kefar Sava"
   },
   {
     "id": "undefined-102",
@@ -1064,7 +1160,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Geler St 12, Kefar Sava"
   },
   {
     "id": "undefined-103",
@@ -1075,7 +1172,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair Rozenblum St 24, Kefar Sava"
   },
   {
     "id": "undefined-104",
@@ -1086,7 +1184,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dov Hoz St 25, Kefar Sava"
   },
   {
     "id": "undefined-105",
@@ -1097,7 +1196,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hasida St 4, Kefar Sava"
   },
   {
     "id": "undefined-106",
@@ -1108,7 +1208,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Azar St 8, Kefar Sava"
   },
   {
     "id": "undefined-108",
@@ -1119,7 +1220,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eliyahu ha-Tishbi St 2, Kefar Sava"
   },
   {
     "id": "undefined-110",
@@ -1130,7 +1232,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giborei Yisra'el St 4, Kefar Sava"
   },
   {
     "id": "undefined-111",
@@ -1141,7 +1244,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jerusalem St 15, Kefar Sava"
   },
   {
     "id": "undefined-112",
@@ -1152,7 +1256,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shalom Ash St 4, Kefar Sava"
   },
   {
     "id": "undefined-113",
@@ -1163,7 +1268,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordei ha-Geta'ot St 41, Kefar Sava"
   },
   {
     "id": "undefined-114",
@@ -1174,7 +1280,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShahar St 19, Kefar Sava"
   },
   {
     "id": "undefined-115",
@@ -1185,7 +1292,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Masha ve-Dov Skibin St 1, Kefar Sava"
   },
   {
     "id": "undefined-116",
@@ -1196,7 +1304,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daniel St 10, Kefar Sava"
   },
   {
     "id": "undefined-117",
@@ -1207,7 +1316,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "AlHarizi St 9, Kefar Sava"
   },
   {
     "id": "undefined-118",
@@ -1218,7 +1328,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Maccabi St 3, Kefar Sava"
   },
   {
     "id": "undefined-119",
@@ -1229,7 +1340,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaPardes St 10, Kefar Sava"
   },
   {
     "id": "undefined-120",
@@ -1240,7 +1352,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tirat Tsvi St 14, Kefar Sava"
   },
   {
     "id": "undefined-122",
@@ -1251,7 +1364,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Me'ir Ari'el St 2, Kefar Sava"
   },
   {
     "id": "undefined-123",
@@ -1262,7 +1376,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Keren St 24, Kefar Sava"
   },
   {
     "id": "undefined-124",
@@ -1273,7 +1388,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rapaport St 8, Kefar Sava"
   },
   {
     "id": "undefined-125",
@@ -1284,7 +1400,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoel St 1, Kefar Sava"
   },
   {
     "id": "undefined-127",
@@ -1295,7 +1412,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Galil St 6, Kefar Sava"
   },
   {
     "id": "undefined-128",
@@ -1306,7 +1424,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Blum St 10, Kefar Sava"
   },
   {
     "id": "undefined-129",
@@ -1317,7 +1436,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Beit HaBad St 21, Kefar Sava"
   },
   {
     "id": "undefined-130",
@@ -1328,7 +1448,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Maccabi St 10, Kefar Sava"
   },
   {
     "id": "undefined-132",
@@ -1339,7 +1460,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גן התבור, HaBanim St 10, Kfar Saba"
   },
   {
     "id": "undefined-133",
@@ -1350,6 +1472,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahi Eilat St 14, Kefar Sava"
   }
 ]

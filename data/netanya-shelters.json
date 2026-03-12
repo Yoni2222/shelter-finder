@@ -10,7 +10,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Harimon St 15, Netanya"
   },
   {
     "id": "netanya_pub_3",
@@ -23,7 +24,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNarkis St 5, Netanya"
   },
   {
     "id": "netanya_pub_4",
@@ -36,7 +38,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaNarkis St 5, Netanya"
   },
   {
     "id": "netanya_pub_6",
@@ -49,7 +52,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaZayit St 5, Netanya"
   },
   {
     "id": "netanya_pub_7",
@@ -62,7 +66,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRakefet St 14, Netanya"
   },
   {
     "id": "netanya_pub_8",
@@ -75,7 +80,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaHashmona'im St 12, Netanya"
   },
   {
     "id": "netanya_pub_9",
@@ -88,7 +94,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giyora Yoseftal St 25, Netanya"
   },
   {
     "id": "netanya_pub_10",
@@ -101,7 +108,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Olei HaGardom St 20, Netanya"
   },
   {
     "id": "netanya_pub_11",
@@ -114,7 +122,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sokolov St 38, Netanya"
   },
   {
     "id": "netanya_pub_12",
@@ -127,7 +136,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trumpeldor St 36, Netanya"
   },
   {
     "id": "netanya_pub_13",
@@ -140,7 +150,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Be'eri St 75, Netanya"
   },
   {
     "id": "netanya_pub_14",
@@ -153,7 +164,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Yokhai St 20, Netanya"
   },
   {
     "id": "netanya_pub_15",
@@ -166,7 +178,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Yokhai St 1, Netanya"
   },
   {
     "id": "netanya_pub_16",
@@ -179,7 +192,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yohanan HaSandlar St 7, Netanya, 4223952"
   },
   {
     "id": "netanya_pub_17",
@@ -192,7 +206,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dov Hoz St 6, Netanya"
   },
   {
     "id": "netanya_pub_19",
@@ -205,7 +220,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giyora Yoseftal St 25, Netanya"
   },
   {
     "id": "netanya_pub_20",
@@ -218,7 +234,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Shimshon 23, Netanya"
   },
   {
     "id": "netanya_pub_22",
@@ -231,7 +248,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Borokhov St 3, Netanya"
   },
   {
     "id": "netanya_pub_23",
@@ -244,7 +262,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kaplanski St 6, Netanya"
   },
   {
     "id": "netanya_pub_24",
@@ -257,7 +276,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gid'on St 11, Netanya"
   },
   {
     "id": "netanya_pub_25",
@@ -270,7 +290,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giyora Yoseftal St 8, Netanya"
   },
   {
     "id": "netanya_pub_26",
@@ -283,7 +304,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gid'on St 11, Netanya"
   },
   {
     "id": "netanya_pub_27",
@@ -296,7 +318,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Malchin Sara St 26, Netanya"
   },
   {
     "id": "netanya_pub_28",
@@ -309,7 +332,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli'ezer Kaplan St 10, Netanya"
   },
   {
     "id": "netanya_pub_30",
@@ -322,7 +346,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Heinrich Tsvi Graets St 8, Netanya"
   },
   {
     "id": "netanya_pub_31",
@@ -335,7 +360,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli'ezer Kaplan St 10, Netanya"
   },
   {
     "id": "netanya_pub_32",
@@ -348,7 +374,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nahman Syrkin St 17, Netanya"
   },
   {
     "id": "netanya_pub_33",
@@ -361,7 +388,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Vitkin St 45, Netanya"
   },
   {
     "id": "netanya_pub_36",
@@ -374,7 +402,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Shprintsak St 42, Netanya"
   },
   {
     "id": "netanya_pub_37",
@@ -387,7 +416,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ovadya Avraham ha-Cohen St 24, Netanya"
   },
   {
     "id": "netanya_pub_38",
@@ -400,7 +430,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Shprintsak St 42, Netanya"
   },
   {
     "id": "netanya_pub_39",
@@ -413,7 +444,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yermiyahu Halperin St 6, Netanya"
   },
   {
     "id": "netanya_pub_40",
@@ -426,7 +458,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alexander Zaid St 29, Netanya"
   },
   {
     "id": "netanya_pub_42",
@@ -439,7 +472,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Zirlson St 9, Netanya"
   },
   {
     "id": "netanya_pub_45",
@@ -452,7 +486,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Dayan St 10, Netanya"
   },
   {
     "id": "netanya_pub_46",
@@ -465,7 +500,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Dayan St 10, Netanya"
   },
   {
     "id": "netanya_pub_49",
@@ -478,7 +514,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai Anielewicz St 15, Netanya"
   },
   {
     "id": "netanya_pub_50",
@@ -491,7 +528,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Struma St 13, Netanya"
   },
   {
     "id": "netanya_pub_53",
@@ -504,7 +542,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ovadya Ben Shalom St 16, Netanya"
   },
   {
     "id": "netanya_pub_54",
@@ -517,7 +556,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arieh Ben Eliezer St 55, Netanya"
   },
   {
     "id": "netanya_pub_55",
@@ -530,7 +570,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shar'abi St 12, Netanya"
   },
   {
     "id": "netanya_pub_56",
@@ -543,7 +584,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elkharizi St 7, Netanya"
   },
   {
     "id": "netanya_pub_58",
@@ -556,7 +598,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Ibn Ezra St 30, Netanya"
   },
   {
     "id": "netanya_pub_59",
@@ -569,7 +612,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmuel Brod St 7, Netanya"
   },
   {
     "id": "netanya_pub_60",
@@ -582,7 +626,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Aba Akhime'ir St 3, Netanya"
   },
   {
     "id": "netanya_pub_62",
@@ -595,7 +640,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dizengoff St 1, Netanya"
   },
   {
     "id": "netanya_pub_63",
@@ -608,7 +654,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehezkel Ben Bozi St 8, Netanya"
   },
   {
     "id": "netanya_pub_65",
@@ -621,7 +668,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kdoshei Irak St 10, Netanya"
   },
   {
     "id": "netanya_pub_67",
@@ -634,7 +682,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehezkel Ben Bozi St 36, Netanya"
   },
   {
     "id": "netanya_pub_68",
@@ -647,7 +696,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhum St 5, Netanya"
   },
   {
     "id": "netanya_pub_69",
@@ -660,7 +710,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מתנ''ס דורה, Netanya"
   },
   {
     "id": "netanya_pub_70",
@@ -673,7 +724,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nordau Max St 20, Netanya"
   },
   {
     "id": "netanya_pub_71",
@@ -686,7 +738,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Keren HaYesod St 16, Netanya"
   },
   {
     "id": "netanya_pub_72",
@@ -699,7 +752,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Hayim Weizman 4, Netanya"
   },
   {
     "id": "netanya_pub_73",
@@ -712,6 +766,7 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Keren HaYesod St 16, Netanya"
   }
 ]

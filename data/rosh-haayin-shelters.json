@@ -9,7 +9,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kalanit St 7, Rosh Haayin"
   },
   {
     "id": "roshhaayin_4",
@@ -21,7 +22,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "I'rit St 17, Rosh Haayin, 4806853"
   },
   {
     "id": "roshhaayin_3",
@@ -33,7 +35,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "I'rit St 29, Rosh Haayin"
   },
   {
     "id": "roshhaayin_25",
@@ -45,7 +48,8 @@
     "capacity": "51.528 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eilot St 2, Rosh Haayin"
   },
   {
     "id": "roshhaayin_17",
@@ -57,7 +61,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shaked St 3, Rosh Haayin"
   },
   {
     "id": "roshhaayin_18",
@@ -69,7 +74,8 @@
     "capacity": "85 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Ilanot St 32, Rosh Haayin"
   },
   {
     "id": "roshhaayin_14",
@@ -81,7 +87,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Ilanot St 46, Rosh Haayin"
   },
   {
     "id": "roshhaayin_6",
@@ -93,7 +100,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Irit/Amnon VeTamar, Rosh Haayin"
   },
   {
     "id": "roshhaayin_13",
@@ -105,7 +113,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Etrog St 23, Rosh Haayin"
   },
   {
     "id": "roshhaayin_5",
@@ -117,7 +126,8 @@
     "capacity": "85 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dalyot St 3, Rosh Haayin"
   },
   {
     "id": "roshhaayin_12",
@@ -129,7 +139,8 @@
     "capacity": "85 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dan St 11, Rosh Haayin"
   },
   {
     "id": "roshhaayin_11",
@@ -141,7 +152,8 @@
     "capacity": "85 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dragot St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_10",
@@ -153,7 +165,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaBsor St 13, Rosh Haayin"
   },
   {
     "id": "roshhaayin_27",
@@ -165,7 +178,8 @@
     "capacity": "60.6 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Paran St 14, Rosh Haayin"
   },
   {
     "id": "roshhaayin_16",
@@ -177,7 +191,8 @@
     "capacity": "52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kharuv St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_26",
@@ -189,7 +204,8 @@
     "capacity": "71.776 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hermon St 12, Rosh Haayin"
   },
   {
     "id": "roshhaayin_21",
@@ -201,7 +217,8 @@
     "capacity": "84.968 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Oren St 4, Rosh Haayin"
   },
   {
     "id": "roshhaayin_24",
@@ -213,7 +230,8 @@
     "capacity": "71.776 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lakhish St 18, Rosh Haayin"
   },
   {
     "id": "roshhaayin_19",
@@ -225,7 +243,8 @@
     "capacity": "52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shaked St 14, Rosh Haayin"
   },
   {
     "id": "roshhaayin_20",
@@ -237,7 +256,8 @@
     "capacity": "51.28 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Agas St 14, Rosh Haayin"
   },
   {
     "id": "roshhaayin_44",
@@ -249,7 +269,8 @@
     "capacity": "20 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGra St 30, Rosh Haayin"
   },
   {
     "id": "roshhaayin_22",
@@ -261,7 +282,8 @@
     "capacity": "71.52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Oren St 14, Rosh Haayin"
   },
   {
     "id": "roshhaayin_7",
@@ -273,7 +295,8 @@
     "capacity": "52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Irus St 2, Rosh Haayin"
   },
   {
     "id": "roshhaayin_23",
@@ -285,7 +308,8 @@
     "capacity": "71.52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ela St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_32",
@@ -297,7 +321,8 @@
     "capacity": "32.696 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daya St 1, Rosh Haayin"
   },
   {
     "id": "roshhaayin_35",
@@ -309,7 +334,8 @@
     "capacity": "80 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "The National Water Carrier, Rosh Haayin"
   },
   {
     "id": "roshhaayin_38",
@@ -321,7 +347,8 @@
     "capacity": "80 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehya Yitshak HaLevi St 33, Rosh Haayin"
   },
   {
     "id": "roshhaayin_36",
@@ -333,7 +360,8 @@
     "capacity": "128 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shalom Mantsura St 32, Rosh Haayin"
   },
   {
     "id": "roshhaayin_37",
@@ -345,7 +373,8 @@
     "capacity": "40 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hazon Ish St 32, Rosh Haayin"
   },
   {
     "id": "roshhaayin_43",
@@ -357,7 +386,8 @@
     "capacity": "40 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda Halevi St 43, Rosh Haayin"
   },
   {
     "id": "roshhaayin_8",
@@ -369,7 +399,8 @@
     "capacity": "60 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_30",
@@ -381,7 +412,8 @@
     "capacity": "71.68 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Carmel St 6, Rosh Haayin"
   },
   {
     "id": "roshhaayin_29",
@@ -393,7 +425,8 @@
     "capacity": "71.52 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Carmel St 26, Rosh Haayin"
   },
   {
     "id": "roshhaayin_34",
@@ -405,7 +438,8 @@
     "capacity": "128 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wolfson St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_28",
@@ -417,7 +451,8 @@
     "capacity": "84.72 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tse'elon St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_48",
@@ -429,7 +464,8 @@
     "capacity": "88 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Sofer St 4, Rosh Haayin"
   },
   {
     "id": "roshhaayin_47",
@@ -441,7 +477,8 @@
     "capacity": "88 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Sofer St 4, Rosh Haayin"
   },
   {
     "id": "roshhaayin_45",
@@ -453,7 +490,8 @@
     "capacity": "40 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMeyaledet St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_41",
@@ -465,7 +503,8 @@
     "capacity": "20 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ali Hacohen St 13, Rosh Haayin"
   },
   {
     "id": "roshhaayin_46",
@@ -477,7 +516,8 @@
     "capacity": "20 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Shaul St 7, Rosh Haayin"
   },
   {
     "id": "roshhaayin_9",
@@ -489,7 +529,8 @@
     "capacity": "32 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rikhan St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_1",
@@ -501,7 +542,8 @@
     "capacity": "72 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rakefet St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_31",
@@ -513,7 +555,8 @@
     "capacity": "32.696 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jabotinsky/Zayit, Rosh Haayin"
   },
   {
     "id": "roshhaayin_39",
@@ -525,7 +568,8 @@
     "capacity": "20 אנשים",
     "type": "מקלט ציבורי עילי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ramat ha-Golan St 19, Rosh Haayin"
   },
   {
     "id": "roshhaayin_40",
@@ -537,7 +581,8 @@
     "capacity": "40 אנשים",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shilo St 21, Rosh Haayin"
   },
   {
     "id": "roshhaayin_46",
@@ -549,7 +594,8 @@
     "capacity": "110 מ\"ר",
     "type": "מקלט ציבורי תת קרקעי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ali Hacohen St 37, Rosh Haayin"
   },
   {
     "id": "roshhaayin_47",
@@ -561,7 +607,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharika St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_48",
@@ -573,7 +620,8 @@
     "capacity": "",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרב משה פנחס 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_49",
@@ -585,7 +633,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMeyaledet St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_50",
@@ -597,7 +646,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "קרל קורי 5 מתחם הקבלנים, Rosh Haayin"
   },
   {
     "id": "roshhaayin_51",
@@ -609,7 +659,8 @@
     "capacity": "",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "קרל וגרטי קורי 7, Rosh Haayin"
   },
   {
     "id": "roshhaayin_52",
@@ -621,7 +672,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rambam St 21, Rosh Haayin"
   },
   {
     "id": "roshhaayin_53",
@@ -633,7 +685,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Marvad HaKsamim St 7, Rosh Haayin"
   },
   {
     "id": "roshhaayin_54",
@@ -645,7 +698,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Herzl St 4, Rosh Haayin"
   },
   {
     "id": "roshhaayin_55",
@@ -657,7 +711,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Shalom Shabazi St 64, Rosh Haayin"
   },
   {
     "id": "roshhaayin_56",
@@ -669,7 +724,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gluska St 8, Rosh Haayin"
   },
   {
     "id": "roshhaayin_57",
@@ -681,7 +737,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gluska St 2, Rosh Haayin"
   },
   {
     "id": "roshhaayin_58",
@@ -693,7 +750,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Shalom Shabazi St 18, Rosh Haayin"
   },
   {
     "id": "roshhaayin_59",
@@ -705,7 +763,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giborei Yisra'el St 5, Rosh Haayin"
   },
   {
     "id": "roshhaayin_60",
@@ -717,7 +776,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharika St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_61",
@@ -729,7 +789,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hazon Ish St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_62",
@@ -741,7 +802,8 @@
     "capacity": "10 מ\"ר",
     "type": "מרחב מוגן יביל",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apil St 3, Rosh Haayin"
   },
   {
     "id": "roshhaayin_63",
@@ -753,7 +815,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Prof. Volf Vagner St 15, Rosh Haayin"
   },
   {
     "id": "roshhaayin_64",
@@ -765,7 +828,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMerEts St 25, Rosh Haayin"
   },
   {
     "id": "roshhaayin_65",
@@ -777,7 +841,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Afek St 30, Rosh Haayin"
   },
   {
     "id": "roshhaayin_66",
@@ -789,7 +854,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsahal St 12, Rosh Haayin"
   },
   {
     "id": "roshhaayin_67",
@@ -801,7 +867,8 @@
     "capacity": "6 מ\"ר",
     "type": "מיגונית",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsahal St 20, Rosh Haayin"
   },
   {
     "id": "roshhaayin_68",
@@ -813,7 +880,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menakhem Amosi St 38, Rosh Haayin"
   },
   {
     "id": "roshhaayin_69",
@@ -825,7 +893,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hotmei HaMegila St 15, Rosh Haayin"
   },
   {
     "id": "roshhaayin_70",
@@ -837,7 +906,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Matmid St 42, Rosh Haayin"
   },
   {
     "id": "roshhaayin_71",
@@ -849,7 +919,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khamisha St 51, Rosh Haayin"
   },
   {
     "id": "roshhaayin_72",
@@ -861,7 +932,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "John Kennedy St 8, Rosh Haayin"
   },
   {
     "id": "roshhaayin_73",
@@ -873,7 +945,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menakhem Amosi St 13, Rosh Haayin"
   },
   {
     "id": "roshhaayin_74",
@@ -885,7 +958,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yerushalayim HaShlema St 16, Rosh Haayin"
   },
   {
     "id": "roshhaayin_75",
@@ -897,7 +971,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Shalom Shabazi St 97, Rosh Haayin"
   },
   {
     "id": "roshhaayin_76",
@@ -909,7 +984,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David HaMelech St 19, Rosh Haayin"
   },
   {
     "id": "roshhaayin_77",
@@ -921,7 +997,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda Halevi St 122, Rosh Haayin"
   },
   {
     "id": "roshhaayin_78",
@@ -933,7 +1010,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Marvad HaKsamim St 10, Rosh Haayin"
   },
   {
     "id": "roshhaayin_79",
@@ -945,7 +1023,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרב משה פנחס 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_80",
@@ -957,7 +1036,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Aliza Begin St 7, Rosh Haayin"
   },
   {
     "id": "roshhaayin_81",
@@ -969,7 +1049,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Gabirol St 46, Rosh Haayin"
   },
   {
     "id": "roshhaayin_82",
@@ -981,7 +1062,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ramat ha-Golan St 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_83",
@@ -993,7 +1075,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Shalom Shabazi St 157, Rosh Haayin"
   },
   {
     "id": "roshhaayin_84",
@@ -1005,7 +1088,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרב משה פנחס 9, Rosh Haayin"
   },
   {
     "id": "roshhaayin_85",
@@ -1017,7 +1101,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Yarkon St 24, Rosh Haayin"
   },
   {
     "id": "roshhaayin_86",
@@ -1029,7 +1114,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaDror St 33, Rosh Haayin"
   },
   {
     "id": "roshhaayin_87",
@@ -1041,7 +1127,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Mauda St 11, Rosh Haayin"
   },
   {
     "id": "roshhaayin_88",
@@ -1053,7 +1140,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAtsmaut St 8, Rosh Haayin"
   },
   {
     "id": "roshhaayin_89",
@@ -1065,7 +1153,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shiryon St 57, Rosh Haayin"
   },
   {
     "id": "roshhaayin_90",
@@ -1077,7 +1166,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gazit St 19, Rosh Haayin"
   },
   {
     "id": "roshhaayin_91",
@@ -1089,7 +1179,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dakar St 6, Rosh Haayin"
   },
   {
     "id": "roshhaayin_92",
@@ -1101,7 +1192,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khartsit St 1, Rosh Haayin"
   },
   {
     "id": "roshhaayin_93",
@@ -1113,7 +1205,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sapir St 10, Rosh Haayin"
   },
   {
     "id": "roshhaayin_94",
@@ -1125,7 +1218,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharika St 3, Rosh Haayin"
   },
   {
     "id": "roshhaayin_95",
@@ -1137,7 +1231,8 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhali'eli St 14, Rosh Haayin"
   },
   {
     "id": "roshhaayin_96",
@@ -1149,6 +1244,7 @@
     "capacity": "",
     "type": "מרחב מוגן במוסד חינוך",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shiryon St 59, Rosh Haayin"
   }
 ]

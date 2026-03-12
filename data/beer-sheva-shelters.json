@@ -9,7 +9,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gush Etsyon St 65, Be'er Sheva"
   },
   {
     "id": "gov_bs_2",
@@ -21,7 +22,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rotenberg St 22, Be'er Sheva"
   },
   {
     "id": "gov_bs_3",
@@ -33,7 +35,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nili St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_4",
@@ -45,7 +48,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khana Szenes St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_5",
@@ -57,7 +61,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 129, Beersheba"
   },
   {
     "id": "gov_bs_6",
@@ -69,7 +74,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gush Etsyon St 62, Be'er Sheva"
   },
   {
     "id": "gov_bs_7",
@@ -81,7 +87,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khoma u-Migdal St 27, Be'er Sheva"
   },
   {
     "id": "gov_bs_8",
@@ -93,7 +100,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Golomb St 37, Be'er Sheva, 8442949"
   },
   {
     "id": "gov_bs_9",
@@ -105,7 +113,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wingate St 45, Be'er Sheva"
   },
   {
     "id": "gov_bs_10",
@@ -117,7 +126,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 83, Beersheba"
   },
   {
     "id": "gov_bs_11",
@@ -129,7 +139,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordehai A'liash St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_12",
@@ -141,7 +152,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wingate St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_13",
@@ -153,7 +165,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Israel Yisha'ayahu St 33, Be'er Sheva"
   },
   {
     "id": "gov_bs_14",
@@ -165,7 +178,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Savidor 43, Beersheba"
   },
   {
     "id": "gov_bs_15",
@@ -177,7 +191,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Savidor 23, Beersheba"
   },
   {
     "id": "gov_bs_16",
@@ -189,7 +204,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Aktsin St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_17",
@@ -201,7 +217,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "אקצין בנימין 12, באר שבע"
   },
   {
     "id": "gov_bs_18",
@@ -213,7 +230,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Goitein St 9, Be'er Sheva"
   },
   {
     "id": "gov_bs_19",
@@ -225,7 +243,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Stein St 24, Be'er Sheva"
   },
   {
     "id": "gov_bs_20",
@@ -237,7 +256,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Nakhshon St 46, Be'er Sheva"
   },
   {
     "id": "gov_bs_21",
@@ -249,7 +269,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yohanan Horkanos St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_22",
@@ -261,7 +282,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Klausner St 22, Be'er Sheva"
   },
   {
     "id": "gov_bs_23",
@@ -273,7 +295,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 68, Be'er Sheva"
   },
   {
     "id": "gov_bs_24",
@@ -285,7 +308,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabbi Akiva St 48, Be'er Sheva"
   },
   {
     "id": "gov_bs_25",
@@ -297,7 +321,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elazar Ben Ya'ir St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_26",
@@ -309,7 +334,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David HaMelech St 27, Be'er Sheva"
   },
   {
     "id": "gov_bs_27",
@@ -321,7 +347,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 7, Be'er Sheva"
   },
   {
     "id": "gov_bs_28",
@@ -333,7 +360,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_29",
@@ -345,7 +373,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_30",
@@ -357,7 +386,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_31",
@@ -369,7 +399,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elazar Ben Ya'ir St 31, Be'er Sheva"
   },
   {
     "id": "gov_bs_32",
@@ -381,7 +412,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Silbert St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_33",
@@ -393,7 +425,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ba'alei ha-Tosafot St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_34",
@@ -405,7 +438,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Ezra St 30, Be'er Sheva"
   },
   {
     "id": "gov_bs_35",
@@ -417,7 +451,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabenu Tam St 24, Be'er Sheva"
   },
   {
     "id": "gov_bs_36",
@@ -429,7 +464,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "בעלי התוספות/רמב''ן, Beersheba"
   },
   {
     "id": "gov_bs_37",
@@ -441,7 +477,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Zohar St 52, Be'er Sheva"
   },
   {
     "id": "gov_bs_38",
@@ -453,7 +490,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sanhedrin St 42, Be'er Sheva"
   },
   {
     "id": "gov_bs_39",
@@ -465,7 +503,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Avinu St 91, Be'er Sheva"
   },
   {
     "id": "gov_bs_40",
@@ -477,7 +516,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "אוסוולדו ארניה 6, Beersheba"
   },
   {
     "id": "gov_bs_41",
@@ -489,7 +529,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_42",
@@ -501,7 +542,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shahal St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_43",
@@ -513,7 +555,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moses Montefiore St 3, Be'er Sheva"
   },
   {
     "id": "gov_bs_44",
@@ -525,7 +568,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Smats St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_45",
@@ -537,7 +581,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shomer St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_46",
@@ -549,7 +594,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahad Ha'Am St 21, Be'er Sheva"
   },
   {
     "id": "gov_bs_47",
@@ -561,7 +607,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moriya St 19, Be'er Sheva"
   },
   {
     "id": "gov_bs_48",
@@ -573,7 +620,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaKotel HaMa'aravi St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_49",
@@ -585,7 +633,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Basel St 28, Be'er Sheva"
   },
   {
     "id": "gov_bs_50",
@@ -597,7 +646,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaKotel HaMa'aravi St 52, Be'er Sheva"
   },
   {
     "id": "gov_bs_51",
@@ -609,7 +659,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gamal St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_52",
@@ -621,7 +672,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Nitsana 4, Beersheba"
   },
   {
     "id": "gov_bs_53",
@@ -633,7 +685,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yetsi'at Eropa St 19, Be'er Sheva"
   },
   {
     "id": "gov_bs_54",
@@ -645,7 +698,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAliya St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_55",
@@ -657,7 +711,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Durban 29, Beersheba"
   },
   {
     "id": "gov_bs_56",
@@ -669,7 +724,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAliya St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_57",
@@ -681,7 +737,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Or St 48, Be'er Sheva"
   },
   {
     "id": "gov_bs_58",
@@ -693,7 +750,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Huberman St 24, Be'er Sheva"
   },
   {
     "id": "gov_bs_59",
@@ -705,7 +763,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol ibn Gabirol 4/א, Beersheba"
   },
   {
     "id": "gov_bs_60",
@@ -717,7 +776,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Yellin St 43, Be'er Sheva"
   },
   {
     "id": "gov_bs_61",
@@ -729,7 +789,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wertheimer St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_62",
@@ -741,7 +802,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Lilian 65, Beersheba"
   },
   {
     "id": "gov_bs_63",
@@ -753,7 +815,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Paul Ehrlich St 17, Be'er Sheva"
   },
   {
     "id": "gov_bs_64",
@@ -765,7 +828,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Lilian 55, Beersheba"
   },
   {
     "id": "gov_bs_65",
@@ -777,7 +841,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Lilian 41, Beersheba"
   },
   {
     "id": "gov_bs_66",
@@ -789,7 +854,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gil'ad Crook St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_67",
@@ -801,7 +867,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Lilian 27, Beersheba"
   },
   {
     "id": "gov_bs_68",
@@ -813,7 +880,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Lilian 13, Beersheba"
   },
   {
     "id": "gov_bs_69",
@@ -825,7 +893,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Michaelsohn St 17, Be'er Sheva"
   },
   {
     "id": "gov_bs_70",
@@ -837,7 +906,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsvi Segal St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_71",
@@ -849,7 +919,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Isidor Rivi St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_72",
@@ -861,7 +932,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Prof. Ya'akov Avraham Braver 29, Beersheba"
   },
   {
     "id": "gov_bs_73",
@@ -873,7 +945,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Prof. Ya'akov Avraham Braver 41, Beersheba"
   },
   {
     "id": "gov_bs_74",
@@ -885,7 +958,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Prof. Ya'akov Avraham Braver 17, Beersheba"
   },
   {
     "id": "gov_bs_75",
@@ -897,7 +971,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Shofet St 57, Be'er Sheva"
   },
   {
     "id": "gov_bs_76",
@@ -909,7 +984,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "ברוור אברהם 67, באר שבע"
   },
   {
     "id": "gov_bs_77",
@@ -921,7 +997,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Shofet St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_78",
@@ -933,7 +1010,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גינצבורג דוד 1, באר שבע"
   },
   {
     "id": "gov_bs_79",
@@ -945,7 +1023,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גינצבורג דוד 15, באר שבע"
   },
   {
     "id": "gov_bs_80",
@@ -957,7 +1036,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Samburski St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_81",
@@ -969,7 +1049,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Davidovits St 34, Be'er Sheva"
   },
   {
     "id": "gov_bs_82",
@@ -981,7 +1062,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMada St 64, Be'er Sheva"
   },
   {
     "id": "gov_bs_83",
@@ -993,7 +1075,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mikha'el Zohari St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_84",
@@ -1005,7 +1088,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yokhanan Linder St 22, Be'er Sheva"
   },
   {
     "id": "gov_bs_85",
@@ -1017,7 +1101,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Max Born St 40, Be'er Sheva"
   },
   {
     "id": "gov_bs_86",
@@ -1029,7 +1114,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "פריד אלפרד 14, באר שבע"
   },
   {
     "id": "gov_bs_87",
@@ -1041,7 +1127,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khanokh Albek St 38, Be'er Sheva"
   },
   {
     "id": "gov_bs_88",
@@ -1053,7 +1140,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Prof. Mikha'el Even Ari St 81, Be'er Sheva"
   },
   {
     "id": "gov_bs_89",
@@ -1065,7 +1153,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Prof. Mikha'el Even Ari St 95, Be'er Sheva"
   },
   {
     "id": "gov_bs_90",
@@ -1077,7 +1166,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Prof. Mikha'el Even Ari St 109, Be'er Sheva"
   },
   {
     "id": "gov_bs_91",
@@ -1089,7 +1179,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Israel Zangvill St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_92",
@@ -1101,7 +1192,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bilhah St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_93",
@@ -1113,7 +1205,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Amnon St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_94",
@@ -1125,7 +1218,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avital St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_95",
@@ -1137,7 +1231,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avishag St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_96",
@@ -1149,7 +1244,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Puah St 3, Be'er Sheva"
   },
   {
     "id": "gov_bs_97",
@@ -1161,7 +1257,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avshalom Feinberg St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_98",
@@ -1173,7 +1270,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kdoshei Iasi St 21, Be'er Sheva"
   },
   {
     "id": "gov_bs_99",
@@ -1185,7 +1283,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'akov Hazma St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_100",
@@ -1197,7 +1296,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsviya Ve-Yitshak St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_101",
@@ -1209,7 +1309,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גיבתון חנוך 17, באר שבע"
   },
   {
     "id": "gov_bs_102",
@@ -1221,7 +1322,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "רייס רפאל 7, באר שבע"
   },
   {
     "id": "gov_bs_103",
@@ -1233,7 +1335,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Paul Ben Khayim St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_104",
@@ -1245,7 +1348,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yedidya Admon St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_105",
@@ -1257,7 +1361,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yedidya Admon St 32, Be'er Sheva"
   },
   {
     "id": "gov_bs_106",
@@ -1269,7 +1374,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "גיבתון חנוך 33, באר שבע"
   },
   {
     "id": "gov_bs_107",
@@ -1281,7 +1387,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rot Egon St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_108",
@@ -1293,7 +1400,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Goldstein St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_109",
@@ -1305,7 +1413,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Khovav St 55, Be'er Sheva"
   },
   {
     "id": "gov_bs_110",
@@ -1317,7 +1426,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Le'a Porat St 25, Be'er Sheva"
   },
   {
     "id": "gov_bs_111",
@@ -1329,7 +1439,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menahem Avidom St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_112",
@@ -1341,7 +1452,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Paul Ben Khayim St 33, Be'er Sheva"
   },
   {
     "id": "gov_bs_113",
@@ -1353,7 +1465,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sheizaf St 12, Be'er Sheva"
   },
   {
     "id": "gov_bs_114",
@@ -1365,7 +1478,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dudaim St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_115",
@@ -1377,7 +1491,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dvora St 7, Be'er Sheva"
   },
   {
     "id": "gov_bs_116",
@@ -1389,7 +1504,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Hanani 2, Beersheba"
   },
   {
     "id": "gov_bs_117",
@@ -1401,7 +1517,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehezkel St 3, Be'er Sheva"
   },
   {
     "id": "gov_bs_118",
@@ -1413,7 +1530,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "פארק ילדים, Mish'ol Dan, Beersheba"
   },
   {
     "id": "gov_bs_119",
@@ -1425,7 +1543,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sokolov St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_120",
@@ -1437,7 +1556,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaMeshahrerim 75, Beersheba"
   },
   {
     "id": "gov_bs_121",
@@ -1449,7 +1569,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Basel St 58, Be'er Sheva"
   },
   {
     "id": "gov_bs_122",
@@ -1461,7 +1582,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Basel St 50, Be'er Sheva"
   },
   {
     "id": "gov_bs_123",
@@ -1473,7 +1595,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaMeshahrerim 67, Beersheba"
   },
   {
     "id": "gov_bs_124",
@@ -1485,7 +1608,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kikar Bar Ilan 8, Beersheba"
   },
   {
     "id": "gov_bs_125",
@@ -1497,7 +1621,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Berl Katznelson St 19, Be'er Sheva"
   },
   {
     "id": "gov_bs_126",
@@ -1509,7 +1634,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Betsal'el St 49, Be'er Sheva"
   },
   {
     "id": "gov_bs_127",
@@ -1521,7 +1647,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol ibn Gabirol 7, Beersheba"
   },
   {
     "id": "gov_bs_128",
@@ -1533,7 +1660,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli'ezer Ben Yehuda St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_129",
@@ -1545,7 +1673,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tchernikhovski St 12, Be'er Sheva"
   },
   {
     "id": "gov_bs_130",
@@ -1557,7 +1686,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Betsal'el St 22, Be'er Sheva"
   },
   {
     "id": "gov_bs_131",
@@ -1569,7 +1699,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dubnov St 7, Be'er Sheva, 8424008"
   },
   {
     "id": "gov_bs_132",
@@ -1581,7 +1712,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מקלט ב/5, Be'er Sheva"
   },
   {
     "id": "gov_bs_133",
@@ -1593,7 +1725,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Se'adya Ga'on St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_134",
@@ -1605,7 +1738,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Or St 72, Be'er Sheva"
   },
   {
     "id": "gov_bs_135",
@@ -1617,7 +1751,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Or St 44, Be'er Sheva"
   },
   {
     "id": "gov_bs_136",
@@ -1629,7 +1764,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eden Partosh St 7, Be'er Sheva"
   },
   {
     "id": "gov_bs_137",
@@ -1641,7 +1777,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsviya Ve-Yitshak St 45, Be'er Sheva"
   },
   {
     "id": "gov_bs_138",
@@ -1653,7 +1790,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Maccabim St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_139",
@@ -1665,7 +1803,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Efrayim St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_140",
@@ -1677,7 +1816,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Efrayim St 31, Be'er Sheva"
   },
   {
     "id": "gov_bs_141",
@@ -1689,7 +1829,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מרים הנביאה 18, Beersheba"
   },
   {
     "id": "gov_bs_142",
@@ -1701,7 +1842,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David ha-Re'uveni St 50, Be'er Sheva"
   },
   {
     "id": "gov_bs_143",
@@ -1713,7 +1855,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'akov Efrat St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_144",
@@ -1725,7 +1868,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "ארנון יצחק 11, באר שבע"
   },
   {
     "id": "gov_bs_145",
@@ -1737,7 +1881,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zrubavel St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_146",
@@ -1749,7 +1894,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bat Sheva St 7, Be'er Sheva"
   },
   {
     "id": "gov_bs_147",
@@ -1761,7 +1907,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rivka St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_148",
@@ -1773,7 +1920,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Naomi St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_149",
@@ -1785,7 +1933,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kdoshei Saloniki St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_150",
@@ -1797,7 +1946,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khana Rovina St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_151",
@@ -1809,7 +1959,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Anda Amir Pinkerfeld St 49, Be'er Sheva"
   },
   {
     "id": "gov_bs_152",
@@ -1821,7 +1972,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Alro'i St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_153",
@@ -1833,7 +1985,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Rodenski St 128, Be'er Sheva"
   },
   {
     "id": "gov_bs_154",
@@ -1845,7 +1998,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Rodenski St 71, Be'er Sheva"
   },
   {
     "id": "gov_bs_155",
@@ -1857,7 +2011,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alfasi St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_156",
@@ -1869,7 +2024,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alfasi St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_157",
@@ -1881,7 +2037,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "וירשובסקי חיים 1, באר שבע"
   },
   {
     "id": "gov_bs_158",
@@ -1893,7 +2050,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "משה יצחק 21, באר שבע"
   },
   {
     "id": "gov_bs_159",
@@ -1905,7 +2063,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gavri'el St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_160",
@@ -1917,7 +2076,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "ג'וזף, Erlanger St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_161",
@@ -1929,7 +2089,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMada St 31, Be'er Sheva"
   },
   {
     "id": "gov_bs_162",
@@ -1941,7 +2102,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rotenberg St 12, Be'er Sheva"
   },
   {
     "id": "gov_bs_163",
@@ -1953,7 +2115,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yad Vashem St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_164",
@@ -1965,7 +2128,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 46, Beersheba"
   },
   {
     "id": "gov_bs_165",
@@ -1977,7 +2141,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hibat Tsiyon St 12-46, Be'er Sheva"
   },
   {
     "id": "gov_bs_166",
@@ -1989,7 +2154,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Jabotinski St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_167",
@@ -2001,7 +2167,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMeri Haivri St 140, Be'er Sheva"
   },
   {
     "id": "gov_bs_168",
@@ -2013,7 +2180,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Sal'it 12, Beersheba"
   },
   {
     "id": "gov_bs_169",
@@ -2025,7 +2193,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gibor St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_170",
@@ -2037,7 +2206,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Berdichevski St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_171",
@@ -2049,7 +2219,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kheshin St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_172",
@@ -2061,7 +2232,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Ye'elim 69, Beersheba"
   },
   {
     "id": "gov_bs_173",
@@ -2073,7 +2245,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMachteshim St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_174",
@@ -2085,7 +2258,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "סמטת קדש 26, Beersheba"
   },
   {
     "id": "gov_bs_175",
@@ -2097,7 +2271,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Paran St 11, Be'er Sheva"
   },
   {
     "id": "gov_bs_176",
@@ -2109,7 +2284,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 11, Be'er Sheva"
   },
   {
     "id": "gov_bs_177",
@@ -2121,7 +2297,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_178",
@@ -2133,7 +2310,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kikar HaKenizi 11, Beersheba"
   },
   {
     "id": "gov_bs_179",
@@ -2145,7 +2323,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo ha-Melekh St 72, Be'er Sheva"
   },
   {
     "id": "gov_bs_180",
@@ -2157,7 +2336,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabbi Tarfon St 9, Be'er Sheva"
   },
   {
     "id": "gov_bs_181",
@@ -2169,7 +2349,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabbi Akiva St 11, Be'er Sheva"
   },
   {
     "id": "gov_bs_182",
@@ -2181,7 +2362,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Avinu St 40, Be'er Sheva"
   },
   {
     "id": "gov_bs_183",
@@ -2193,7 +2375,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alfred Rosi St 71, Be'er Sheva"
   },
   {
     "id": "gov_bs_184",
@@ -2205,7 +2388,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Alexander Yannai St 12, Be'er Sheva"
   },
   {
     "id": "gov_bs_185",
@@ -2217,7 +2401,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Avinu St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_186",
@@ -2229,7 +2414,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "2 ג, Ya'akov Avinu St 2, Be'er Sheva, 8435711"
   },
   {
     "id": "gov_bs_187",
@@ -2241,7 +2427,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Avinu St 41, Be'er Sheva"
   },
   {
     "id": "gov_bs_188",
@@ -2253,7 +2440,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Hagana St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_189",
@@ -2265,7 +2453,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Anielewicz St 11, Be'er Sheva"
   },
   {
     "id": "gov_bs_190",
@@ -2277,7 +2466,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 30, Beersheba"
   },
   {
     "id": "gov_bs_191",
@@ -2289,7 +2479,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 99, Beersheba"
   },
   {
     "id": "gov_bs_192",
@@ -2301,7 +2492,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "A.L. Ziso St 4, Be'er Sheva"
   },
   {
     "id": "gov_bs_193",
@@ -2313,7 +2505,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ramban St 61, Be'er Sheva"
   },
   {
     "id": "gov_bs_194",
@@ -2325,7 +2518,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Ezra St 51, Be'er Sheva"
   },
   {
     "id": "gov_bs_195",
@@ -2337,7 +2531,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Shabazi 5, Beersheba"
   },
   {
     "id": "gov_bs_196",
@@ -2349,7 +2544,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaKaf Gimel St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_197",
@@ -2361,7 +2557,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Asirey Tsiyon St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_198",
@@ -2373,7 +2570,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hage'ulim St 29, Be'er Sheva"
   },
   {
     "id": "gov_bs_199",
@@ -2385,7 +2583,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "שז\"ר זלמן 25, באר שבע"
   },
   {
     "id": "gov_bs_200",
@@ -2397,7 +2596,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Jabotinski St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_201",
@@ -2409,7 +2609,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hibat Tsiyon St 36, Be'er Sheva"
   },
   {
     "id": "gov_bs_202",
@@ -2421,7 +2622,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wingate St 38, Be'er Sheva"
   },
   {
     "id": "gov_bs_203",
@@ -2433,7 +2635,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Marcus St 5, Be'er Sheva"
   },
   {
     "id": "gov_bs_204",
@@ -2445,7 +2648,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wingate St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_205",
@@ -2457,7 +2661,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Halperin St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_206",
@@ -2469,7 +2674,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ze'ev Jabotinski St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_207",
@@ -2481,7 +2687,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Ben Gurion Blvd 30, Be'er Sheva"
   },
   {
     "id": "gov_bs_208",
@@ -2493,7 +2700,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nili St 3, Be'er Sheva"
   },
   {
     "id": "gov_bs_209",
@@ -2505,7 +2713,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khana Szenes St 19, Be'er Sheva"
   },
   {
     "id": "gov_bs_210",
@@ -2517,7 +2726,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "A.L. Ziso St 8, Be'er Sheva"
   },
   {
     "id": "gov_bs_211",
@@ -2529,7 +2739,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khana Szenes St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_212",
@@ -2541,7 +2752,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordehai A'liash St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_213",
@@ -2553,7 +2765,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Golomb St 26, Be'er Sheva"
   },
   {
     "id": "gov_bs_214",
@@ -2565,7 +2778,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pinhas Hahotsev St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_215",
@@ -2577,7 +2791,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 20, Beersheba"
   },
   {
     "id": "gov_bs_216",
@@ -2589,7 +2804,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Uziya HaMelech St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_217",
@@ -2601,7 +2817,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Menachem Gabbai St 2, Be'er Sheva"
   },
   {
     "id": "gov_bs_218",
@@ -2613,7 +2830,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaKnesset St 34, Be'er Sheva"
   },
   {
     "id": "gov_bs_219",
@@ -2625,7 +2843,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Bar Giyora St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_220",
@@ -2637,7 +2856,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Ben Matityahu St 32, Be'er Sheva"
   },
   {
     "id": "gov_bs_221",
@@ -2649,7 +2869,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Ben Matityahu St 71, Be'er Sheva"
   },
   {
     "id": "gov_bs_222",
@@ -2661,7 +2882,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Binyamin Metudela St 21, Be'er Sheva"
   },
   {
     "id": "gov_bs_223",
@@ -2673,7 +2895,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Isiyim St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_224",
@@ -2685,7 +2908,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giyora Yoseftal St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_225",
@@ -2697,7 +2921,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Menachem Gabbai St 15, Be'er Sheva"
   },
   {
     "id": "gov_bs_226",
@@ -2709,7 +2934,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "A.L. Ziso St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_227",
@@ -2721,7 +2947,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giv'ati St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_228",
@@ -2733,7 +2960,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Yerushalayim 36, Beersheba"
   },
   {
     "id": "gov_bs_229",
@@ -2745,7 +2973,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Kana'im St 32, Be'er Sheva"
   },
   {
     "id": "gov_bs_230",
@@ -2757,7 +2986,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Asaf Simkhoni St 18, Be'er Sheva"
   },
   {
     "id": "gov_bs_231",
@@ -2769,7 +2999,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yasmin St 11, Be'er Sheva"
   },
   {
     "id": "gov_bs_232",
@@ -2781,7 +3012,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMachteshim St 32, Be'er Sheva"
   },
   {
     "id": "gov_bs_233",
@@ -2793,7 +3025,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gil'ad St 40, Be'er Sheva"
   },
   {
     "id": "gov_bs_234",
@@ -2805,7 +3038,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Ezra St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_235",
@@ -2817,7 +3051,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Nakhshon St 34, Be'er Sheva"
   },
   {
     "id": "gov_bs_236",
@@ -2829,7 +3064,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Avinu St 62, Be'er Sheva"
   },
   {
     "id": "gov_bs_237",
@@ -2841,7 +3077,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ramkhal St 10, Be'er Sheva"
   },
   {
     "id": "gov_bs_238",
@@ -2853,7 +3090,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Nitsana 42, Beersheba"
   },
   {
     "id": "gov_bs_239",
@@ -2865,7 +3103,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Ma'ale HaAkrabim 11, Beersheba"
   },
   {
     "id": "gov_bs_240",
@@ -2877,7 +3116,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Patriya St 9, Be'er Sheva"
   },
   {
     "id": "gov_bs_241",
@@ -2889,7 +3129,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yotvata St 6, Be'er Sheva"
   },
   {
     "id": "gov_bs_242",
@@ -2901,7 +3142,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Ye'elim 20, Beersheba"
   },
   {
     "id": "gov_bs_243",
@@ -2913,7 +3155,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khoma u-Migdal St 3, Be'er Sheva"
   },
   {
     "id": "gov_bs_244",
@@ -2925,7 +3168,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kadesh St 32, Be'er Sheva"
   },
   {
     "id": "gov_bs_245",
@@ -2937,7 +3181,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ramban St 53, Be'er Sheva"
   },
   {
     "id": "gov_bs_246",
@@ -2949,7 +3194,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bialik/Basel, Be'er Sheva"
   },
   {
     "id": "gov_bs_247",
@@ -2961,7 +3207,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rudolf Bloch St 45, Be'er Sheva"
   },
   {
     "id": "gov_bs_248",
@@ -2973,7 +3220,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rudolf Bloch St 29, Be'er Sheva"
   },
   {
     "id": "gov_bs_249",
@@ -2985,7 +3233,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wingate St 14, Be'er Sheva"
   },
   {
     "id": "gov_bs_250",
@@ -2997,7 +3246,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 20, Beersheba"
   },
   {
     "id": "gov_bs_251",
@@ -3009,7 +3259,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "פריץ אלברט 12, באר שבע"
   },
   {
     "id": "gov_bs_252",
@@ -3021,7 +3272,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMada St 21, Be'er Sheva"
   },
   {
     "id": "gov_bs_253",
@@ -3033,7 +3285,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yosef Ben Matityahu St 71, Be'er Sheva"
   },
   {
     "id": "gov_bs_254",
@@ -3045,7 +3298,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Nadiv St 13, Be'er Sheva"
   },
   {
     "id": "gov_bs_255",
@@ -3057,7 +3311,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Ezra St 75, Be'er Sheva"
   },
   {
     "id": "gov_bs_256",
@@ -3069,7 +3324,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Beit Eshel St 111, Be'er Sheva"
   },
   {
     "id": "gov_bs_257",
@@ -3081,7 +3337,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Tsiklag 183, Beersheba"
   },
   {
     "id": "gov_bs_258",
@@ -3093,7 +3350,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pinhas Hahotsev St 16, Be'er Sheva"
   },
   {
     "id": "gov_bs_259",
@@ -3105,7 +3363,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Tana St 1, Be'er Sheva"
   },
   {
     "id": "gov_bs_260",
@@ -3117,7 +3376,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaShalom 69, Beersheba"
   },
   {
     "id": "gov_bs_261",
@@ -3129,7 +3389,8 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Betsal'el St 33, Be'er Sheva"
   },
   {
     "id": "gov_bs_262",
@@ -3141,6 +3402,7 @@
     "capacity": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kafrisin St 34, Be'er Sheva"
   }
 ]

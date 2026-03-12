@@ -10,7 +10,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Schiller St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-263",
@@ -23,7 +24,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Melilot 5א, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-60",
@@ -36,7 +38,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Basel St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-402",
@@ -49,7 +52,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "06:30 עד 23:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaRakevet St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-160",
@@ -62,7 +66,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maze St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-384",
@@ -75,7 +80,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Einstein St 41א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-230",
@@ -88,7 +94,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "שז\"ר זלמן 45ב, תל אביב-יפו"
   },
   {
     "id": "tlv_592-393",
@@ -101,7 +108,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kfar Yona St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-274",
@@ -114,7 +122,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "979 St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-191",
@@ -127,7 +136,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yefe Nof St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-194",
@@ -140,7 +150,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "נפתח ידנית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "I'rit St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-255",
@@ -153,7 +164,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Katz Ya'akov Yosef St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-183",
@@ -166,7 +178,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsahal St 53, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-278",
@@ -179,7 +192,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "חניון - קיימות דלתות חירום ידניות.",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Rothschild Blvd 140, Tel Aviv-Yafo, 6523303"
   },
   {
     "id": "tlv_592-248",
@@ -192,7 +206,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shulamit St 7, Tel Aviv-Yafo, 6329302"
   },
   {
     "id": "tlv_592-148",
@@ -205,7 +220,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tuval St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-81",
@@ -218,7 +234,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Chaim Levanon St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-272",
@@ -231,7 +248,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dam ha-Maccabim St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-132",
@@ -244,7 +262,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Takhkemoni St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-162",
@@ -257,7 +276,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lohamei Galipoli St 13א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-231",
@@ -270,7 +290,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א-ה 06:00  עד 21:00\nהלובי פתוח 24/7 , בחירום מוכן לפתוח אותו גם בשישי שבת\n",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha-Shfela St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-172",
@@ -283,7 +304,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabi Me'ir Ba'al ha-Nes St 36, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-134",
@@ -296,7 +318,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Neve Shalom St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-99",
@@ -309,7 +332,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daniel Frisch St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-294",
@@ -322,7 +346,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shlomo Lahat Promenade 17, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-161",
@@ -335,7 +360,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bat Zion St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-110",
@@ -348,7 +374,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Haim Sireni St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-140",
@@ -361,7 +388,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshi'a St 26, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-241",
@@ -374,7 +402,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Yellin St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-203",
@@ -387,7 +416,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Meitav St 8, Tel Aviv-Yafo, 6789809"
   },
   {
     "id": "tlv_592-295",
@@ -400,7 +430,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khovot ha-Levavot St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-412",
@@ -413,7 +444,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lohamei Galipoli St 52, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-53",
@@ -426,7 +458,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Asif St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-247",
@@ -439,7 +472,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tartsav St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-165",
@@ -452,7 +486,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dov mi-Mezerich St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-90",
@@ -465,7 +500,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Pinkhas Rosen St 65, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-135",
@@ -478,7 +514,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaVatikim 6, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-301",
@@ -491,7 +528,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barak St 33, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-207",
@@ -504,7 +542,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kaplanski St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-220",
@@ -517,7 +556,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 19:30 שישי משעה 6:00 עד 15:00 ",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ahad Ha'Am St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-229",
@@ -530,7 +570,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות ביממה ",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Daniel Frisch St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-63",
@@ -543,7 +584,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tishrei St 58, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-39",
@@ -556,7 +598,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharal St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-365",
@@ -569,7 +612,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pestalozzi St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-120",
@@ -582,7 +626,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Netivot 13, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-364",
@@ -595,7 +640,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:30 עד 20:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yavne St 32, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-355",
@@ -608,7 +654,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Yad LaBanim 18א, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-98",
@@ -621,7 +668,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Grove Atzito, Aristo St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-398",
@@ -634,7 +682,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "York Steiner St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-296",
@@ -647,7 +696,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Margolin St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-58",
@@ -660,7 +710,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "שיטרית בכור 5, תל אביב-יפו"
   },
   {
     "id": "tlv_592-75",
@@ -673,7 +724,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Reading St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-34",
@@ -686,7 +738,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "נפתח אוטומטית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Benayahu St 17, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-124",
@@ -699,7 +752,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharsha St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-166",
@@ -712,7 +766,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Домиври 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-101",
@@ -725,7 +780,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Giv'on St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-50",
@@ -738,7 +794,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 07:00 עד 21:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yad Harutsim St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-219",
@@ -751,7 +808,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kedem St 113, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-79",
@@ -764,7 +822,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaHaskala 22, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-6",
@@ -777,7 +836,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Batsra St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-189",
@@ -790,7 +850,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Urim St 39, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-82",
@@ -803,7 +864,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Merkaz Ba'alei Melaha St 37א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-59",
@@ -816,7 +878,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Patai St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-256",
@@ -829,7 +892,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elifelet St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-5",
@@ -842,7 +906,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Mosinzon St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-54",
@@ -855,7 +920,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "נפתח אוטומטית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsihatli St 2, Tel Aviv-Yafo, 6808647"
   },
   {
     "id": "tlv_592-413",
@@ -868,7 +934,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Hachmei Israel 116, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-343",
@@ -881,7 +948,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaMa'apilim 22, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-16",
@@ -894,7 +962,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ד' 06:00 עד 02:00 ה- ו'  06:00 עד 03:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Rothschild Blvd 33, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-128",
@@ -907,7 +976,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisra'el mi-Salant St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-345",
@@ -920,7 +990,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sifteh Yeshanim St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-246",
@@ -933,7 +1004,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "יש כניסה מהבניין עם שומר 24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Menakhem Begin Rd 152, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-386",
@@ -946,7 +1018,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat HaGaisot 8, Tel Aviv-Jaffa, 6706443"
   },
   {
     "id": "tlv_592-143",
@@ -959,7 +1032,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Herzl St 35, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-276",
@@ -972,7 +1046,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMered/Pines, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-85",
@@ -985,7 +1060,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Ilan St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-411",
@@ -998,7 +1074,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShalom Rd 88, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-216",
@@ -1011,7 +1088,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "07:00-23:30",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha'arbaa 28, תל אביב-יפו, 6473925"
   },
   {
     "id": "tlv_592-306",
@@ -1024,7 +1102,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "אנילביץ מרדכי 32, תל אביב-יפו"
   },
   {
     "id": "tlv_592-44",
@@ -1037,7 +1116,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מקראי קודש 11, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-158",
@@ -1050,7 +1130,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרוגי מלכות/עולי הגרדום, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-213",
@@ -1063,7 +1144,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "נפתח אוטומטית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Leib Ben Sara St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-242",
@@ -1076,7 +1158,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaKishon St 59, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-80",
@@ -1089,7 +1172,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisra'el Bak St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-261",
@@ -1102,7 +1186,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרי ס 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-347",
@@ -1115,7 +1200,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "יד לבנים 23א, תל אביב-יפו"
   },
   {
     "id": "tlv_592-321",
@@ -1128,7 +1214,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "כניסה 1 משתיים ברחוב גרץ נפתחת אוטומטית בחירום וכניסה אחת משתיים ברחוב רנ\"ק נפתחת אוטומטית.",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Alef He Weiss St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-357",
@@ -1141,7 +1228,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "\"פתוח 24 שעות ביממה , החניון השמאלי סגור בלילה",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Avuka St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-258",
@@ -1154,7 +1242,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kibbutz Galuyot Rd 79, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-353",
@@ -1167,7 +1256,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kam St 100, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-154",
@@ -1180,7 +1270,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Migdal Shorshan St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-284",
@@ -1193,7 +1284,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Mikha St 11a, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-228",
@@ -1206,7 +1298,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai Anielewicz St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-10",
@@ -1219,7 +1312,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShayarot St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-4",
@@ -1232,7 +1326,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shvil HaAsparagus 11, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-217",
@@ -1245,7 +1340,8 @@
     "type": "מקלט ציבורי",
     "hours": "ייפתח בשעת אזעקה",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan HaNavi St 19, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-97",
@@ -1258,7 +1354,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה'  07:00 עד 22:00\n",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "2185 St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-24",
@@ -1271,7 +1368,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "45 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-66",
@@ -1284,7 +1382,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Rubin St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-259",
@@ -1297,7 +1396,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Olifant St 26, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-104",
@@ -1310,7 +1410,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nahum Goldmann St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-214",
@@ -1323,7 +1424,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Urim St 41א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-171",
@@ -1336,7 +1438,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות הכניסה דרך רחוב פרישמן ",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Mendele Mokher Sfarim St 17, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-333",
@@ -1349,7 +1452,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Benayahu St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-257",
@@ -1362,7 +1466,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmulik Segal St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-318",
@@ -1375,7 +1480,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mishmar ha-Yarden St 61א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-144",
@@ -1388,7 +1494,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "מ-7:00 עד 23:00 אין כניסה משומר",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yigal Alon St 115, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-109",
@@ -1401,7 +1508,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Basel St 34, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-131",
@@ -1414,7 +1522,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nissenboim St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-40",
@@ -1427,7 +1536,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eliyahu Sapir St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-264",
@@ -1440,7 +1550,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zlatopolski St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-155",
@@ -1453,7 +1564,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hartglas St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-126",
@@ -1466,7 +1578,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gronemann St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-88",
@@ -1479,7 +1592,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Yad LaBanim 22, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-21",
@@ -1492,7 +1606,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nili St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-113",
@@ -1505,7 +1620,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsonzer St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-379",
@@ -1518,7 +1634,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat HaTavor 7, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-114",
@@ -1531,7 +1648,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaBarzel St 1, first floor, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-167",
@@ -1544,7 +1662,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Masaryk 1, Tel Aviv-Jaffa, 6777886"
   },
   {
     "id": "tlv_592-218",
@@ -1557,7 +1676,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Rothschild Blvd 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-127",
@@ -1570,7 +1690,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dreyfus St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-340",
@@ -1583,7 +1704,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Goldfaden St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-106",
@@ -1596,7 +1718,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות פתוח",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Marmorek St 21, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-226",
@@ -1609,7 +1732,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "King George St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-409",
@@ -1622,7 +1746,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rehov Mekor Chayim 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-176",
@@ -1635,7 +1760,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Patai St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-178",
@@ -1648,7 +1774,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הותיקים 110א, תל אביב-יפו"
   },
   {
     "id": "tlv_592-240",
@@ -1661,7 +1788,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tet Zayin St 21, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-288",
@@ -1674,7 +1802,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Qiryati St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-303",
@@ -1687,7 +1816,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Varsha St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-206",
@@ -1700,7 +1830,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Miriam HaHashmonait St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-227",
@@ -1713,7 +1844,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Lvov St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-269",
@@ -1726,7 +1858,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mazal Shor St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-185",
@@ -1739,7 +1872,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kish St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-293",
@@ -1752,7 +1886,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Lodz St 29, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-349",
@@ -1765,7 +1900,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kam St 99, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-159",
@@ -1778,7 +1914,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat HaTavor 14, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-200",
@@ -1791,7 +1928,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bavli St 45, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-129",
@@ -1804,7 +1942,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Raoul Wallenberg St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-234",
@@ -1817,7 +1956,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Abed El Rauf El Bitar St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-313",
@@ -1830,7 +1970,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lohamei Galipoli St 37, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-145",
@@ -1843,7 +1984,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levinski St 92, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-282",
@@ -1856,7 +1998,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shaike Dan St 41, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-215",
@@ -1869,7 +2012,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yehuda ha-Levi St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-45",
@@ -1882,7 +2026,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShalom Rd 102, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-232",
@@ -1895,7 +2040,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 07:30 עד 17:00 \nטלפון של השומר: 052-9595807\r\n",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha-Shlosha St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-93",
@@ -1908,7 +2054,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Allenby St 69, Tel Aviv-Yafo, 0052353"
   },
   {
     "id": "tlv_592-61",
@@ -1921,7 +2068,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mal'akhi St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-372",
@@ -1934,7 +2082,8 @@
     "type": "מקלט ציבורי",
     "hours": "ייפתח בשעת אזעקה",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mevaser St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-280",
@@ -1947,7 +2096,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 220, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-37",
@@ -1960,7 +2110,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "קרשקש חסדאי 2, תל אביב-יפו"
   },
   {
     "id": "tlv_592-32",
@@ -1973,7 +2124,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaZayit St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-252",
@@ -1986,7 +2138,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "A.D. Gordon St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-382",
@@ -1999,7 +2152,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kam St 67, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-149",
@@ -2012,7 +2166,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Mish'ol Emanuel Sela 217, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-237",
@@ -2025,7 +2180,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shalom Aleichem St 57, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-287",
@@ -2038,7 +2194,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 07:00 עד 23:00 ו' מ 07:00 עד 11:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaArba'a St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-26",
@@ -2051,7 +2208,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א-ה 5:00-23:00\nו 5:00-15:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "42nd floor, Electra Tower, Yigal Alon St 98, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-95",
@@ -2064,7 +2222,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jerusalem Blvd 73, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-182",
@@ -2077,7 +2236,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pinsker St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-65",
@@ -2090,7 +2250,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Raoul Wallenberg St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-310",
@@ -2103,7 +2264,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhalat Yitskhak St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-338",
@@ -2116,7 +2278,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ashdod St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-153",
@@ -2129,7 +2292,8 @@
     "type": "מקלט ציבורי",
     "hours": "ייפתח בשעת אזעקה",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tradyon St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-28",
@@ -2142,7 +2306,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaBarzel St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-186",
@@ -2155,7 +2320,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordechai Namir Rd 170א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-115",
@@ -2168,7 +2334,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaBarzel St 23, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-368",
@@ -2181,7 +2348,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nadav St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-199",
@@ -2194,7 +2362,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Netivot 9ד, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-239",
@@ -2207,7 +2376,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Cremieux St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-375",
@@ -2220,7 +2390,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה ידנית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on Rokah St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2",
@@ -2233,7 +2404,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yehuda HeHasid St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-29",
@@ -2246,7 +2418,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "1115 St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-121",
@@ -2259,7 +2432,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shoftim St 33, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-307",
@@ -2272,7 +2446,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShalom Rd 120, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-211",
@@ -2285,7 +2460,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ringelblum St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-408",
@@ -2298,7 +2474,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaHayil 11, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-317",
@@ -2311,7 +2488,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGilboa St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-164",
@@ -2324,7 +2502,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "1063 St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-297",
@@ -2337,7 +2516,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Adam HaCohen St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-137",
@@ -2350,7 +2530,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:30 עד 23:00\nו' מ 06:30 עד 16:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Beit Oved St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-41",
@@ -2363,7 +2544,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 07:00 עד 23:00\nו' מ 7:00 עד 17:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Aharon Becker St 8-10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-152",
@@ -2376,7 +2558,8 @@
     "type": "מקלט בשטח חניון",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaHashmal St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-139",
@@ -2389,7 +2572,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kabir St 40, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-188",
@@ -2402,7 +2586,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dov Hoz St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-268",
@@ -2415,7 +2600,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Idelson St 23, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-362",
@@ -2428,7 +2614,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הטית זין 3, תל אביב-יפו"
   },
   {
     "id": "tlv_592-328",
@@ -2441,7 +2628,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Dizengoff St 100, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-36",
@@ -2454,7 +2642,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaShalom Rd 2, Tel Aviv-Yafo, 6789202"
   },
   {
     "id": "tlv_592-335",
@@ -2467,7 +2656,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 24:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Nahal Ayalon St 33, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-72",
@@ -2480,7 +2670,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' 06:00 עד 20:00 \nו' מ 06:00 עד 13:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha'Arbaa 30, Tel Aviv-Yafo, 6473926"
   },
   {
     "id": "tlv_592-373",
@@ -2493,7 +2684,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 21:45 \nו' 06:00 עד 14:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "רכבת קלה קו, אדום 999, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-298",
@@ -2506,7 +2698,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nisan Cohen St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-13",
@@ -2519,7 +2712,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Jilbert Garden, Yehuda Burla St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-222",
@@ -2532,7 +2726,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mikha St 11א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-141",
@@ -2545,7 +2740,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmeyahu St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-341",
@@ -2558,7 +2754,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dizengoff St 271, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-201",
@@ -2571,7 +2768,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "De Haas St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-210",
@@ -2584,7 +2782,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרברט סמואל 131, תל אביב-יפו"
   },
   {
     "id": "tlv_592-395",
@@ -2597,7 +2796,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Varsha St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-270",
@@ -2610,7 +2810,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Gan Me'ir 8, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-31",
@@ -2623,7 +2824,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח כל השבוע  24/7 ",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Dr. Vicki Shiran St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-392",
@@ -2636,7 +2838,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "גשר איילון, Assuta Hashalom\" Medical Center\", Yigal Alon St, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-233",
@@ -2649,7 +2852,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות ביממה",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yam Suf St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-12",
@@ -2662,7 +2866,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 23:30\nו'  מ 09:00 עד 16:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Totseret ha-Arets St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-193",
@@ -2675,7 +2880,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24/שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "David Khakhami St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-324",
@@ -2688,7 +2894,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dam ha-Maccabim St 31, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-180",
@@ -2701,7 +2908,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Bialystok St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-163",
@@ -2714,7 +2922,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Maimon St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-326",
@@ -2727,7 +2936,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 05:30 עד 22:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "David Remez St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-277",
@@ -2740,7 +2950,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsahalon ha-Rofe St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-320",
@@ -2753,7 +2964,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khavatselet St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-89",
@@ -2766,7 +2978,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Meor Einayim St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-356",
@@ -2779,7 +2992,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Yellin Mor St 28, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-389",
@@ -2792,7 +3006,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot David HaMelech 23, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-309",
@@ -2805,7 +3020,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaHaskala 28, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-157",
@@ -2818,7 +3034,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hadassa St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-385",
@@ -2831,7 +3048,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ba'alei HaTosafot St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-314",
@@ -2844,7 +3062,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Kikar HaBima 3, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-404",
@@ -2857,7 +3076,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eiger St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-323",
@@ -2870,7 +3090,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shimon Khakham St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-102",
@@ -2883,7 +3104,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yefet St 76, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-223",
@@ -2896,7 +3118,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zeev Jabotinsky St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-71",
@@ -2909,7 +3132,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai Anielewicz St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-18",
@@ -2922,7 +3146,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Vatik St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-67",
@@ -2935,7 +3160,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaParsa St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-196",
@@ -2948,7 +3174,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Varsha St 81א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-410",
@@ -2961,7 +3188,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "רק בשעת אזעקות המקום פתוח להולכי רגל",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yavne St 31, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-396",
@@ -2974,7 +3202,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Ephraim St 205, Tel Aviv-Yafo, 6998411"
   },
   {
     "id": "tlv_592-73",
@@ -2987,7 +3216,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMatspen St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-279",
@@ -3000,7 +3230,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levitan St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-390",
@@ -3013,7 +3244,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaHashmal St 2א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-46",
@@ -3026,7 +3258,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Lodz St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-325",
@@ -3039,7 +3272,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lilienblum St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-245",
@@ -3052,7 +3286,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Nissim Aloni St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-304",
@@ -3065,7 +3300,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hashuk St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-369",
@@ -3078,7 +3314,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'aracha St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-57",
@@ -3091,7 +3328,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Vitkin St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-168",
@@ -3104,7 +3342,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bat Galim St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-170",
@@ -3117,7 +3356,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaYarkon St 140, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-78",
@@ -3130,7 +3370,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tvu'ot ha-Arets St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-271",
@@ -3143,7 +3384,8 @@
     "type": "מקלט ציבורי נגיש",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Binyamin mi-Tudela St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-381",
@@ -3156,7 +3398,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Berkovitch St 8א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-266",
@@ -3169,7 +3412,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Abarbanel St 64, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-8",
@@ -3182,7 +3426,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yigal Alon St 94, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-337",
@@ -3195,7 +3440,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Brachyahu Hanakdan St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-339",
@@ -3208,7 +3454,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Israel Guri 4, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-91",
@@ -3221,7 +3468,8 @@
     "type": "מקלט ציבורי",
     "hours": "באחריות הישיבה לפתיחת שער הכניסה בחירום.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Henrietta Szold St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-254",
@@ -3234,7 +3482,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Allenby St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-204",
@@ -3247,7 +3496,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Burma St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-181",
@@ -3260,7 +3510,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Struck St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-359",
@@ -3273,7 +3524,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bitsaron Garden, Bitsaron St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-360",
@@ -3286,7 +3538,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Burma St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-64",
@@ -3299,7 +3552,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha'Aliya St 26, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-327",
@@ -3312,7 +3566,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaArad St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-184",
@@ -3325,7 +3580,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Abed El Gani St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-133",
@@ -3338,7 +3594,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 24:00 \nו' מ 06:00 עד 16:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yehuda ha-Levi St 32, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-68",
@@ -3351,7 +3608,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Pinsker St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-156",
@@ -3364,7 +3622,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGolan St 122, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-175",
@@ -3377,7 +3636,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha'Gra St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-70",
@@ -3390,7 +3650,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "החי\"ל 26א, תל אביב-יפו"
   },
   {
     "id": "tlv_592-47",
@@ -3403,7 +3664,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ha-Negev St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-330",
@@ -3416,7 +3678,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arba Aratsot St 29, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-290",
@@ -3429,7 +3692,8 @@
     "type": "מקלט ציבורי",
     "hours": "ייפתח בשעת אזעקה",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nuriel St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-30",
@@ -3442,7 +3706,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nemirover St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-388",
@@ -3455,7 +3720,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGolan St 79, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-311",
@@ -3468,7 +3734,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhal Sorek St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-138",
@@ -3481,7 +3748,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Lodz St 45, Tel Aviv-Yafo, 6970647"
   },
   {
     "id": "tlv_592-11",
@@ -3494,7 +3762,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' 07:00 עד 17:00 יציאה מצד לאונרדו דה-וינצ'י 19 תנועת המושבים\nו' 07:00 עד 15:00  \nהחניון סגור עם שער גלילה מקושר ל- 3 בנינים \nלאונרדו דה-ויצ'י 19 תנועת המושבים\nשאול המלך 8 לאונרדו דה-וינצ'י 21-23 לא מוביל לחניונים הבנין פתוח 24 שעות ורק ממנו מתאפשרת",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Dubnov St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-49",
@@ -3507,7 +3776,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rabi mi-Pshiskha St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-42",
@@ -3520,7 +3790,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הגייסות 6א, תל אביב-יפו"
   },
   {
     "id": "tlv_592-244",
@@ -3533,7 +3804,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaKongres St 50, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-74",
@@ -3546,7 +3818,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lipski St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-100",
@@ -3559,7 +3832,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "J. L. Gordon St 69, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-125",
@@ -3572,7 +3846,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Avigdor St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-212",
@@ -3585,7 +3860,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yekhi'am St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-169",
@@ -3598,7 +3874,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gordon/Dov Hoz, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-136",
@@ -3611,7 +3888,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א'-ה' מ 06:00 עד 21:00 \nו' מ 06:00 עד 14:00",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shadal St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-52",
@@ -3624,7 +3902,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "א-ה  07:00 עד 20:00\nחניון מנויים\nכניסה להולכי רגל בחירום תתאפשר עד 23:00\n\n\n",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "הברזל 9א', Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-352",
@@ -3637,7 +3916,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Giv'ati St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-253",
@@ -3650,7 +3930,8 @@
     "type": "מקלט ציבורי",
     "hours": "נפתח ידנית בחירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Idelson St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-399",
@@ -3663,7 +3944,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Aluf Kalman Magen St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-358",
@@ -3676,7 +3958,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bialik St 26, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-236",
@@ -3689,7 +3972,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emanuel Tuvim St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-209",
@@ -3702,7 +3986,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshi'a St 19, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-405",
@@ -3715,7 +4000,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yigal Alon St 58, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-119",
@@ -3728,7 +4014,8 @@
     "type": "רכבת קלה מחסה לציבור",
     "hours": "בהתאם לשעות הפעילות.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shadal St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-7",
@@ -3741,7 +4028,8 @@
     "type": "רכבת קלה מחסה לציבור",
     "hours": "בהתאם לשעות הפעילות.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaArba'a St 43, Tel Aviv-Yafo, 6330309"
   },
   {
     "id": "tlv_592-20",
@@ -3754,7 +4042,8 @@
     "type": "רכבת קלה מחסה לציבור",
     "hours": "בהתאם לשעות הפעילות.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "בגין מנחם 151א, תל אביב-יפו"
   },
   {
     "id": "tlv_592-118",
@@ -3767,7 +4056,8 @@
     "type": "רכבת קלה מחסה לציבור",
     "hours": "בהתאם לשעות הפעילות.",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "רכבת קלה קו, אדום 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-265",
@@ -3780,7 +4070,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Harzfeld St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-83",
@@ -3793,7 +4084,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Sheshet HaYamim 9, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-273",
@@ -3806,7 +4098,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sheinkin St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-112",
@@ -3819,7 +4112,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Nordau 58, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-86",
@@ -3832,7 +4126,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "נתיבי אילון צפון 70, תל אביב-יפו"
   },
   {
     "id": "tlv_592-286",
@@ -3845,7 +4140,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ezra HaSofer St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-48",
@@ -3858,7 +4154,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Idelson St 28, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-407",
@@ -3871,7 +4168,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaArba'a St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-116",
@@ -3884,7 +4182,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hess St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-302",
@@ -3897,7 +4196,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eiger St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1",
@@ -3910,7 +4210,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaHarash St 37, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-377",
@@ -3923,7 +4224,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "בגין מנחם 144ב, תל אביב-יפו"
   },
   {
     "id": "tlv_592-208",
@@ -3936,7 +4238,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Montefiore St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-17",
@@ -3949,7 +4252,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rivka Sieff St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-249",
@@ -3962,7 +4266,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Begin Road / Railway, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-38",
@@ -3975,7 +4280,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Weizmann St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-238",
@@ -3988,7 +4294,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yegi'a Kapayim St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-87",
@@ -4001,7 +4308,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shvil HaAtad 6, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-105",
@@ -4014,7 +4322,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "בימים ראשון עד חמישי 20:00-8:00 בשישי ושבת 24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Lilienblum St 28, Tel Aviv-Yafo, 6513307"
   },
   {
     "id": "tlv_592-336",
@@ -4027,7 +4336,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Wolfson St 50, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-23",
@@ -4040,7 +4350,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "5501 862, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-25",
@@ -4053,7 +4364,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaKishon St 80, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-251",
@@ -4066,7 +4378,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Allenby St 120, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-275",
@@ -4079,7 +4392,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shtulim St 59, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-334",
@@ -4092,7 +4406,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yashresh St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-319",
@@ -4105,7 +4420,8 @@
     "type": "מתקן מיגון רווחה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ayanot St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-173",
@@ -4118,7 +4434,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shlomo Ibn Gabirol St 29, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-177",
@@ -4131,7 +4448,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "הברזל 11 בית הרופאים, בניין B, קומה 4, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-205",
@@ -4144,7 +4462,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaBarzel St 24a, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-397",
@@ -4157,7 +4476,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "יום ו' ו-שבת סגור",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaTsfira St 18, Tel Aviv-Yafo, 6777920"
   },
   {
     "id": "tlv_592-342",
@@ -4170,7 +4490,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Zeev Jabotinsky St 60ג, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-190",
@@ -4183,7 +4504,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Aluf Kalman Magen St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-107",
@@ -4196,7 +4518,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yosef Boxenbaum St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-14",
@@ -4209,7 +4532,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ben Yehuda St 168, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-285",
@@ -4222,7 +4546,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaMiktso'a St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-197",
@@ -4235,7 +4560,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "דיזנגוף סנטר, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-56",
@@ -4248,7 +4574,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Mohiliver St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-94",
@@ -4261,7 +4588,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yehuda ha-Levi St 45, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-19",
@@ -4274,7 +4602,8 @@
     "type": "מקלט ציבורי",
     "hours": "פתיחה אוטומטית בשעת חירום",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTayasim Rd 50, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-394",
@@ -4287,7 +4616,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaBarzel St 20-20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-400",
@@ -4300,7 +4630,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Leonardo da Vinci St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-198",
@@ -4313,7 +4644,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Raoul Wallenberg St 34א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-374",
@@ -4326,7 +4658,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "פתוח 24 שעות",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "ביה''ח איכילוב/ויצמן, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-224",
@@ -4339,7 +4672,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Raoul Wallenberg St 32, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-351",
@@ -4352,7 +4686,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Weizmann St 45, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-300",
@@ -4365,7 +4700,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Allenby St 113, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-371",
@@ -4378,7 +4714,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Yunitsman St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-179",
@@ -4391,7 +4728,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "HaRabi MiBachrach St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1322",
@@ -4404,7 +4742,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hagana Rd 130, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1324",
@@ -4417,7 +4756,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ezra Korin St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1325",
@@ -4430,7 +4770,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bosem St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1329",
@@ -4443,7 +4784,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Ben Yosef 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1331",
@@ -4456,7 +4798,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Druyanov St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1332",
@@ -4469,7 +4812,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24/7",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Habursa, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1355",
@@ -4482,7 +4826,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mapu St 28, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1371",
@@ -4495,7 +4840,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "רובינשטין יצחק 12ב, תל אביב-יפו"
   },
   {
     "id": "tlv_592-2027",
@@ -4508,7 +4854,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Fishman-Maimon St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2045",
@@ -4521,7 +4868,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Vitkin St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2059",
@@ -4534,7 +4882,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Birnboim St 8, Tel Aviv-Yafo, 6230251"
   },
   {
     "id": "tlv_592-2080",
@@ -4547,7 +4896,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Davidka St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2091",
@@ -4560,7 +4910,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zuckerman St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2225",
@@ -4573,7 +4924,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khovot ha-Levavot St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -4586,7 +4938,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "24 שעות-לתושבים לרדת לקומה -3",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Nirim St 8, Tel Aviv-Yafo, 6706046"
   },
   {
     "id": "tlv_592-2357",
@@ -4599,7 +4952,8 @@
     "type": "חניון מחסה לציבור",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "parking"
+    "category": "parking",
+    "addressEn": "Shenkar St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -4612,7 +4966,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Keshet St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -4625,7 +4980,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Levi Eshkol 52, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-2357",
@@ -4638,7 +4994,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Raoul Wallenberg St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2604",
@@ -4651,7 +5008,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2612",
@@ -4664,7 +5022,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2627",
@@ -4677,7 +5036,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-1369",
@@ -4690,7 +5050,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kurt Tucholsky St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2099",
@@ -4703,7 +5064,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Oholei Ya'akov St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2141",
@@ -4716,7 +5078,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Schiller St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2150",
@@ -4729,7 +5092,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lipski St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2159",
@@ -4742,7 +5106,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Gronemann St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2184",
@@ -4755,7 +5120,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "הרי ס 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2220",
@@ -4768,7 +5134,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shlomo Ibn Gabirol St 190, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1352",
@@ -4781,7 +5148,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Davidka St 9, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2030",
@@ -4794,7 +5162,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Feibel St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2068",
@@ -4807,7 +5176,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2146",
@@ -4820,7 +5190,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Soncino St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2182",
@@ -4833,7 +5204,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Toulouse St 2א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2219",
@@ -4846,7 +5218,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avigdor Hame'iri St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2228",
@@ -4859,7 +5232,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yefet St 81א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1353",
@@ -4872,7 +5246,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tchernikhovski St 23, Tel Aviv-Yafo, 6701203"
   },
   {
     "id": "tlv_592-1357",
@@ -4885,7 +5260,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "בקצה השביל שמאחורי דוכן מפעל הפיס, HaHashmonaim St 90, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2041",
@@ -4898,7 +5274,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zeev Jabotinsky St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2077",
@@ -4911,7 +5288,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simha Holtsberg St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2105",
@@ -4924,7 +5302,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shazar St 53, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2148",
@@ -4937,7 +5316,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShalom Rd 117, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2218",
@@ -4950,7 +5330,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yerushalayim Blvd/Vakhtangov, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1351",
@@ -4963,7 +5344,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Tidhar St 57, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1370",
@@ -4976,7 +5358,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Donolo ha-Rofe St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1833",
@@ -4989,7 +5372,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'oni St 21, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1857",
@@ -5002,7 +5386,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Andersen St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1863",
@@ -5015,7 +5400,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Dayan Rd 24ב, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1887",
@@ -5028,7 +5414,8 @@
     "type": "מקלט ציבורי",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Keren St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1905",
@@ -5041,7 +5428,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivtei Israel St 79, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1917",
@@ -5054,7 +5442,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ba'al ha-Turim St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1941",
@@ -5067,7 +5456,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Herzog St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1965",
@@ -5080,7 +5470,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Nasi St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2084",
@@ -5093,7 +5484,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Dayan Rd 54, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2153",
@@ -5106,7 +5498,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Ami'el St 36, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -5119,7 +5512,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kitzis St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2584",
@@ -5132,7 +5526,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2614",
@@ -5145,7 +5540,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2626",
@@ -5158,7 +5554,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-1365",
@@ -5171,7 +5568,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ir Shemesh St 77, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1814",
@@ -5184,7 +5582,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTayasim Rd 28, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1820",
@@ -5197,7 +5596,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Olifant St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1856",
@@ -5210,7 +5610,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Wissotsky St 20, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1880",
@@ -5223,7 +5624,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivtei Israel St 56, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1886",
@@ -5236,7 +5638,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yigal Alon St 27, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1898",
@@ -5249,7 +5652,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Asaf ha-Rofe St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1904",
@@ -5262,7 +5666,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Reading St 45, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1922",
@@ -5275,7 +5680,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai Anielewicz St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1934",
@@ -5288,7 +5694,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "3180 St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1940",
@@ -5301,7 +5708,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "שד' קק''ל/אופנהיימר, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-1958",
@@ -5314,7 +5722,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Vered St 7א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2024",
@@ -5327,7 +5736,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tartsav St 19, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2038",
@@ -5340,7 +5750,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Cheshvan St 5, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2064",
@@ -5353,7 +5764,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Stricker St 60, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2066",
@@ -5366,7 +5778,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "589 St 991, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2078",
@@ -5379,7 +5792,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zalman Maisel St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2090",
@@ -5392,7 +5806,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Teq'oa St 17, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2149",
@@ -5405,7 +5820,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ilan St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -5418,7 +5834,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Olei ha-Gardom St 36, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1837",
@@ -5431,7 +5848,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Leonardo da Vinci St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1855",
@@ -5444,7 +5862,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tashah St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1897",
@@ -5457,7 +5876,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Habad 40, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-1927",
@@ -5470,7 +5890,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Weizmann St 108, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1933",
@@ -5483,7 +5904,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dvora HaNevi'a St 83, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1951",
@@ -5496,7 +5918,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nissim Aloni St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1963",
@@ -5509,7 +5932,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Shaprut St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1969",
@@ -5522,7 +5946,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Asa'el St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1993",
@@ -5535,7 +5960,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ma'apilei Egoz St 67, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2011",
@@ -5548,7 +5974,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yakubov Uri'el St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2023",
@@ -5561,7 +5988,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "כ\"ץ, יעקב יוסף 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2029",
@@ -5574,7 +6002,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emek Brakha St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2076",
@@ -5587,7 +6016,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Saharon St 24, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2135",
@@ -5600,7 +6030,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yitzhak Sadeh St 67, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2165",
@@ -5613,7 +6044,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maze St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2166",
@@ -5626,7 +6058,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Modigliani St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2175",
@@ -5639,7 +6072,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dr Erlich St 31, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2176",
@@ -5652,7 +6086,8 @@
     "type": "מתקן מיגון רווחה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahiluf St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2178",
@@ -5665,7 +6100,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kedem St 111, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2217",
@@ -5678,7 +6114,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ofakim St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1848",
@@ -5691,7 +6128,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Steinschneider St 16, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1890",
@@ -5704,7 +6142,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Akselrod St 2-6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1974",
@@ -5717,7 +6156,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Donolo ha-Rofe St 3א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1986",
@@ -5730,7 +6170,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "החי\"ל 27, תל אביב-יפו"
   },
   {
     "id": "tlv_592-2056",
@@ -5743,7 +6184,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shamgar St 23, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2075",
@@ -5756,7 +6198,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Merkaz Ba'alei Melaha St 38א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2138",
@@ -5769,7 +6212,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emek Ayalon St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2155",
@@ -5782,7 +6226,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Ami'el St 22, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2164",
@@ -5795,7 +6240,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Be'er Tuvya St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2173",
@@ -5808,7 +6254,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nissim Aloni St 3, Tel Aviv-Yafo, 6291917"
   },
   {
     "id": "tlv_592-2193",
@@ -5821,7 +6268,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ayanot St 25, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2215",
@@ -5834,7 +6282,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hahita St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2222",
@@ -5847,7 +6296,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maharal St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1835",
@@ -5860,7 +6310,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zeev Jabotinsky St 71, Ramat Gan"
   },
   {
     "id": "tlv_592-1853",
@@ -5873,7 +6324,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 73, Tel Aviv-Yafo, 6343501"
   },
   {
     "id": "tlv_592-1883",
@@ -5886,7 +6338,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yagur St 1, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1889",
@@ -5899,7 +6352,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Herzog St 7, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1907",
@@ -5912,7 +6366,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bnei Ephraim St 245, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1913",
@@ -5925,7 +6380,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaHaskala 13, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-1919",
@@ -5938,7 +6394,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sir Winston Churchil St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1955",
@@ -5951,7 +6408,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kislev St 23א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2053",
@@ -5964,7 +6422,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bekhor Shalom Shitrit St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2062",
@@ -5977,7 +6436,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Soutine St 15, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2125",
@@ -5990,7 +6450,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "קרייתי/גבעתי, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-2129",
@@ -6003,7 +6464,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsviya Lubetkin St 35א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2144",
@@ -6016,7 +6478,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khavatselet St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2151",
@@ -6029,7 +6492,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaYarkon St 275, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2156",
@@ -6042,7 +6506,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda Burla St 39, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2213",
@@ -6055,7 +6520,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yefet St 21ה, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1834",
@@ -6068,7 +6534,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emek Brakha 22/8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1852",
@@ -6081,7 +6548,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shim'on ha-Tarsi St 18, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1870",
@@ -6094,7 +6562,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "אבודרהם דוד 5, תל אביב-יפו"
   },
   {
     "id": "tlv_592-1876",
@@ -6107,7 +6576,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bosem St 87, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1900",
@@ -6120,7 +6590,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Miriam HaHashmonait St 10, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1948",
@@ -6133,7 +6604,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordehai Meir St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1960",
@@ -6146,7 +6618,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmeyahu St 2, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1966",
@@ -6159,7 +6632,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dvora HaNevi'a St 83, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-1978",
@@ -6172,7 +6646,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מעוז 4, תל אביב-יפו"
   },
   {
     "id": "tlv_592-1984",
@@ -6185,7 +6660,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bosem St 78, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2014",
@@ -6198,7 +6674,8 @@
     "type": "מקלט ציבורי במוסדות חינוך",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Refidim St 22ו, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2054",
@@ -6211,7 +6688,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hadar Yosef St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2069",
@@ -6224,7 +6702,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arlozorov St 124, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2101",
@@ -6237,7 +6716,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "מיכאל אנג'לו 8, תל אביב-יפו"
   },
   {
     "id": "tlv_592-2126",
@@ -6250,7 +6730,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Dayan Rd 18ב, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2139",
@@ -6263,7 +6744,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'aracha St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2143",
@@ -6276,7 +6758,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elifelet St 13, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2158",
@@ -6289,7 +6772,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Yellin St 8, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2211",
@@ -6302,7 +6786,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arba Aratsot St 14, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2214",
@@ -6315,7 +6800,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hartglas St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2223",
@@ -6328,7 +6814,8 @@
     "type": "מתקן מיגון רווחה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kehilat Eden St 30, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2037",
@@ -6341,7 +6828,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dubnov Dog park, Leonardo da Vinci St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2124",
@@ -6354,7 +6842,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kalman St 45, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2132",
@@ -6367,7 +6856,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Negba St 20ב, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2137",
@@ -6380,7 +6870,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha'Aliya St 62א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2161",
@@ -6393,7 +6884,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levitan St 6, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2169",
@@ -6406,7 +6898,8 @@
     "type": "מקלט פנימי בשטח בית ספר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eliyahu Sapir St 4, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2187",
@@ -6419,7 +6912,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Levinski St 98, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2203",
@@ -6432,7 +6926,8 @@
     "type": "אחר",
     "hours": "24",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Emanuel Haromi St 12, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2098",
@@ -6445,7 +6940,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derekh Ben-Zvi 115א, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-2357",
@@ -6458,7 +6954,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arlozorov St 130, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -6471,7 +6968,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Sha'ul HaMelech 23, Tel Aviv-Jaffa, 6436724"
   },
   {
     "id": "tlv_592-2357",
@@ -6484,7 +6982,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Fikus St 43, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -6497,7 +6996,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rashi St 3, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -6510,7 +7010,8 @@
     "type": "מתקן מיגון רווחה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Saharon St 28א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2357",
@@ -6523,7 +7024,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Totseret ha-Arets St 5א, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2416",
@@ -6536,7 +7038,8 @@
     "type": "מתקן מיגון גני ילדים ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derekh Ben-Zvi 84, Tel Aviv-Jaffa"
   },
   {
     "id": "tlv_592-2615",
@@ -6549,7 +7052,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2364",
@@ -6562,7 +7066,8 @@
     "type": "מתקן מיגון רווחה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Barazani St 11, Tel Aviv-Yafo"
   },
   {
     "id": "tlv_592-2601",
@@ -6575,7 +7080,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2603",
@@ -6588,7 +7094,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2611",
@@ -6601,7 +7108,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2616",
@@ -6614,7 +7122,8 @@
     "type": "אחר",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2624",
@@ -6627,7 +7136,8 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   },
   {
     "id": "tlv_592-2625",
@@ -6640,6 +7150,7 @@
     "type": "מתקן מיגון קהילה ",
     "hours": "כשיר לשימוש",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7GRM3266+QM"
   }
 ]

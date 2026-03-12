@@ -323,13 +323,15 @@ const _NOM_HDR   = { 'Accept-Language': 'he,en', 'User-Agent': 'ShelterFinderApp
 // dropType: if set, any previously queued item with the SAME dropType is cancelled
 // before the new item is inserted. This keeps at most 1 autocomplete request in
 // the queue at any time, no matter how fast the user types.
-function nominatimFetch(q, { limit = 1, addressdetails = 0, priority = NOM_LOW, dropType } = {}) {
-  const url = `https://nominatim.openstreetmap.org/search?${new URLSearchParams({
+function nominatimFetch(q, { limit = 1, addressdetails = 0, priority = NOM_LOW, dropType, lang = 'he' } = {}) {
+  const params = {
     format: 'json',
-    q: q.includes('ישראל') ? q : q + ', ישראל',
+    q: q.includes('ישראל') || q.toLowerCase().includes('israel') ? q : q + (lang === 'en' ? ', Israel' : ', ישראל'),
     limit,
     addressdetails,
-  })}`;
+    'accept-language': lang,
+  };
+  const url = `https://nominatim.openstreetmap.org/search?${new URLSearchParams(params)}`;
 
   return new Promise((resolve, reject) => {
     // Drop stale items of the same type (e.g. previous autocomplete requests)
@@ -1432,13 +1434,13 @@ app.get('/api/geocode', async (req, res) => {
   // ── Autocomplete (suggest=1): try Photon (fast, no rate-limit), fall back to Nominatim ──
   if (isSuggest) {
     try {
-      return res.json(await photonFetch(q, 5));  // 5s timeout — fails fast if unreachable
+      return res.json(await photonFetch(q, 5, req.query.lang));  // 5s timeout — fails fast if unreachable
     } catch (photonErr) {
       console.warn('[geocode/suggest] Photon failed, using Nominatim:', photonErr.message);
     }
     // Photon failed — fall back to Nominatim with NOM_HIGH so user isn't blocked
     try {
-      const r = await nominatimFetch(q, { limit: 5, priority: NOM_HIGH, dropType: 'autocomplete' });
+      const r = await nominatimFetch(q, { limit: 5, priority: NOM_HIGH, dropType: 'autocomplete', lang: req.query.lang || 'he' });
       if (!r.ok) return res.status(503).json({ error: 'geocode_busy' });
       return res.json(await r.json());
     } catch (e) {
@@ -1449,7 +1451,7 @@ app.get('/api/geocode', async (req, res) => {
 
   // ── Explicit search: Nominatim first (best Hebrew quality), Photon fallback on 429 ──
   try {
-    const r = await nominatimFetch(q, { limit: 6, addressdetails: 1, priority: NOM_HIGH });
+    const r = await nominatimFetch(q, { limit: 6, addressdetails: 1, priority: NOM_HIGH, lang: req.query.lang || 'he' });
     if (r.status === 429) {
       console.warn('[geocode] Nominatim 429 → Photon fallback');
       try {
