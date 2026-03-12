@@ -376,11 +376,12 @@ async function _nomDrain() {
 // Free, no API key, OSM-based, returns GeoJSON FeatureCollection.
 // We convert it to a Nominatim-compatible array so the frontend stays unchanged.
 // ─────────────────────────────────────────────
-async function photonFetch(q, limit = 5) {
-  const query = q.includes('ישראל') ? q : q + ' ישראל';
+async function photonFetch(q, limit = 5, lang = 'he') {
+  const query = q.includes('ישראל') || q.toLowerCase().includes('israel') ? q : q + (lang === 'en' ? ' Israel' : ' ישראל');
   const params = new URLSearchParams({
     q: query, limit: String(limit),
     lat: '31.5', lon: '34.8',  // location bias: centre of Israel
+    lang: lang === 'en' ? 'en' : 'default',
   });
   const r = await fetch(`https://photon.komoot.io/api/?${params}`, {
     headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
@@ -1455,7 +1456,7 @@ app.get('/api/geocode', async (req, res) => {
     if (r.status === 429) {
       console.warn('[geocode] Nominatim 429 → Photon fallback');
       try {
-        return res.json(await photonFetch(q, 6));
+        return res.json(await photonFetch(q, 6, req.query.lang));
       } catch (pe) {
         console.error('[geocode] Photon fallback failed:', pe.message);
         return res.status(503).json({ error: 'geocode_busy' });
