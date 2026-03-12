@@ -178,7 +178,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public",
+    "category": "school",
     "addressEn": "Ha-Rav Mohilever St 10, Bnei Brak"
   },
   {
@@ -295,7 +295,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public",
+    "category": "school",
     "addressEn": "Ha-Rav Sonnenfeld St 11, Bnei Brak"
   },
   {
@@ -763,7 +763,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public",
+    "category": "school",
     "addressEn": "Ha-Maccabim St 76, Bnei Brak"
   }
 ]

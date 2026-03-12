@@ -432,7 +432,7 @@ function haversine(lat1, lon1, lat2, lon2) {
 }
 
 // Deduplicate shelters within a single list (prefer gov/arcgis over OSM)
-function deduplicate(shelters, thresholdKm = 0.03) {
+function deduplicate(shelters, thresholdKm = 0.05) {
   const out = [];
   for (const s of shelters) {
     const dup = out.find(x => haversine(x.lat, x.lon, s.lat, s.lon) < thresholdKm);
@@ -445,19 +445,41 @@ function deduplicate(shelters, thresholdKm = 0.03) {
   return out;
 }
 
-// Deduplicate per category independently (schools ≠ shelters ≠ parking)
-function deduplicateAll(shelters, thresholdKm = 0.03) {
+// Deduplicate: first per-category (50m), then cross-category for similar names (100m)
+function deduplicateAll(shelters) {
+  // Phase 1: per-category dedup at 50m
   const byCategory = {};
   for (const s of shelters) {
     const cat = s.category || 'public';
     if (!byCategory[cat]) byCategory[cat] = [];
     byCategory[cat].push(s);
   }
-  const result = [];
+  let result = [];
   for (const list of Object.values(byCategory)) {
-    result.push(...deduplicate(list, thresholdKm));
+    result.push(...deduplicate(list));
   }
-  return result;
+  // Phase 2: cross-category dedup — if two shelters within 100m share a name keyword, keep gov
+  const final = [];
+  for (const s of result) {
+    const dup = final.find(x =>
+      haversine(x.lat, x.lon, s.lat, s.lon) < 0.1 && shareName(x.name, s.name)
+    );
+    if (!dup) {
+      final.push(s);
+    } else if (s.source === 'gov' || s.source === 'arcgis') {
+      Object.assign(dup, { ...s, id: dup.id });
+    }
+  }
+  return final;
+}
+
+function shareName(a, b) {
+  if (!a || !b) return false;
+  // Extract significant words (3+ chars), ignoring common prefixes
+  const skip = new Set(['מקלט','מרחב','מוגן','ציבורי','בית','ספר','public','shelter']);
+  const words = s => s.replace(/[#d"]/g, ' ').split(/s+/).filter(w => w.length >= 3 && !skip.has(w));
+  const wa = words(a), wb = words(b);
+  return wa.some(w => wb.some(w2 => w === w2 || w.includes(w2) || w2.includes(w)));
 }
 
 // ─────────────────────────────────────────────
