@@ -751,7 +751,10 @@ const HE_EN = {
   'מקלט':                   'Shelter',
 };
 
-function localizeName(name) {
+// Check if text contains Hebrew characters
+function hasHebrew(str) { return /[֐-׿]/.test(str); }
+
+function localizeName(name, shelter) {
   if (currentLang !== 'en' || !name) return name;
   if (HE_EN[name]) return HE_EN[name];
   // shelter prefixes
@@ -764,14 +767,28 @@ function localizeName(name) {
   if (name.startsWith('מקלט נס ציונה #')) return 'Ness Ziona Shelter #'  + name.slice('מקלט נס ציונה #'.length);
   if (name.startsWith('מקלט '))           return 'Shelter '              + name.slice('מקלט '.length);
   if (name.startsWith('מרחב מוגן '))      return 'Protected Space '      + name.slice('מרחב מוגן '.length);
+  if (name.startsWith('מיגונית '))        return 'Safe Room '            + name.slice('מיגונית '.length);
   // school/kindergarten prefixes
+  if (name.startsWith('ביה"ס '))          return 'School '               + name.slice('ביה"ס '.length);
+  if (name.startsWith('בי"ס '))           return 'School '               + name.slice('בי"ס '.length);
   if (name.startsWith('בית ספר '))        return 'School '               + name.slice('בית ספר '.length);
   if (name.startsWith('בית-ספר '))        return 'School '               + name.slice('בית-ספר '.length);
   if (name.startsWith('גן ילדים '))       return 'Kindergarten '         + name.slice('גן ילדים '.length);
   if (name.startsWith('גן '))             return 'Kindergarten '         + name.slice('גן '.length);
+  if (name.startsWith('חט"ב '))           return 'Middle School '        + name.slice('חט"ב '.length);
+  if (name.startsWith('תיכון '))          return 'High School '          + name.slice('תיכון '.length);
   // parking prefixes
   if (name.startsWith('חניון '))          return 'Parking '              + name.slice('חניון '.length);
   if (name.startsWith('חנייה '))          return 'Parking '              + name.slice('חנייה '.length);
+  // Fallback: if name still has Hebrew and we have English address, use it
+  if (hasHebrew(name) && shelter && shelter.addressEn) return shelter.addressEn;
+  // Category fallback for OSM results
+  if (hasHebrew(name) && shelter) {
+    const cat = shelter.category || 'public';
+    if (cat === 'school') return 'School';
+    if (cat === 'parking') return 'Parking Shelter';
+    return 'Public Shelter';
+  }
   return name;
 }
 
@@ -791,7 +808,7 @@ function renderList(shelters) {
 
   list.innerHTML = shelters.map((s, i) => {
     const cat  = s.category || 'public';
-    const name = localizeName(s.name);
+    const name = localizeName(s.name, s);
     const dCls = cat === 'school' ? 'school' : cat === 'parking' ? 'parking'
                   : s.dist < 0.5 ? 'near' : s.dist < 2 ? 'medium' : 'far';
     const addr  = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
@@ -849,7 +866,7 @@ function renderMarkers(shelters) {
     const addr = currentLang === 'en' && s.addressEn ? s.addressEn : [s.address, s.city].filter(Boolean).join(', ');
     const m = L.marker([s.lat, s.lon], { icon })
       .addTo(map)
-      .bindPopup(`<div dir="${t().dir}"><b>${esc(localizeName(s.name))}</b>${addr ? '<br>' + esc(addr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
+      .bindPopup(`<div dir="${t().dir}"><b>${esc(localizeName(s.name, s))}</b>${addr ? '<br>' + esc(addr) : ''}<br><b>${t().popupDist} ${t().distFmt(s.dist)}</b></div>`);
     m.on('click', () => {
       const card = document.getElementById('card-' + s.id);
       if (card) card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
