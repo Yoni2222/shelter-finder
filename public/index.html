@@ -734,7 +734,8 @@ async function loadShelters() {
   showLoading(t().searchingFmt(radiusLabel));
 
   try {
-    let r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}`);
+    const addrQ = encodeURIComponent(document.getElementById('addr').value.trim());
+    let r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}&q=${addrQ}`);
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     let data = await r.json();
 
@@ -742,7 +743,7 @@ async function loadShelters() {
     if (data.shelters.length === 0) {
       await new Promise(resolve => setTimeout(resolve, 1500));
       showLoading(t().searchingFmt(radiusLabel));
-      r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}`);
+      r = await fetch(`/api/shelters?lat=${userLat}&lon=${userLon}&radius=${radiusM}&q=${addrQ}`);
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       data = await r.json();
     }

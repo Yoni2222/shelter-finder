@@ -308,6 +308,15 @@ const _holonCache = require('./data/holon-shelters.json');
 // Kfar Saba: loaded from bundled static JSON (municipality GIS, Google-geocoded)
 const _kfarSabaCache = require('./data/kfar-saba-shelters.json');
 
+// Master index of all static JSON shelters for address-based search
+const _allStaticShelters = [].concat(
+  _haifaCache, _netanyaCache, _batYamCache, _ashdodCache,
+  _orYehudaCache, _kfarYonaCache, _kiryatOnoCache, _dimonaCache,
+  _givatayimCache, _bneiBrakCache, _nesherCache, _ramatGanCache,
+  _herzliyaCache, _holonCache, _kfarSabaCache
+);
+console.log(`[startup] Master shelter index: ${_allStaticShelters.length} shelters from static JSON`);
+
 // Rishon LeZion: HTML table page, geocoded with Nominatim at startup
 let _rishonCache   = null;
 let _rishonCacheTs = 0;
@@ -481,6 +490,75 @@ function shareName(a, b) {
   const wa = words(a), wb = words(b);
   return wa.some(w => wb.some(w2 => w === w2 || w.includes(w2) || w2.includes(w)));
 }
+
+// Hebrew article prefix retry — many Israeli streets have "ה" prefix users omit
+function addHebrewArticle(q) {
+  const words = q.trim().split(/\s+/);
+  if (words.length < 2) return null;
+  const first = words[0];
+  // Skip if already starts with ה or if it's a number
+  if (first.startsWith('ה') || /^\d/.test(first)) return null;
+  // Skip common Hebrew names that shouldn't get ה prefix
+  const skipWords = new Set(['בן', 'בר', 'רבי', 'אבן', 'בית', 'גן', 'שד', 'דרך', 'כיכר']);
+  if (skipWords.has(first)) return null;
+  words[0] = 'ה' + first;
+  return words.join(' ');
+}
+
+// Find shelters matching a street name in the address query (city-filtered)
+function findSheltersByAddress(query, allShelters) {
+  const cityMap = {
+    'כפר סבא': 'כפר סבא', 'כפ"ס': 'כפר סבא', 'כפ״ס': 'כפר סבא',
+    'הרצליה': 'הרצליה', 'חולון': 'חולון',
+    'תל אביב': 'תל אביב', 'חיפה': 'חיפה', 'ירושלים': 'ירושלים',
+    'באר שבע': 'באר שבע', 'אשדוד': 'אשדוד', 'אשקלון': 'אשקלון',
+    'נתניה': 'נתניה', 'פתח תקווה': 'פתח תקווה', 'ראשון לציון': 'ראשון לציון',
+    'בת ים': 'בת ים', 'בני ברק': 'בני ברק', 'רמת גן': 'רמת גן',
+    'גבעתיים': 'גבעתיים', 'רחובות': 'רחובות', 'ראש העין': 'ראש העין',
+    'יהוד': 'יהוד', 'אור יהודה': 'אור יהודה', 'כפר יונה': 'כפר יונה',
+    'קרית אונו': 'קרית אונו', 'דימונה': 'דימונה', 'נשר': 'נשר', 'נהריה': 'נהריה',
+  };
+  
+  // Detect city from query
+  let detectedCity = null;
+  let street = query.trim();
+  // Sort city names longest-first to match "ראשון לציון" before "ראשון"
+  const cityKeys = Object.keys(cityMap).sort((a, b) => b.length - a.length);
+  for (const key of cityKeys) {
+    if (street.includes(key)) {
+      detectedCity = cityMap[key];
+      street = street.replace(new RegExp(key, 'g'), '').trim();
+      break;
+    }
+  }
+  
+  // Clean up: remove commas, extra whitespace
+  street = street.replace(/^[,\s]+|[,\s]+$/g, '').trim();
+  if (street.length < 2) return [];
+  
+  // Extract street name without house number
+  const streetOnly = street.replace(/\s+\d+\s*$/, '').trim();
+  if (streetOnly.length < 2) return [];
+  
+  // Filter shelters by city AND street name
+  const matches = allShelters.filter(s => {
+    if (!s.address) return false;
+    // City filter: if we detected a city, shelter must be in that city
+    // Check both s.city field AND the address string for the city name
+    if (detectedCity) {
+      const inCity = (s.city && s.city === detectedCity) || s.address.includes(detectedCity);
+      if (!inCity) return false;
+    }
+    // Street match: word-boundary-like matching to avoid "הרצל" matching "הרצליה"
+    const addr = s.address;
+    const escaped = streetOnly.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const streetRe = new RegExp('(^|\\s)' + escaped + '(\\s|\\d|,|$)');
+    return streetRe.test(addr);
+  });
+  
+  return matches.slice(0, 20);
+}
+
 
 // ─────────────────────────────────────────────
 // Fetch from OpenStreetMap Overpass API
@@ -1349,7 +1427,24 @@ app.get('/api/geocode', async (req, res) => {
       }
     }
     if (!r.ok) throw new Error(`Nominatim HTTP ${r.status}`);
-    res.json(await r.json());
+    let results = await r.json();
+
+    // Hebrew article prefix retry: if 0 results, try adding "ה" to first word
+    if (results.length === 0) {
+      const heRetry = addHebrewArticle(q);
+      if (heRetry) {
+        console.log(`[geocode] 0 results for "${q}" → retrying with "${heRetry}"`);
+        try {
+          const r2 = await nominatimFetch(heRetry, { limit: 6, addressdetails: 1, priority: NOM_HIGH, lang: req.query.lang || 'he' });
+          if (r2.ok) {
+            const retry = await r2.json();
+            if (retry.length > 0) results = retry;
+          }
+        } catch (_) { /* ignore retry errors */ }
+      }
+    }
+
+    res.json(results);
   } catch (e) {
     console.error('[geocode]', e.message);
     res.status(500).json({ error: e.message });
@@ -1360,7 +1455,7 @@ app.get('/api/geocode', async (req, res) => {
 // API: GET /api/shelters?lat=&lon=&radius=
 // ─────────────────────────────────────────────
 app.get('/api/shelters', async (req, res) => {
-  const { lat, lon, radius = 2000 } = req.query;
+  const { lat, lon, radius = 2000, q: addrQuery } = req.query;
 
   if (!lat || !lon) return res.status(400).json({ error: 'Missing lat and/or lon' });
 
@@ -1442,6 +1537,43 @@ app.get('/api/shelters', async (req, res) => {
       .map(s => ({ ...s, dist: haversine(userLat, userLon, s.lat, s.lon) }))
       .sort((a, b) => a.dist - b.dist)
       .slice(0, 150);
+
+    // Address-based matching: if a query string is provided, find shelters
+    // matching the street name in our static data and boost/include them
+    if (addrQuery && addrQuery.trim().length > 2) {
+      const addrMatches = findSheltersByAddress(addrQuery, _allStaticShelters);
+      if (addrMatches.length > 0) {
+        // Add distance to each match
+        const matchesWithDist = addrMatches.map(s => ({
+          ...s,
+          dist: haversine(userLat, userLon, s.lat, s.lon),
+          addrMatch: true
+        }));
+        // Merge: add matches that aren't already in results
+        const existingIds = new Set(shelters.map(s => s.id));
+        const newMatches = matchesWithDist.filter(s => !existingIds.has(s.id));
+        if (newMatches.length > 0) {
+          shelters = shelters.concat(newMatches);
+          // Re-sort: address matches first (sorted by distance), then others by distance
+          shelters.sort((a, b) => {
+            if (a.addrMatch && !b.addrMatch) return -1;
+            if (!a.addrMatch && b.addrMatch) return 1;
+            return a.dist - b.dist;
+          });
+          shelters = shelters.slice(0, 150);
+        } else {
+          // Matches already in results — just boost them to top
+          shelters.forEach(s => {
+            if (addrMatches.some(m => m.id === s.id)) s.addrMatch = true;
+          });
+          shelters.sort((a, b) => {
+            if (a.addrMatch && !b.addrMatch) return -1;
+            if (!a.addrMatch && b.addrMatch) return 1;
+            return a.dist - b.dist;
+          });
+        }
+      }
+    }
 
     // Count by category and source
     const catCounts = { public: 0, school: 0, parking: 0 };
