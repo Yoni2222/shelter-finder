@@ -7,7 +7,7 @@ import type { GeocodeResult } from '../../types/shelter'
 interface Props {
   radiusM:       number
   onRadiusChange: (r: number) => void
-  onLocation:    (lat: number, lon: number) => void
+  onLocation:    (lat: number, lon: number, query?: string) => void
   onError:       (msg: string) => void
   onSearchStart: () => void
 }
@@ -39,7 +39,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     setInputVal(item.display_name)
     setShowSug(false)
     clearSug()
-    onLocation(+item.lat, +item.lon)
+    onLocation(+item.lat, +item.lon, inputVal)
   }
 
   const doSearch = async () => {
@@ -50,7 +50,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     try {
       const results = await geocodeAddress(q)
       if (!results.length) { onError('addr_not_found'); return }
-      onLocation(+results[0].lat, +results[0].lon)
+      onLocation(+results[0].lat, +results[0].lon, q)
     } catch (e: unknown) {
       onError(e instanceof Error && e.message === '__busy__' ? 'busy' : 'search_err')
     }

@@ -479,7 +479,20 @@ function deduplicateAll(shelters) {
       Object.assign(dup, { ...s, id: dup.id });
     }
   }
-  return final;
+  // Phase 3: tight proximity dedup (30m) across all categories, regardless of name
+  // Catches same physical shelter from different sources with different names
+  const final2 = [];
+  for (const s of final) {
+    const dup = final2.find(x =>
+      haversine(x.lat, x.lon, s.lat, s.lon) < 0.03
+    );
+    if (!dup) {
+      final2.push(s);
+    } else if (s.source === 'gov' || s.source === 'arcgis') {
+      Object.assign(dup, { ...s, id: dup.id });
+    }
+  }
+  return final2;
 }
 
 function shareName(a, b) {
@@ -539,7 +552,23 @@ function findSheltersByAddress(query, allShelters) {
   // Extract street name without house number
   const streetOnly = street.replace(/\s+\d+\s*$/, '').trim();
   if (streetOnly.length < 2) return [];
-  
+
+  // Build street name variants — handle Hebrew "ה" definite article prefix
+  // Users may search "הגבורות" but data has "גבורות", or vice versa
+  const streetVariants = [streetOnly];
+  if (streetOnly.startsWith('ה') && streetOnly.length > 2) {
+    streetVariants.push(streetOnly.slice(1)); // strip ה
+  }
+  if (!streetOnly.startsWith('ה') && !/^\d/.test(streetOnly)) {
+    streetVariants.push('ה' + streetOnly); // add ה
+  }
+
+  // Build regex for each variant
+  const streetRegexes = streetVariants.map(variant => {
+    const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp('(^|\\s)' + escaped + '(\\s|\\d|,|$)');
+  });
+
   // Filter shelters by city AND street name
   const matches = allShelters.filter(s => {
     if (!s.address) return false;
@@ -549,11 +578,8 @@ function findSheltersByAddress(query, allShelters) {
       const inCity = (s.city && s.city === detectedCity) || s.address.includes(detectedCity);
       if (!inCity) return false;
     }
-    // Street match: word-boundary-like matching to avoid "הרצל" matching "הרצליה"
-    const addr = s.address;
-    const escaped = streetOnly.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const streetRe = new RegExp('(^|\\s)' + escaped + '(\\s|\\d|,|$)');
-    return streetRe.test(addr);
+    // Street match: try all variants (with/without ה prefix)
+    return streetRegexes.some(re => re.test(s.address));
   });
   
   return matches.slice(0, 20);

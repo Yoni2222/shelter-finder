@@ -35,6 +35,7 @@ export default function App() {
     new Set<Category>(['public', 'school', 'parking']),
   )
   const [activeId,  setActiveId]  = useState<string | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
   const [flyToPos,  setFlyToPos]  = useState<[number, number] | null>(null)
   const [searching, setSearching] = useState(false)
   const [errorCode, setErrorCode] = useState<string | null>(null)
@@ -44,7 +45,7 @@ export default function App() {
     isLoading: sheltersLoading,
     isError,
     error: shelterError,
-  } = useShelters(userPos?.lat ?? null, userPos?.lon ?? null, radiusM)
+  } = useShelters(userPos?.lat ?? null, userPos?.lon ?? null, radiusM, searchQuery)
 
   const allShelters      = data?.shelters ?? []
   const filteredShelters = allShelters.filter(s => activeCategories.has(s.category))
@@ -67,8 +68,9 @@ export default function App() {
 
   // ── Callbacks ──
 
-  const handleLocation = useCallback((lat: number, lon: number) => {
+  const handleLocation = useCallback((lat: number, lon: number, query?: string) => {
     setUserPos({ lat, lon })
+    setSearchQuery(query || '')
     setErrorCode(null)
     setSearching(false)
     setActiveId(null)
@@ -92,6 +94,7 @@ export default function App() {
 
   const handleMapClick = useCallback((lat: number, lon: number) => {
     setUserPos({ lat, lon })
+    setSearchQuery('')
     setErrorCode(null)
     setSearching(false)
     setActiveId(null)
