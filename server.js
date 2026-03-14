@@ -62,11 +62,23 @@ function cityHtml(slug) {
   const descText   = '\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E7\u05DC\u05D8\u05D9\u05DD \u05E6\u05D9\u05D1\u05D5\u05E8\u05D9\u05D9\u05DD \u05D1' + city.he + '. \u05DE\u05E4\u05EA \u05DE\u05E7\u05DC\u05D8\u05D9\u05DD \u05E2\u05DD \u05E0\u05D9\u05D5\u05D5\u05D8 \u05D1-Waze \u05D5-Google Maps.';
   const canonical  = 'https://shelter-finder.com/shelters/' + slug;
 
-  let html = templateHtml.replace(
-    /<title>[^<]*<\/title>/,
-    '<title>' + titleText + '</title>'
-  );
+  let html = templateHtml;
 
+  // Replace title
+  html = html.replace(/<title>[^<]*<\/title>/, '<title>' + titleText + '</title>');
+
+  // Remove generic meta tags that will be replaced with city-specific ones
+  html = html.replace(/<meta name="description"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<link rel="canonical"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta property="og:title"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta property="og:description"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta property="og:url"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta property="og:type"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta name="twitter:card"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta name="twitter:title"[^>]*\/?>\s*/g, '');
+  html = html.replace(/<meta name="twitter:description"[^>]*\/?>\s*/g, '');
+
+  // Inject city-specific meta tags
   const metaTags = [
     '<meta name="description" content="' + descText + '" />',
     '<link rel="canonical" href="' + canonical + '" />',
