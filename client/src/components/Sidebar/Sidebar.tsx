@@ -113,6 +113,7 @@ export function Sidebar({
       <div className="shelter-list">
         {renderList()}
       </div>
+      <div className="disclaimer">{t.disclaimer}</div>
     </div>
   )
 }

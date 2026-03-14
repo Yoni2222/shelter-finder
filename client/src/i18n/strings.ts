@@ -52,6 +52,7 @@ interface Strings {
   wazeLabel:           string
   gmapsLabel:          string
   municipalityListLink: string
+  disclaimer:          string
 }
 
 export const STRINGS: Record<Lang, Strings> = {
@@ -106,6 +107,7 @@ export const STRINGS: Record<Lang, Strings> = {
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
     municipalityListLink: ' - רשימה רשמית',
+    disclaimer: 'מיקומי המקלטים מבוססים על מידע ציבורי. אתר זה אינו מבטיח דיוק ואינו מחליף הנחיות בטיחות רשמיות. יש לפעול תמיד לפי הנחיות פיקוד העורף.',
   },
   en: {
     dir: 'ltr', lang: 'en',
@@ -158,6 +160,7 @@ export const STRINGS: Record<Lang, Strings> = {
     wazeLabel:      '🗺️ Waze',
     gmapsLabel:     '📍 Google Maps',
     municipalityListLink: ' - Official list',
+    disclaimer: 'Shelter locations are based on publicly available data. This website does not guarantee accuracy and should not replace official safety instructions. Always follow Home Front Command guidelines.',
   },
 }
 
