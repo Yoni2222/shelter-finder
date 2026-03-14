@@ -34,7 +34,7 @@ export function CategoryFilter({ active, onChange }: Props) {
 
       <button
         className={`cat-btn cat-school${active.has('school') ? ' active' : ''}`}
-        title="בתי ספר וגני ילדים — עשויים לשמש מרחב מוגן"
+        title="בתי ספר וגני ילדים, עשויים לשמש מרחב מוגן"
         onClick={() => toggle('school')}
       >
         <span>🏫</span><span>{t.catSchool}</span>
@@ -42,7 +42,7 @@ export function CategoryFilter({ active, onChange }: Props) {
 
       <button
         className={`cat-btn cat-parking${active.has('parking') ? ' active' : ''}`}
-        title="חניונים מקורים ורב-קומתיים — עשויים לשמש מרחב מוגן"
+        title="חניונים מקורים ורב-קומתיים, עשויים לשמש מרחב מוגן"
         onClick={() => toggle('parking')}
       >
         <span>🅿️</span><span>{t.catParking}</span>

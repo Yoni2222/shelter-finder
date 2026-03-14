@@ -84,6 +84,23 @@ router.get('/geocode', async (req, res) => {
       }
     }
 
+    // City-name fallback: if all retries returned 0 results, try geocoding just the city name.
+    // This lets addr-match find the specific shelter even when Nominatim doesn't know the street.
+    if (results.length === 0) {
+      const parts = q.split(/[,،]/); // split on comma
+      const cityPart = parts.length > 1 ? parts[parts.length - 1].trim() : null;
+      if (cityPart && cityPart.length >= 2) {
+        console.log(`[geocode] 0 results for "${q}" → city fallback: "${cityPart}"`);
+        try {
+          const rc = await nominatimFetch(cityPart, { limit: 1, addressdetails: 1, priority: NOM_HIGH, lang: req.query.lang || 'he' });
+          if (rc.ok) {
+            const cityResults = await rc.json();
+            if (cityResults.length > 0) results = cityResults;
+          }
+        } catch (_) { /* ignore */ }
+      }
+    }
+
     res.json(results);
   } catch (e) {
     console.error('[geocode]', e.message);
