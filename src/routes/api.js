@@ -111,7 +111,11 @@ router.get('/shelters', async (req, res) => {
           addrMatch: true
         }));
         const existingIds = new Set(shelters.map(s => s.id));
-        const newMatches = matchesWithDist.filter(s => !existingIds.has(s.id));
+        const newMatches = matchesWithDist.filter(s => {
+          if (existingIds.has(s.id)) return false;
+          // Prevent near-duplicates: skip if within 50m of an existing result
+          return !shelters.some(e => haversine(e.lat, e.lon, s.lat, s.lon) * 1000 < 50);
+        });
         if (newMatches.length > 0) {
           shelters = shelters.concat(newMatches);
           shelters.sort((a, b) => {
