@@ -14,6 +14,20 @@ function addHebrewArticle(q) {
   return words.join(' ');
 }
 
+// Hebrew article strip retry — some streets in Nominatim exist without ה prefix
+function stripHebrewArticle(q) {
+  const words = q.trim().split(/\s+/);
+  if (words.length < 2) return null;
+  const first = words[0];
+  // Only strip if starts with ה and has at least 2 chars remaining
+  if (!first.startsWith('ה') || first.length < 3) return null;
+  // Don’t strip from common words where ה is integral
+  const keepWords = new Set(['הרב', 'הראל']);
+  if (keepWords.has(first)) return null;
+  words[0] = first.slice(1);
+  return words.join(' ');
+}
+
 // Default name for OSM shelters
 function osmDefaultName(t) {
   if (t['shelter_type'] === 'bomb_shelter')   return '\u05DE\u05E7\u05DC\u05D8 \u05E4\u05E6\u05E6\u05D5\u05EA';
@@ -23,4 +37,4 @@ function osmDefaultName(t) {
   return '\u05DE\u05E7\u05DC\u05D8 \u05E6\u05D9\u05D1\u05D5\u05E8\u05D9';
 }
 
-module.exports = { addHebrewArticle, osmDefaultName };
+module.exports = { addHebrewArticle, stripHebrewArticle, osmDefaultName };

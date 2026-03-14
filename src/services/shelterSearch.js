@@ -45,6 +45,10 @@ function findSheltersByAddress(query, allShelters) {
     streetVariants.push('\u05D4' + streetOnly); // add \u05D4
   }
 
+  // Vav (ו) spelling variants: "דוב" ↔ "דב"
+  const withoutVav = streetOnly.replace(/ו/g, '');
+  if (withoutVav !== streetOnly && withoutVav.length >= 2) streetVariants.push(withoutVav);
+
   // Build regex for each variant
   const streetRegexes = streetVariants.map(variant => {
     const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -61,7 +65,7 @@ function findSheltersByAddress(query, allShelters) {
       if (!inCity) return false;
     }
     // Street match: try all variants (with/without \u05D4 prefix)
-    return streetRegexes.some(re => re.test(s.address));
+    return streetRegexes.some(re => re.test(s.address) || re.test(s.name));
   });
 
   return matches.slice(0, 20);

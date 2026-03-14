@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 const { nominatimFetch, photonFetch, NOM_HIGH } = require('../services/geocoding');
-const { addHebrewArticle } = require('../utils/hebrewUtils');
+const { addHebrewArticle, stripHebrewArticle } = require('../utils/hebrewUtils');
 const { deduplicateAll } = require('../utils/dedup');
 const haversine = require('../utils/haversine');
 const { findSheltersByAddress } = require('../services/shelterSearch');
@@ -69,6 +69,21 @@ router.get('/geocode', async (req, res) => {
       }
     }
 
+    // Hebrew article STRIP retry: if still 0 results and first word starts with ה, try without
+    if (results.length === 0) {
+      const heStrip = stripHebrewArticle(q);
+      if (heStrip) {
+        console.log(`[geocode] 0 results for "${q}" → retrying without ה: "${heStrip}"`);
+        try {
+          const r3 = await nominatimFetch(heStrip, { limit: 6, addressdetails: 1, priority: NOM_HIGH, lang: req.query.lang || 'he' });
+          if (r3.ok) {
+            const retry2 = await r3.json();
+            if (retry2.length > 0) results = retry2;
+          }
+        } catch (_) { /* ignore retry errors */ }
+      }
+    }
+
     res.json(results);
   } catch (e) {
     console.error('[geocode]', e.message);
@@ -119,8 +134,11 @@ router.get('/shelters', async (req, res) => {
         if (newMatches.length > 0) {
           shelters = shelters.concat(newMatches);
           shelters.sort((a, b) => {
-            if (a.addrMatch && !b.addrMatch) return -1;
-            if (!a.addrMatch && b.addrMatch) return 1;
+            // Only boost addr-matched results within the search radius
+            const aBoost = a.addrMatch && a.dist * 1000 <= radiusM;
+            const bBoost = b.addrMatch && b.dist * 1000 <= radiusM;
+            if (aBoost && !bBoost) return -1;
+            if (!aBoost && bBoost) return 1;
             return a.dist - b.dist;
           });
           shelters = shelters.slice(0, 150);
@@ -129,8 +147,11 @@ router.get('/shelters', async (req, res) => {
             if (addrMatches.some(m => m.id === s.id)) s.addrMatch = true;
           });
           shelters.sort((a, b) => {
-            if (a.addrMatch && !b.addrMatch) return -1;
-            if (!a.addrMatch && b.addrMatch) return 1;
+            // Only boost addr-matched results within the search radius
+            const aBoost = a.addrMatch && a.dist * 1000 <= radiusM;
+            const bBoost = b.addrMatch && b.dist * 1000 <= radiusM;
+            if (aBoost && !bBoost) return -1;
+            if (!aBoost && bBoost) return 1;
             return a.dist - b.dist;
           });
         }
