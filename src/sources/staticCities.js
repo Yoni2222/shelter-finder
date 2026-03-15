@@ -14,6 +14,7 @@ const STATIC_CITY_DEFS = [
   { file: 'beer-sheva-shelters.json',  city: 'באר שבע' },
   { file: 'bnei-brak-shelters.json',   city: 'בני ברק' },
   { file: 'dimona-shelters.json',      city: 'דימונה' },
+  { file: 'eilat-shelters.json',       city: 'אילת' },
   { file: 'givatayim-shelters.json',   city: 'גבעתיים' },
   { file: 'haifa-shelters.json',       city: 'חיפה' },
   { file: 'herzliya-shelters.json',    city: 'הרצליה' },
