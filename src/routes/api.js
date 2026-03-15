@@ -84,7 +84,27 @@ router.get('/geocode', async (req, res) => {
       }
     }
 
-    // City-name fallback: if all retries returned 0 results, try geocoding just the city name.
+    // Shelter-data fallback: if Nominatim can't find the street, check our own shelter data.
+    // This handles streets that Nominatim doesn't know (e.g. דוד אלעזר in Nahariya).
+    if (results.length === 0) {
+      const addrMatches = findSheltersByAddress(q, allStaticShelters);
+      if (addrMatches.length > 0) {
+        // Use the centroid of matching shelters as the geocode result
+        const avgLat = addrMatches.reduce((s, m) => s + m.lat, 0) / addrMatches.length;
+        const avgLon = addrMatches.reduce((s, m) => s + m.lon, 0) / addrMatches.length;
+        const city = addrMatches[0].city || '';
+        console.log(`[geocode] Nominatim failed for "${q}" → shelter-data fallback: ${addrMatches.length} matches in ${city}`);
+        results = [{
+          lat: String(avgLat),
+          lon: String(avgLon),
+          display_name: `${addrMatches[0].address}, ${city}`,
+          type: 'shelter_fallback',
+          address: { city, country: 'ישראל' },
+        }];
+      }
+    }
+
+        // City-name fallback: if all retries returned 0 results, try geocoding just the city name.
     // This lets addr-match find the specific shelter even when Nominatim doesn't know the street.
     if (results.length === 0) {
       const parts = q.split(/[,،]/); // split on comma
