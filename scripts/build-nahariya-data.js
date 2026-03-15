@@ -3,7 +3,7 @@
  * Build Nahariya shelters data.
  * Source: https://www.nahariya.muni.il/913/
  * The page contains 163 shelters in an HTML table with address data only (no coordinates).
- * This script geocodes each address via Photon (komoot) then saves as JSON.
+ * This script geocodes each address via Google Geocoding API then saves as JSON.
  *
  * Run: node scripts/build-nahariya-data.js
  */
@@ -192,28 +192,33 @@ const TYPE_LABELS = {
   school: 'מקלט בית ספרי',
 };
 
+const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY || (() => {
+  try {
+    const envFile = fs.readFileSync(path.join(__dirname, '..', '.env'), 'utf8');
+    const m = envFile.match(/GOOGLE_MAPS_API_KEY=(.+)/);
+    return m ? m[1].trim() : '';
+  } catch { return ''; }
+})();
+
 async function geocode(address) {
-  // Use Photon geocoder with Nahariya bias coordinates
-  const url = 'https://photon.komoot.io/api/?' + new URLSearchParams({
-    q: address + ' ישראל',
-    limit: '1',
-    lat: '33.00',
-    lon: '35.09',
+  // Use Google Geocoding API for accurate house-number-level coordinates
+  const url = 'https://maps.googleapis.com/maps/api/geocode/json?' + new URLSearchParams({
+    address: address + ', ישראל',
+    key: GOOGLE_API_KEY,
+    language: 'he',
+    region: 'il',
   });
-  const res = await fetch(url, {
-    headers: { Accept: 'application/json', 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 10000,
-  });
+  const res = await fetch(url, { timeout: 10000 });
   if (!res.ok) return null;
   const data = await res.json();
-  const feat = data.features && data.features[0];
-  if (!feat) return null;
-  const [lon, lat] = feat.geometry.coordinates;
-  return { lat, lon };
+  if (data.status !== 'OK' || !data.results || !data.results[0]) return null;
+  const loc = data.results[0].geometry.location;
+  const addressEn = data.results[0].formatted_address || '';
+  return { lat: loc.lat, lon: loc.lng, addressEn };
 }
 
 async function main() {
-  console.log(`Processing ${RAW_SHELTERS.length} Nahariya shelters (geocoding via Photon)...`);
+  console.log(`Processing ${RAW_SHELTERS.length} Nahariya shelters (geocoding via Google)...`);
 
   const shelters = [];
   let geocodeOk = 0, geocodeFail = 0;
@@ -249,10 +254,11 @@ async function main() {
       type: label,
       source: 'gov',
       category,
+      addressEn: coords.addressEn || '',
     });
 
-    // Small delay to be polite to the geocoder
-    await new Promise(r => setTimeout(r, 100));
+    // Small delay between requests
+    await new Promise(r => setTimeout(r, 50));
   }
 
   console.log(`Geocoded: ${geocodeOk} ok, ${geocodeFail} failed`);

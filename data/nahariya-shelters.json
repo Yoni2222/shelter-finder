@@ -1,8 +1,8 @@
 [
   {
     "id": "nahariya_210",
-    "lat": 32.9989866,
-    "lon": 35.1030723,
+    "lat": 32.9988638,
+    "lon": 35.1029304,
     "name": "מקלט 210 - שלמה המלך 17",
     "address": "שלמה המלך 17",
     "city": "נהריה",
@@ -10,12 +10,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Melekh Shlomo St 20, Nahariyya"
+    "addressEn": "המלך שלמה 17, נהריה, ישראל"
   },
   {
     "id": "nahariya_211",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9966385,
+    "lon": 35.1010856,
     "name": "מקלט 211 - יפה נוף 16",
     "address": "יפה נוף 16",
     "city": "נהריה",
@@ -23,12 +23,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 16, נהריה, ישראל"
   },
   {
     "id": "nahariya_212",
-    "lat": 32.9989866,
-    "lon": 35.1030723,
+    "lat": 32.997527,
+    "lon": 35.102726,
     "name": "מקלט 212 - שלמה המלך 6",
     "address": "שלמה המלך 6",
     "city": "נהריה",
@@ -36,12 +36,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Melekh Shlomo St 20, Nahariyya"
+    "addressEn": "המלך שלמה 6, נהריה, ישראל"
   },
   {
     "id": "nahariya_213",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9954581,
+    "lon": 35.1003479,
     "name": "מקלט 213 - יפה נוף 1",
     "address": "יפה נוף 1",
     "city": "נהריה",
@@ -49,12 +49,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_219",
-    "lat": 33.0015889,
-    "lon": 35.1041574,
+    "lat": 33.0021763,
+    "lon": 35.1040453,
     "name": "מקלט 219 - נחמיה 16",
     "address": "נחמיה 16",
     "city": "נהריה",
@@ -62,12 +62,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nehemia St 14, Nahariyya"
+    "addressEn": "נחמיה 16, נהריה, ישראל"
   },
   {
     "id": "nahariya_220",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9975647,
+    "lon": 35.101276,
     "name": "מקלט 220 - יפה נוף 21",
     "address": "יפה נוף 21",
     "city": "נהריה",
@@ -75,12 +75,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 21, נהריה, ישראל"
   },
   {
     "id": "nahariya_221",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9985582,
+    "lon": 35.1010634,
     "name": "מקלט 221 - יפה נוף 29",
     "address": "יפה נוף 29",
     "city": "נהריה",
@@ -88,12 +88,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 29, נהריה, ישראל"
   },
   {
     "id": "nahariya_225",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9954581,
+    "lon": 35.1003479,
     "name": "מקלט 225 - יפה נוף 1",
     "address": "יפה נוף 1",
     "city": "נהריה",
@@ -101,12 +101,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_226",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 33.0004173,
+    "lon": 35.1005281,
     "name": "מקלט 226 - יפה נוף 42",
     "address": "יפה נוף 42",
     "city": "נהריה",
@@ -114,12 +114,25 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 42, נהריה, ישראל"
+  },
+  {
+    "id": "nahariya_227",
+    "lat": 32.9962964,
+    "lon": 35.1030888,
+    "name": "מקלט 227 - שביל יהונתן 1",
+    "address": "שביל יהונתן 1",
+    "city": "נהריה",
+    "capacity": "",
+    "type": "מקלט תת-קרקעי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "יהונתן 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_228",
-    "lat": 32.9968102,
-    "lon": 35.0995105,
+    "lat": 32.9978526,
+    "lon": 35.0998054,
     "name": "מקלט 228 - ירושלים 25",
     "address": "ירושלים 25",
     "city": "נהריה",
@@ -127,12 +140,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jerusalem St 16, Nahariyya"
+    "addressEn": "ירושלים 25, נהריה, ישראל"
   },
   {
     "id": "nahariya_229",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9966385,
+    "lon": 35.1010856,
     "name": "מקלט 229 - יפה נוף 16",
     "address": "יפה נוף 16",
     "city": "נהריה",
@@ -140,12 +153,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 16, נהריה, ישראל"
   },
   {
     "id": "nahariya_230",
-    "lat": 32.9989866,
-    "lon": 35.1030723,
+    "lat": 32.9998891,
+    "lon": 35.1034073,
     "name": "מקלט 230 - שלמה המלך 30",
     "address": "שלמה המלך 30",
     "city": "נהריה",
@@ -153,12 +166,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Melekh Shlomo St 20, Nahariyya"
+    "addressEn": "המלך שלמה 30, נהריה, ישראל"
   },
   {
     "id": "nahariya_231",
-    "lat": 32.9971659,
-    "lon": 35.1031019,
+    "lat": 32.9980758,
+    "lon": 35.1038209,
     "name": "מקלט 231 - שאול המלך 40",
     "address": "שאול המלך 40",
     "city": "נהריה",
@@ -166,12 +179,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אוסישקין 25, נהריה, 2220105"
+    "addressEn": "המלך שאול 40, נהריה, ישראל"
   },
   {
     "id": "nahariya_232",
-    "lat": 32.9968102,
-    "lon": 35.0995105,
+    "lat": 32.9964792,
+    "lon": 35.09946559999999,
     "name": "מקלט 232 - ירושלים 12",
     "address": "ירושלים 12",
     "city": "נהריה",
@@ -179,12 +192,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Jerusalem St 16, Nahariyya"
+    "addressEn": "ירושלים 12, נהריה, ישראל"
   },
   {
     "id": "nahariya_233",
-    "lat": 33.002362,
-    "lon": 35.103142,
+    "lat": 33.0030711,
+    "lon": 35.1020645,
     "name": "מקלט 233 - עזרא 27",
     "address": "עזרא 27",
     "city": "נהריה",
@@ -192,12 +205,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ezra St 12, Nahariyya"
+    "addressEn": "עזרא 27, נהריה, ישראל"
   },
   {
     "id": "nahariya_234",
-    "lat": 32.9971659,
-    "lon": 35.1031019,
+    "lat": 32.9943498,
+    "lon": 35.1022968,
     "name": "מקלט 234 - שאול המלך 2",
     "address": "שאול המלך 2",
     "city": "נהריה",
@@ -205,12 +218,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אוסישקין 25, נהריה, 2220105"
+    "addressEn": "המלך שאול 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_235",
-    "lat": 32.9989866,
-    "lon": 35.1030723,
+    "lat": 32.998128,
+    "lon": 35.1030929,
     "name": "מקלט 235 - שלמה המלך 12",
     "address": "שלמה המלך 12",
     "city": "נהריה",
@@ -218,12 +231,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Melekh Shlomo St 20, Nahariyya"
+    "addressEn": "המלך שלמה 12, נהריה, ישראל"
   },
   {
     "id": "nahariya_236",
-    "lat": 32.9959157,
-    "lon": 35.1019602,
+    "lat": 32.9954269,
+    "lon": 35.101544,
     "name": "מקלט 236 - דוד המלך 7",
     "address": "דוד המלך 7",
     "city": "נהריה",
@@ -231,12 +244,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMelech David St 15, Nahariyya"
+    "addressEn": "המלך דוד 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_237",
-    "lat": 32.996439,
-    "lon": 35.098498,
+    "lat": 32.9956899,
+    "lon": 35.0984215,
     "name": "מקלט 237 - אפריים שריר 4",
     "address": "אפריים שריר 4",
     "city": "נהריה",
@@ -244,12 +257,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ephraim Sharir/Issy Les Moulineaux, Nahariyya"
+    "addressEn": "אפרים שריר 4, נהריה, ישראל"
   },
   {
     "id": "nahariya_238",
-    "lat": 32.996439,
-    "lon": 35.098498,
+    "lat": 32.9968486,
+    "lon": 35.0988676,
     "name": "מקלט 238 - אפרים שריר 18",
     "address": "אפרים שריר 18",
     "city": "נהריה",
@@ -257,12 +270,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ephraim Sharir/Issy Les Moulineaux, Nahariyya"
+    "addressEn": "אפרים שריר 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_239",
-    "lat": 32.996439,
-    "lon": 35.098498,
+    "lat": 32.9977157,
+    "lon": 35.0991206,
     "name": "מקלט 239 - אפרים שריר 24",
     "address": "אפרים שריר 24",
     "city": "נהריה",
@@ -270,12 +283,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ephraim Sharir/Issy Les Moulineaux, Nahariyya"
+    "addressEn": "אפרים שריר 24, נהריה, ישראל"
   },
   {
     "id": "nahariya_240",
-    "lat": 32.996439,
-    "lon": 35.098498,
+    "lat": 32.9991632,
+    "lon": 35.0994783,
     "name": "מקלט 240 - אפרים שריר 32",
     "address": "אפרים שריר 32",
     "city": "נהריה",
@@ -283,12 +296,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ephraim Sharir/Issy Les Moulineaux, Nahariyya"
+    "addressEn": "אפרים שריר 32, נהריה, ישראל"
   },
   {
     "id": "nahariya_241",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 33.0014605,
+    "lon": 35.1004704,
     "name": "מקלט 241 - יפה נוף 43",
     "address": "יפה נוף 43",
     "city": "נהריה",
@@ -296,12 +309,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 43, נהריה, ישראל"
   },
   {
     "id": "nahariya_242",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9995604,
+    "lon": 35.1007305,
     "name": "מקלט 242 - יפה נוף 32",
     "address": "יפה נוף 32",
     "city": "נהריה",
@@ -309,12 +322,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 32, נהריה, ישראל"
   },
   {
     "id": "nahariya_243",
-    "lat": 33.002362,
-    "lon": 35.103142,
+    "lat": 33.0028357,
+    "lon": 35.102421,
     "name": "מקלט 243 - עזרא 23",
     "address": "עזרא 23",
     "city": "נהריה",
@@ -322,12 +335,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ezra St 12, Nahariyya"
+    "addressEn": "עזרא 23, נהריה, ישראל"
   },
   {
     "id": "nahariya_244",
-    "lat": 32.99921,
-    "lon": 35.1007653,
+    "lat": 32.9966385,
+    "lon": 35.1010856,
     "name": "מקלט 244 - יפה נוף 16",
     "address": "יפה נוף 16",
     "city": "נהריה",
@@ -335,12 +348,12 @@
     "type": "מקלט נגיש",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yefe Nof St 35, Nahariyya"
+    "addressEn": "יפה נוף 16, נהריה, ישראל"
   },
   {
     "id": "nahariya_300",
-    "lat": 33.0044916,
-    "lon": 35.1033544,
+    "lat": 33.0085361,
+    "lon": 35.0980514,
     "name": "מקלט 300 - אשכול 24",
     "address": "אשכול 24",
     "city": "נהריה",
@@ -348,12 +361,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Levi Eshkol St 11, Nahariyya"
+    "addressEn": "נהריה, ישראל"
   },
   {
     "id": "nahariya_301",
-    "lat": 33.0103571,
-    "lon": 35.1059676,
+    "lat": 33.0103339,
+    "lon": 35.1077395,
     "name": "מקלט 301 - רבי עקיבא 1",
     "address": "רבי עקיבא 1",
     "city": "נהריה",
@@ -361,12 +374,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva/Struma Road, Nahariyya"
+    "addressEn": "רבי עקיבא 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_302",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.0118253,
+    "lon": 35.1051419,
     "name": "מקלט 302 - קיבוץ גלויות 47",
     "address": "קיבוץ גלויות 47",
     "city": "נהריה",
@@ -374,12 +387,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 47, נהריה, ישראל"
   },
   {
     "id": "nahariya_303",
-    "lat": 33.0086961,
-    "lon": 35.1039911,
+    "lat": 33.0095084,
+    "lon": 35.1050586,
     "name": "מקלט 303 - אביר יעקב 31",
     "address": "אביר יעקב 31",
     "city": "נהריה",
@@ -387,12 +400,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Abir Ya'acob St 21, Nahariyya"
+    "addressEn": "אביר יעקב 31, נהריה, ישראל"
   },
   {
     "id": "nahariya_304",
-    "lat": 33.006256,
-    "lon": 35.1040427,
+    "lat": 33.0063296,
+    "lon": 35.10374770000001,
     "name": "מקלט 304 - השרון 96",
     "address": "השרון 96",
     "city": "נהריה",
@@ -400,12 +413,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 11, Nahariyya"
+    "addressEn": "השרון 96, נהריה, ישראל"
   },
   {
     "id": "nahariya_309",
-    "lat": 33.0070418,
-    "lon": 35.1019265,
+    "lat": 33.0071028,
+    "lon": 35.1021791,
     "name": "מקלט 309 - הגלעד 7",
     "address": "הגלעד 7",
     "city": "נהריה",
@@ -413,12 +426,12 @@
     "type": "מקלט נגיש",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGilad St 7, Nahariyya"
+    "addressEn": "הגלעד 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_314",
-    "lat": 33.007898,
-    "lon": 35.099966,
+    "lat": 33.007468,
+    "lon": 35.1043537,
     "name": "מקלט 314 - דרך יחיעם",
     "address": "דרך יחיעם",
     "city": "נהריה",
@@ -426,12 +439,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yehi'am Road, Nahariyya"
+    "addressEn": "דרך יחיעם, נהריה, ישראל"
   },
   {
     "id": "nahariya_315",
-    "lat": 33.0086961,
-    "lon": 35.1039911,
+    "lat": 33.0085066,
+    "lon": 35.1028668,
     "name": "מקלט 315 - אביר יעקב 11",
     "address": "אביר יעקב 11",
     "city": "נהריה",
@@ -439,12 +452,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Abir Ya'acob St 21, Nahariyya"
+    "addressEn": "אביר יעקב 11, נהריה, ישראל"
   },
   {
     "id": "nahariya_317",
-    "lat": 33.0083714,
-    "lon": 35.1013169,
+    "lat": 33.0081581,
+    "lon": 35.1013179,
     "name": "מקלט 317 - חנה סנש",
     "address": "חנה סנש",
     "city": "נהריה",
@@ -452,12 +465,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hannah Szenes St 7, Nahariyya"
+    "addressEn": "חנה סנש, נהריה, ישראל"
   },
   {
     "id": "nahariya_318",
-    "lat": 33.0067019,
-    "lon": 35.1011871,
+    "lat": 33.0063485,
+    "lon": 35.1007814,
     "name": "מקלט 318 - וייסבורג 7",
     "address": "וייסבורג 7",
     "city": "נהריה",
@@ -465,12 +478,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Weissburg St 511/22, Nahariyya"
+    "addressEn": "וייסבורג 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_319",
-    "lat": 33.0060016,
-    "lon": 35.1052147,
+    "lat": 33.0058191,
+    "lon": 35.1044761,
     "name": "מקלט 319 - עמק יזרעאל 10",
     "address": "עמק יזרעאל 10",
     "city": "נהריה",
@@ -478,12 +491,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Emek Yizrael St 6, Nahariyya"
+    "addressEn": "עמק יזרעאל 10, נהריה, ישראל"
   },
   {
     "id": "nahariya_320",
-    "lat": 33.0089094,
-    "lon": 35.1064372,
+    "lat": 33.0078641,
+    "lon": 35.1062673,
     "name": "מקלט 320 - השיירה 2",
     "address": "השיירה 2",
     "city": "נהריה",
@@ -491,12 +504,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Derech HaShayara 13, Nahariya"
+    "addressEn": "דרך השיירה 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_367",
-    "lat": 33.0056852,
-    "lon": 35.0994177,
+    "lat": 33.0085361,
+    "lon": 35.0980514,
     "name": "מקלט 367 - בן צבי 23",
     "address": "בן צבי 23",
     "city": "נהריה",
@@ -504,12 +517,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "צומת נהריה, Nahariya"
+    "addressEn": "נהריה, ישראל"
   },
   {
     "id": "nahariya_368",
-    "lat": 33.0083714,
-    "lon": 35.1013169,
+    "lat": 33.0083149,
+    "lon": 35.1013409,
     "name": "מקלט 368 - חנה סנש 13",
     "address": "חנה סנש 13",
     "city": "נהריה",
@@ -517,12 +530,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hannah Szenes St 7, Nahariyya"
+    "addressEn": "חנה סנש 13, נהריה, ישראל"
   },
   {
     "id": "nahariya_369",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.0118513,
+    "lon": 35.1055181,
     "name": "מקלט 369 - קיבוץ גלויות 50",
     "address": "קיבוץ גלויות 50",
     "city": "נהריה",
@@ -530,12 +543,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 50, נהריה, ישראל"
   },
   {
     "id": "nahariya_370",
-    "lat": 33.0094233,
-    "lon": 35.1102249,
+    "lat": 33.0096876,
+    "lon": 35.110114,
     "name": "מקלט 370 - הזיתים 9",
     "address": "הזיתים 9",
     "city": "נהריה",
@@ -543,12 +556,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Zeitim St 7, Nahariyya"
+    "addressEn": "הזיתים 9, נהריה, ישראל"
   },
   {
     "id": "nahariya_372",
-    "lat": 33.0064533,
-    "lon": 35.1062445,
+    "lat": 33.0066688,
+    "lon": 35.106358,
     "name": "מקלט 372 - הנגב 2",
     "address": "הנגב 2",
     "city": "נהריה",
@@ -556,12 +569,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Negev St 2, Nahariyya"
+    "addressEn": "הנגב 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_373",
-    "lat": 33.006256,
-    "lon": 35.1040427,
+    "lat": 33.0062009,
+    "lon": 35.1042758,
     "name": "מקלט 373 - השרון 11",
     "address": "השרון 11",
     "city": "נהריה",
@@ -569,12 +582,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 11, Nahariyya"
+    "addressEn": "השרון 11, נהריה, ישראל"
   },
   {
     "id": "nahariya_374",
-    "lat": 33.0099043,
-    "lon": 35.1077788,
+    "lat": 33.0099484,
+    "lon": 35.107668,
     "name": "מקלט 374 - הרב מימון",
     "address": "הרב מימון",
     "city": "נהריה",
@@ -582,12 +595,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Maimon St 10, Nahariyya"
+    "addressEn": "הרב מימון, נהריה, ישראל"
   },
   {
     "id": "nahariya_375",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.0123735,
+    "lon": 35.1056666,
     "name": "מקלט 375 - קיבוץ גלויות 54",
     "address": "קיבוץ גלויות 54",
     "city": "נהריה",
@@ -595,12 +608,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 54, נהריה, ישראל"
   },
   {
     "id": "nahariya_376",
-    "lat": 33.0089094,
-    "lon": 35.1064372,
+    "lat": 33.010104,
+    "lon": 35.10669410000001,
     "name": "מקלט 376 - השיירה 18",
     "address": "השיירה 18",
     "city": "נהריה",
@@ -608,12 +621,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Derech HaShayara 13, Nahariya"
+    "addressEn": "דרך השיירה 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_377",
-    "lat": 33.0103571,
-    "lon": 35.1059676,
+    "lat": 33.01038680000001,
+    "lon": 35.1083083,
     "name": "מקלט 377 - רבי עקיבא 5",
     "address": "רבי עקיבא 5",
     "city": "נהריה",
@@ -621,12 +634,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva/Struma Road, Nahariyya"
+    "addressEn": "רבי עקיבא 5, נהריה, 2224075, ישראל"
   },
   {
     "id": "nahariya_378",
-    "lat": 33.0088992,
-    "lon": 35.1087255,
+    "lat": 33.00910770000001,
+    "lon": 35.1101421,
     "name": "מקלט 378 - שביל הלל 3",
     "address": "שביל הלל 3",
     "city": "נהריה",
@@ -634,12 +647,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shvil Hillel 14, Nahariya"
+    "addressEn": "שביל הלל 3, נהריה, ישראל"
   },
   {
     "id": "nahariya_379",
-    "lat": 33.006256,
-    "lon": 35.1040427,
+    "lat": 33.0059998,
+    "lon": 35.1028539,
     "name": "מקלט 379 - השרון 19",
     "address": "השרון 19",
     "city": "נהריה",
@@ -647,12 +660,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 11, Nahariyya"
+    "addressEn": "השרון 19, נהריה, ישראל"
   },
   {
     "id": "nahariya_380",
-    "lat": 33.010438,
-    "lon": 35.106261,
+    "lat": 33.0077851,
+    "lon": 35.1032412,
     "name": "מקלט 380 - דרך סטרומה 3",
     "address": "דרך סטרומה 3",
     "city": "נהריה",
@@ -660,12 +673,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva/Struma Road, Nahariyya"
+    "addressEn": "דרך סטרומה 3, נהריה, ישראל"
   },
   {
     "id": "nahariya_381",
-    "lat": 33.0067019,
-    "lon": 35.1011871,
+    "lat": 33.0063649,
+    "lon": 35.1005911,
     "name": "מקלט 381 - וייסבורג 9",
     "address": "וייסבורג 9",
     "city": "נהריה",
@@ -673,12 +686,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Weissburg St 511/22, Nahariyya"
+    "addressEn": "וייסבורג 9, נהריה, ישראל"
   },
   {
     "id": "nahariya_382",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.012873,
+    "lon": 35.1052533,
     "name": "מקלט 382 - קיבוץ גלויות 59",
     "address": "קיבוץ גלויות 59",
     "city": "נהריה",
@@ -686,12 +699,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 59, נהריה, ישראל"
   },
   {
     "id": "nahariya_383",
-    "lat": 33.0083714,
-    "lon": 35.1013169,
+    "lat": 33.008324,
+    "lon": 35.1012523,
     "name": "מקלט 383 - חנה סנש 7",
     "address": "חנה סנש 7",
     "city": "נהריה",
@@ -699,12 +712,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hannah Szenes St 7, Nahariyya"
+    "addressEn": "חנה סנש 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_384",
-    "lat": 33.0076191,
-    "lon": 35.0998818,
+    "lat": 33.0082887,
+    "lon": 35.1078978,
     "name": "מקלט 384 - יחיעם 1",
     "address": "יחיעם 1",
     "city": "נהריה",
@@ -712,12 +725,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yehi'am Road, Nahariyya"
+    "addressEn": "דרך יחיעם 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_385",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.01216400000001,
+    "lon": 35.105357,
     "name": "מקלט 385 - קיבוץ גלויות 53",
     "address": "קיבוץ גלויות 53",
     "city": "נהריה",
@@ -725,12 +738,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 53, נהריה, ישראל"
   },
   {
     "id": "nahariya_387",
-    "lat": 33.0095175,
-    "lon": 35.1018503,
+    "lat": 33.0102768,
+    "lon": 35.1023598,
     "name": "מקלט 387 - נחלת אשר 22",
     "address": "נחלת אשר 22",
     "city": "נהריה",
@@ -738,12 +751,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nakhalat Asher St 12, Nahariyya"
+    "addressEn": "נחלת אשר 22, נהריה, ישראל"
   },
   {
     "id": "nahariya_388",
-    "lat": 33.0086961,
-    "lon": 35.1039911,
+    "lat": 33.0087753,
+    "lon": 35.1046932,
     "name": "מקלט 388 - אביר יעקב 24",
     "address": "אביר יעקב 24",
     "city": "נהריה",
@@ -751,12 +764,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Abir Ya'acob St 21, Nahariyya"
+    "addressEn": "אביר יעקב 24, נהריה, ישראל"
   },
   {
     "id": "nahariya_389",
-    "lat": 33.0076191,
-    "lon": 35.0998818,
+    "lat": 33.0073815,
+    "lon": 35.1065693,
     "name": "מקלט 389 - יחיעם 40",
     "address": "יחיעם 40",
     "city": "נהריה",
@@ -764,12 +777,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yehi'am Road, Nahariyya"
+    "addressEn": "דרך יחיעם 40, נהריה, ישראל"
   },
   {
     "id": "nahariya_390",
-    "lat": 33.0076191,
-    "lon": 35.0998818,
+    "lat": 33.0074196,
+    "lon": 35.1031532,
     "name": "מקלט 390 - יחיעם 2",
     "address": "יחיעם 2",
     "city": "נהריה",
@@ -777,12 +790,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yehi'am Road, Nahariyya"
+    "addressEn": "דרך יחיעם 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_391",
-    "lat": 33.0088992,
-    "lon": 35.1087255,
+    "lat": 33.0089026,
+    "lon": 35.1087933,
     "name": "מקלט 391 - שביל הלל",
     "address": "שביל הלל",
     "city": "נהריה",
@@ -790,12 +803,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shvil Hillel 14, Nahariya"
+    "addressEn": "שביל הלל, נהריה, ישראל"
   },
   {
     "id": "nahariya_392",
-    "lat": 33.0076191,
-    "lon": 35.0998818,
+    "lat": 33.0075333,
+    "lon": 35.1069397,
     "name": "מקלט 392 - יחיעם 41",
     "address": "יחיעם 41",
     "city": "נהריה",
@@ -803,12 +816,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yehi'am Road, Nahariyya"
+    "addressEn": "דרך יחיעם 41, נהריה, ישראל"
   },
   {
     "id": "nahariya_393",
-    "lat": 33.006256,
-    "lon": 35.1040427,
+    "lat": 33.006752,
+    "lon": 35.1055419,
     "name": "מקלט 393 - השרון 1",
     "address": "השרון 1",
     "city": "נהריה",
@@ -816,12 +829,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 11, Nahariyya"
+    "addressEn": "השרון 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_394",
-    "lat": 33.006256,
-    "lon": 35.1040427,
+    "lat": 33.0059998,
+    "lon": 35.1028539,
     "name": "מקלט 394 - השרון 19",
     "address": "השרון 19",
     "city": "נהריה",
@@ -829,12 +842,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 11, Nahariyya"
+    "addressEn": "השרון 19, נהריה, ישראל"
   },
   {
     "id": "nahariya_395",
-    "lat": 33.0064099,
-    "lon": 35.1023097,
+    "lat": 33.0062105,
+    "lon": 35.1020384,
     "name": "מקלט 395 - הגלעד 1",
     "address": "הגלעד 1",
     "city": "נהריה",
@@ -842,12 +855,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGilad St 3, Nahariyya"
+    "addressEn": "הגלעד 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_396",
-    "lat": 33.0103571,
-    "lon": 35.1059676,
+    "lat": 33.0100207,
+    "lon": 35.1091769,
     "name": "מקלט 396 - רבי עקיבא 24",
     "address": "רבי עקיבא 24",
     "city": "נהריה",
@@ -855,12 +868,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabbi Akiva/Struma Road, Nahariyya"
+    "addressEn": "רבי עקיבא 24, נהריה, ישראל"
   },
   {
     "id": "nahariya_397",
-    "lat": 33.0086961,
-    "lon": 35.1039911,
+    "lat": 33.0092021,
+    "lon": 35.1046762,
     "name": "מקלט 397 - אביר יעקב 27",
     "address": "אביר יעקב 27",
     "city": "נהריה",
@@ -868,12 +881,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Abir Ya'acob St 21, Nahariyya"
+    "addressEn": "אביר יעקב 27, נהריה, ישראל"
   },
   {
     "id": "nahariya_398",
-    "lat": 33.0095175,
-    "lon": 35.1018503,
+    "lat": 33.0104253,
+    "lon": 35.1020803,
     "name": "מקלט 398 - נחלת אשר 25",
     "address": "נחלת אשר 25",
     "city": "נהריה",
@@ -881,12 +894,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nakhalat Asher St 12, Nahariyya"
+    "addressEn": "נחלת אשר 25, נהריה, ישראל"
   },
   {
     "id": "nahariya_399",
-    "lat": 33.0136351,
-    "lon": 35.1034945,
+    "lat": 33.01235,
+    "lon": 35.1051849,
     "name": "מקלט 399 - קיבוץ גלויות 55",
     "address": "קיבוץ גלויות 55",
     "city": "נהריה",
@@ -894,12 +907,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 82, Nahariyya"
+    "addressEn": "קיבוץ גלויות 55, נהריה, ישראל"
   },
   {
     "id": "nahariya_400",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0257513,
+    "lon": 35.106956,
     "name": "מקלט 400 - יהודה המכבי 26",
     "address": "יהודה המכבי 26",
     "city": "נהריה",
@@ -907,12 +920,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 26, נהריה, ישראל"
   },
   {
     "id": "nahariya_407",
-    "lat": 33.0192248,
-    "lon": 35.1065844,
+    "lat": 33.0203083,
+    "lon": 35.1059585,
     "name": "מקלט 407 - החשמונאים 4",
     "address": "החשמונאים 4",
     "city": "נהריה",
@@ -920,12 +933,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHashmona'im St 24, Nahariyya"
+    "addressEn": "החשמונאים 4, נהריה, ישראל"
   },
   {
     "id": "nahariya_408",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0244689,
+    "lon": 35.1071634,
     "name": "מקלט 408 - החלוץ 37",
     "address": "החלוץ 37",
     "city": "נהריה",
@@ -933,12 +946,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 37, נהריה, ישראל"
   },
   {
     "id": "nahariya_409",
-    "lat": 33.0192248,
-    "lon": 35.1065844,
+    "lat": 33.0194785,
+    "lon": 35.1067709,
     "name": "מקלט 409 - החשמונאים 11",
     "address": "החשמונאים 11",
     "city": "נהריה",
@@ -946,12 +959,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHashmona'im St 24, Nahariyya"
+    "addressEn": "החשמונאים 11, נהריה, ישראל"
   },
   {
     "id": "nahariya_410",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.021132,
+    "lon": 35.1055739,
     "name": "מקלט 410 - החלוץ 67",
     "address": "החלוץ 67",
     "city": "נהריה",
@@ -959,12 +972,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 67, נהריה, ישראל"
   },
   {
     "id": "nahariya_411",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0229486,
+    "lon": 35.1091388,
     "name": "מקלט 411 - החלוץ 26",
     "address": "החלוץ 26",
     "city": "נהריה",
@@ -972,12 +985,12 @@
     "type": "מקלט עילי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 26, נהריה, ישראל"
   },
   {
     "id": "nahariya_412",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0253412,
+    "lon": 35.1080853,
     "name": "מקלט 412 - יהודה המכבי 17",
     "address": "יהודה המכבי 17",
     "city": "נהריה",
@@ -985,12 +998,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 17, נהריה, ישראל"
   },
   {
     "id": "nahariya_413",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0252736,
+    "lon": 35.1065286,
     "name": "מקלט 413 - יהודה המכבי 29",
     "address": "יהודה המכבי 29",
     "city": "נהריה",
@@ -998,12 +1011,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 29, נהריה, ישראל"
   },
   {
     "id": "nahariya_414",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0217753,
+    "lon": 35.1058469,
     "name": "מקלט 414 - החלוץ 59",
     "address": "החלוץ 59",
     "city": "נהריה",
@@ -1011,12 +1024,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 59, נהריה, ישראל"
   },
   {
     "id": "nahariya_415",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0187448,
+    "lon": 35.1056881,
     "name": "מקלט 415 - טרומפלדור 15",
     "address": "טרומפלדור 15",
     "city": "נהריה",
@@ -1024,12 +1037,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 15, נהריה, ישראל"
   },
   {
     "id": "nahariya_416",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0185873,
+    "lon": 35.1070439,
     "name": "מקלט 416 - טרומפלדור 30",
     "address": "טרומפלדור 30",
     "city": "נהריה",
@@ -1037,12 +1050,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 30, נהריה, ישראל"
   },
   {
     "id": "nahariya_417",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0218397,
+    "lon": 35.1089362,
     "name": "מקלט 417 - החלוץ 14",
     "address": "החלוץ 14",
     "city": "נהריה",
@@ -1050,12 +1063,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 14, נהריה, ישראל"
   },
   {
     "id": "nahariya_418",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0224168,
+    "lon": 35.1060626,
     "name": "מקלט 418 - החלוץ 51",
     "address": "החלוץ 51",
     "city": "נהריה",
@@ -1063,12 +1076,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 51, נהריה, ישראל"
   },
   {
     "id": "nahariya_419",
-    "lat": 33.0192248,
-    "lon": 35.1065844,
+    "lat": 33.0194785,
+    "lon": 35.1067709,
     "name": "מקלט 419 - החשמונאים 11",
     "address": "החשמונאים 11",
     "city": "נהריה",
@@ -1076,12 +1089,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHashmona'im St 24, Nahariyya"
+    "addressEn": "החשמונאים 11, נהריה, ישראל"
   },
   {
     "id": "nahariya_420",
-    "lat": 33.0222994,
-    "lon": 35.1096136,
+    "lat": 33.0222157,
+    "lon": 35.1096086,
     "name": "מקלט 420 - כ\"ג יורדי הסירה",
     "address": "כ\"ג יורדי הסירה",
     "city": "נהריה",
@@ -1089,12 +1102,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kaf Gimel Yordei ha-Sira St 5, Nahariyya, 2244903"
+    "addressEn": "כ\"ג יורדי הסירה, נהריה, ישראל"
   },
   {
     "id": "nahariya_421",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0244473,
+    "lon": 35.1091422,
     "name": "מקלט 421 - יהודה המכבי 7",
     "address": "יהודה המכבי 7",
     "city": "נהריה",
@@ -1102,12 +1115,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_422",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0249985,
+    "lon": 35.1092237,
     "name": "מקלט 422 - יהודה המכבי 18",
     "address": "יהודה המכבי 18",
     "city": "נהריה",
@@ -1115,12 +1128,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_423",
-    "lat": 33.0255512,
-    "lon": 35.1075536,
+    "lat": 33.0249802,
+    "lon": 35.1062272,
     "name": "מקלט 423 - יהודה המכבי 33",
     "address": "יהודה המכבי 33",
     "city": "נהריה",
@@ -1128,12 +1141,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 21, Nahariyya"
+    "addressEn": "יהודה המכבי 33, נהריה, ישראל"
   },
   {
     "id": "nahariya_424",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0232683,
+    "lon": 35.105918,
     "name": "מקלט 424 - החלוץ 52",
     "address": "החלוץ 52",
     "city": "נהריה",
@@ -1141,12 +1154,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 52, נהריה, ישראל"
   },
   {
     "id": "nahariya_425",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0218397,
+    "lon": 35.1089362,
     "name": "מקלט 425 - החלוץ 14",
     "address": "החלוץ 14",
     "city": "נהריה",
@@ -1154,12 +1167,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 14, נהריה, ישראל"
   },
   {
     "id": "nahariya_426",
-    "lat": 33.0235149,
-    "lon": 35.1097525,
+    "lat": 33.0233633,
+    "lon": 35.1097735,
     "name": "מקלט 426 - חומה ומגדל 8",
     "address": "חומה ומגדל 8",
     "city": "נהריה",
@@ -1167,12 +1180,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khoma u-Migdal St 4, Nahariyya"
+    "addressEn": "חומה ומגדל 8, נהריה, ישראל"
   },
   {
     "id": "nahariya_427",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0210535,
+    "lon": 35.1083337,
     "name": "מקלט 427 - החלוץ 5",
     "address": "החלוץ 5",
     "city": "נהריה",
@@ -1180,12 +1193,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 5, נהריה, ישראל"
   },
   {
     "id": "nahariya_428",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0208875,
+    "lon": 35.1055597,
     "name": "מקלט 428 - טרומפלדור 3",
     "address": "טרומפלדור 3",
     "city": "נהריה",
@@ -1193,12 +1206,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 3, נהריה, ישראל"
   },
   {
     "id": "nahariya_429",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0183428,
+    "lon": 35.1055895,
     "name": "מקלט 429 - טרומפלדור 18",
     "address": "טרומפלדור 18",
     "city": "נהריה",
@@ -1206,12 +1219,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_430",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0202513,
+    "lon": 35.1081381,
     "name": "מקלט 430 - טרומפלדור 43",
     "address": "טרומפלדור 43",
     "city": "נהריה",
@@ -1219,12 +1232,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 43, נהריה, ישראל"
   },
   {
     "id": "nahariya_431",
-    "lat": 33.0224872,
-    "lon": 35.1072253,
+    "lat": 33.0187037,
+    "lon": 35.1073793,
     "name": "מקלט 431 - טרומפלדור 36",
     "address": "טרומפלדור 36",
     "city": "נהריה",
@@ -1232,12 +1245,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 8, Nahariyya"
+    "addressEn": "טרומפלדור 36, נהריה, ישראל"
   },
   {
     "id": "nahariya_432",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0233071,
+    "lon": 35.1059293,
     "name": "מקלט 432 - החלוץ 47",
     "address": "החלוץ 47",
     "city": "נהריה",
@@ -1245,12 +1258,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 47, נהריה, ישראל"
   },
   {
     "id": "nahariya_433",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0224168,
+    "lon": 35.1060626,
     "name": "מקלט 433 - החלוץ 51",
     "address": "החלוץ 51",
     "city": "נהריה",
@@ -1258,12 +1271,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 51, נהריה, ישראל"
   },
   {
     "id": "nahariya_434",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.024209,
+    "lon": 35.1070382,
     "name": "מקלט 434 - החלוץ 39",
     "address": "החלוץ 39",
     "city": "נהריה",
@@ -1271,12 +1284,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 39, נהריה, ישראל"
   },
   {
     "id": "nahariya_435",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0238113,
+    "lon": 35.1088853,
     "name": "מקלט 435 - החלוץ 30",
     "address": "החלוץ 30",
     "city": "נהריה",
@@ -1284,12 +1297,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 30, נהריה, ישראל"
   },
   {
     "id": "nahariya_436",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.021501,
+    "lon": 35.1088027,
     "name": "מקלט 436 - החלוץ 10",
     "address": "החלוץ 10",
     "city": "נהריה",
@@ -1297,12 +1310,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 10, נהריה, ישראל"
   },
   {
     "id": "nahariya_437",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0225737,
+    "lon": 35.1091252,
     "name": "מקלט 437 - החלוץ 22",
     "address": "החלוץ 22",
     "city": "נהריה",
@@ -1310,12 +1323,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 22, נהריה, ישראל"
   },
   {
     "id": "nahariya_438",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0235238,
+    "lon": 35.1060623,
     "name": "מקלט 438 - החלוץ 45",
     "address": "החלוץ 45",
     "city": "נהריה",
@@ -1323,12 +1336,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 45, נהריה, ישראל"
   },
   {
     "id": "nahariya_439",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.021132,
+    "lon": 35.1055739,
     "name": "מקלט 439 - החלוץ 69",
     "address": "החלוץ 69",
     "city": "נהריה",
@@ -1336,12 +1349,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 69, נהריה, ישראל"
   },
   {
     "id": "nahariya_440",
-    "lat": 33.0231516,
-    "lon": 35.1081791,
+    "lat": 33.0226179,
+    "lon": 35.1082673,
     "name": "מקלט 440 - זמנהוף 5",
     "address": "זמנהוף 5",
     "city": "נהריה",
@@ -1349,12 +1362,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zamenhoff St 3, Nahariyya"
+    "addressEn": "זמנהוף 5, נהריה, ישראל"
   },
   {
     "id": "nahariya_441",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0242509,
+    "lon": 35.1074213,
     "name": "מקלט 441 - החלוץ 35",
     "address": "החלוץ 35",
     "city": "נהריה",
@@ -1362,12 +1375,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 35, נהריה, ישראל"
   },
   {
     "id": "nahariya_442",
-    "lat": 33.020969,
-    "lon": 35.108593,
+    "lat": 33.0232683,
+    "lon": 35.105918,
     "name": "מקלט 442 - החלוץ 52",
     "address": "החלוץ 52",
     "city": "נהריה",
@@ -1375,12 +1388,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaluts/Mivtsa Hiram, Nahariyya"
+    "addressEn": "החלוץ 52, נהריה, ישראל"
   },
   {
     "id": "nahariya_507",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.0236676,
+    "lon": 35.0961064,
     "name": "מקלט 507 - ארלוזורוב 40",
     "address": "ארלוזורוב 40",
     "city": "נהריה",
@@ -1388,12 +1401,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 40, נהריה, ישראל"
   },
   {
     "id": "nahariya_508",
-    "lat": 33.0190001,
-    "lon": 35.0953385,
+    "lat": 33.0191274,
+    "lon": 35.0949502,
     "name": "מקלט 508 - הגדוד העברי 10",
     "address": "הגדוד העברי 10",
     "city": "נהריה",
@@ -1401,12 +1414,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGdud Haivri St 7, Nahariyya"
+    "addressEn": "הגדוד העברי 10, נהריה, ישראל"
   },
   {
     "id": "nahariya_509",
-    "lat": 33.0087731,
-    "lon": 35.0905175,
+    "lat": 33.0083867,
+    "lon": 35.09037,
     "name": "מקלט 509 - העליה 7",
     "address": "העליה 7",
     "city": "נהריה",
@@ -1414,12 +1427,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Elazar St 4, Nahariyya"
+    "addressEn": "העלייה 7, נהריה, ישראל"
   },
   {
     "id": "nahariya_510",
-    "lat": 33.0176882,
-    "lon": 35.0964873,
+    "lat": 33.0223797,
+    "lon": 35.097378,
     "name": "מקלט 510 - ההגנה 38",
     "address": "ההגנה 38",
     "city": "נהריה",
@@ -1427,12 +1440,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHagana/Masaryk, Nahariyya"
+    "addressEn": "ההגנה 38, נהריה, ישראל"
   },
   {
     "id": "nahariya_512",
-    "lat": 33.0266027,
-    "lon": 35.0986936,
+    "lat": 33.0261555,
+    "lon": 35.10032,
     "name": "מקלט 512 - בן גאון 18",
     "address": "בן גאון 18",
     "city": "נהריה",
@@ -1440,12 +1453,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Ben Ga'on St 28, Nahariyya"
+    "addressEn": "דוד בן גאון 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_513",
-    "lat": 33.0229145,
-    "lon": 35.1001478,
+    "lat": 33.0182243,
+    "lon": 35.1001655,
     "name": "מקלט 513 - יצחק שדה 1",
     "address": "יצחק שדה 1",
     "city": "נהריה",
@@ -1453,12 +1466,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitshak Sadeh St 26, Nahariyya"
+    "addressEn": "יצחק שדה 1, נהריה, 2230401, ישראל"
   },
   {
     "id": "nahariya_514",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.023709,
+    "lon": 35.0962304,
     "name": "מקלט 514 - ארלוזורוב 44",
     "address": "ארלוזורוב 44",
     "city": "נהריה",
@@ -1466,12 +1479,12 @@
     "type": "מקלט עילי",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 44, נהריה, ישראל"
   },
   {
     "id": "nahariya_515",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.0185955,
+    "lon": 35.0940406,
     "name": "מקלט 515 - ארלוזורוב 19",
     "address": "ארלוזורוב 19",
     "city": "נהריה",
@@ -1479,12 +1492,12 @@
     "type": "מקלט נגיש",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 19, נהריה, ישראל"
   },
   {
     "id": "nahariya_516",
-    "lat": 33.0211207,
-    "lon": 35.0942888,
+    "lat": 33.0214354,
+    "lon": 35.0938298,
     "name": "מקלט 516 - ההדס 4",
     "address": "ההדס 4",
     "city": "נהריה",
@@ -1492,12 +1505,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arlozorov St 37, Nahariyya"
+    "addressEn": "ההדס 4, נהריה, ישראל"
   },
   {
     "id": "nahariya_517",
-    "lat": 33.0215165,
-    "lon": 35.0959198,
+    "lat": 33.0215828,
+    "lon": 35.0952821,
     "name": "מקלט 517 - ביאליק 7",
     "address": "ביאליק 7",
     "city": "נהריה",
@@ -1505,12 +1518,38 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bialik St 5, Nahariyya"
+    "addressEn": "ביאליק 7, נהריה, ישראל"
+  },
+  {
+    "id": "nahariya_518",
+    "lat": 33.0201453,
+    "lon": 35.0975761,
+    "name": "מקלט 518 - שביל הרקפת 6",
+    "address": "שביל הרקפת 6",
+    "city": "נהריה",
+    "capacity": "",
+    "type": "מקלט תת-קרקעי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "הרקפת 6, נהריה, ישראל"
+  },
+  {
+    "id": "nahariya_519",
+    "lat": 33.0248058,
+    "lon": 35.09540860000001,
+    "name": "מקלט 519 - שביל ההרדוף 1",
+    "address": "שביל ההרדוף 1",
+    "city": "נהריה",
+    "capacity": "",
+    "type": "מקלט תת-קרקעי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "ההרדוף 1, נהריה, 22402, ישראל"
   },
   {
     "id": "nahariya_521",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.0195964,
+    "lon": 35.0938312,
     "name": "מקלט 521 - ארלוזורוב 27",
     "address": "ארלוזורוב 27",
     "city": "נהריה",
@@ -1518,12 +1557,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 27, נהריה, ישראל"
   },
   {
     "id": "nahariya_522",
-    "lat": 33.0174278,
-    "lon": 35.0943187,
+    "lat": 33.0186751,
+    "lon": 35.0955539,
     "name": "מקלט 522 - יבנה 1",
     "address": "יבנה 1",
     "city": "נהריה",
@@ -1531,12 +1570,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yavne St 12, Nahariyya"
+    "addressEn": "יבנה 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_523",
-    "lat": 33.0174278,
-    "lon": 35.0943187,
+    "lat": 33.017517,
+    "lon": 35.0950259,
     "name": "מקלט 523 - יבנה 6",
     "address": "יבנה 6",
     "city": "נהריה",
@@ -1544,12 +1583,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yavne St 12, Nahariyya"
+    "addressEn": "יבנה 6, נהריה, ישראל"
   },
   {
     "id": "nahariya_524",
-    "lat": 33.0165916,
-    "lon": 35.1032998,
+    "lat": 33.0177351,
+    "lon": 35.0979715,
     "name": "מקלט 524 - מסריק 29",
     "address": "מסריק 29",
     "city": "נהריה",
@@ -1557,12 +1596,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Masaryk St 2, Nahariyya"
+    "addressEn": "מסריק 29, נהריה, ישראל"
   },
   {
     "id": "nahariya_526",
-    "lat": 33.023223,
-    "lon": 35.1012938,
+    "lat": 33.0248107,
+    "lon": 35.1013525,
     "name": "מקלט 526 - קרן קיימת לישראל",
     "address": "קרן קיימת לישראל",
     "city": "נהריה",
@@ -1570,12 +1609,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Keren Kayemet le-Yisra'el St 11, Nahariyya"
+    "addressEn": "קרן קימת לישראל, נהריה, ישראל"
   },
   {
     "id": "nahariya_527",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.0217416,
+    "lon": 35.0946457,
     "name": "מקלט 527 - ארלוזורוב 43",
     "address": "ארלוזורוב 43",
     "city": "נהריה",
@@ -1583,12 +1622,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 43, נהריה, ישראל"
   },
   {
     "id": "nahariya_529",
-    "lat": 33.0176882,
-    "lon": 35.0964873,
+    "lat": 33.0169135,
+    "lon": 35.09620890000001,
     "name": "מקלט 529 - ההגנה 5",
     "address": "ההגנה 5",
     "city": "נהריה",
@@ -1596,12 +1635,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHagana/Masaryk, Nahariyya"
+    "addressEn": "ההגנה 5, נהריה, ישראל"
   },
   {
     "id": "nahariya_530",
-    "lat": 33.0176882,
-    "lon": 35.0964873,
+    "lat": 33.0223797,
+    "lon": 35.097378,
     "name": "מקלט 530 - ההגנה 38",
     "address": "ההגנה 38",
     "city": "נהריה",
@@ -1609,12 +1648,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHagana/Masaryk, Nahariyya"
+    "addressEn": "ההגנה 38, נהריה, ישראל"
   },
   {
     "id": "nahariya_531",
-    "lat": 33.0190001,
-    "lon": 35.0953385,
+    "lat": 33.0190472,
+    "lon": 35.0956576,
     "name": "מקלט 531 - הגדוד העברי 6",
     "address": "הגדוד העברי 6",
     "city": "נהריה",
@@ -1622,12 +1661,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGdud Haivri St 7, Nahariyya"
+    "addressEn": "הגדוד העברי 6, נהריה, ישראל"
   },
   {
     "id": "nahariya_532",
-    "lat": 33.0227939,
-    "lon": 35.0966374,
+    "lat": 33.0226812,
+    "lon": 35.0966747,
     "name": "מקלט 532 - הנרקיס 3",
     "address": "הנרקיס 3",
     "city": "נהריה",
@@ -1635,12 +1674,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Hagana St 33, Nahariyya"
+    "addressEn": "שביל הנרקיס 3, נהריה, ישראל"
   },
   {
     "id": "nahariya_533",
-    "lat": 33.017119,
-    "lon": 35.0931169,
+    "lat": 33.02090829999999,
+    "lon": 35.0946115,
     "name": "מקלט 533 - ארלוזורוב 26",
     "address": "ארלוזורוב 26",
     "city": "נהריה",
@@ -1648,12 +1687,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "2א, ארלוזורוב, Nahariya"
+    "addressEn": "ארלוזורוב 26, נהריה, ישראל"
   },
   {
     "id": "nahariya_534",
-    "lat": 33.0179517,
-    "lon": 35.0942958,
+    "lat": 33.0176514,
+    "lon": 35.0943361,
     "name": "מקלט 534 - האשל 2",
     "address": "האשל 2",
     "city": "נהריה",
@@ -1661,12 +1700,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arlozorov St 10, Nahariyya"
+    "addressEn": "האשל 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_535",
-    "lat": 33.005512,
-    "lon": 35.097968,
+    "lat": 33.0235741,
+    "lon": 35.0943241,
     "name": "מקלט 535 - הוורד 3",
     "address": "הוורד 3",
     "city": "נהריה",
@@ -1674,12 +1713,25 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nahariya Central Station/Alight, Nahariyya"
+    "addressEn": "הורד 3, נהריה, ישראל"
+  },
+  {
+    "id": "nahariya_536",
+    "lat": 33.0195314,
+    "lon": 35.0978505,
+    "name": "מקלט 536 - שביל הנורית 1",
+    "address": "שביל הנורית 1",
+    "city": "נהריה",
+    "capacity": "",
+    "type": "מקלט תת-קרקעי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "הנורית 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_560",
-    "lat": 33.0266027,
-    "lon": 35.0986936,
+    "lat": 33.0268734,
+    "lon": 35.0967658,
     "name": "מקלט 560 - בן גאון 31",
     "address": "בן גאון 31",
     "city": "נהריה",
@@ -1687,12 +1739,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Ben Ga'on St 28, Nahariyya"
+    "addressEn": "דוד בן גאון 31, נהריה, ישראל"
   },
   {
     "id": "nahariya_561",
-    "lat": 33.0266027,
-    "lon": 35.0986936,
+    "lat": 33.0268734,
+    "lon": 35.0967658,
     "name": "מקלט 561 - בן גאון 31",
     "address": "בן גאון 31",
     "city": "נהריה",
@@ -1700,12 +1752,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Ben Ga'on St 28, Nahariyya"
+    "addressEn": "דוד בן גאון 31, נהריה, ישראל"
   },
   {
     "id": "nahariya_562",
-    "lat": 33.0176882,
-    "lon": 35.0964873,
+    "lat": 33.0261408,
+    "lon": 35.0961295,
     "name": "מקלט 562 - ההגנה 44",
     "address": "ההגנה 44",
     "city": "נהריה",
@@ -1713,12 +1765,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHagana/Masaryk, Nahariyya"
+    "addressEn": "ההגנה 44, נהריה, ישראל"
   },
   {
     "id": "nahariya_563",
-    "lat": 33.0278657,
-    "lon": 35.0979204,
+    "lat": 33.0262644,
+    "lon": 35.0968538,
     "name": "מקלט 563 - בורכוב 7",
     "address": "בורכוב 7",
     "city": "נהריה",
@@ -1726,12 +1778,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Ben Ga'on St 32, Nahariyya"
+    "addressEn": "בורוכוב 7, נהריה, 2231335, ישראל"
   },
   {
     "id": "nahariya_700",
-    "lat": 32.9883184,
-    "lon": 35.0932317,
+    "lat": 32.9885447,
+    "lon": 35.0938013,
     "name": "מקלט 700 - הקישון 6",
     "address": "הקישון 6",
     "city": "נהריה",
@@ -1739,12 +1791,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaKishon St 7, Nahariyya"
+    "addressEn": "הקישון 6, נהריה, ישראל"
   },
   {
     "id": "nahariya_701",
-    "lat": 33.0113988,
-    "lon": 35.092915,
+    "lat": 33.0109148,
+    "lon": 35.0926835,
     "name": "מקלט 701 - נורדאו 18",
     "address": "נורדאו 18",
     "city": "נהריה",
@@ -1752,12 +1804,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Max Nordau St 14, Nahariyya"
+    "addressEn": "מקס נורדאו 18, נהריה, ישראל"
   },
   {
     "id": "nahariya_702",
-    "lat": 33.0049493,
-    "lon": 35.0988288,
+    "lat": 33.0089175,
+    "lon": 35.0998811,
     "name": "מקלט 702 - המיסדים 2",
     "address": "המיסדים 2",
     "city": "נהריה",
@@ -1765,12 +1817,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nahariya, Nahariyya"
+    "addressEn": "המייסדים 2, נהריה, ישראל"
   },
   {
     "id": "nahariya_711",
-    "lat": 33.0015816,
-    "lon": 35.0961587,
+    "lat": 33.0031866,
+    "lon": 35.0963688,
     "name": "מקלט 711 - קרן היסוד 20",
     "address": "קרן היסוד 20",
     "city": "נהריה",
@@ -1778,12 +1830,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Keren HaYesod St 33, Nahariyya"
+    "addressEn": "קרן היסוד 20, נהריה, ישראל"
   },
   {
     "id": "nahariya_712",
-    "lat": 33.0015727,
-    "lon": 35.0904185,
+    "lat": 33.0018906,
+    "lon": 35.0902431,
     "name": "מקלט 712 - רמז 34",
     "address": "רמז 34",
     "city": "נהריה",
@@ -1791,12 +1843,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Remez St 36, Nahariyya"
+    "addressEn": "דוד רמז 34, נהריה, ישראל"
   },
   {
     "id": "nahariya_717",
-    "lat": 33.0015727,
-    "lon": 35.0904185,
+    "lat": 33.0010733,
+    "lon": 35.090438,
     "name": "מקלט 717 - רמז 33",
     "address": "רמז 33",
     "city": "נהריה",
@@ -1804,12 +1856,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Remez St 36, Nahariyya"
+    "addressEn": "דוד רמז 33, נהריה, ישראל"
   },
   {
     "id": "nahariya_718",
-    "lat": 33.0015727,
-    "lon": 35.0904185,
+    "lat": 33.0027394,
+    "lon": 35.0908142,
     "name": "מקלט 718 - רמז 29",
     "address": "רמז 29",
     "city": "נהריה",
@@ -1817,12 +1869,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Remez St 36, Nahariyya"
+    "addressEn": "דוד רמז 29, נהריה, ישראל"
   },
   {
     "id": "nahariya_719",
-    "lat": 32.102339,
-    "lon": 34.789687,
+    "lat": 33.0025762,
+    "lon": 35.0925106,
     "name": "מקלט 719 - שי עגנון 32",
     "address": "שי עגנון 32",
     "city": "נהריה",
@@ -1830,12 +1882,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שדרות לוי אשכול פינת ש\"י עגנון, Tel Aviv-Jaffa"
+    "addressEn": "עגנון 32, נהריה, ישראל"
   },
   {
     "id": "nahariya_720",
-    "lat": 32.9984448,
-    "lon": 35.0885418,
+    "lat": 33.002618,
+    "lon": 35.089845,
     "name": "מקלט 720 - בלפור 35",
     "address": "בלפור 35",
     "city": "נהריה",
@@ -1843,12 +1895,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Balfour St 70, Nahariyya"
+    "addressEn": "בלפור 35, נהריה, ישראל"
   },
   {
     "id": "nahariya_721",
-    "lat": 32.9984448,
-    "lon": 35.0885418,
+    "lat": 33.0046575,
+    "lon": 35.0899098,
     "name": "מקלט 721 - בלפור 22",
     "address": "בלפור 22",
     "city": "נהריה",
@@ -1856,12 +1908,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Balfour St 70, Nahariyya"
+    "addressEn": "בלפור 22, נהריה, ישראל"
   },
   {
     "id": "nahariya_722",
-    "lat": 32.9987817,
-    "lon": 35.0920288,
+    "lat": 32.9988563,
+    "lon": 35.0919252,
     "name": "מקלט 722 - המגינים 4",
     "address": "המגינים 4",
     "city": "נהריה",
@@ -1869,12 +1921,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMeginim St 4, Nahariyya"
+    "addressEn": "המגינים 4, נהריה, ישראל"
   },
   {
     "id": "nahariya_723",
-    "lat": 32.9987817,
-    "lon": 35.0920288,
+    "lat": 32.9980414,
+    "lon": 35.0917111,
     "name": "מקלט 723 - המגינים 12",
     "address": "המגינים 12",
     "city": "נהריה",
@@ -1882,12 +1934,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMeginim St 4, Nahariyya"
+    "addressEn": "המגינים 12, נהריה, ישראל"
   },
   {
     "id": "nahariya_725",
-    "lat": 33.0086598,
-    "lon": 35.0903856,
+    "lat": 33.0087735,
+    "lon": 35.0907965,
     "name": "מקלט 725 - דוד אלעזר 1",
     "address": "דוד אלעזר 1",
     "city": "נהריה",
@@ -1895,12 +1947,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Elazar St 4, Nahariyya"
+    "addressEn": "דוד אלעזר 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_731",
-    "lat": 32.028211,
-    "lon": 34.885309,
+    "lat": 33.0081726,
+    "lon": 35.0985337,
     "name": "מקלט 731 - דרך בר יהודה 6",
     "address": "דרך בר יהודה 6",
     "city": "נהריה",
@@ -1908,12 +1960,12 @@
     "type": "מקלט נגיש",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha'Atsma'ut Road/Yaacov Bar Simantov, Yehud-Monosson"
+    "addressEn": "בר יהודה 6, נהריה, ישראל"
   },
   {
     "id": "nahariya_734",
-    "lat": 33.0099435,
-    "lon": 35.0924786,
+    "lat": 33.0088649,
+    "lon": 35.0984481,
     "name": "מקלט 734 - המיסדים 5",
     "address": "המיסדים 5",
     "city": "נהריה",
@@ -1921,12 +1973,25 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Meyasdim St 23, Nahariyya"
+    "addressEn": "המייסדים 5, נהריה, ישראל"
+  },
+  {
+    "id": "nahariya_735",
+    "lat": 33.0004258,
+    "lon": 35.0928769,
+    "name": "מקלט 735 - שי עגנון 37",
+    "address": "שי עגנון 37",
+    "city": "נהריה",
+    "capacity": "",
+    "type": "מקלט תת-קרקעי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "עגנון 37, נהריה, ישראל"
   },
   {
     "id": "nahariya_736",
-    "lat": 32.9996196,
-    "lon": 35.0913973,
+    "lat": 33.0003758,
+    "lon": 35.0875671,
     "name": "מקלט 736 - קפלן 46",
     "address": "קפלן 46",
     "city": "נהריה",
@@ -1934,12 +1999,12 @@
     "type": "מקלט תת-קרקעי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Weizman St 111, Nahariyya"
+    "addressEn": "קפלן 46, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_154",
-    "lat": 33.002362,
-    "lon": 35.103142,
+    "lat": 33.0003497,
+    "lon": 35.1032866,
     "name": "מקלט מקלט בית ספרי - עזרא 1",
     "address": "עזרא 1",
     "city": "נהריה",
@@ -1947,12 +2012,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ezra St 12, Nahariyya"
+    "addressEn": "עזרא 1, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_155",
-    "lat": 33.0086961,
-    "lon": 35.1039911,
+    "lat": 33.0094159,
+    "lon": 35.1027589,
     "name": "מקלט מקלט בית ספרי - אביר יעקב 15",
     "address": "אביר יעקב 15",
     "city": "נהריה",
@@ -1960,12 +2025,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Abir Ya'acob St 21, Nahariyya"
+    "addressEn": "אביר יעקב 15, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_156",
-    "lat": 33.0215165,
-    "lon": 35.0959198,
+    "lat": 33.0215654,
+    "lon": 35.0958288,
     "name": "מקלט מקלט בית ספרי - ביאליק",
     "address": "ביאליק",
     "city": "נהריה",
@@ -1973,12 +2038,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Bialik St 5, Nahariyya"
+    "addressEn": "ביאליק, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_157",
-    "lat": 32.1978605,
-    "lon": 34.9092222,
+    "lat": 32.9961189,
+    "lon": 35.089709,
     "name": "מקלט מקלט בית ספרי - האיריס 44",
     "address": "האיריס 44",
     "city": "נהריה",
@@ -1986,12 +2051,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Hairis St 8, Gan Haim"
+    "addressEn": "איריס 44, נהריה, 2235057, ישראל"
   },
   {
     "id": "nahariya_school_158",
-    "lat": 32.9984448,
-    "lon": 35.0885418,
+    "lat": 32.9982645,
+    "lon": 35.0900422,
     "name": "מקלט מקלט בית ספרי - בלפור 71",
     "address": "בלפור 71",
     "city": "נהריה",
@@ -1999,12 +2064,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Balfour St 70, Nahariyya"
+    "addressEn": "בלפור 71, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_159",
-    "lat": 33.0015727,
-    "lon": 35.0904185,
+    "lat": 33.0056386,
+    "lon": 35.0911158,
     "name": "מקלט מקלט בית ספרי - רמז 8",
     "address": "רמז 8",
     "city": "נהריה",
@@ -2012,12 +2077,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "David Remez St 36, Nahariyya"
+    "addressEn": "דוד רמז 8, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_160",
-    "lat": 33.0000685,
-    "lon": 35.0912084,
+    "lat": 33.0034362,
+    "lon": 35.0918463,
     "name": "מקלט מקלט בית ספרי - ויצמן 88",
     "address": "ויצמן 88",
     "city": "נהריה",
@@ -2025,12 +2090,12 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Weizmann/Kaplan, Nahariyya"
+    "addressEn": "וייצמן 88, נהריה, ישראל"
   },
   {
     "id": "nahariya_school_161",
-    "lat": 33.0094522,
-    "lon": 35.0993474,
+    "lat": 33.0102501,
+    "lon": 35.0990589,
     "name": "מקלט מקלט בית ספרי - פנחס לבון 1",
     "address": "פנחס לבון 1",
     "city": "נהריה",
@@ -2038,6 +2103,6 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Meyasdim St 6, Nahariyya"
+    "addressEn": "פנחס לבון 1, נהריה, ישראל"
   }
 ]
