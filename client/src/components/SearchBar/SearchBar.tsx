@@ -39,7 +39,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     setInputVal(item.display_name)
     setShowSug(false)
     clearSug()
-    onLocation(+item.lat, +item.lon, inputVal)
+    onLocation(+item.lat, +item.lon, item.display_name)
   }
 
   const doSearch = async () => {
