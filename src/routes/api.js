@@ -84,16 +84,33 @@ router.get('/geocode', async (req, res) => {
       }
     }
 
-    // Shelter-data fallback: if Nominatim can't find the street, check our own shelter data.
-    // This handles streets that Nominatim doesn't know (e.g. דוד אלעזר in Nahariya).
-    if (results.length === 0) {
-      const addrMatches = findSheltersByAddress(q, allStaticShelters);
+    // Shelter-data geocode: always check our own shelter data for matching addresses.
+    // Our shelter coordinates (from Google Geocoding) are more precise than Nominatim
+    // which often returns a midpoint on the street, hundreds of meters from the house number.
+    {
+      let addrMatches = findSheltersByAddress(q, allStaticShelters);
+      // If matches span multiple cities, keep only the city mentioned in the query
+      if (addrMatches.length > 1) {
+        const cities = [...new Set(addrMatches.map(m => m.city).filter(Boolean))];
+        if (cities.length > 1) {
+          // Prefer the city whose name appears in the query
+          const queriedCity = cities.find(c => q.includes(c));
+          if (queriedCity) {
+            addrMatches = addrMatches.filter(m => m.city === queriedCity);
+          } else {
+            // Fallback: keep the city with the most matches
+            const cityCounts = {};
+            for (const m of addrMatches) cityCounts[m.city] = (cityCounts[m.city] || 0) + 1;
+            const topCity = Object.entries(cityCounts).sort((a, b) => b[1] - a[1])[0][0];
+            addrMatches = addrMatches.filter(m => m.city === topCity);
+          }
+        }
+      }
       if (addrMatches.length > 0) {
-        // Use the centroid of matching shelters as the geocode result
         const avgLat = addrMatches.reduce((s, m) => s + m.lat, 0) / addrMatches.length;
         const avgLon = addrMatches.reduce((s, m) => s + m.lon, 0) / addrMatches.length;
         const city = addrMatches[0].city || '';
-        console.log(`[geocode] Nominatim failed for "${q}" → shelter-data fallback: ${addrMatches.length} matches in ${city}`);
+        console.log(`[geocode] shelter-data match for "${q}": ${addrMatches.length} shelters in ${city}`);
         results = [{
           lat: String(avgLat),
           lon: String(avgLon),

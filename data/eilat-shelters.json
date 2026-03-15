@@ -1,31 +1,5 @@
 [
   {
-    "id": "eilat_א__3",
-    "lat": 29.5662085,
-    "lon": 34.9538793,
-    "name": "מקלט א'-3 - המלחה 12",
-    "address": "המלחה 12",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Ha-Melekha St 12, Eilat, Israel"
-  },
-  {
-    "id": "eilat_א__5",
-    "lat": 29.5650163,
-    "lon": 34.9522178,
-    "name": "מקלט א'-5 - האשלג 1",
-    "address": "האשלג 1",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Ha-Ashlag St 1, Eilat, Israel"
-  },
-  {
     "id": "eilat_א__22",
     "lat": 29.5615498,
     "lon": 34.9542996,
@@ -78,6 +52,58 @@
     "addressEn": "HaGofrit St 8, Eilat, Israel"
   },
   {
+    "id": "eilat_א__3",
+    "lat": 29.5662085,
+    "lon": 34.9538793,
+    "name": "מקלט א'-3 - המלחה 12",
+    "address": "המלחה 12",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Ha-Melekha St 12, Eilat, Israel"
+  },
+  {
+    "id": "eilat_א__5",
+    "lat": 29.5650163,
+    "lon": 34.9522178,
+    "name": "מקלט א'-5 - האשלג 1",
+    "address": "האשלג 1",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Ha-Ashlag St 1, Eilat, Israel"
+  },
+  {
+    "id": "eilat_א__7",
+    "lat": 29.5633291,
+    "lon": 34.9516357,
+    "name": "מקלט א'-7 - הצוק 6",
+    "address": "הצוק 6",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "HaTsuk St 6, Eilat, Israel"
+  },
+  {
+    "id": "eilat_א__8",
+    "lat": 29.5634294,
+    "lon": 34.9534927,
+    "name": "מקלט א'-8 - יעלים 16",
+    "address": "יעלים 16",
+    "city": "אילת",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Sderot Ye'elim 16, Eilat, Israel"
+  },
+  {
     "id": "eilat_ב__1",
     "lat": 29.563279,
     "lon": 34.945986,
@@ -89,58 +115,6 @@
     "source": "gov",
     "category": "public",
     "addressEn": "ירושלים השלמה 34, Eilat, Israel"
-  },
-  {
-    "id": "eilat_ב__3",
-    "lat": 29.5664208,
-    "lon": 34.9500561,
-    "name": "מקלט ב'-3 - התמרים 63",
-    "address": "התמרים 63",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Sderot HaTmarim 63, Eilat, Israel"
-  },
-  {
-    "id": "eilat_ב__5",
-    "lat": 29.5619571,
-    "lon": 34.9470388,
-    "name": "מקלט ב'-5 - ברנע 57",
-    "address": "ברנע 57",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Barne'a St 57, Eilat, Israel"
-  },
-  {
-    "id": "eilat_ב__6",
-    "lat": 29.56159,
-    "lon": 34.948095,
-    "name": "מקלט ב'-6 - ברנע 12",
-    "address": "ברנע 12",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Barne'a St 12, Eilat, 8825457, Israel"
-  },
-  {
-    "id": "eilat_ב__9",
-    "lat": 29.560483,
-    "lon": 34.9503113,
-    "name": "מקלט ב'-9 - מישר 4",
-    "address": "מישר 4",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "מלון פירסט קלאב, מישר 4, אילת, Israel"
   },
   {
     "id": "eilat_ב__10",
@@ -221,6 +195,19 @@
     "addressEn": "Ha-Shita St 22, Eilat, Israel"
   },
   {
+    "id": "eilat_ב__3",
+    "lat": 29.5664208,
+    "lon": 34.9500561,
+    "name": "מקלט ב'-3 - התמרים 63",
+    "address": "התמרים 63",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Sderot HaTmarim 63, Eilat, Israel"
+  },
+  {
     "id": "eilat_ב__31",
     "lat": 29.562624,
     "lon": 34.949848,
@@ -260,30 +247,43 @@
     "addressEn": "Ha-Shita St 2, Eilat, Israel"
   },
   {
-    "id": "eilat_ג__3",
-    "lat": 29.56342,
-    "lon": 34.943783,
-    "name": "מקלט ג'-3 - חצרות 4",
-    "address": "חצרות 4",
+    "id": "eilat_ב__5",
+    "lat": 29.5619571,
+    "lon": 34.9470388,
+    "name": "מקלט ב'-5 - ברנע 57",
+    "address": "ברנע 57",
     "city": "אילת",
     "capacity": "",
     "type": "דו-תכליתי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kikar Hatserot 4, Eilat, Israel"
+    "addressEn": "Barne'a St 57, Eilat, Israel"
   },
   {
-    "id": "eilat_ג__7",
-    "lat": 29.5614864,
-    "lon": 34.9444339,
-    "name": "מקלט ג'-7 - צין 30",
-    "address": "צין 30",
+    "id": "eilat_ב__6",
+    "lat": 29.56159,
+    "lon": 34.948095,
+    "name": "מקלט ב'-6 - ברנע 12",
+    "address": "ברנע 12",
     "city": "אילת",
     "capacity": "",
     "type": "דו-תכליתי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsin Ln 30, Eilat, Israel"
+    "addressEn": "Barne'a St 12, Eilat, 8825457, Israel"
+  },
+  {
+    "id": "eilat_ב__9",
+    "lat": 29.560483,
+    "lon": 34.9503113,
+    "name": "מקלט ב'-9 - מישר 4",
+    "address": "מישר 4",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "מלון פירסט קלאב, מישר 4, אילת, Israel"
   },
   {
     "id": "eilat_ג__11",
@@ -338,6 +338,45 @@
     "addressEn": "Kalanit St 12, Eilat, Israel"
   },
   {
+    "id": "eilat_ג__3",
+    "lat": 29.56342,
+    "lon": 34.943783,
+    "name": "מקלט ג'-3 - חצרות 4",
+    "address": "חצרות 4",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Kikar Hatserot 4, Eilat, Israel"
+  },
+  {
+    "id": "eilat_ג__7",
+    "lat": 29.5614864,
+    "lon": 34.9444339,
+    "name": "מקלט ג'-7 - צין 30",
+    "address": "צין 30",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Tsin Ln 30, Eilat, Israel"
+  },
+  {
+    "id": "eilat_ד__5",
+    "lat": 29.556537,
+    "lon": 34.943211,
+    "name": "מקלט ד'-5 - משעול שגיא",
+    "address": "משעול שגיא",
+    "city": "אילת",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Sagi St, Eilat, Israel"
+  },
+  {
     "id": "eilat_מע__1_1",
     "lat": 29.5626152,
     "lon": 34.9376353,
@@ -349,6 +388,19 @@
     "source": "gov",
     "category": "public",
     "addressEn": "Ha-Sporta'im St 24, Eilat, Israel"
+  },
+  {
+    "id": "eilat_מע__2_12",
+    "lat": 29.5614243,
+    "lon": 34.9401759,
+    "name": "מקלט מע'-2-12 - ציפחה 10",
+    "address": "ציפחה 10",
+    "city": "אילת",
+    "capacity": "",
+    "type": "דו-תכליתי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Tsifha St 10, Eilat, Israel"
   },
   {
     "id": "eilat_מע__2_6",
@@ -375,19 +427,6 @@
     "source": "gov",
     "category": "public",
     "addressEn": "Granit St 12, Eilat, Israel"
-  },
-  {
-    "id": "eilat_מע__2_12",
-    "lat": 29.5614243,
-    "lon": 34.9401759,
-    "name": "מקלט מע'-2-12 - ציפחה 10",
-    "address": "ציפחה 10",
-    "city": "אילת",
-    "capacity": "",
-    "type": "דו-תכליתי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Tsifha St 10, Eilat, Israel"
   },
   {
     "id": "eilat_מע__6_5",
@@ -427,31 +466,5 @@
     "source": "gov",
     "category": "public",
     "addressEn": "Simtat Tsukim 2, Eilat, Israel"
-  },
-  {
-    "id": "eilat_א__8",
-    "lat": 29.5634294,
-    "lon": 34.9534927,
-    "name": "מקלט א'-8 - יעלים 16",
-    "address": "יעלים 16",
-    "city": "אילת",
-    "capacity": "",
-    "type": "מקלט ציבורי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Sderot Ye'elim 16, Eilat, Israel"
-  },
-  {
-    "id": "eilat_ד__5",
-    "lat": 29.556537,
-    "lon": 34.943211,
-    "name": "מקלט ד'-5 - משעול שגיא",
-    "address": "משעול שגיא",
-    "city": "אילת",
-    "capacity": "",
-    "type": "מקלט ציבורי",
-    "source": "gov",
-    "category": "public",
-    "addressEn": "Sagi St, Eilat, Israel"
   }
 ]
