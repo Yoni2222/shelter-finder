@@ -145,7 +145,12 @@ router.get('/shelters', async (req, res) => {
         const existingIds = new Set(shelters.map(s => s.id));
         const newMatches = matchesWithDist.filter(s => {
           if (existingIds.has(s.id)) return false;
-          // Prevent near-duplicates: skip if within 50m of an existing result
+          // Only skip if an existing result has the same address (true duplicate)
+          const sAddr = (s.address || '').trim();
+          if (sAddr) {
+            return !shelters.some(e => (e.address || '').trim() === sAddr);
+          }
+          // No address: fall back to proximity check (100m)
           return !shelters.some(e => haversine(e.lat, e.lon, s.lat, s.lon) * 1000 < 100);
         });
         if (newMatches.length > 0) {
