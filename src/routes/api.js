@@ -146,7 +146,7 @@ router.get('/shelters', async (req, res) => {
         const newMatches = matchesWithDist.filter(s => {
           if (existingIds.has(s.id)) return false;
           // Prevent near-duplicates: skip if within 50m of an existing result
-          return !shelters.some(e => haversine(e.lat, e.lon, s.lat, s.lon) * 1000 < 50);
+          return !shelters.some(e => haversine(e.lat, e.lon, s.lat, s.lon) * 1000 < 100);
         });
         if (newMatches.length > 0) {
           shelters = shelters.concat(newMatches);
