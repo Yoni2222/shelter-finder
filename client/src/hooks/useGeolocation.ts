@@ -33,7 +33,7 @@ export function useGeolocation(
             const codes: Record<number, string> = { 1: 'denied', 2: 'unavail', 3: 'timeout' }
             onError(codes[fallbackErr.code] ?? 'error')
           },
-          { timeout: 10_000, maximumAge: 120_000, enableHighAccuracy: false },
+          { timeout: 15_000, maximumAge: 300_000, enableHighAccuracy: false },
         )
         return
       }
