@@ -46,7 +46,7 @@ export function useGeolocation(
     navigator.geolocation.getCurrentPosition(
       handleSuccess,
       handleError,
-      { timeout: 5_000, maximumAge: 60_000, enableHighAccuracy: true },
+      { timeout: 8_000, maximumAge: 60_000, enableHighAccuracy: true },
     )
   }
 
