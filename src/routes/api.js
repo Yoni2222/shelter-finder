@@ -261,7 +261,7 @@ router.get('/health', (_req, res) => {
       'bat-yam-static', 'ashdod-static', 'or-yehuda-static',
       'kfar-yona-static', 'kiryat-ono-static', 'dimona-static',
       'givatayim-static', 'bnei-brak-static', 'nesher-static', 'ramat-gan-static', 'eilat-static',
-      'modiin-illit-static', 'modiin-maccabim-reut-static',
+      'modiin-illit-static', 'modiin-maccabim-reut-static', 'hadera-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),

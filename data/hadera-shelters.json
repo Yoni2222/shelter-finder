@@ -1,0 +1,659 @@
+[
+  {
+    "name": "מקלט 1 - בית אליעזר",
+    "address": "ההגנה 34, חדרה",
+    "lat": 32.4283616,
+    "lon": 34.9439737,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 2 - בית אליעזר",
+    "address": "ההגנה 25, חדרה",
+    "lat": 32.4298902,
+    "lon": 34.9428711,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 3 - בית אליעזר",
+    "address": "השושנים 4, חדרה",
+    "lat": 32.4224037,
+    "lon": 34.9530302,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 4 - בית אליעזר",
+    "address": "הר חורשן 2, חדרה",
+    "lat": 32.418705,
+    "lon": 34.952789,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 5 - בית אליעזר",
+    "address": "צאלים, חדרה",
+    "lat": 32.4229989,
+    "lon": 34.9458092,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 6 - בית אליעזר",
+    "address": "תמסח 15, חדרה",
+    "lat": 32.4224591,
+    "lon": 34.9488319,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 7 - בית אליעזר",
+    "address": "תמסח 11, חדרה",
+    "lat": 32.4225123,
+    "lon": 34.9481421,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 8 - בית אליעזר",
+    "address": "תמסח 1, חדרה",
+    "lat": 32.423016,
+    "lon": 34.9468026,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 9 - בית אליעזר",
+    "address": "תמסח 2, חדרה",
+    "lat": 32.42310610000001,
+    "lon": 34.9466814,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 62 - בית אליעזר",
+    "address": "שפק 1, חדרה",
+    "lat": 32.4219814,
+    "lon": 34.9449832,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 64 - בית אליעזר",
+    "address": "השקמה 29, חדרה",
+    "lat": 32.4177894,
+    "lon": 34.9567869,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר צלילה",
+    "address": "השקמה 15, חדרה",
+    "lat": 32.4167183,
+    "lon": 34.9551727,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר קפלן",
+    "address": "יגאל 39, חדרה",
+    "lat": 32.4249787,
+    "lon": 34.9465889,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר חב\"ד בנות",
+    "address": "יגאל 56, חדרה",
+    "lat": 32.4243656,
+    "lon": 34.9451383,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר שובו",
+    "address": "העצמאות 25, חדרה",
+    "lat": 32.4282002,
+    "lon": 34.9468896,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר תיכון יש\"י",
+    "address": "הגושרים 1, חדרה",
+    "lat": 32.4202637,
+    "lon": 34.9539918,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבית ספר תיכון חדש",
+    "address": "הנגב פינת שלמה המלך, חדרה",
+    "lat": 32.4282064,
+    "lon": 34.9525735,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מחסה תת קרקעי קניון מול הפרדסי",
+    "address": "קותיאל אדם 7, חדרה",
+    "lat": 32.416011,
+    "lon": 34.95198,
+    "type": "underground",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 11 - יוספטל",
+    "address": "הנרייטה סולד 6, חדרה",
+    "lat": 32.434843,
+    "lon": 34.928502,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מרכז פנאי",
+    "address": "סמטת הרב שלום אלבז, חדרה",
+    "lat": 32.435629,
+    "lon": 34.927532,
+    "type": "community",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 12 - אפריים",
+    "address": "כצנלסון 16, חדרה",
+    "lat": 32.4376784,
+    "lon": 34.9315853,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 13 - אפריים",
+    "address": "האקליפטוס 15, חדרה",
+    "lat": 32.4390915,
+    "lon": 34.9317674,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 14 - נווה עובד",
+    "address": "בורוכוב 7, חדרה",
+    "lat": 32.440244,
+    "lon": 34.9288896,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 15 - נחליאל-בילו",
+    "address": "תרע\"ב 10, חדרה",
+    "lat": 32.442568,
+    "lon": 34.9265354,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 17 - נחליאל-בילו",
+    "address": "הגבורים 122, חדרה",
+    "lat": 32.443579,
+    "lon": 34.925311,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס ארלוזורוב",
+    "address": "מקלט בבי\"ס ארלוזורוב, חדרה",
+    "lat": 32.4419595,
+    "lon": 34.9252912,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 20 - מרכז",
+    "address": "תרנ\"א 50, חדרה",
+    "lat": 32.4375117,
+    "lon": 34.9258165,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 22 - מרכז",
+    "address": "הבנים 22, חדרה",
+    "lat": 32.4388386,
+    "lon": 34.9209386,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 23 - מרכז",
+    "address": "ז'בוטינסקי 40, חדרה",
+    "lat": 32.4317483,
+    "lon": 34.9225433,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מחסה תת קרקעי קניון לב חדרה",
+    "address": "רוטשילד פינת הגבורים, חדרה",
+    "lat": 32.4389612,
+    "lon": 34.923646,
+    "type": "underground",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס הגורן",
+    "address": "זלמן שזר 8, חדרה",
+    "lat": 32.4362534,
+    "lon": 34.9112633,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס תיכון חדרה",
+    "address": "לבזובסקי 6, חדרה",
+    "lat": 32.4395055,
+    "lon": 34.9131875,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 24 - פאר-עובדים",
+    "address": "בן צבי 2, חדרה",
+    "lat": 32.42583610000001,
+    "lon": 34.9155571,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס צפרירים",
+    "address": "האלון 28, חדרה",
+    "lat": 32.4243221,
+    "lon": 34.920728,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 25 - ברנדיס-ניסן",
+    "address": "ההדס 25, חדרה",
+    "lat": 32.523263,
+    "lon": 34.9403194,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס הדמוקרטי",
+    "address": "ברנדיס 14, חדרה",
+    "lat": 32.4225879,
+    "lon": 34.921387,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 27 - שמשון",
+    "address": "הדרור 16, חדרה",
+    "lat": 32.4302611,
+    "lon": 34.9101341,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 28 - שלמה",
+    "address": "האירוס 6, חדרה",
+    "lat": 32.4316589,
+    "lon": 34.91327260000001,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 29 - רמב\"ם",
+    "address": "לבזובסקי, חדרה",
+    "lat": 32.440004,
+    "lon": 34.913257,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 30 - האוצר",
+    "address": "טיומקין 2, חדרה",
+    "lat": 32.4415483,
+    "lon": 34.9173689,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 31 - הזיתים",
+    "address": "צפרה 3, חדרה",
+    "lat": 32.440191,
+    "lon": 34.907143,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 32 - בית\"ר",
+    "address": "פרנק 14, חדרה",
+    "lat": 32.4412639,
+    "lon": 34.9071904,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "ציבורי קניון מול הכיכר",
+    "address": "דוד שמעוני 42, חדרה",
+    "lat": 32.4383833,
+    "lon": 34.9099664,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 33 - הפועל המזרחי",
+    "address": "רמב\"ן 10, חדרה",
+    "lat": 32.4451658,
+    "lon": 34.9088417,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס מוריה",
+    "address": "עולי הגרדום 1, חדרה",
+    "lat": 32.4515514,
+    "lon": 34.9003923,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 34 - נווה חיים",
+    "address": "אהרונוביץ 7, חדרה",
+    "lat": 32.4478923,
+    "lon": 34.904883,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס אולפנת מבשרת",
+    "address": "מקלט בבי\"ס אולפנת מבשרת, חדרה",
+    "lat": 32.4550898,
+    "lon": 34.8996954,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 36 - חפציבה",
+    "address": "מבצע חורב, חדרה",
+    "lat": 32.4589272,
+    "lon": 34.8989008,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 37 - גבעת אולגה",
+    "address": "שומרון 7, חדרה",
+    "lat": 32.4418938,
+    "lon": 34.8862987,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 38 - גבעת אולגה",
+    "address": "הקונגרס 12, חדרה",
+    "lat": 32.4424192,
+    "lon": 34.8841209,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 39 - גבעת אולגה",
+    "address": "הנגב 25, חדרה",
+    "lat": 32.44151670000001,
+    "lon": 34.8824694,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 40 - גבעת אולגה",
+    "address": "הראשונים 12, חדרה",
+    "lat": 32.440307,
+    "lon": 34.887297,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 41 - גבעת אולגה",
+    "address": "מבצע עזרא 39, חדרה",
+    "lat": 32.4379895,
+    "lon": 34.8841382,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 42 - גבעת אולגה",
+    "address": "מבצע עזרא 39, חדרה",
+    "lat": 32.4379895,
+    "lon": 34.8841382,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 43 - גבעת אולגה",
+    "address": "שיבת ציון 40, חדרה",
+    "lat": 32.438205,
+    "lon": 34.8817714,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 44 - גבעת אולגה",
+    "address": "המעפילים 41, חדרה",
+    "lat": 32.4373092,
+    "lon": 34.8828912,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 45 - גבעת אולגה",
+    "address": "אלי כהן 6, חדרה",
+    "lat": 32.4364293,
+    "lon": 34.8840203,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 46 - גבעת אולגה",
+    "address": "אלי כהן 10, חדרה",
+    "lat": 32.4357601,
+    "lon": 34.8839186,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 47 - גבעת אולגה",
+    "address": "אלי כהן 14, חדרה",
+    "lat": 32.4350998,
+    "lon": 34.8838005,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 48 - גבעת אולגה",
+    "address": "אלי כהן 16, חדרה",
+    "lat": 32.4350766,
+    "lon": 34.8838233,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 50 - גבעת אולגה",
+    "address": "שבטי ישראל, חדרה",
+    "lat": 32.4328265,
+    "lon": 34.8857537,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 51 - גבעת אולגה",
+    "address": "שבטי ישראל 3, חדרה",
+    "lat": 32.4324527,
+    "lon": 34.8872479,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 53 - גבעת אולגה",
+    "address": "התנאים, חדרה",
+    "lat": 32.4363024,
+    "lon": 34.8868454,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 54 - גבעת אולגה",
+    "address": "מלכי ישראל 12, חדרה",
+    "lat": 32.4346125,
+    "lon": 34.8857219,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 55 - גבעת אולגה",
+    "address": "התנאים 22, חדרה",
+    "lat": 32.4362692,
+    "lon": 34.885819,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 56 - גבעת אולגה",
+    "address": "החלוץ, חדרה",
+    "lat": 32.4364501,
+    "lon": 34.8875651,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 58 - גבעת אולגה",
+    "address": "הגדוד העברי 11, חדרה",
+    "lat": 32.4407179,
+    "lon": 34.8881501,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט 59 - גבעת אולגה",
+    "address": "הבריגדה היהודית 15, חדרה",
+    "lat": 32.4421185,
+    "lon": 34.8881144,
+    "type": "public",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מחסה תת קרקעי חניון כפר הים",
+    "address": "שד' רחבעם זאבי, חדרה",
+    "lat": 32.4303281,
+    "lon": 34.8791395,
+    "type": "underground",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס גבעול",
+    "address": "מבצע עזרא 7, חדרה",
+    "lat": 32.4341082,
+    "lon": 34.8839479,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס אור לטף",
+    "address": "הנגב 5, חדרה",
+    "lat": 32.4403876,
+    "lon": 34.8858057,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מקלט בבי\"ס יבנה",
+    "address": "הנגב 3, חדרה",
+    "lat": 32.4401675,
+    "lon": 34.884886,
+    "type": "school",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  },
+  {
+    "name": "מתנ\"ס ג\"א",
+    "address": "הראשונים 2, חדרה",
+    "lat": 32.4390271,
+    "lon": 34.8866869,
+    "type": "community",
+    "source": "hadera-municipality",
+    "city": "חדרה"
+  }
+]
