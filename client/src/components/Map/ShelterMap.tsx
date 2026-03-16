@@ -84,7 +84,7 @@ export function ShelterMap({
       center={center}
       zoom={userPos ? 14 : 7}
       className="map-container"
-      style={{ height: '100%', width: '100%' }}
+      style={{ width: '100%' }}
       attributionControl={false}
     >
       <TileLayer
