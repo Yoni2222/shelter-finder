@@ -97,8 +97,18 @@ router.get('/geocode', async (req, res) => {
           const queriedCity = cities.find(c => q.includes(c));
           if (queriedCity) {
             addrMatches = addrMatches.filter(m => m.city === queriedCity);
+          } else if (results.length > 0 && results[0].address) {
+            // No city in query — use Nominatim's city to pick the right matches
+            const nomCity = results[0].address.city || results[0].address.town || results[0].address.village || '';
+            const nomMatch = nomCity && cities.find(c => nomCity.includes(c) || c.includes(nomCity));
+            if (nomMatch) {
+              addrMatches = addrMatches.filter(m => m.city === nomMatch);
+            } else {
+              // Nominatim found a city we don't have shelter-data for — don't override
+              addrMatches = [];
+            }
           } else {
-            // Fallback: keep the city with the most matches
+            // No Nominatim results at all — keep city with most matches
             const cityCounts = {};
             for (const m of addrMatches) cityCounts[m.city] = (cityCounts[m.city] || 0) + 1;
             const topCity = Object.entries(cityCounts).sort((a, b) => b[1] - a[1])[0][0];
