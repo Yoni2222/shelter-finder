@@ -17,17 +17,35 @@ export function useGeolocation(
       return
     }
     setState({ loading: true, error: null })
+
+    const handleSuccess = (pos: GeolocationPosition) => {
+      setState({ loading: false, error: null })
+      onSuccess(pos.coords.latitude, pos.coords.longitude)
+    }
+
+    const handleError = (err: GeolocationPositionError) => {
+      // High-accuracy timed out → retry with low accuracy (cell/wifi, much faster)
+      if (err.code === 3) {
+        navigator.geolocation.getCurrentPosition(
+          handleSuccess,
+          fallbackErr => {
+            setState({ loading: false, error: String(fallbackErr.code) })
+            const codes: Record<number, string> = { 1: 'denied', 2: 'unavail', 3: 'timeout' }
+            onError(codes[fallbackErr.code] ?? 'error')
+          },
+          { timeout: 10_000, maximumAge: 120_000, enableHighAccuracy: false },
+        )
+        return
+      }
+      setState({ loading: false, error: String(err.code) })
+      const codes: Record<number, string> = { 1: 'denied', 2: 'unavail', 3: 'timeout' }
+      onError(codes[err.code] ?? 'error')
+    }
+
     navigator.geolocation.getCurrentPosition(
-      pos => {
-        setState({ loading: false, error: null })
-        onSuccess(pos.coords.latitude, pos.coords.longitude)
-      },
-      err => {
-        setState({ loading: false, error: String(err.code) })
-        const codes: Record<number, string> = { 1: 'denied', 2: 'unavail', 3: 'timeout' }
-        onError(codes[err.code] ?? 'error')
-      },
-      { timeout: 10_000, maximumAge: 60_000, enableHighAccuracy: true },
+      handleSuccess,
+      handleError,
+      { timeout: 8_000, maximumAge: 60_000, enableHighAccuracy: true },
     )
   }
 
