@@ -21,6 +21,7 @@ function findSheltersByAddress(query, allShelters) {
     'קריית שמונה': 'קריית שמונה', 'קרית שמונה': 'קריית שמונה',
     'עתלית': 'עתלית',
     'בית שמש': 'בית שמש',
+    'רמלה': 'רמלה',
   };
 
   // Detect city from query
