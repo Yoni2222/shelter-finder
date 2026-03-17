@@ -19,6 +19,7 @@ function findSheltersByAddress(query, allShelters) {
     'עפולה': 'עפולה',
     'חדרה': 'חדרה',
     'קריית שמונה': 'קריית שמונה', 'קרית שמונה': 'קריית שמונה',
+    'עתלית': 'עתלית',
   };
 
   // Detect city from query
