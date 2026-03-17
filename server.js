@@ -121,6 +121,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // API routes
 app.use('/api', require('./src/routes/api'));
 
+// Redirect /app and /app/ to root (avoid duplicate content for SEO)
+app.get('/app', (_req, res) => res.redirect(301, '/'));
+app.get('/app/', (_req, res) => res.redirect(301, '/'));
+
 // City-specific SEO pages
 app.get('/shelters/:city', (req, res) => {
   const slug = req.params.city.toLowerCase();
