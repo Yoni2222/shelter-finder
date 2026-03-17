@@ -36,6 +36,7 @@ const STATIC_CITY_DEFS = [
   { file: 'modiin-illit-shelters.json', city: 'מודיעין עילית' },
   { file: 'modiin-maccabim-reut-shelters.json', city: 'מודיעין-מכבים-רעות' },
   { file: 'hadera-shelters.json',              city: 'חדרה' },
+  { file: 'afula-shelters.json',              city: 'עפולה' },
   { file: 'kiryat-shmona-shelters.json',      city: 'קריית שמונה' },
 ]
 
