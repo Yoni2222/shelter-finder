@@ -60,6 +60,10 @@ function findSheltersByAddress(query, allShelters) {
   const withoutVav = streetOnly.replace(/ו/g, '');
   if (withoutVav !== streetOnly && withoutVav.length >= 2) streetVariants.push(withoutVav);
 
+  // Alef (א) spelling variants: "דיזראעלי" ↔ "דיזרעלי"
+  const withoutAlef = streetOnly.replace(/א/g, '');
+  if (withoutAlef !== streetOnly && withoutAlef.length >= 2) streetVariants.push(withoutAlef);
+
   // Build regex for each variant
   const streetRegexes = streetVariants.map(variant => {
     const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
