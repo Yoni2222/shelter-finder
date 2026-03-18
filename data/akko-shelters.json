@@ -628,5 +628,61 @@
     "category": "public",
     "addressEn": "Kdoshei Kahir St 18, Acre, Israel",
     "neighborhood": ""
+  },
+  {
+    "id": "akko_acc_34",
+    "lat": 32.9382366,
+    "lon": 35.0939792,
+    "name": "מקלט 34 (נגיש)",
+    "address": "בורוכוב 24, עכו",
+    "city": "עכו",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Borochov St 24, Acre, Israel",
+    "neighborhood": "יהושפט"
+  },
+  {
+    "id": "akko_acc_31",
+    "lat": 32.9306141,
+    "lon": 35.0944259,
+    "name": "מקלט 31 (נגיש)",
+    "address": "רמב\"ם 20, עכו",
+    "city": "עכו",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "HaRambam St 20, Acre, Israel",
+    "neighborhood": ""
+  },
+  {
+    "id": "akko_acc_9",
+    "lat": 32.9303429,
+    "lon": 35.0767395,
+    "name": "מקלט 9 (נגיש)",
+    "address": "גיבורי סיני 28, עכו",
+    "city": "עכו",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Giborei Sinai St 28, Acre, Israel",
+    "neighborhood": "שני אליהו"
+  },
+  {
+    "id": "akko_acc_46",
+    "lat": 32.925043,
+    "lon": 35.090509,
+    "name": "מקלט 46 (נגיש)",
+    "address": "הפלמ\"ח, עכו",
+    "city": "עכו",
+    "capacity": "",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": "Ha-Palmakh St, Acre, Israel",
+    "neighborhood": "יהושפט"
   }
 ]
