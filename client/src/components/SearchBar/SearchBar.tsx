@@ -13,13 +13,13 @@ interface Props {
 }
 
 export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSearchStart }: Props) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [inputVal, setInputVal]   = useState('')
   const [showSug,  setShowSug]    = useState(false)
   const [hlIndex,  setHlIndex]    = useState(-1)
   const wrapRef = useRef<HTMLDivElement>(null)
 
-  const { suggestions, clear: clearSug } = useAutocomplete(showSug ? inputVal : '')
+  const { suggestions, clear: clearSug } = useAutocomplete(showSug ? inputVal : '', lang)
 
   // Reset highlight when suggestions change
   useEffect(() => { setHlIndex(-1) }, [suggestions])
@@ -48,7 +48,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     setShowSug(false)
     onSearchStart()
     try {
-      const results = await geocodeAddress(q)
+      const results = await geocodeAddress(q, lang)
       if (!results.length) { onError('addr_not_found'); return }
       onLocation(+results[0].lat, +results[0].lon, q)
     } catch (e: unknown) {

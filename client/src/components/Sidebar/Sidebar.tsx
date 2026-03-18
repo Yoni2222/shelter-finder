@@ -112,13 +112,13 @@ export function Sidebar({
       </div>
       <div className="shelter-list">
         {renderList()}
-      </div>
-      <div className="disclaimer">{t.disclaimer}</div>
-      <div className="credit">
-        {t.builtBy}{' '}
-        <a href="https://www.linkedin.com/in/yonatan-ben-avraham" target="_blank" rel="noopener noreferrer">
-          {t.authorName}
-        </a>
+        <div className="disclaimer">{t.disclaimer}</div>
+        <div className="credit">
+          {t.builtBy}{' '}
+          <a href="https://www.linkedin.com/in/yonatan-ben-avraham" target="_blank" rel="noopener noreferrer">
+            {t.authorName}
+          </a>
+        </div>
       </div>
     </div>
   )

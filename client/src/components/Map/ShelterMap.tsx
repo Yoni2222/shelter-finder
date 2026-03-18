@@ -88,7 +88,10 @@ export function ShelterMap({
       attributionControl={false}
     >
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        key={lang}
+        url={lang === 'en'
+          ? 'https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png'
+          : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'}
         maxZoom={19}
         attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
@@ -129,7 +132,9 @@ export function ShelterMap({
 
       {/* Shelter markers */}
       {shelters.slice(0, 150).map((s, i) => {
-        const addr = [s.address, s.city].filter(Boolean).join(', ')
+        const addr = lang === 'en' && s.addressEn
+          ? s.addressEn
+          : [s.address, s.city].filter(Boolean).join(', ')
         return (
           <Marker
             key={s.id}
@@ -139,7 +144,7 @@ export function ShelterMap({
           >
             <Popup>
               <div dir={lang === 'he' ? 'rtl' : 'ltr'}>
-                <b>{localizeName(s.name, lang)}</b>
+                <b>{localizeName(s.name, lang, s.addressEn)}</b>
                 {addr && <><br />{addr}</>}
                 <br /><b>{t.popupDist} {t.distFmt(s.dist)}</b>
               </div>

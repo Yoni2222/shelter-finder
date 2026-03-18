@@ -190,22 +190,59 @@ const HE_EN: Record<string, string> = {
   'מקלט':                  'Shelter',
 }
 
-export function localizeName(name: string, lang: Lang): string {
+// Detect if a string contains Hebrew characters
+function hasHebrew(s: string): boolean {
+  return /[\u0590-\u05FF]/.test(s)
+}
+
+// Get English category prefix from Hebrew name
+function getCategoryEn(name: string): string {
+  if (name.startsWith('מקלט חיפה'))     return 'Haifa Shelter'
+  if (name.startsWith('מקלט ת"א'))      return 'Tel Aviv Shelter'
+  if (name.startsWith('מקלט ירושלים'))  return 'Jerusalem Shelter'
+  if (name.startsWith('מקלט באר שבע'))  return 'Beer Sheva Shelter'
+  if (name.startsWith('מרחב מוגן'))     return 'Protected Space'
+  if (name.startsWith('מקלט'))          return 'Shelter'
+  if (name.startsWith('בית ספר') || name.startsWith('בית-ספר')) return 'School'
+  if (name.startsWith('גן ילדים') || name.startsWith('גן ')) return 'Kindergarten'
+  if (name.startsWith('חניון') || name.startsWith('חנייה')) return 'Parking'
+  return ''
+}
+
+export function localizeName(name: string, lang: Lang, addressEn?: string): string {
   if (lang !== 'en' || !name) return name
   if (HE_EN[name]) return HE_EN[name]
-  if (name.startsWith('מקלט - '))         return 'Shelter - '           + name.slice('מקלט - '.length)
-  if (name.startsWith('מקלט חיפה - '))    return 'Haifa Shelter = '     + name.slice('מקלט חיפה - '.length)
-  if (name.startsWith('מקלט חיפה #'))     return 'Haifa Shelter #'      + name.slice('מקלט חיפה #'.length)
-  if (name.startsWith('מקלט ת"א #'))      return 'Tel Aviv Shelter #'   + name.slice('מקלט ת"א #'.length)
-  if (name.startsWith('מקלט ירושלים #'))  return 'Jerusalem Shelter #'  + name.slice('מקלט ירושלים #'.length)
-  if (name.startsWith('מקלט באר שבע #'))  return 'Beer Sheva Shelter #' + name.slice('מקלט באר שבע #'.length)
-  if (name.startsWith('מקלט '))           return 'Shelter '             + name.slice('מקלט '.length)
-  if (name.startsWith('מרחב מוגן '))      return 'Protected Space '     + name.slice('מרחב מוגן '.length)
-  if (name.startsWith('בית ספר '))        return 'School '              + name.slice('בית ספר '.length)
-  if (name.startsWith('בית-ספר '))        return 'School '              + name.slice('בית-ספר '.length)
-  if (name.startsWith('גן ילדים '))       return 'Kindergarten '        + name.slice('גן ילדים '.length)
-  if (name.startsWith('גן '))             return 'Kindergarten '        + name.slice('גן '.length)
-  if (name.startsWith('חניון '))          return 'Parking '             + name.slice('חניון '.length)
-  if (name.startsWith('חנייה '))          return 'Parking '             + name.slice('חנייה '.length)
+
+  const catEn = getCategoryEn(name)
+
+  // If we have an English category and an English address, build a clean English name
+  if (catEn && addressEn) {
+    // Strip city/country suffix from addressEn for a shorter display
+    const short = addressEn.replace(/, Israel$/, '').replace(/, ישראל$/, '')
+    return `${catEn} – ${short}`
+  }
+
+  // Fallback: prefix-based translation (may leave Hebrew remainder)
+  if (name.startsWith('מקלט חיפה - '))    return 'Haifa Shelter – '      + name.slice('מקלט חיפה - '.length)
+  if (name.startsWith('מקלט חיפה #'))     return 'Haifa Shelter #'       + name.slice('מקלט חיפה #'.length)
+  if (name.startsWith('מקלט ת"א #'))      return 'Tel Aviv Shelter #'    + name.slice('מקלט ת"א #'.length)
+  if (name.startsWith('מקלט ירושלים #'))  return 'Jerusalem Shelter #'   + name.slice('מקלט ירושלים #'.length)
+  if (name.startsWith('מקלט באר שבע #'))  return 'Beer Sheva Shelter #'  + name.slice('מקלט באר שבע #'.length)
+  if (name.startsWith('מקלט - '))         return 'Shelter – '            + name.slice('מקלט - '.length)
+  if (name.startsWith('מקלט '))           return 'Shelter '              + name.slice('מקלט '.length)
+  if (name.startsWith('מרחב מוגן '))      return 'Protected Space '      + name.slice('מרחב מוגן '.length)
+  if (name.startsWith('בית ספר '))        return 'School '               + name.slice('בית ספר '.length)
+  if (name.startsWith('בית-ספר '))        return 'School '               + name.slice('בית-ספר '.length)
+  if (name.startsWith('גן ילדים '))       return 'Kindergarten '         + name.slice('גן ילדים '.length)
+  if (name.startsWith('גן '))             return 'Kindergarten '         + name.slice('גן '.length)
+  if (name.startsWith('חניון '))          return 'Parking '              + name.slice('חניון '.length)
+  if (name.startsWith('חנייה '))          return 'Parking '              + name.slice('חנייה '.length)
+
+  // For names with no known prefix but with addressEn, use addressEn
+  if (addressEn && hasHebrew(name)) {
+    const short = addressEn.replace(/, Israel$/, '').replace(/, ישראל$/, '')
+    return `Shelter – ${short}`
+  }
+
   return name
 }

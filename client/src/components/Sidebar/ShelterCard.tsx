@@ -18,9 +18,11 @@ function distClass(s: Shelter): string {
 export function ShelterCard({ shelter: s, rank, isActive, onClick }: Props) {
   const { t, lang } = useLanguage()
   const cat  = (s.category || 'public') as Category
-  const name = localizeName(s.name, lang)
+  const name = localizeName(s.name, lang, s.addressEn)
   const dCls = distClass(s)
-  const addr = [s.address, s.city].filter(Boolean).join(', ')
+  const addr = lang === 'en' && s.addressEn
+    ? s.addressEn
+    : [s.address, s.city].filter(Boolean).join(', ')
   const waze  = `https://waze.com/ul?ll=${s.lat},${s.lon}&navigate=yes`
   const gmaps = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lon}`
 

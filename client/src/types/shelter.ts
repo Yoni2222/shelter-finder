@@ -14,6 +14,7 @@ export interface Shelter {
   category:  Category
   dist:      number   // km, added by server
   hours?:    string
+  addressEn?: string
 }
 
 export interface SheltersResponse {

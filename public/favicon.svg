@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🏚️</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0d2137"/>
+  <path d="M32 12 L52 28 L52 52 L12 52 L12 28 Z" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+  <rect x="26" y="36" width="12" height="16" rx="1" fill="#fff"/>
+  <circle cx="32" cy="24" r="4" fill="#fff"/>
+</svg>
