@@ -23,6 +23,7 @@ function findSheltersByAddress(query, allShelters) {
     'בית שמש': 'בית שמש',
     'רמלה': 'רמלה',
     'לוד': 'לוד',
+    'רעננה': 'רעננה',
   };
 
   // Detect city from query

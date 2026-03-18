@@ -279,6 +279,7 @@ router.get('/health', (_req, res) => {
       'beit-shemesh-static',
       'ramle-static',
       'lod-static',
+      'raanana-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
@@ -288,6 +289,7 @@ router.get('/health', (_req, res) => {
       'בית שמש',
       'רמלה',
       'לוד',
+      'רעננה',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
