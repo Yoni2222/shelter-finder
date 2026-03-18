@@ -3,10 +3,10 @@
   <rect width="64" height="64" rx="14" fill="#0f62fe"/>
   <!-- Shield shape -->
   <path d="M32 6 C32 6 52 14 52 14 L52 32 C52 46 32 58 32 58 C32 58 12 46 12 32 L12 14 Z"
-        fill="#16a34a" stroke="#fff" stroke-width="1.5"/>
-  <!-- Inner shield highlight -->
+        fill="#fff" opacity="0.25"/>
+  <!-- Inner shield -->
   <path d="M32 10 C32 10 48 17 48 17 L48 31 C48 43 32 54 32 54 C32 54 16 43 16 31 L16 17 Z"
-        fill="#22c55e"/>
+        fill="#fff" opacity="0.35"/>
   <!-- Location pin -->
   <path d="M32 20 C27.6 20 24 23.4 24 27.5 C24 33.5 32 42 32 42 C32 42 40 33.5 40 27.5 C40 23.4 36.4 20 32 20 Z"
         fill="#fff"/>
