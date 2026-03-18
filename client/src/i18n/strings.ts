@@ -53,6 +53,8 @@ interface Strings {
   gmapsLabel:          string
   municipalityListLink: string
   disclaimer:          string
+  builtBy:             string
+  authorName:          string
 }
 
 export const STRINGS: Record<Lang, Strings> = {
@@ -108,6 +110,8 @@ export const STRINGS: Record<Lang, Strings> = {
     gmapsLabel:     '📍 Google Maps',
     municipalityListLink: ' - רשימה רשמית',
     disclaimer: 'מיקומי המקלטים מבוססים על מידע ציבורי. אתר זה אינו מבטיח דיוק ואינו מחליף הנחיות בטיחות רשמיות. יש לפעול תמיד לפי הנחיות פיקוד העורף.',
+    builtBy: 'נבנה ע"י',
+    authorName: 'יהונתן בן אברהם',
   },
   en: {
     dir: 'ltr', lang: 'en',
@@ -161,6 +165,8 @@ export const STRINGS: Record<Lang, Strings> = {
     gmapsLabel:     '📍 Google Maps',
     municipalityListLink: ' - Official list',
     disclaimer: 'Shelter locations are based on publicly available data. This website does not guarantee accuracy and should not replace official safety instructions. Always follow Home Front Command guidelines.',
+    builtBy: 'Built by',
+    authorName: 'Yonatan Ben Avraham',
   },
 }
 

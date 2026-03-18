@@ -331,3 +331,17 @@ html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; }
   line-height: 1.4;
   flex-shrink: 0;
 }
+.credit {
+  padding: 6px 14px 10px;
+  font-size: 0.72rem;
+  color: #999;
+  text-align: center;
+  flex-shrink: 0;
+}
+.credit a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+.credit a:hover {
+  text-decoration: underline;
+}
