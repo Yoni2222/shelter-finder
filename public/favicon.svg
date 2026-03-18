@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0d2137"/>
-  <path d="M32 12 L52 28 L52 52 L12 52 L12 28 Z" fill="#16a34a" stroke="#fff" stroke-width="2"/>
-  <rect x="26" y="36" width="12" height="16" rx="1" fill="#fff"/>
-  <circle cx="32" cy="24" r="4" fill="#fff"/>
+  <!-- Rounded background -->
+  <rect width="64" height="64" rx="14" fill="#0f62fe"/>
+  <!-- Shield shape -->
+  <path d="M32 6 C32 6 52 14 52 14 L52 32 C52 46 32 58 32 58 C32 58 12 46 12 32 L12 14 Z"
+        fill="#16a34a" stroke="#fff" stroke-width="1.5"/>
+  <!-- Inner shield highlight -->
+  <path d="M32 10 C32 10 48 17 48 17 L48 31 C48 43 32 54 32 54 C32 54 16 43 16 31 L16 17 Z"
+        fill="#22c55e"/>
+  <!-- Location pin -->
+  <path d="M32 20 C27.6 20 24 23.4 24 27.5 C24 33.5 32 42 32 42 C32 42 40 33.5 40 27.5 C40 23.4 36.4 20 32 20 Z"
+        fill="#fff"/>
+  <!-- Pin dot -->
+  <circle cx="32" cy="27.5" r="3.2" fill="#0f62fe"/>
 </svg>
