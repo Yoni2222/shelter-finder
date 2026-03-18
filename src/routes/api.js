@@ -281,6 +281,8 @@ router.get('/health', (_req, res) => {
       'lod-static',
       'raanana-static',
       'akko-static',
+      'hod-hasharon-static',
+      'ramat-hasharon-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
@@ -292,6 +294,8 @@ router.get('/health', (_req, res) => {
       'לוד',
       'רעננה',
       'עכו',
+      'הוד השרון',
+      'רמת השרון',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
