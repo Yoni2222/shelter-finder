@@ -285,6 +285,8 @@ router.get('/health', (_req, res) => {
       'ramat-hasharon-static',
       'kiryat-ata-static',
       'kiryat-yam-static',
+      'kiryat-bialik-static',
+      'kiryat-motzkin-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
@@ -300,6 +302,8 @@ router.get('/health', (_req, res) => {
       'רמת השרון',
       'קריית אתא',
       'קריית ים',
+      'קריית ביאליק',
+      'קריית מוצקין',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [
