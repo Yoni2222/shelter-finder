@@ -81,8 +81,9 @@ header {
   font-family: inherit;
   background: #f8fafc;
   transition: border-color .22s;
+  text-align: right;
 }
-html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; }
+html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; }
 .search-input:focus { outline: none; border-color: #2563eb; background: #fff; }
 .search-icon {
   position: absolute;
@@ -325,6 +326,12 @@ html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; }
   /* ── Sidebar header: compact ── */
   .sidebar-hdr { padding: 7px 12px; }
   .sidebar-hdr h2 { font-size: 13px; }
+
+  /* ── Empty state: compact so credit is visible without scrolling ── */
+  .state { padding: 18px 16px; }
+  .state-icon { font-size: 34px; margin-bottom: 8px; }
+  .state-title { font-size: 13px; }
+  .state-sub { font-size: 11px; margin-top: 4px; }
 }
 
 /* Disclaimer */
