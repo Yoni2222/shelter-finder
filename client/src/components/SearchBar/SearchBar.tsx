@@ -1,7 +1,8 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState, useEffect, useCallback } from 'react'
 import { useLanguage } from '../../context/LanguageContext'
 import { geocodeAddress, useAutocomplete } from '../../hooks/useGeocode'
 import { useGeolocation } from '../../hooks/useGeolocation'
+import { useVoiceSearch } from '../../hooks/useVoiceSearch'
 import type { GeocodeResult } from '../../types/shelter'
 
 interface Props {
@@ -85,6 +86,25 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
     }
   }
 
+  const handleVoiceResult = useCallback((text: string) => {
+    setInputVal(text)
+    // Auto-search after voice input
+    setShowSug(false)
+    onSearchStart()
+    geocodeAddress(text, lang).then(results => {
+      if (!results.length) { onError('addr_not_found'); return }
+      onLocation(+results[0].lat, +results[0].lon, text)
+    }).catch((e: unknown) => {
+      onError(e instanceof Error && e.message === '__busy__' ? 'busy' : 'search_err')
+    })
+  }, [lang, onSearchStart, onLocation, onError])
+
+  const handleVoiceError = useCallback((code: string) => {
+    onError(code)
+  }, [onError])
+
+  const voice = useVoiceSearch(lang, handleVoiceResult, handleVoiceError)
+
   const geoState = useGeolocation(
     (lat, lon) => {
       setInputVal('')
@@ -129,6 +149,16 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
           </div>
         )}
       </div>
+
+      {voice.supported && (
+        <button
+          className={`btn btn-mic${voice.listening ? ' listening' : ''}`}
+          onClick={voice.listening ? voice.stop : voice.start}
+          title={voice.listening ? t.voiceListening : t.voiceTooltip}
+        >
+          <span>{voice.listening ? '⏹️' : '🎤'}</span>
+        </button>
+      )}
 
       <button className="btn btn-search" onClick={doSearch}>
         <span>{t.searchBtn}</span>

@@ -22,6 +22,10 @@ function errorCodeToMsg(code: string, t: Strings): string {
     case 'geo_unavail':    return t.geoUnavail
     case 'geo_timeout':    return t.geoTimeout
     case 'geo_no_geo':     return t.noGeo
+    case 'voice_unsupported': return t.voiceUnsupported
+    case 'voice_denied':   return t.voiceDenied
+    case 'voice_no_speech': return t.voiceNoSpeech
+    case 'voice_error':    return t.voiceError
     default:               return t.geoErr
   }
 }
@@ -80,6 +84,9 @@ export default function App() {
   const handleError = useCallback((code: string) => {
     setSearching(false)
     setErrorCode(code)
+    // Clear previous results so stale shelters don't show behind the error
+    setUserPos(null)
+    setSearchQuery('')
   }, [])
 
   const handleSearchStart = useCallback(() => {

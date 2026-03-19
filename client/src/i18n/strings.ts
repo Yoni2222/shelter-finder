@@ -42,6 +42,12 @@ interface Strings {
   loadErr:             string
   geoSearchErr:        string
   geocodeBusy:         string
+  voiceUnsupported:    string
+  voiceDenied:         string
+  voiceNoSpeech:       string
+  voiceError:          string
+  voiceListening:      string
+  voiceTooltip:        string
   distFmt:             (km: number) => string
   popupDist:           string
   govBadge:            string
@@ -99,6 +105,12 @@ export const STRINGS: Record<Lang, Strings> = {
     loadErr:        'שגיאה בטעינת נתונים: ',
     geoSearchErr:   'שגיאת חיפוש: ',
     geocodeBusy:    'שירות החיפוש עמוס כרגע, נסה שוב בעוד שנייה',
+    voiceUnsupported: 'הדפדפן אינו תומך בחיפוש קולי',
+    voiceDenied:    'גישה למיקרופון נדחתה – אשר גישה בדפדפן',
+    voiceNoSpeech:  'לא זוהה דיבור – נסה שוב',
+    voiceError:     'שגיאה בזיהוי דיבור',
+    voiceListening: 'מקשיב…',
+    voiceTooltip:   'חיפוש קולי',
     distFmt:   km   => km < 1 ? `${Math.round(km * 1000)} מ'` : `${km.toFixed(1)} ק"מ`,
     popupDist:      'מרחק:',
     govBadge:       '🏛️ gov.il',
@@ -154,6 +166,12 @@ export const STRINGS: Record<Lang, Strings> = {
     loadErr:        'Error loading data: ',
     geoSearchErr:   'Search error: ',
     geocodeBusy:    'Search service is busy, please try again in a second',
+    voiceUnsupported: 'Your browser does not support voice search',
+    voiceDenied:    'Microphone access denied – allow access in your browser',
+    voiceNoSpeech:  'No speech detected – try again',
+    voiceError:     'Voice recognition error',
+    voiceListening: 'Listening…',
+    voiceTooltip:   'Voice search (speak in Hebrew)',
     distFmt:   km   => km < 1 ? `${Math.round(km * 1000)} m` : `${km.toFixed(1)} km`,
     popupDist:      'Distance:',
     govBadge:       '🏛️ gov.il',
