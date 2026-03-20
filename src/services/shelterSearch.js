@@ -35,6 +35,7 @@ function findSheltersByAddress(query, allShelters) {
     'שדרות': 'שדרות',
     'נתיבות': 'נתיבות',
     'יבנה': 'יבנה',
+    'כרמיאל': 'כרמיאל',
   };
 
   // Detect city from query
