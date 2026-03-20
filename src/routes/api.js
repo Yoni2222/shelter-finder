@@ -290,6 +290,7 @@ router.get('/health', (_req, res) => {
       'kiryat-gat-static',
       'sderot-static',
       'netivot-static',
+      'yavne-static',
     ],
     cities: [
       ...GOV_RESOURCES.map(r => r.city),
@@ -310,6 +311,7 @@ router.get('/health', (_req, res) => {
       'קריית גת',
       'שדרות',
       'נתיבות',
+      'יבנה',
     ],
     cacheStatus: {
       ...Object.fromEntries(GOV_RESOURCES.map(r => [

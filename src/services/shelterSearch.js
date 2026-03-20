@@ -34,6 +34,7 @@ function findSheltersByAddress(query, allShelters) {
     'קריית גת': 'קריית גת', 'קרית גת': 'קריית גת',
     'שדרות': 'שדרות',
     'נתיבות': 'נתיבות',
+    'יבנה': 'יבנה',
   };
 
   // Detect city from query
