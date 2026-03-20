@@ -180,6 +180,14 @@ html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; 
 .main { display: flex; flex: 1; overflow: hidden; }
 .map-container { flex: 1; }
 
+/* Fix white gaps between tiles on mobile pinch-zoom */
+.leaflet-tile-container img {
+  width: 256.5px !important;
+  height: 256.5px !important;
+}
+.leaflet-fade-anim .leaflet-tile { will-change: auto !important; }
+.leaflet-container { -webkit-tap-highlight-color: transparent; }
+
 /* ── Sidebar ── */
 .sidebar {
   width: 360px; background: #fff;

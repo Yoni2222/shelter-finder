@@ -98,6 +98,7 @@ export function ShelterMap({
 
       {/* Click on map to set user location */}
       <MapClickHandler onMapClick={onMapClick} />
+      <MobileZoomFix />
 
       {/* Imperative fly-to when card is selected */}
       <FlyTo pos={flyToPos} />
@@ -156,6 +157,18 @@ export function ShelterMap({
   )
 }
 
+
+// ── Fix tile gaps on mobile pinch-zoom ──
+function MobileZoomFix() {
+  const map = useMap()
+  useEffect(() => {
+    const fix = () => { setTimeout(() => map.invalidateSize(), 100) }
+    map.on('zoomend', fix)
+    map.on('moveend', fix)
+    return () => { map.off('zoomend', fix); map.off('moveend', fix) }
+  }, [map])
+  return null
+}
 // Click handler component (needs useMap — must live inside MapContainer)
 function MapClickHandler({ onMapClick }: { onMapClick: (lat: number, lon: number) => void }) {
   const map = useMap()
