@@ -17,15 +17,12 @@ async function fetchOverpass(lat, lon, radiusM) {
   node["shelter_type"="bomb_shelter"](around:${radiusM},${lat},${lon});
   node["amenity"="public_shelter"](around:${radiusM},${lat},${lon});
   node["miklat"="yes"](around:${radiusM},${lat},${lon});
-  node["shelter"="yes"](around:${radiusM},${lat},${lon});
   node["amenity"="school"](around:${radiusM},${lat},${lon});
   way["amenity"="school"](around:${radiusM},${lat},${lon});
   node["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
   way["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
   node["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
   way["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
-  node["amenity"="parking"]["covered"="yes"](around:${radiusM},${lat},${lon});
-  way["amenity"="parking"]["covered"="yes"](around:${radiusM},${lat},${lon});
 );
 out center meta;`;
 
@@ -46,6 +43,10 @@ out center meta;`;
       if (!sLat || !sLon) return null;
 
       const t = el.tags || {};
+
+      // Skip bus stops / public transport platforms that have shelter=yes
+      if (t.highway === 'bus_stop' || t.public_transport === 'platform' ||
+          t.public_transport === 'stop_position') return null;
       let category, name, type;
 
       if (t.amenity === 'school' || t.amenity === 'kindergarten') {

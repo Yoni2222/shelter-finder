@@ -160,6 +160,7 @@ router.get('/geocode', async (req, res) => {
 // ─────────────────────────────────────────────
 router.get('/shelters', async (req, res) => {
   const { lat, lon, radius = 2000, q: addrQuery } = req.query;
+  console.log('[shelters-debug] q=' + JSON.stringify(addrQuery || 'NONE') + ' lat=' + lat + ' lon=' + lon + ' radius=' + radius);
 
   if (!lat || !lon) return res.status(400).json({ error: 'Missing lat and/or lon' });
 
@@ -183,6 +184,7 @@ router.get('/shelters', async (req, res) => {
     // matching the street name in our static data and boost/include them
     if (addrQuery && addrQuery.trim().length > 2) {
       const addrMatches = findSheltersByAddress(addrQuery, allStaticShelters);
+      console.log("[shelters-debug] addrMatches=" + addrMatches.length + " for q=" + JSON.stringify(addrQuery));
       if (addrMatches.length > 0) {
         const matchesWithDist = addrMatches.map(s => ({
           ...s,

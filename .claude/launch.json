@@ -5,14 +5,16 @@
       "name": "shelter-finder-backend",
       "runtimeExecutable": "node",
       "runtimeArgs": ["server.js"],
-      "port": 3002
+      "port": 3002,
+      "autoPort": false
     },
     {
       "name": "shelter-finder-client",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "cwd": "client",
-      "port": 5174
+      "port": 5174,
+      "autoPort": false
     }
   ]
 }

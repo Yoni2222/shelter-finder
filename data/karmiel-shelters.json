@@ -1228,7 +1228,10 @@
     "lon": 35.292795,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-94"
   },
   {
     "name": "מקלט תבור 22",
@@ -1237,7 +1240,10 @@
     "lon": 35.294125,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-95"
   },
   {
     "name": "מקלט תבור 38",
@@ -1246,7 +1252,10 @@
     "lon": 35.29531,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-96"
   },
   {
     "name": "מקלט הדקל 50",
@@ -1255,7 +1264,10 @@
     "lon": 35.292995,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-97"
   },
   {
     "name": "מקלט חרמון הדקל 10",
@@ -1264,7 +1276,10 @@
     "lon": 35.294513,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-98"
   },
   {
     "name": "מקלט הארזים 36",
@@ -1273,7 +1288,10 @@
     "lon": 35.300537,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-99"
   },
   {
     "name": "מקלט הארזים 66",
@@ -1282,7 +1300,10 @@
     "lon": 35.2982,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-100"
   },
   {
     "name": "מקלט הארזים 71",
@@ -1291,7 +1312,10 @@
     "lon": 35.297876,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-101"
   },
   {
     "name": "מקלט מירון 4",
@@ -1300,7 +1324,10 @@
     "lon": 35.292059,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-102"
   },
   {
     "name": "מקלט משעול ארז 1",
@@ -1309,7 +1336,10 @@
     "lon": 35.299923,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-103"
   },
   {
     "name": "מקלט משעול ארז 19",
@@ -1318,7 +1348,10 @@
     "lon": 35.300384,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-104"
   },
   {
     "name": "מקלט משעול מורן 9",
@@ -1327,7 +1360,10 @@
     "lon": 35.300373,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-105"
   },
   {
     "name": "מקלט משעול מורן 23",
@@ -1336,7 +1372,10 @@
     "lon": 35.30019,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-106"
   },
   {
     "name": "מקלט משעול מורן 47",
@@ -1345,6 +1384,9 @@
     "lon": 35.2994,
     "city": "כרמיאל",
     "neighborhood": "שגיא",
-    "source": "karmiel-municipality"
+    "source": "karmiel-municipality",
+    "category": "public",
+    "type": "מקלט ציבורי",
+    "id": "כרמיאל-muni-107"
   }
 ]
