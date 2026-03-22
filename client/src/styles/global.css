@@ -124,7 +124,7 @@ html[dir="ltr"] .search-input::placeholder { direction: ltr; }
 }
 .btn-search { background: #2563eb; color: #fff; box-shadow: 0 2px 6px rgba(37,99,235,.35); }
 .btn-search:hover { background: #1d4ed8; transform: translateY(-1px); }
-.btn-mic { background: #f8fafc; color: #64748b; border: 2px solid #dde2ec; padding: 8px 10px; }
+.btn-mic { background: #f8fafc; color: #64748b; border: 2px solid #dde2ec; padding: 8px 10px; font-size: 1.35em; }
 .btn-mic:hover { background: #e0efff; color: #2563eb; border-color: #2563eb; }
 .btn-mic.listening { background: #fef2f2; color: #dc2626; border-color: #dc2626; animation: pulse-mic 1.2s ease-in-out infinite; }
 @keyframes pulse-mic { 0%, 100% { box-shadow: 0 0 0 0 rgba(220,38,38,.3); } 50% { box-shadow: 0 0 0 8px rgba(220,38,38,0); } }
