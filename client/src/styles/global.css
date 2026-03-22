@@ -82,9 +82,10 @@ header {
   background: #f8fafc;
   transition: border-color .22s;
   text-align: right;
+  direction: rtl;
 }
-html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; }
-.search-input::placeholder { text-align: inherit; direction: rtl; }
+html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; direction: ltr; }
+.search-input::placeholder { text-align: right; direction: rtl; }
 html[dir="ltr"] .search-input::placeholder { direction: ltr; }
 .search-input:focus { outline: none; border-color: #2563eb; background: #fff; }
 .search-icon {

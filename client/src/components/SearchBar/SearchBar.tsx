@@ -156,7 +156,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
           onClick={voice.listening ? voice.stop : voice.start}
           title={voice.listening ? t.voiceListening : t.voiceTooltip}
         >
-          <span>{voice.listening ? '⏹️' : '🎤'}</span>
+          <span>{voice.listening ? '⏹️' : '🎙️'}</span>
         </button>
       )}
 
