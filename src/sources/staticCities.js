@@ -63,6 +63,8 @@ const STATIC_CITY_DEFS = [
   { file: 'zichron-yaakov-shelters.json', city: 'זכרון יעקב' },
   { file: 'binyamina-shelters.json',     city: 'בנימינה-גבעת עדה' },
   { file: 'migdal-haemek-shelters.json', city: 'מגדל העמק' },
+  { file: 'kiryat-malachi-shelters.json', city: 'קריית מלאכי' },
+  { file: 'tirat-carmel-shelters.json',   city: 'טירת כרמל' },
   { file: 'pardes-hanna-shelters.json',  city: 'פרדס חנה-כרכור' },
 ]
 
