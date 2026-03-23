@@ -52,16 +52,37 @@ function findSheltersByAddress(query, allShelters) {
   };
 
   // Detect city from query
+  // "ירושלים" is both a city and a very common street name in Israel.
+  // If the query contains "ירושלים" AND another city name (e.g. "מעלות"),
+  // prefer the other city and treat ירושלים as a street.
   let detectedCity = null;
   let street = query.trim();
-  // Sort city names longest-first to match "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF" before "\u05E8\u05D0\u05E9\u05D5\u05DF"
+  // Sort city names longest-first to match "ראשון לציון" before "ראשון"
   const cityKeys = Object.keys(cityMap).sort((a, b) => b.length - a.length);
+
+  // Collect all city matches
+  const allCityMatches = [];
   for (const key of cityKeys) {
     if (street.includes(key)) {
-      detectedCity = cityMap[key];
-      street = street.replace(new RegExp(key, 'g'), '').trim();
-      break;
+      // Don't double-count if this city is a substring of an already-found match
+      if (!allCityMatches.some(m => m.key.includes(key) || key.includes(m.key))) {
+        allCityMatches.push({ key, city: cityMap[key] });
+      }
     }
+  }
+
+  // Names that are both cities and common street names
+  const ambiguousNames = ['ירושלים', 'חיפה', 'אילת', 'טבריה', 'עפולה', 'לוד', 'רמלה'];
+
+  if (allCityMatches.length > 1) {
+    // Multiple city matches — prefer the non-ambiguous one
+    const preferred = allCityMatches.find(m => !ambiguousNames.includes(m.key))
+                   || allCityMatches[0];
+    detectedCity = preferred.city;
+    street = street.replace(new RegExp(preferred.key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), '').trim();
+  } else if (allCityMatches.length === 1) {
+    detectedCity = allCityMatches[0].city;
+    street = street.replace(new RegExp(allCityMatches[0].key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), '').trim();
   }
 
   // Clean up: remove commas, extra whitespace
