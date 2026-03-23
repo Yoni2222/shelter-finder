@@ -609,5 +609,83 @@
     "source": "gov",
     "category": "public",
     "addressEn": "עגור 5, ערד, ישראל"
+  },
+  {
+    "id": "ערד-48",
+    "lat": 31.2680108,
+    "lon": 35.2171449,
+    "name": "מקלט 49",
+    "address": "עפרוני 27",
+    "city": "ערד",
+    "neighborhood": "מעוף",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "ערד-49",
+    "lat": 31.2682976,
+    "lon": 35.2148366,
+    "name": "מקלט 50",
+    "address": "צופית 11",
+    "city": "ערד",
+    "neighborhood": "מעוף",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "ערד-50",
+    "lat": 31.2686911,
+    "lon": 35.2123797,
+    "name": "מקלט 51",
+    "address": "תור 1",
+    "city": "ערד",
+    "neighborhood": "מעוף",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "ערד-51",
+    "lat": 31.2542258,
+    "lon": 35.2098362,
+    "name": "מקלט 52",
+    "address": "התעשייה 4",
+    "city": "ערד",
+    "neighborhood": "אזור תעשייה",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "ערד-52",
+    "lat": 31.247845,
+    "lon": 35.194596,
+    "name": "מקלט 64",
+    "address": "סדן 16",
+    "city": "ערד",
+    "neighborhood": "אזור תעשייה",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "ערד-53",
+    "lat": 31.2569913,
+    "lon": 35.2103125,
+    "name": "מקלט 33a",
+    "address": "חן 33",
+    "city": "ערד",
+    "neighborhood": "מרכז",
+    "type": "מקלט ציבורי",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
   }
 ]
