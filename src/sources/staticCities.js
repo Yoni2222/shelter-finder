@@ -65,6 +65,8 @@ const STATIC_CITY_DEFS = [
   { file: 'migdal-haemek-shelters.json', city: 'מגדל העמק' },
   { file: 'kiryat-malachi-shelters.json', city: 'קריית מלאכי' },
   { file: 'tirat-carmel-shelters.json',   city: 'טירת כרמל' },
+  { file: 'ramat-yishai-shelters.json',   city: 'רמת ישי' },
+  { file: 'maalot-tarshiha-shelters.json', city: 'מעלות-תרשיחא' },
   { file: 'pardes-hanna-shelters.json',  city: 'פרדס חנה-כרכור' },
 ]
 
