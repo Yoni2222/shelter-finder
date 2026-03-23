@@ -21,8 +21,6 @@ async function fetchOverpass(lat, lon, radiusM) {
   way["amenity"="school"](around:${radiusM},${lat},${lon});
   node["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
   way["amenity"="kindergarten"](around:${radiusM},${lat},${lon});
-  node["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
-  way["amenity"="parking"]["parking"="multi-storey"](around:${radiusM},${lat},${lon});
 );
 out center meta;`;
 
@@ -54,11 +52,6 @@ out center meta;`;
         name = t.name || t['name:he'] || t['name:en'] ||
                (t.amenity === 'kindergarten' ? '\u05D2\u05DF \u05D9\u05DC\u05D3\u05D9\u05DD' : '\u05D1\u05D9\u05EA \u05E1\u05E4\u05E8');
         type = t.amenity === 'kindergarten' ? '\u05D2\u05DF \u05D9\u05DC\u05D3\u05D9\u05DD' : '\u05D1\u05D9\u05EA \u05E1\u05E4\u05E8';
-      } else if (t.amenity === 'parking') {
-        category = 'parking';
-        name = t.name || t['name:he'] || t['name:en'] ||
-               (t.parking === 'multi-storey' ? '\u05D7\u05E0\u05D9\u05D5\u05DF \u05E7\u05D5\u05DE\u05D5\u05EA' : '\u05D7\u05E0\u05D9\u05D5\u05DF \u05DE\u05E7\u05D5\u05E8\u05D4');
-        type = t.parking === 'multi-storey' ? '\u05D7\u05E0\u05D9\u05D5\u05DF \u05E7\u05D5\u05DE\u05D5\u05EA' : '\u05D7\u05E0\u05D9\u05D5\u05DF \u05DE\u05E7\u05D5\u05E8\u05D4';
       } else {
         category = 'public';
         name = t.name || t['name:he'] || t['name:en'] || osmDefaultName(t);
