@@ -68,6 +68,7 @@ const STATIC_CITY_DEFS = [
   { file: 'ramat-yishai-shelters.json',   city: 'רמת ישי' },
   { file: 'maalot-tarshiha-shelters.json', city: 'מעלות-תרשיחא' },
   { file: 'arad-shelters.json',            city: 'ערד' },
+  { file: 'ofakim-shelters.json',          city: 'אופקים' },
   { file: 'or-akiva-shelters.json',       city: 'אור עקיבא' },
   { file: 'pardes-hanna-shelters.json',  city: 'פרדס חנה-כרכור' },
 ]
