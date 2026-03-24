@@ -231,9 +231,7 @@ html[dir="ltr"] .search-input::placeholder { direction: ltr; }
   display: flex; align-items: center; justify-content: center;
   font-size: 12px; font-weight: 700; color: #fff; flex-shrink: 0;
 }
-.rank.near    { background: #16a34a; }
-.rank.medium  { background: #d97706; }
-.rank.far     { background: #9ca3af; }
+.rank.public  { background: #16a34a; }
 .rank.school  { background: #7c3aed; }
 .rank.parking { background: #ea580c; }
 
@@ -249,9 +247,6 @@ html[dir="ltr"] .search-input::placeholder { direction: ltr; }
 .card-meta { display: flex; align-items: center; gap: 7px; margin-top: 6px; flex-wrap: wrap; }
 .pill { padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 600; }
 .pill-dist         { background: #dbeafe; color: #1d4ed8; }
-.pill-dist.near    { background: #dcfce7; color: #15803d; }
-.pill-dist.medium  { background: #fef3c7; color: #b45309; }
-.pill-dist.far     { background: #f1f5f9; color: #64748b; }
 .pill-tag          { background: #f1f5f9; color: #475569; font-weight: 400; }
 .pill-school       { background: #f5f3ff; color: #6d28d9; }
 .pill-parking      { background: #fff7ed; color: #c2410c; }

@@ -51,7 +51,7 @@ function makeIcon(color: string, label: number) {
 function markerColor(s: Shelter): string {
   if (s.category === 'school')  return '#7c3aed'
   if (s.category === 'parking') return '#ea580c'
-  return s.dist < 0.5 ? '#16a34a' : s.dist < 2 ? '#d97706' : '#64748b'
+  return '#16a34a'
 }
 
 const userIcon = L.divIcon({

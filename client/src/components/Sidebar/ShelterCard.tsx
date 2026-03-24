@@ -9,17 +9,17 @@ interface Props {
   onClick:  (s: Shelter, rank: number) => void
 }
 
-function distClass(s: Shelter): string {
+function rankClass(s: Shelter): string {
   if (s.category === 'school')  return 'school'
   if (s.category === 'parking') return 'parking'
-  return s.dist < 0.5 ? 'near' : s.dist < 2 ? 'medium' : 'far'
+  return 'public'
 }
 
 export function ShelterCard({ shelter: s, rank, isActive, onClick }: Props) {
   const { t, lang } = useLanguage()
   const cat  = (s.category || 'public') as Category
   const name = localizeName(s.name, lang, s.addressEn)
-  const dCls = distClass(s)
+  const dCls = rankClass(s)
   const addr = lang === 'en' && s.addressEn
     ? s.addressEn
     : [s.address, s.city].filter(Boolean).join(', ')
@@ -50,7 +50,7 @@ export function ShelterCard({ shelter: s, rank, isActive, onClick }: Props) {
         <div className="card-name" title={name}>{name}</div>
         {addr && <div className="card-addr">📍 {addr}</div>}
         <div className="card-meta">
-          <span className={`pill pill-dist ${cat === 'school' || cat === 'parking' ? '' : dCls}`}>
+          <span className="pill pill-dist">
             🚶 {t.distFmt(s.dist)}
           </span>
           {s.capacity && (
