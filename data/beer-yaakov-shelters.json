@@ -346,5 +346,29 @@
     "source": "gov",
     "category": "public",
     "addressEn": "אליהו 18, באר יעקב, ישראל"
+  },
+  {
+    "id": "באר-יעקב-30",
+    "lat": 31.9430648,
+    "lon": 34.8403621,
+    "name": "מיגונית מ18",
+    "address": "הורד",
+    "city": "באר יעקב",
+    "type": "מיגונית",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
+  },
+  {
+    "id": "באר-יעקב-31",
+    "lat": 31.932211,
+    "lon": 34.857604,
+    "name": "מיגונית מ19",
+    "address": "צהל",
+    "city": "באר יעקב",
+    "type": "מיגונית",
+    "source": "gov",
+    "category": "public",
+    "addressEn": ""
   }
 ]
