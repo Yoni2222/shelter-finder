@@ -69,6 +69,9 @@ const STATIC_CITY_DEFS = [
   { file: 'maalot-tarshiha-shelters.json', city: 'מעלות-תרשיחא' },
   { file: 'arad-shelters.json',            city: 'ערד' },
   { file: 'ofakim-shelters.json',          city: 'אופקים' },
+  { file: 'beer-yaakov-shelters.json',    city: 'באר יעקב' },
+  { file: 'givat-shmuel-shelters.json',   city: 'גבעת שמואל' },
+  { file: 'maale-adumim-shelters.json',   city: 'מעלה אדומים' },
   { file: 'or-akiva-shelters.json',       city: 'אור עקיבא' },
   { file: 'pardes-hanna-shelters.json',  city: 'פרדס חנה-כרכור' },
 ]
