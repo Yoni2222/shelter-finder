@@ -77,6 +77,8 @@ const STATIC_CITY_DEFS = [
   { file: 'ganei-tikva-shelters.json',  city: 'גני תקווה' },
   { file: 'ariel-shelters.json',        city: 'אריאל' },
   { file: 'kfar-vradim-shelters.json',   city: 'כפר ורדים' },
+  { file: 'metula-shelters.json',        city: 'מטולה' },
+  { file: 'tivon-shelters.json',         city: 'קריית טבעון' },
   { file: 'mitzpe-ramon-shelters.json',  city: 'מצפה רמון' },
 ]
 
