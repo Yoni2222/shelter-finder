@@ -87,6 +87,7 @@ const STATIC_CITY_DEFS = [
   { file: 'savyon-shelters.json',          city: 'סביון' },
   { file: 'shlomi-shelters.json',          city: 'שלומי' },
   { file: 'kiryat-ekron-shelters.json',    city: 'קריית עקרון' },
+  { file: 'katzrin-shelters.json',          city: 'קצרין' },
   { file: 'rosh-pinna-shelters.json',      city: 'ראש פינה' },
 ]
 
