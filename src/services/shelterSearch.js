@@ -73,6 +73,7 @@ function findSheltersByAddress(query, allShelters) {
     'גן יבנה': 'גן יבנה', 'גן-יבנה': 'גן יבנה',
     'מיתר': 'מיתר',
     'כפר תבור': 'כפר תבור',
+    'אזור': 'אזור',
   };
 
   // Detect city from query
