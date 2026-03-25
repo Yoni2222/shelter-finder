@@ -65,6 +65,8 @@ function findSheltersByAddress(query, allShelters) {
     'ירוחם': 'ירוחם',
     'בית דגן': 'בית דגן', 'בית-דגן': 'בית דגן',
     'מזכרת בתיה': 'מזכרת בתיה',
+    'סביון': 'סביון',
+    'שלומי': 'שלומי',
   };
 
   // Detect city from query
