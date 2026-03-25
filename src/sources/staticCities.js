@@ -86,6 +86,8 @@ const STATIC_CITY_DEFS = [
   { file: 'mazkeret-batya-shelters.json', city: 'מזכרת בתיה' },
   { file: 'savyon-shelters.json',          city: 'סביון' },
   { file: 'shlomi-shelters.json',          city: 'שלומי' },
+  { file: 'kiryat-ekron-shelters.json',    city: 'קריית עקרון' },
+  { file: 'rosh-pinna-shelters.json',      city: 'ראש פינה' },
 ]
 
 // Load all static JSON files and build caches
