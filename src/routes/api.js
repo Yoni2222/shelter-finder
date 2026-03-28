@@ -330,4 +330,142 @@ router.get('/health', (_req, res) => {
   });
 });
 
+// ─────────────────────────────────────────────
+// GET /api/zones
+// ─────────────────────────────────────────────
+router.get('/zones', (_req, res) => {
+  try {
+    const zoneData = require('../data/zone-city-map.json');
+    res.set('Cache-Control', 'public, max-age=86400'); // 24 hour cache
+    res.json(zoneData);
+  } catch (err) {
+    console.error('[zones]', err.message);
+    res.status(500).json({ error: 'Zone data not available' });
+  }
+});
+
+// ─────────────────────────────────────────────
+// GET /api/shelter-version
+// ─────────────────────────────────────────────
+router.get('/shelter-version', (_req, res) => {
+  const versionPath = require('path').join(__dirname, '..', '..', 'data', 'shelter-bundle-version.json');
+  try {
+    const data = JSON.parse(require('fs').readFileSync(versionPath, 'utf-8'));
+    res.set('Cache-Control', 'public, max-age=3600');
+    res.json(data);
+  } catch (e) {
+    res.status(404).json({ error: 'Bundle version not found. Run: npm run build:bundle' });
+  }
+});
+
+// ─────────────────────────────────────────────
+// GET /api/shelter-bundle
+// ─────────────────────────────────────────────
+router.get('/shelter-bundle', (_req, res) => {
+  const bundlePath = require('path').join(__dirname, '..', '..', 'data', 'all-shelters.json');
+  try {
+    require('fs').accessSync(bundlePath);
+    res.set('Cache-Control', 'public, max-age=3600');
+    res.set('Content-Type', 'application/json');
+    require('fs').createReadStream(bundlePath).pipe(res);
+  } catch (e) {
+    res.status(404).json({ error: 'Shelter bundle not found. Run: npm run build:bundle' });
+  }
+});
+
+// ─────────────────────────────────────────────
+// POST /api/register-token — stores device token for testing
+// ─────────────────────────────────────────────
+const testTokens = new Set();
+
+router.post('/register-token', express.json(), (req, res) => {
+  const { token } = req.body;
+  if (!token) return res.status(400).json({ error: 'Token required' });
+  testTokens.add(token);
+  console.log('[Test] Registered device token:', token.slice(0, 20) + '...');
+  res.json({ registered: true, totalDevices: testTokens.size });
+});
+
+// ─────────────────────────────────────────────
+// GET /api/test-alert-all — sends to ALL registered device tokens
+// ─────────────────────────────────────────────
+router.get('/test-alert-all', async (req, res) => {
+  const adminKey = process.env.ADMIN_API_KEY || 'dev-test-key';
+  if (req.query.key !== adminKey) return res.status(403).json({ error: 'Invalid key' });
+
+  const { sendToToken, isReady } = require('../services/firebase');
+  if (!isReady()) return res.json({ error: 'Firebase not initialized', sent: false });
+  if (testTokens.size === 0) return res.json({ error: 'No devices registered. Open the app first.', sent: false });
+
+  const zone = req.query.zone || 'חיפה';
+  const alertTime = new Date().toISOString();
+  let sent = 0;
+
+  for (const token of testTokens) {
+    const result = await sendToToken(token, { zone, timeToShelter: '60', alertTime });
+    if (result) sent++;
+  }
+
+  res.json({ sent, totalDevices: testTokens.size, zone, alertTime });
+});
+
+// ─────────────────────────────────────────────
+// GET /api/test-alert?zone=<zone_name>
+// Simulates a rocket alert for testing push notifications.
+// Only works when ADMIN_API_KEY is set and provided as ?key= param.
+// ─────────────────────────────────────────────
+router.get('/test-alert', async (req, res) => {
+  const adminKey = process.env.ADMIN_API_KEY || 'dev-test-key';
+  if (req.query.key !== adminKey) {
+    return res.status(403).json({ error: 'Invalid key' });
+  }
+
+  const zone = req.query.zone || 'חיפה';
+  const { getZoneByName, getZonesForCity } = require('../data/zone-helpers');
+  const { sendToTopic, isReady } = require('../services/firebase');
+
+  // Try exact zone name first, then city name
+  let zoneInfo = getZoneByName(zone);
+  let targetTopics = [];
+
+  if (zoneInfo) {
+    targetTopics = [zoneInfo.topic];
+  } else {
+    // Try as city name — send to all zone topics for that city
+    const cityTopics = getZonesForCity(zone);
+    if (cityTopics.length > 0) {
+      targetTopics = cityTopics;
+      zoneInfo = { timeToShelter: 90 }; // default for city-level
+    }
+  }
+
+  if (targetTopics.length === 0) {
+    return res.json({ error: `Zone/city "${zone}" not found in zone mapping`, sent: false });
+  }
+
+  if (!isReady()) {
+    return res.json({ error: 'Firebase not initialized', sent: false });
+  }
+
+  const alertTime = new Date().toISOString();
+  const results = [];
+
+  for (const topic of targetTopics) {
+    await sendToTopic(topic, {
+      zone,
+      timeToShelter: String(zoneInfo.timeToShelter),
+      alertTime,
+    });
+    results.push(topic);
+  }
+
+  res.json({
+    sent: true,
+    zone,
+    topics: results,
+    timeToShelter: zoneInfo.timeToShelter,
+    alertTime,
+  });
+});
+
 module.exports = router;

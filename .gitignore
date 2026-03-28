@@ -3,5 +3,9 @@ node_modules/
 *.log
 .DS_Store
 public/app/
-scripts/
 memory/
+
+# Secrets / service accounts
+firebase-service-account.json
+client/android/app/google-services.json
+client/ios/App/App/GoogleService-Info.plist

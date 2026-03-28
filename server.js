@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 const express = require('express');
 const path    = require('path');
 const fs      = require('fs');
@@ -101,7 +102,7 @@ function cityHtml(slug) {
    Middleware
    ──────────────────────────────────────────── */
 
-// Prevent browsers from caching HTML \u2014 always revalidate with server
+// Prevent browsers from caching HTML — always revalidate with server
 app.use((req, res, next) => {
   if (req.path === '/' || req.path.endsWith('.html') || req.path.startsWith('/shelters/')) {
     res.set('Cache-Control', 'no-cache, no-store, must-revalidate');
@@ -133,7 +134,7 @@ app.get('/shelters/:city', (req, res) => {
     res.set('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.type('html').send(html);
   } else {
-    // Unknown city \u2014 fall back to generic React app
+    // Unknown city — fall back to generic React app
     res.set('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.sendFile(path.join(__dirname, 'public', 'app', 'index.html'));
   }
@@ -151,6 +152,12 @@ app.get('*', (_req, res) => {
 const { warmCaches } = require('./src/startup');
 warmCaches();
 
+const { initFirebase } = require('./src/services/firebase');
+const alertMonitor = require('./src/alert-monitor');
+
+initFirebase();
+
 app.listen(PORT, () => {
-  console.log('\n🏚️  Shelter Finder running on http://localhost:' + PORT + '\n');
+  console.log('\n\u{1F6D6}\uFE0F  Shelter Finder running on http://localhost:' + PORT + '\n');
+  alertMonitor.start();
 });

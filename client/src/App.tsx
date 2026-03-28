@@ -1,6 +1,10 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { useLanguage } from './context/LanguageContext'
 import { useShelters } from './hooks/useShelters'
+import { useZoneSubscription } from './hooks/useZoneSubscription'
+import { useShelterBundle } from './hooks/useShelterBundle'
+import { initPushNotifications } from './services/pushNotifications'
+import { initNotificationActions } from './services/shelterNotification'
 import type { Category, Shelter } from './types/shelter'
 import { STRINGS } from './i18n/strings'
 import { SearchBar } from './components/SearchBar/SearchBar'
@@ -32,6 +36,21 @@ function errorCodeToMsg(code: string, t: Strings): string {
 
 export default function App() {
   const { t } = useLanguage()
+
+  // Push notifications and zone subscription (no-op on web)
+  useEffect(() => {
+    import('@capacitor/core').then(({ Capacitor }) => {
+      console.log('[App] Platform:', Capacitor.getPlatform(), 'isNative:', Capacitor.isNativePlatform());
+    });
+    initPushNotifications().then(ok => {
+      console.log('[App] Push notifications initialized:', ok);
+    }).catch(err => {
+      console.error('[App] Push init error:', err);
+    });
+    initNotificationActions();
+  }, []);
+  useZoneSubscription();
+  useShelterBundle();
 
   const [userPos, setUserPos]   = useState<{ lat: number; lon: number } | null>(null)
   const [radiusM, setRadiusM]   = useState(2000)

@@ -1,6 +1,8 @@
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const isCapacitor = !!process.env.CAPACITOR
+
 // In dev mode, rewrite /shelters/* to /app/ so the SPA loads correctly
 function cityRoutesDev(): Plugin {
   return {
@@ -17,7 +19,7 @@ function cityRoutesDev(): Plugin {
 }
 
 export default defineConfig({
-  base: '/app/',
+  base: isCapacitor ? '/' : '/app/',
   plugins: [cityRoutesDev(), react()],
   server: {
     port: 5174,
@@ -29,7 +31,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: '../public/app',
+    outDir: isCapacitor ? 'dist' : '../public/app',
     emptyOutDir: true,
   },
 })
