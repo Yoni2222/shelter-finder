@@ -63,13 +63,6 @@ workflows:
       - client/ios/App/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
 
-    publishing:
-      app_store_connect:
-        # Configure when Apple Developer account is ready
-        # api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        # key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        # issuer_id: $APP_STORE_CONNECT_ISSUER_ID
-        submit_to_testflight: false
 
   android-build:
     name: Android Build
