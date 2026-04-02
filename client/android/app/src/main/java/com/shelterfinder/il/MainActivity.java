@@ -1,4 +1,4 @@
-package com.shelterfinder.app;
+package com.shelterfinder.il;
 
 import android.os.Bundle;
 import com.getcapacitor.BridgeActivity;

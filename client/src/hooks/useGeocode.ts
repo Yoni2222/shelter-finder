@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { GeocodeResult } from '../types/shelter'
+import { getApiBase } from '../config/api'
 
 // Explicit address search (Enter / Search button)
 export async function geocodeAddress(q: string, lang = 'he'): Promise<GeocodeResult[]> {
-  const r = await fetch(`/api/geocode?q=${encodeURIComponent(q)}&lang=${lang}`)
+  const r = await fetch(`${getApiBase()}/api/geocode?q=${encodeURIComponent(q)}&lang=${lang}`)
   if (r.status === 503) throw new Error('__busy__')
   if (!r.ok) throw new Error('geocode error ' + r.status)
   return r.json()
@@ -20,7 +21,7 @@ export function useAutocomplete(q: string, lang = 'he') {
 
     timerRef.current = setTimeout(async () => {
       try {
-        const r = await fetch(`/api/geocode?q=${encodeURIComponent(q)}&suggest=1&lang=${lang}`)
+        const r = await fetch(`${getApiBase()}/api/geocode?q=${encodeURIComponent(q)}&suggest=1&lang=${lang}`)
         if (r.status === 204 || r.status === 503) { setSuggestions([]); return }
         if (!r.ok) { setSuggestions([]); return }
         const data: GeocodeResult[] = await r.json()

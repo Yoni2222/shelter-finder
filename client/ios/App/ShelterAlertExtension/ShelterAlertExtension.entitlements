@@ -4,7 +4,7 @@
 <dict>
     <key>com.apple.security.application-groups</key>
     <array>
-        <string>group.com.shelterfinder.app</string>
+        <string>group.com.shelterfinder.il</string>
     </array>
 </dict>
 </plist>

@@ -105,7 +105,7 @@ class NotificationService: UNNotificationServiceExtension, CLLocationManagerDele
     func findNearestShelter(lat: Double, lon: Double) -> Shelter? {
         // Read from App Group shared container
         guard let containerURL = FileManager.default.containerURL(
-            forSecurityApplicationGroupIdentifier: "group.com.shelterfinder.app"
+            forSecurityApplicationGroupIdentifier: "group.com.shelterfinder.il"
         ) else { return nil }
 
         let bundleURL = containerURL.appendingPathComponent("all-shelters.json")
@@ -150,7 +150,7 @@ class NotificationService: UNNotificationServiceExtension, CLLocationManagerDele
     // MARK: - Cached Location
 
     func getCachedLocation() -> CLLocation? {
-        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.app")
+        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.il")
         guard let lat = defaults?.double(forKey: "lastLat"), lat != 0,
               let lon = defaults?.double(forKey: "lastLon"), lon != 0 else { return nil }
 
@@ -162,14 +162,14 @@ class NotificationService: UNNotificationServiceExtension, CLLocationManagerDele
     }
 
     func cacheLocation(_ location: CLLocation) {
-        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.app")
+        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.il")
         defaults?.set(location.coordinate.latitude, forKey: "lastLat")
         defaults?.set(location.coordinate.longitude, forKey: "lastLon")
         defaults?.set(Date().timeIntervalSince1970, forKey: "lastLocTimestamp")
     }
 
     func getStoredLanguage() -> String {
-        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.app")
+        let defaults = UserDefaults(suiteName: "group.com.shelterfinder.il")
         return defaults?.string(forKey: "language") ?? "he"
     }
 }

@@ -1,4 +1,4 @@
-package com.shelterfinder.app;
+package com.shelterfinder.il;
 
 import android.Manifest;
 import android.app.NotificationChannel;
@@ -137,9 +137,9 @@ public class ShelterAlertService extends FirebaseMessagingService {
         String title = isHebrew ? "\uD83D\uDEA8 אזעקה! גשו למקלט" : "\uD83D\uDEA8 Alert! Head to shelter";
         String body;
         if (isHebrew) {
-            body = shelter.name + " \u2013 " + distM + "מ׳ (" + walkMin + " דק׳ הליכה)";
+            body = shelter.name + " - " + distM + "מ׳ (" + walkMin + " דק׳ הליכה)";
         } else {
-            body = shelter.name + " \u2013 " + distM + "m (" + walkMin + " min walk)";
+            body = shelter.name + " - " + distM + "m (" + walkMin + " min walk)";
         }
 
         Uri mapsUri = Uri.parse("google.navigation:q=" + shelter.lat + "," + shelter.lon + "&mode=w");
@@ -287,8 +287,16 @@ public class ShelterAlertService extends FirebaseMessagingService {
     }
 
     private String getStoredLanguage() {
-        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
-        return prefs.getString("language", "he");
+        // Capacitor Preferences plugin stores in "CapWebViewSettings" with key prefix
+        SharedPreferences capPrefs = getSharedPreferences("CapWebViewSettings", Context.MODE_PRIVATE);
+        String lang = capPrefs.getString("language", null);
+        if (lang != null) return lang;
+        // Fallback: try Capacitor's older storage name
+        SharedPreferences capStorage = getSharedPreferences("CapacitorStorage", Context.MODE_PRIVATE);
+        lang = capStorage.getString("language", null);
+        if (lang != null) return lang;
+        // Default to Hebrew
+        return "he";
     }
 
     private static class ShelterResult {

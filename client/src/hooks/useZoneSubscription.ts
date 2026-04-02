@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Preferences } from '@capacitor/preferences';
 import { Geolocation } from '@capacitor/geolocation';
+import { getApiBase } from '../config/api';
 import {
   isNative,
   subscribeToTopic,
@@ -116,7 +117,7 @@ export function useZoneSubscription(): ZoneSubscriptionState {
   useEffect(() => {
     if (!isNative()) return;
 
-    fetch('/api/zones')
+    fetch(`${getApiBase()}/api/zones`)
       .then((res) => res.json())
       .then((data: ZoneData) => {
         zoneDataRef.current = data;

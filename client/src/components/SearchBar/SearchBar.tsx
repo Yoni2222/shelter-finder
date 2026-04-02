@@ -118,10 +118,12 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
       <div className="input-wrap" ref={wrapRef}>
         <span className="search-icon">🔍</span>
         <input
+          key={lang}
           type="text"
-          className="search-input"
+          className={`search-input ${lang === 'en' ? 'search-input-ltr' : ''}`}
           placeholder={t.searchPlaceholder}
           value={inputVal}
+          dir={lang === 'he' ? 'rtl' : 'ltr'}
           autoComplete="off"
           onChange={e => { setInputVal(e.target.value); setShowSug(true) }}
           onKeyDown={handleKeyDown}

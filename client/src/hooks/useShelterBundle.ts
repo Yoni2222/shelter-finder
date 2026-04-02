@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Preferences } from '@capacitor/preferences';
 import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
 import { isNative } from '../services/pushNotifications';
+import { getApiBase } from '../config/api';
 
 // ── Types ──
 
@@ -85,7 +86,7 @@ export function useShelterBundle(): ShelterBundleState {
 
         // 4. Download new bundle
         console.log('[Bundle] Downloading shelter bundle...');
-        const response = await fetch('/api/shelter-bundle');
+        const response = await fetch(`${getApiBase()}/api/shelter-bundle`);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
         const data: ShelterRecord[] = await response.json();
@@ -160,7 +161,7 @@ export function useShelterBundle(): ShelterBundleState {
 
 async function fetchServerVersion(): Promise<string | null> {
   try {
-    const res = await fetch('/api/shelter-version');
+    const res = await fetch(`${getApiBase()}/api/shelter-version`);
     if (!res.ok) return null;
     const data: BundleVersion = await res.json();
     return data.version;

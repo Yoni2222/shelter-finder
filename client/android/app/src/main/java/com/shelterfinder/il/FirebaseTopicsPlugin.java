@@ -1,4 +1,4 @@
-package com.shelterfinder.app;
+package com.shelterfinder.il;
 
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;

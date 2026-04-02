@@ -1,5 +1,6 @@
 import { Capacitor, registerPlugin } from '@capacitor/core';
 import { PushNotifications } from '@capacitor/push-notifications';
+import { getApiBase } from '../config/api';
 
 /**
  * Native bridge to Firebase Messaging for topic subscription.
@@ -39,7 +40,7 @@ export async function initPushNotifications(): Promise<boolean> {
     console.log('[Push] Registered with token:', token.value);
     // Register token with our server for testing
     try {
-      await fetch('/api/register-token', {
+      await fetch(`${getApiBase()}/api/register-token`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ token: token.value }),

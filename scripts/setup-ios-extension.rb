@@ -22,7 +22,7 @@ ext_target = project.new_target(
 
 # Set bundle identifier and other build settings
 ext_target.build_configurations.each do |config|
-  config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = 'com.shelterfinder.app.ShelterAlertExtension'
+  config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = 'com.shelterfinder.il.ShelterAlertExtension'
   config.build_settings['SWIFT_VERSION'] = '5.0'
   config.build_settings['INFOPLIST_FILE'] = '$(SRCROOT)/App/ShelterAlertExtension/Info.plist'
   config.build_settings['CODE_SIGN_ENTITLEMENTS'] = '$(SRCROOT)/App/ShelterAlertExtension/ShelterAlertExtension.entitlements'

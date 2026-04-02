@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Shelter Finder</string>
     <string name="title_activity_main">Shelter Finder</string>
-    <string name="package_name">com.shelterfinder.app</string>
-    <string name="custom_url_scheme">com.shelterfinder.app</string>
+    <string name="package_name">com.shelterfinder.il</string>
+    <string name="custom_url_scheme">com.shelterfinder.il</string>
 </resources>

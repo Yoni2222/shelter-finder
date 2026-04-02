@@ -19,6 +19,9 @@ const cache = require('../cache');
 router.get('/geocode', async (req, res) => {
   const { q } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
+  if (typeof q !== 'string' || q.length > 200) {
+    return res.status(400).json({ error: 'Invalid query' });
+  }
 
   const isSuggest = req.query.suggest === '1';
 
@@ -375,12 +378,19 @@ router.get('/shelter-bundle', (_req, res) => {
 
 // ─────────────────────────────────────────────
 // POST /api/register-token — stores device token for testing
+// DISABLED in production (requires ADMIN_API_KEY)
 // ─────────────────────────────────────────────
 const testTokens = new Set();
 
 router.post('/register-token', express.json(), (req, res) => {
+  const adminKey = process.env.ADMIN_API_KEY;
+  if (!adminKey) return res.status(403).json({ error: 'Test endpoints disabled' });
+  if (req.headers['x-admin-key'] !== adminKey) return res.status(403).json({ error: 'Unauthorized' });
+
   const { token } = req.body;
-  if (!token) return res.status(400).json({ error: 'Token required' });
+  if (!token || typeof token !== 'string' || token.length > 500) {
+    return res.status(400).json({ error: 'Invalid token' });
+  }
   testTokens.add(token);
   console.log('[Test] Registered device token:', token.slice(0, 20) + '...');
   res.json({ registered: true, totalDevices: testTokens.size });
@@ -388,9 +398,11 @@ router.post('/register-token', express.json(), (req, res) => {
 
 // ─────────────────────────────────────────────
 // GET /api/test-alert-all — sends to ALL registered device tokens
+// DISABLED in production (requires ADMIN_API_KEY env var)
 // ─────────────────────────────────────────────
 router.get('/test-alert-all', async (req, res) => {
-  const adminKey = process.env.ADMIN_API_KEY || 'dev-test-key';
+  const adminKey = process.env.ADMIN_API_KEY;
+  if (!adminKey) return res.status(403).json({ error: 'Test endpoints disabled in production' });
   if (req.query.key !== adminKey) return res.status(403).json({ error: 'Invalid key' });
 
   const { sendToToken, isReady } = require('../services/firebase');
@@ -412,10 +424,11 @@ router.get('/test-alert-all', async (req, res) => {
 // ─────────────────────────────────────────────
 // GET /api/test-alert?zone=<zone_name>
 // Simulates a rocket alert for testing push notifications.
-// Only works when ADMIN_API_KEY is set and provided as ?key= param.
+// DISABLED in production (requires ADMIN_API_KEY env var)
 // ─────────────────────────────────────────────
 router.get('/test-alert', async (req, res) => {
-  const adminKey = process.env.ADMIN_API_KEY || 'dev-test-key';
+  const adminKey = process.env.ADMIN_API_KEY;
+  if (!adminKey) return res.status(403).json({ error: 'Test endpoints disabled in production' });
   if (req.query.key !== adminKey) {
     return res.status(403).json({ error: 'Invalid key' });
   }

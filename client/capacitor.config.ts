@@ -1,13 +1,14 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
+const isDev = process.env.CAPACITOR_DEV === 'true';
+
 const config: CapacitorConfig = {
-  appId: 'com.shelterfinder.app',
+  appId: 'com.shelterfinder.il',
   appName: 'Shelter Finder',
   webDir: 'dist',
   server: {
     androidScheme: 'https',
-    url: 'http://10.0.2.2:3002',
-    cleartext: true,
+    ...(isDev ? { url: 'http://10.0.2.2:3002', cleartext: true } : {}),
   },
   plugins: {
     PushNotifications: {

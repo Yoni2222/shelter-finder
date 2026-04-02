@@ -9,3 +9,8 @@ memory/
 firebase-service-account.json
 client/android/app/google-services.json
 client/ios/App/App/GoogleService-Info.plist
+
+# Signing keys
+*.keystore
+*.jks
+client/android/keystore.properties

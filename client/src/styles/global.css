@@ -85,8 +85,10 @@ header {
   direction: rtl;
 }
 html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; direction: ltr; }
+.search-input-ltr { padding: 10px 13px 10px 38px !important; text-align: left !important; direction: ltr !important; }
 .search-input::placeholder { text-align: right; direction: rtl; }
-html[dir="ltr"] .search-input::placeholder { direction: ltr; }
+html[dir="ltr"] .search-input::placeholder { direction: ltr; text-align: left; }
+.search-input-ltr::placeholder { direction: ltr !important; text-align: left !important; }
 .search-input:focus { outline: none; border-color: #2563eb; background: #fff; }
 .search-icon {
   position: absolute;
@@ -314,6 +316,7 @@ html[dir="ltr"] .search-input::placeholder { direction: ltr; }
   .search-bar { padding: 7px 10px; gap: 6px; }
   .input-wrap { min-width: 0; }       /* allow shrinking so row doesn't wrap */
   .search-input { font-size: 14px; padding: 8px 32px 8px 10px; }
+  .search-input-ltr { padding: 8px 10px 8px 32px !important; }
   html[dir="ltr"] .search-input { padding: 8px 10px 8px 32px; }
 
   /* GPS button: show icon only, hide text label */

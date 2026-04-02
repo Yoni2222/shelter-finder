@@ -1,4 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react'
+import { Capacitor } from '@capacitor/core'
+import { Preferences } from '@capacitor/preferences'
 import { STRINGS, type Lang } from '../i18n/strings'
 
 interface LanguageCtx {
@@ -17,6 +19,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     setLangState(l)
     document.documentElement.dir  = STRINGS[l].dir
     document.documentElement.lang = STRINGS[l].lang
+    // Sync to native storage so ShelterAlertService can read it
+    if (Capacitor.isNativePlatform()) {
+      Preferences.set({ key: 'language', value: l })
+    }
   }
 
   useEffect(() => {

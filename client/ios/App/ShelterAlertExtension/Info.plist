@@ -5,7 +5,7 @@
     <key>CFBundleDisplayName</key>
     <string>ShelterAlertExtension</string>
     <key>CFBundleIdentifier</key>
-    <string>com.shelterfinder.app.ShelterAlertExtension</string>
+    <string>com.shelterfinder.il.ShelterAlertExtension</string>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>CFBundleShortVersionString</key>
