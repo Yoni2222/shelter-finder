@@ -4,6 +4,8 @@ node_modules/
 .DS_Store
 public/app/
 memory/
+scripts/
+temp/
 
 # Secrets / service accounts
 firebase-service-account.json
