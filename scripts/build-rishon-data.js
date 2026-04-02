@@ -1,128 +1,181 @@
 'use strict';
-/**
- * Build Rishon LeZion shelters data.
- * Source: https://www.rishonlezion.muni.il/Residents/SecurityEmergency/pages/publicshelter.aspx
- * Parses HTML table, then geocodes each address via Nominatim (1.3s rate limit).
- * This takes ~40-50 minutes for ~40-50 addresses.
- *
- * Run: node scripts/build-rishon-data.js
- */
-
-const fetch = require('node-fetch');
 const fs = require('fs'), path = require('path');
+const https = require('https');
+const GOOGLE_API_KEY = 'AIzaSyB6rgqJ418JtjyhYGzamDqpFt_ugYBMD_g';
 
-const RISHON_URL = 'https://www.rishonlezion.muni.il/Residents/SecurityEmergency/pages/publicshelter.aspx';
-const NOMINATIM_DELAY_MS = 1300;
+const RAW_DATA = [
+  // -- Public shelters --
+  // שיכוני המזרח
+  { addr:'מאיר אבנר 22',       hood:'שיכוני המזרח', category:'public' },
+  { addr:'ישעיהו הנביא 16',    hood:'שיכוני המזרח', category:'public' },
+  { addr:'עזרא 39',            hood:'שיכוני המזרח', category:'public' },
+  { addr:'רד"ק 46',            hood:'שיכוני המזרח', category:'public' },
+  { addr:'זרובבל 1',           hood:'שיכוני המזרח', category:'public' },
+  { addr:'אסירי ציון 7',       hood:'שיכוני המזרח', category:'public' },
+  { addr:'מורדי הגטאות 56',    hood:'שיכוני המזרח', category:'public' },
+  { addr:'הרקפת 45',           hood:'שיכוני המזרח', category:'public' },
+  { addr:'החבצלת 25',          hood:'שיכוני המזרח', category:'public' },
+  { addr:'החצב 16',            hood:'שיכוני המזרח', category:'public' },
+  { addr:'החרוב',              hood:'שיכוני המזרח', category:'public' },
+  // רביבים
+  { addr:'כיכר מודיעין 10',    hood:'רביבים', category:'public' },
+  { addr:'גוש עציון 30',       hood:'רביבים', category:'public' },
+  { addr:'אלקלעי 28',          hood:'רביבים', category:'public' },
+  // ראשונים
+  { addr:'סמילנסקי 34',        hood:'ראשונים', category:'public' },
+  // רמת אליהו
+  { addr:'מלכי ישראל 6',       hood:'רמת אליהו', category:'public' },
+  { addr:'שלמה המלך 10',       hood:'רמת אליהו', category:'public' },
+  { addr:'שלום אש 8',          hood:'רמת אליהו', category:'public' },
+  { addr:'שלום אש 8',          hood:'רמת אליהו', category:'public' },
+  { addr:'נתן שלמה 15',        hood:'רמת אליהו', category:'public' },
+  { addr:'זלמן שניאור 18',     hood:'רמת אליהו', category:'public' },
+  { addr:'התדהר 2',            hood:'רמת אליהו', category:'public' },
+  { addr:'חיים אריאב 4',       hood:'רמת אליהו', category:'public' },
+  { addr:'הכנסת 1',            hood:'רמת אליהו', category:'public' },
+  { addr:'שי עגנון 1',         hood:'רמת אליהו', category:'public' },
+  { addr:'גולינקין 8',         hood:'רמת אליהו', category:'public' },
+  { addr:'גולינקין 8',         hood:'רמת אליהו', category:'public' },
+  { addr:'יעקב כהן 28',        hood:'רמת אליהו', category:'public' },
+  { addr:'אבו חצירא 11',       hood:'רמת אליהו', category:'public' },
+  { addr:'ספינת השלושה 14',    hood:'רמת אליהו', category:'public' },
+  { addr:'אנילביץ 20',         hood:'רמת אליהו', category:'public' },
+  { addr:'אנילביץ 20',         hood:'רמת אליהו', category:'public' },
+  // נחלת יהודה
+  { addr:'האגס 2',             hood:'נחלת יהודה', category:'public' },
+  { addr:'התמר 2',             hood:'נחלת יהודה', category:'public' },
+  { addr:'אלי כהן 4',          hood:'נחלת יהודה', category:'public' },
+  { addr:'הבנים 13',           hood:'נחלת יהודה', category:'public' },
+  { addr:'השניים 17',          hood:'נחלת יהודה', category:'public' },
+  // כפר אריה
+  { addr:'הר סיני',            hood:'כפר אריה', category:'public' },
 
-function sleep(ms) {
-  return new Promise(r => setTimeout(r, ms));
-}
+  // -- School shelters --
+  { addr:'חנה ומיכאל לוין 14',  hood:'', category:'school', schoolName:'אופקים' },
+  { addr:'האחים סולימן 2',      hood:'', category:'school', schoolName:'אורנים' },
+  { addr:'הבריגדה 13',          hood:'', category:'school', schoolName:'אחרון הבילויים' },
+  { addr:'קידוש השם 11',        hood:'', category:'school', schoolName:'אלונים' },
+  { addr:'האגס 4',              hood:'נחלת יהודה', category:'school', schoolName:'אליאב' },
+  { addr:'דרובין 37',           hood:'', category:'school', schoolName:'אשכולות' },
+  { addr:'כצנלסון 26',          hood:'', category:'school', schoolName:'בארי' },
+  { addr:'תמר אבן 11',          hood:'', category:'school', schoolName:'הדרים' },
+  { addr:'אבא הלל סילבר 22',   hood:'', category:'school', schoolName:'ויתקין' },
+  { addr:'חיל צנחנים 5',        hood:'', category:'school', schoolName:'חופית' },
+  { addr:'גוש עציון 23',        hood:'רביבים', category:'school', schoolName:'חטיבת מיכה רייסר' },
+  { addr:'נגבה 33',             hood:'', category:'school', schoolName:'חטיבת גנים מקיף ט' },
+  { addr:'צמח 7',               hood:'', category:'school', schoolName:'יסוד המעלה' },
+  { addr:'האורנים',             hood:'', category:'school', schoolName:'יפה נוף' },
+  { addr:'ירמיהו הנביא 11',    hood:'', category:'school', schoolName:'ישורון' },
+  { addr:'הרברט סמואל 15',     hood:'', category:'school', schoolName:'עדיני' },
+  { addr:'ברניצקי 29',          hood:'', category:'school', schoolName:'עין הקורא' },
+  { addr:'אברבנאל 30',          hood:'', category:'school', schoolName:'רוזן' },
+  { addr:'החצב 22',             hood:'', category:'school', schoolName:'רמז' },
+  { addr:'החלמונית 6',          hood:'', category:'school', schoolName:'רננים' },
+  { addr:'ראובן ובת שבע 4',    hood:'', category:'school', schoolName:'רעות' },
+  { addr:'רבי עקיבא 27',        hood:'', category:'school', schoolName:'רקפות' },
+  { addr:'שינקין 18',           hood:'', category:'school', schoolName:'שלמון' },
+  { addr:'סטפן וייז 13',        hood:'', category:'school', schoolName:'תרבות' },
+];
 
-function parseRishonTable(html) {
-  const strip = s => (s || '').replace(/<[^>]+>/g, '').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim();
-  const rows = [];
-  const trRx = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
-  let trMatch;
-  while ((trMatch = trRx.exec(html)) !== null) {
-    const cells = [];
-    const tdRx = /<td[^>]*>([\s\S]*?)<\/td>/gi;
-    let tdMatch;
-    while ((tdMatch = tdRx.exec(trMatch[1])) !== null) cells.push(strip(tdMatch[1]));
-    if (cells.length < 2) continue;
-    const [title, address, neighborhood, description] = cells;
-    if (!title || (!title.includes('מקלט') && !title.includes('מרחב מוגן'))) continue;
-    if (!address || address.length < 3) continue;
-    rows.push({ title, address, neighborhood: neighborhood || '', description: description || '' });
-  }
-  return rows;
-}
+const CITY = 'ראשון לציון';
 
-async function nominatimGeocode(address) {
-  const q = address.includes('ישראל') ? address : address + ', ישראל';
-  const url = `https://nominatim.openstreetmap.org/search?${new URLSearchParams({
-    format: 'json', q, limit: 1,
-  })}`;
-  const res = await fetch(url, {
-    headers: { 'Accept-Language': 'he,en', 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 8000,
+// Rishon LeZion bounding box (approx)
+function inBounds(lat, lon) { return lat >= 31.93 && lat <= 32.01 && lon >= 34.73 && lon <= 34.82; }
+
+function geocode(address) {
+  const query = `${address}, ${CITY}, ישראל`;
+  const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(query)}&key=${GOOGLE_API_KEY}&language=he&region=il`;
+  return new Promise((resolve, reject) => {
+    https.get(url, res => {
+      let data = '';
+      res.on('data', d => data += d);
+      res.on('end', () => {
+        try {
+          const r = JSON.parse(data);
+          if (r.status === 'OK' && r.results.length > 0) {
+            const l = r.results[0].geometry.location;
+            resolve({ lat: l.lat, lon: l.lng, addressEn: r.results[0].formatted_address || '' });
+          } else if (r.status === 'OVER_QUERY_LIMIT') {
+            reject(new Error('RATE_LIMITED'));
+          } else {
+            resolve(null);
+          }
+        } catch (e) { reject(new Error('PARSE_ERROR')); }
+      });
+    }).on('error', reject);
   });
-  if (!res.ok) return null;
-  const arr = await res.json();
-  if (!arr || !arr[0]) return null;
-  const lat = parseFloat(arr[0].lat);
-  const lon = parseFloat(arr[0].lon);
-  if (isNaN(lat) || isNaN(lon)) return null;
-  return { lat, lon };
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function geocodeRetry(addr, retries = 3) {
+  for (let a = 0; a < retries; a++) {
+    try { return await geocode(addr); }
+    catch (e) {
+      if (e.message === 'RATE_LIMITED' || e.message === 'PARSE_ERROR') await sleep(2000 * (a + 1));
+      else throw e;
+    }
+  }
+  return null;
 }
 
 async function main() {
-  console.log('Fetching Rishon LeZion shelter page...');
-  const res = await fetch(RISHON_URL, {
-    headers: { 'User-Agent': 'ShelterFinderApp/1.0' },
-    timeout: 15000,
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = await res.text();
+  console.log(`Geocoding ${RAW_DATA.length} shelters in ${CITY}...`);
+  const shelters = [], failures = [], oob = [];
 
-  const rows = parseRishonTable(html);
-  console.log(`Parsed ${rows.length} shelter rows from HTML`);
-  console.log(`Geocoding via Nominatim (${NOMINATIM_DELAY_MS}ms between requests)...`);
-  console.log(`Estimated time: ~${Math.ceil(rows.length * NOMINATIM_DELAY_MS / 60000)} minutes`);
-
-  const shelters = [];
-  let ok = 0, fail = 0;
-
-  for (let i = 0; i < rows.length; i++) {
-    const row = rows[i];
-
-    // Rate limit: wait before each request (except first)
-    if (i > 0) await sleep(NOMINATIM_DELAY_MS);
-
-    try {
-      const coords = await nominatimGeocode(row.address);
-      if (!coords) {
-        fail++;
-        console.warn(`  [${i+1}/${rows.length}] No result for: "${row.address}"`);
-        continue;
-      }
-      ok++;
-
-      // Parse area/capacity from description
-      const areaMatch = row.description.match(/שטח\s+(\d+)/);
-      const capMatch  = row.description.match(/כמות אנשים\s*[-–]\s*(\d+)/);
-      const area      = areaMatch ? areaMatch[1] : '';
-      const capacity  = capMatch  ? capMatch[1]  : '';
-
+  for (let i = 0; i < RAW_DATA.length; i++) {
+    const e = RAW_DATA[i];
+    const c = await geocodeRetry(e.addr);
+    if (!c) {
+      failures.push(e);
+      console.warn(`  [${i + 1}/${RAW_DATA.length}] FAIL: ${e.addr}`);
+    } else if (!inBounds(c.lat, c.lon)) {
+      oob.push({ ...e, ...c });
+      console.warn(`  [${i + 1}/${RAW_DATA.length}] OOB: ${e.addr} -> (${c.lat}, ${c.lon})`);
+    } else {
+      const name = e.category === 'school'
+        ? `מקלט בי"ס ${e.schoolName}`
+        : `מקלט ציבורי - ${e.addr}`;
       shelters.push({
-        id:       `rishon_${i}`,
-        lat:      coords.lat,
-        lon:      coords.lon,
-        name:     row.title,
-        address:  row.address.replace(/\s*ראשון לציון\s*$/i, '').trim(),
-        city:     'ראשון לציון',
-        capacity: capacity ? `${capacity} אנשים` : (area ? `${area} מ"ר` : ''),
-        type:     'מקלט ציבורי',
-        source:   'gov',
-        category: 'public',
+        id: `ראשון-לציון-${shelters.length + 1}`,
+        lat: c.lat, lon: c.lon,
+        name,
+        address: e.addr,
+        city: CITY,
+        neighborhood: e.hood || '',
+        type: e.category === 'school' ? 'מקלט בית ספר' : 'מקלט ציבורי',
+        source: 'municipality',
+        category: e.category,
+        addressEn: c.addressEn || ''
       });
-
-      if ((i + 1) % 10 === 0) {
-        console.log(`  Progress: ${i+1}/${rows.length} (${ok} ok, ${fail} failed so far)`);
-      }
-    } catch (e) {
-      fail++;
-      console.warn(`  [${i+1}/${rows.length}] Geocode error for "${row.address}": ${e.message}`);
+      console.log(`  [${i + 1}/${RAW_DATA.length}] OK: ${e.addr} -> (${c.lat}, ${c.lon})`);
     }
+    await sleep(200);
   }
 
-  shelters.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+  // Add OOB shelters (likely valid)
+  for (const o of oob) {
+    const name = o.category === 'school'
+      ? `מקלט בי"ס ${o.schoolName}`
+      : `מקלט ציבורי - ${o.addr}`;
+    shelters.push({
+      id: `ראשון-לציון-${shelters.length + 1}`,
+      lat: o.lat, lon: o.lon,
+      name,
+      address: o.addr,
+      city: CITY,
+      neighborhood: o.hood || '',
+      type: o.category === 'school' ? 'מקלט בית ספר' : 'מקלט ציבורי',
+      source: 'municipality',
+      category: o.category,
+      addressEn: ''
+    });
+  }
 
-  console.log(`\nGeocode results: ${ok} ok, ${fail} failed`);
-
-  const out = path.join(__dirname, '..', 'data', 'rishon-shelters.json');
-  fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, JSON.stringify(shelters, null, 2), 'utf8');
-  console.log(`Saved ${shelters.length} shelters to ${out}`);
+  const p = path.join(__dirname, '..', 'data', 'rishon-lezion-shelters.json');
+  fs.writeFileSync(p, JSON.stringify(shelters, null, 2), 'utf8');
+  console.log(`\nSaved ${p}\nTotal: ${RAW_DATA.length}, OK (in bounds): ${shelters.length - oob.length}, OOB (included): ${oob.length}, Failed: ${failures.length}`);
+  if (failures.length) failures.forEach(f => console.log(`  FAIL: ${f.addr}`));
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });

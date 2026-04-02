@@ -1,0 +1,1154 @@
+[
+  {
+    "name": "אזור תעשייה",
+    "address": "האופן 15",
+    "city": "אשקלון",
+    "neighborhood": "אזור תעשייה",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "אזור תעשייה",
+    "address": "הכישור",
+    "city": "אשקלון",
+    "neighborhood": "אזור תעשייה",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "אזור תעשייה",
+    "address": "העגלה",
+    "city": "אשקלון",
+    "neighborhood": "אזור תעשייה",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "אזור תעשייה",
+    "address": "נחושתן",
+    "city": "אשקלון",
+    "neighborhood": "אזור תעשייה",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הפרדס",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הדרור",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הנשיא 29",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "מלכי ישראל",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "כיכר המלך דוד",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "כיכר המלך שלמה",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "האילן 24",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "כיכר המלך שאול",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הצפצפה",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הצבר 16",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "קפסטט 12",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "החבצלת 15",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "הלילך 13",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "זונאבנד 10",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "האשל 74",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "זונאבנד",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "השיקמה",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "שדרות דרום אפריקה 18",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת אפרידר",
+    "address": "בן צבי 268",
+    "city": "אשקלון",
+    "neighborhood": "שכונת אפרידר",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שיבת ציון 11",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "יואל ישעיהו 40",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "ישעיהו 16",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "אליהו הנביא 5",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "הנביאים 16",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "נתן הנביא 38",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "נחמיה 14",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "עזרא 23",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שיבת ציון 10",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "יונה 38",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "הנביאים 23",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "דבורה הנביאה",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "חנניה 10",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שיבת ציון 34",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שיבת ציון 40",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שיבת ציון 49",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "פנחס",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "אסף הרופא",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "התחייה",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "השופטים",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "אבימלך 25",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "ברוך סבג",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "זבולון 22",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "השבטים",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "ילין 5",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "חנה סנש",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "אפרים 97",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "השבטים 5",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "אפרים",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "שביל נעמי",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "יהואש",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "הנגר",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שכונת גבעת ציון",
+    "address": "החרט",
+    "city": "אשקלון",
+    "neighborhood": "שכונת גבעת ציון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "מגדל",
+    "address": "דוד רמז",
+    "city": "אשקלון",
+    "neighborhood": "מגדל",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "מגדל",
+    "address": "קק\"ל",
+    "city": "אשקלון",
+    "neighborhood": "מגדל",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "אקסודוס 10",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "חופית 11",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "מבצע משה 15",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "נוגה 11",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "הבשן 8",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "גינוסר 21",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "כנרת 11",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "עדולם 13",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "הגולן 31",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "עמיעד 37",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "השפלה 10",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "ניצנה 3",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "אופירה 8",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "יהדות ספרד 26",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "יהדות ספרד 13",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "חצבה 2",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "זרעית 42",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "שניר 9",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "כל ישראל חברים 9",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "אריאל 6",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "נווה דקלים",
+    "address": "גושן 34",
+    "city": "אשקלון",
+    "neighborhood": "נווה דקלים",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "חננאל 3",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "דוד רזיאל 19",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "האורים 3",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "בן דוד 314",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "אבן עזרא 10",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "ישעיהו 11",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "ישעיהו 19",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "רמת אשכול",
+    "address": "ישעיהו 29",
+    "city": "אשקלון",
+    "neighborhood": "רמת אשכול",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "בן זומא 153",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "חיד\"א 2",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הסוחר",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "שפינוזה",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "דיבולט 12",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "דיבולט",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הבעל שם טוב 307",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הבעל שם טוב 25",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "יהודה הלוי",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הרב עוזיאל",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "מ.מ. ספרים",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "שלום עליכם 9",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "י.ל. פרץ 7",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות 39",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "טשרניכובסקי 2",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ז'בוטינסקי",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ביאליק 49",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ארצ'י שרמן 4",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הרב מימון 2",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הרב פינטו 2",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "חובבי ציון 9",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות 4",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות 59",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות 61",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "ההסתדרות 63",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הפורצים 2",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הפורצים 4",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הפורצים 6",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הפורצים 8",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "הפורצים 10",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "חובבי ציון 10",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 4",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 18",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 34",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 44",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 52",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 62",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 72",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "עולי הגרדום 80",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  },
+  {
+    "name": "שמשון",
+    "address": "בילו",
+    "city": "אשקלון",
+    "neighborhood": "שמשון",
+    "cityKey": "ashkelon",
+    "type": "מקלט ציבורי",
+    "category": "public"
+  }
+]

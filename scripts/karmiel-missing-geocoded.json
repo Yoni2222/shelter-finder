@@ -1,0 +1,128 @@
+[
+  {
+    "name": "מקלט תבור 2",
+    "address": "תבור 2, כרמיאל",
+    "lat": 32.914877,
+    "lon": 35.292795,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט תבור 22",
+    "address": "תבור 22, כרמיאל",
+    "lat": 32.915315,
+    "lon": 35.294125,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט תבור 38",
+    "address": "תבור 38, כרמיאל",
+    "lat": 32.915798,
+    "lon": 35.29531,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט הדקל 50",
+    "address": "הדקל 50, כרמיאל",
+    "lat": 32.914326,
+    "lon": 35.292995,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט חרמון הדקל 10",
+    "address": "חרמון הדקל 10, כרמיאל",
+    "lat": 32.915087,
+    "lon": 35.294513,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט הארזים 36",
+    "address": "הארזים 36, כרמיאל",
+    "lat": 32.918954,
+    "lon": 35.300537,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט הארזים 66",
+    "address": "הארזים 66, כרמיאל",
+    "lat": 32.916852,
+    "lon": 35.2982,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט הארזים 71",
+    "address": "הארזים 71, כרמיאל",
+    "lat": 32.9167,
+    "lon": 35.297876,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט מירון 4",
+    "address": "מירון 4, כרמיאל",
+    "lat": 32.915491,
+    "lon": 35.292059,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט משעול ארז 1",
+    "address": "משעול ארז 1, כרמיאל",
+    "lat": 32.920937,
+    "lon": 35.299923,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט משעול ארז 19",
+    "address": "משעול ארז 19, כרמיאל",
+    "lat": 32.920144,
+    "lon": 35.300384,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט משעול מורן 9",
+    "address": "משעול מורן 9, כרמיאל",
+    "lat": 32.919614,
+    "lon": 35.300373,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט משעול מורן 23",
+    "address": "משעול מורן 23, כרמיאל",
+    "lat": 32.918889,
+    "lon": 35.30019,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  },
+  {
+    "name": "מקלט משעול מורן 47",
+    "address": "משעול מורן 47, כרמיאל",
+    "lat": 32.918031,
+    "lon": 35.2994,
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "source": "karmiel-municipality"
+  }
+]

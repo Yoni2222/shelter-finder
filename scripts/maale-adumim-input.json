@@ -1,0 +1,2522 @@
+[
+  {
+    "address": "התוף 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "התוף 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "התוף 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השמינית 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השמינית 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השמינית 42",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "התוף 56",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 37",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הכינור 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 35",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העוגב 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הגיתית 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "השופר 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 38",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 40",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "העשור 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הקרן 36",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 19",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 27",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 31",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 33",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנבל 35",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 27",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הצלצל 31",
+    "city": "מעלה אדומים",
+    "neighborhood": "כלי נגינה"
+  },
+  {
+    "address": "הנחלים 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 38",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 42",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 48",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 52",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 56",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 60",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 66",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 70",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 76",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 80",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 86",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 90",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 144",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 148",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 154",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 158",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 164",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 168",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 172",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 176",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הגבים 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הגבים 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הגבים 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הגבים 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "מבוא הגבים 34",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 87",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 89",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 91",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 93",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 95",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 97",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 99",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 101",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 103",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 105",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 107",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 109",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 111",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 113",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 115",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 117",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 98",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 100",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 102",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 104",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 106",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 108",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 110",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 112",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 114",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 116",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 118",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 120",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 122",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 124",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 126",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 128",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 130",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 132",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 134",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 136",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 138",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "הנחלים 140",
+    "city": "מעלה אדומים",
+    "neighborhood": "הנחלים"
+  },
+  {
+    "address": "נחל יעלים 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "נחל טור 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 69",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 63",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "נחל חבר 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 53",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 47",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "נחל זוהר 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 39",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "נחל הרדוף 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 27",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "הנחלים 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "סימטאות הנחלים"
+  },
+  {
+    "address": "פרי מגדים 36",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 44",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 34",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 36",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 38",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 40",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 44",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 46",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 48",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 50",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 52",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 19",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חוט השני 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "קול התור 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "עת הזמיר 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "איבי הנחל 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "איבי הנחל 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "איבי הנחל 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "איבי הנחל 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 50",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 52",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 54",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 56",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 58",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 35",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 43",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 51",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 59",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 67",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 77",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 83",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 85",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 87",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 89",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 91",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 93",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 95",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 97",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 99",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 101",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "פרי מגדים 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "בת נדיב 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "בת נדיב 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "בת נדיב 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חגווי הסלע 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חגווי הסלע 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חגווי הסלע 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חגווי הסלע 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "חגווי הסלע 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "מגדים"
+  },
+  {
+    "address": "הר גדור 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר גדור 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 32",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 36",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 31",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 33",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר מכוור 37",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "מדליקי המשואות 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "מדליקי המשואות 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "מדליקי המשואות 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "מדליקי המשואות 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "מדליקי המשואות 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 19",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "כוכב הירדן 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 26",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 28",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 3",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 5",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 7",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 11",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 15",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 17",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 19",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 21",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 23",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 27",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 31",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 33",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "הר סרטבה 35",
+    "city": "מעלה אדומים",
+    "neighborhood": "משואה"
+  },
+  {
+    "address": "אבני החושן 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 12",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 14",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 18",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 22",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 34",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 36",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 38",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 40",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 42",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 44",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 46",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 48",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 50",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 52",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 54",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 56",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 58",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 60",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 62",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 64",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 66",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 68",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 70",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "אבני החושן 72",
+    "city": "מעלה אדומים",
+    "neighborhood": "אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "אבני החושן 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 35",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 9",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "נתיב האפוד 1",
+    "city": "מעלה אדומים",
+    "neighborhood": "סמטאות אבני החושן"
+  },
+  {
+    "address": "מצפה נבו 25",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 29",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 33",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 45",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 49",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 53",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 57",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 61",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 65",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 69",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 75",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 79",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 66",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 68",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 70",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 72",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 74",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 76",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 78",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 80",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 82",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 84",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 86",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 88",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 90",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 92",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 94",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 96",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 98",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "מצפה נבו 100",
+    "city": "מעלה אדומים",
+    "neighborhood": "מצפה נבו"
+  },
+  {
+    "address": "כיכר יהלום 2",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 4",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 6",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 8",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 20",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 30",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "כיכר יהלום 38",
+    "city": "מעלה אדומים",
+    "neighborhood": "כיכר יהלום"
+  },
+  {
+    "address": "תלמי יוסף 10",
+    "city": "מעלה אדומים",
+    "neighborhood": "אזור תעשיה"
+  },
+  {
+    "address": "תלמי יוסף 13",
+    "city": "מעלה אדומים",
+    "neighborhood": "אזור תעשיה"
+  },
+  {
+    "address": "תלמי יוסף 24",
+    "city": "מעלה אדומים",
+    "neighborhood": "אזור תעשיה"
+  },
+  {
+    "address": "אוגדה 16",
+    "city": "מעלה אדומים",
+    "neighborhood": "אזור תעשיה"
+  }
+]

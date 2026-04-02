@@ -1,0 +1,58 @@
+[
+  {
+    "address": "תבור 2",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "תבור 22",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "תבור 38",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "הדקל 50",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "חרמון הדקל 10",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "הארזים 36",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "הארזים 66",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "הארזים 71",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "מירון 4",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "משעול ארז 1",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "משעול ארז 19",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "משעול מורן 9",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "משעול מורן 23",
+    "neighborhood": "שגיא"
+  },
+  {
+    "address": "משעול מורן 47",
+    "neighborhood": "שגיא"
+  }
+]

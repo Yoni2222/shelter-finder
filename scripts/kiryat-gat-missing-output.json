@@ -1,0 +1,201 @@
+[
+  {
+    "name": "מקלט א",
+    "originalAddress": "צופר 7",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט ב",
+    "originalAddress": "באר אורה 17",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט ג",
+    "originalAddress": "קטורה 17",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט ד",
+    "originalAddress": "שיזפון 17",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט ה",
+    "originalAddress": "גרופית 14",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט ו",
+    "originalAddress": "חלוצה 8",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כג",
+    "originalAddress": "רותם 27",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כד",
+    "originalAddress": "ימין 16",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כה",
+    "originalAddress": "מבצע עובדה 29",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כו",
+    "originalAddress": "מבצע חורב 23",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כז",
+    "originalAddress": "מבצע יואב 6",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כח",
+    "originalAddress": "מבצע חירם 20",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט כט",
+    "originalAddress": "מבצע נחשון 23",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 33",
+    "originalAddress": "מבוא תש\"ח 88",
+    "lat": 31.6066673,
+    "lon": 34.7635279,
+    "formattedAddress": "משעול תש\"ח, קרית גת, ישראל",
+    "locationType": "GEOMETRIC_CENTER",
+    "queryUsed": "מבוא תש\"ח 88, קריית גת, ישראל"
+  },
+  {
+    "name": "מקלט 200",
+    "originalAddress": "יששכר 9",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 203",
+    "originalAddress": "מנשה 3",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 204",
+    "originalAddress": "מנשה 6",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 205",
+    "originalAddress": "מנשה 6",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 206",
+    "originalAddress": "גד 11",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  },
+  {
+    "name": "מקלט 12",
+    "originalAddress": "התבור 2",
+    "lat": null,
+    "lon": null,
+    "formattedAddress": null,
+    "locationType": null,
+    "queryUsed": null,
+    "status": "FAILED"
+  }
+]

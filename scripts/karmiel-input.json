@@ -1,0 +1,660 @@
+[
+  {
+    "name": "מקלט 101",
+    "address": "המלאכה 13",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "101"
+  },
+  {
+    "name": "מקלט 102",
+    "address": "המלאכה 22",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "102"
+  },
+  {
+    "name": "מקלט 103",
+    "address": "המלאכה 28",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "103"
+  },
+  {
+    "name": "מקלט 104",
+    "address": "החשמל 25",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "104"
+  },
+  {
+    "name": "מקלט 105",
+    "address": "הטוחן 4",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "105"
+  },
+  {
+    "name": "מקלט 106",
+    "address": "מור, אזור תעשייה",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "106"
+  },
+  {
+    "name": "מקלט 107",
+    "address": "החרושת 37",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "107"
+  },
+  {
+    "name": "מקלט 108",
+    "address": "החרושת 33",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "108"
+  },
+  {
+    "name": "מקלט 109",
+    "address": "החרושת 29",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "109"
+  },
+  {
+    "name": "מקלט 110",
+    "address": "להב 8",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "110"
+  },
+  {
+    "name": "מקלט 111",
+    "address": "להב 4",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "111"
+  },
+  {
+    "name": "מקלט 112",
+    "address": "המגל 2",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "112"
+  },
+  {
+    "name": "מקלט 113",
+    "address": "המגל 6",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "113"
+  },
+  {
+    "name": "מקלט 114",
+    "address": "המגל 9",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "114"
+  },
+  {
+    "name": "מקלט 115",
+    "address": "המגל 12",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "115"
+  },
+  {
+    "name": "מקלט 116",
+    "address": "המגל 20",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "116"
+  },
+  {
+    "name": "מקלט 117",
+    "address": "המגל 17",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "117"
+  },
+  {
+    "name": "מקלט 118",
+    "address": "חרמש 9",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "118"
+  },
+  {
+    "name": "מקלט 119",
+    "address": "חרמש 7",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "119"
+  },
+  {
+    "name": "מקלט 120",
+    "address": "חרמש 1",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "120"
+  },
+  {
+    "name": "מקלט 121",
+    "address": "החרושת 9",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "121"
+  },
+  {
+    "name": "מקלט 122",
+    "address": "החרושת 7",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "122"
+  },
+  {
+    "name": "מקלט 123",
+    "address": "החרושת 7",
+    "city": "כרמיאל",
+    "neighborhood": "אזור תעשייה",
+    "shelterNum": "123"
+  },
+  {
+    "name": "מקלט 201",
+    "address": "משעול הסביונים 4",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "201"
+  },
+  {
+    "name": "מקלט 202",
+    "address": "החרוב 10",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "202"
+  },
+  {
+    "name": "מקלט 203",
+    "address": "משעול הסביונים 31",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "203"
+  },
+  {
+    "name": "מקלט 204",
+    "address": "צה\"ל 80",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "204"
+  },
+  {
+    "name": "מקלט 205",
+    "address": "צה\"ל 27",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "205"
+  },
+  {
+    "name": "מקלט 206",
+    "address": "צה\"ל 47",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "206"
+  },
+  {
+    "name": "מקלט 207",
+    "address": "צה\"ל 69",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "207"
+  },
+  {
+    "name": "מקלט 208",
+    "address": "צה\"ל 89",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "208"
+  },
+  {
+    "name": "מקלט 209",
+    "address": "הגליל 7",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "209"
+  },
+  {
+    "name": "מקלט 210",
+    "address": "נשיאי ישראל 11",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "210"
+  },
+  {
+    "name": "מקלט 211",
+    "address": "הגליל 8",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "211"
+  },
+  {
+    "name": "מקלט 212",
+    "address": "הגליל 10",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "212"
+  },
+  {
+    "name": "מקלט 213",
+    "address": "הגליל 16",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "213"
+  },
+  {
+    "name": "מקלט 214",
+    "address": "הגליל 22",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "214"
+  },
+  {
+    "name": "מקלט 215",
+    "address": "הגליל 30",
+    "city": "כרמיאל",
+    "neighborhood": "המייסדים",
+    "shelterNum": "215"
+  },
+  {
+    "name": "מקלט 301",
+    "address": "עצמון 9",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "301"
+  },
+  {
+    "name": "מקלט 302",
+    "address": "עצמון 37",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "302"
+  },
+  {
+    "name": "מקלט 303",
+    "address": "עצמון 43",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "303"
+  },
+  {
+    "name": "מקלט 304",
+    "address": "עצמון 55",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "304"
+  },
+  {
+    "name": "מקלט 305",
+    "address": "עצמון 73",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "305"
+  },
+  {
+    "name": "מקלט 306",
+    "address": "עצמון 83",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "306"
+  },
+  {
+    "name": "מקלט 307",
+    "address": "עצמון 95",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "307"
+  },
+  {
+    "name": "מקלט 308",
+    "address": "עצמון 103",
+    "city": "כרמיאל",
+    "neighborhood": "שגיא",
+    "shelterNum": "308"
+  },
+  {
+    "name": "מקלט 309",
+    "address": "משגב 15",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "309"
+  },
+  {
+    "name": "מקלט 310",
+    "address": "משגב 7",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "310"
+  },
+  {
+    "name": "מקלט 319",
+    "address": "רמים 29",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "319"
+  },
+  {
+    "name": "מקלט 320",
+    "address": "אשור 3",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "320"
+  },
+  {
+    "name": "מקלט 321",
+    "address": "אשור 7",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "321"
+  },
+  {
+    "name": "מקלט 322",
+    "address": "רמים 33",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "322"
+  },
+  {
+    "name": "מקלט 323",
+    "address": "אשור 13",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "323"
+  },
+  {
+    "name": "מקלט 324",
+    "address": "אשור 19",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "324"
+  },
+  {
+    "name": "מקלט 325",
+    "address": "רמים 69",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "325"
+  },
+  {
+    "name": "מקלט 601",
+    "address": "כפר הילדים",
+    "city": "כרמיאל",
+    "neighborhood": "מגדים",
+    "shelterNum": "601"
+  },
+  {
+    "name": "מקלט 401",
+    "address": "איריס השושנים 2",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "401"
+  },
+  {
+    "name": "מקלט 402",
+    "address": "השושנים 10",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "402"
+  },
+  {
+    "name": "מקלט 403",
+    "address": "השושנים 36",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "403"
+  },
+  {
+    "name": "מקלט 404",
+    "address": "השושנים 78",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "404"
+  },
+  {
+    "name": "מקלט 405",
+    "address": "השושנים 118",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "405"
+  },
+  {
+    "name": "מקלט 406",
+    "address": "השושנים 140",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "406"
+  },
+  {
+    "name": "מקלט 407",
+    "address": "השושנים 148",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "407"
+  },
+  {
+    "name": "מקלט 408",
+    "address": "השושנים 158",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "408"
+  },
+  {
+    "name": "מקלט 409",
+    "address": "האשל 19",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "409"
+  },
+  {
+    "name": "מקלט 410",
+    "address": "ליבנה 14",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "410"
+  },
+  {
+    "name": "מקלט 411",
+    "address": "מורד הגיא 105",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "411"
+  },
+  {
+    "name": "מקלט 412",
+    "address": "ערבה 6",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "412"
+  },
+  {
+    "name": "מקלט 413",
+    "address": "ערבה 44",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "413"
+  },
+  {
+    "name": "מקלט 414",
+    "address": "ערבה 78",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "414"
+  },
+  {
+    "name": "מקלט 415",
+    "address": "צאלון 42",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "415"
+  },
+  {
+    "name": "מקלט 416",
+    "address": "צאלון 17",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "416"
+  },
+  {
+    "name": "מקלט 417",
+    "address": "מורד הגיא 58",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "417"
+  },
+  {
+    "name": "מקלט 418",
+    "address": "הרדוף 20",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "418"
+  },
+  {
+    "name": "מקלט 419",
+    "address": "אטד 1",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "419"
+  },
+  {
+    "name": "מקלט 420",
+    "address": "לוטם 1",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "420"
+  },
+  {
+    "name": "מקלט 421",
+    "address": "יערה אלה 7",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "421"
+  },
+  {
+    "name": "מקלט 422",
+    "address": "מרווה 30",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "422"
+  },
+  {
+    "name": "מקלט 423",
+    "address": "הפרחים 7",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "423"
+  },
+  {
+    "name": "מקלט 424",
+    "address": "משעול חצב 8",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "424"
+  },
+  {
+    "name": "מקלט 425",
+    "address": "משעול חצב 4",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "425"
+  },
+  {
+    "name": "מקלט 426",
+    "address": "מורד הגיא 17",
+    "city": "כרמיאל",
+    "neighborhood": "דרומית",
+    "shelterNum": "426"
+  },
+  {
+    "name": "מקלט 501",
+    "address": "אסיף 26",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "501"
+  },
+  {
+    "name": "מקלט 502",
+    "address": "שביל חשון 1",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "502"
+  },
+  {
+    "name": "מקלט 503",
+    "address": "קטיף 27",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "503"
+  },
+  {
+    "name": "מקלט 504",
+    "address": "שביל שבט 10",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "504"
+  },
+  {
+    "name": "מקלט 505",
+    "address": "ביכורים 28",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "505"
+  },
+  {
+    "name": "מקלט 506",
+    "address": "אסיף 85",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "506"
+  },
+  {
+    "name": "מקלט 507",
+    "address": "בציר 39",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "507"
+  },
+  {
+    "name": "מקלט 508",
+    "address": "תמוז 31",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "508"
+  },
+  {
+    "name": "מקלט 509",
+    "address": "שביל סיון 19",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "509"
+  },
+  {
+    "name": "מקלט 510",
+    "address": "קציר 52",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "510"
+  },
+  {
+    "name": "מקלט 511",
+    "address": "הזורעים 61",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "511"
+  },
+  {
+    "name": "מקלט 512",
+    "address": "הזורעים 12",
+    "city": "כרמיאל",
+    "neighborhood": "גבעת רם",
+    "shelterNum": "512"
+  }
+]
