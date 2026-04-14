@@ -1,8 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
 import type { SheltersResponse } from '../types/shelter'
+import { getApiBase } from '../config/api'
 
 async function fetchShelters(lat: number, lon: number, radiusM: number, q?: string): Promise<SheltersResponse> {
-  let url = `/api/shelters?lat=${lat}&lon=${lon}&radius=${radiusM}`
+  let url = `${getApiBase()}/api/shelters?lat=${lat}&lon=${lon}&radius=${radiusM}`
   if (q) url += `&q=${encodeURIComponent(q)}`
   const r = await fetch(url)
   if (!r.ok) throw new Error(`HTTP ${r.status}`)
