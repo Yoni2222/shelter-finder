@@ -13,6 +13,51 @@ const { allStaticShelters } = require('../sources/staticCities');
 const { GOV_RESOURCES, GEOJSON_RESOURCES } = require('../config');
 const cache = require('../cache');
 
+// English → Hebrew city name mapping for cross-language shelter matching
+const EN_TO_HE_CITY = {
+  'tel aviv': 'תל אביב', 'tel aviv-yafo': 'תל אביב-יפו', 'tel aviv - yafo': 'תל אביב-יפו',
+  'jerusalem': 'ירושלים', 'haifa': 'חיפה', 'beer sheva': 'באר שבע', 'beersheba': 'באר שבע',
+  'herzliya': 'הרצליה', 'kfar saba': 'כפר סבא', 'petah tikva': 'פתח תקווה',
+  'ashkelon': 'אשקלון', 'holon': 'חולון', 'netanya': 'נתניה', 'bat yam': 'בת ים',
+  'ashdod': 'אשדוד', 'rehovot': 'רחובות', 'rishon lezion': 'ראשון לציון',
+  'ramat gan': 'רמת גן', 'givatayim': 'גבעתיים', 'bnei brak': 'בני ברק',
+  'or yehuda': 'אור יהודה', 'kfar yona': 'כפר יונה', 'kiryat ono': 'קריית אונו',
+  'dimona': 'דימונה', 'nesher': 'נשר', 'nahariya': 'נהריה', 'yehud': 'יהוד',
+  'afula': 'עפולה', 'akko': 'עכו', 'acre': 'עכו', 'arad': 'ערד', 'ariel': 'אריאל',
+  'eilat': 'אילת', 'hadera': 'חדרה', 'hod hasharon': 'הוד השרון',
+  'karmiel': 'כרמיאל', 'lod': 'לוד', 'ramle': 'רמלה', 'raanana': 'רעננה',
+  'safed': 'צפת', 'tzfat': 'צפת', 'tiberias': 'טבריה', 'yokneam': 'יקנעם עילית',
+  'kiryat shmona': 'קריית שמונה', 'kiryat gat': 'קריית גת', 'kiryat ata': 'קריית אתא',
+  'kiryat bialik': 'קריית ביאליק', 'kiryat yam': 'קריית ים', 'kiryat motzkin': 'קריית מוצקין',
+  'kiryat malachi': 'קריית מלאכי', 'kiryat tivon': 'קריית טבעון',
+  'beit shemesh': 'בית שמש', 'modiin': 'מודיעין-מכבים-רעות', "modi'in": 'מודיעין-מכבים-רעות',
+  'netivot': 'נתיבות', 'ofakim': 'אופקים', 'sderot': 'סדרות',
+  'ramat hasharon': 'רמת השרון', 'nes ziona': 'נס ציונה', 'yavne': 'יבנה',
+  'rosh haayin': 'ראש העין', "ma'ale adumim": 'מעלה אדומים', 'maale adumim': 'מעלה אדומים',
+  'nof hagalil': 'נוף הגליל', 'migdal haemek': 'מגדל העמק',
+  'tirat carmel': 'טירת כרמל', 'or akiva': 'אור עקיבא',
+  'pardes hanna': 'פרדס חנה-כרכור', 'katzrin': 'קצרין', 'qatzrin': 'קצרין',
+  'metula': 'מטולה', 'shlomi': 'שלומי', 'mitzpe ramon': 'מצפה רמון',
+  'beer yaakov': 'באר יעקב', 'beit dagan': 'בית דגן', 'gan yavne': 'גן יבנה',
+  'givat shmuel': 'גבעת שמואל', 'ganei tikva': 'גני תקווה', 'savyon': 'סביון',
+  'azor': 'אזור', 'yerucham': 'ירוחם', 'yeroham': 'ירוחם',
+  'rosh pina': 'ראש פינה', 'rosh pinna': 'ראש פינה',
+  'maalot tarshiha': 'מעלות-תרשיחא', "ma'alot": 'מעלות-תרשיחא',
+  'zichron yaakov': 'זכרון יעקב', "zikhron ya'akov": 'זכרון יעקב',
+  'binyamina': 'בנימינה-גבעת עדה', 'atlit': 'עתלית',
+  'ramat yishai': 'רמת ישי', 'kfar vradim': 'כפר ורדים', 'kfar tavor': 'כפר תבור',
+  'mazkeret batya': 'מזכרת בתיה', 'gedera': 'גדרה', 'kiryat ekron': 'קריית עקרון',
+};
+
+/** Try to resolve an English city name to its Hebrew equivalent */
+function resolveCity(nomCity) {
+  if (!nomCity) return null;
+  // Already Hebrew? Return as-is
+  if (/[\u0590-\u05FF]/.test(nomCity)) return nomCity;
+  const lower = nomCity.toLowerCase().trim();
+  return EN_TO_HE_CITY[lower] || null;
+}
+
 // ─────────────────────────────────────────────
 // GET /api/geocode?q=<address>
 // ─────────────────────────────────────────────
@@ -103,7 +148,12 @@ router.get('/geocode', async (req, res) => {
           } else if (results.length > 0 && results[0].address) {
             // No city in query — use Nominatim's city to pick the right matches
             const nomCity = results[0].address.city || results[0].address.town || results[0].address.village || '';
-            const nomMatch = nomCity && cities.find(c => nomCity.includes(c) || c.includes(nomCity));
+            // Resolve English city names to Hebrew for comparison
+            const resolvedCity = resolveCity(nomCity) || nomCity;
+            const nomMatch = resolvedCity && cities.find(c =>
+              resolvedCity.includes(c) || c.includes(resolvedCity) ||
+              nomCity.includes(c) || c.includes(nomCity)
+            );
             if (nomMatch) {
               addrMatches = addrMatches.filter(m => m.city === nomMatch);
             } else {

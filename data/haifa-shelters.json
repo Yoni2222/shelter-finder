@@ -367,7 +367,7 @@
     "id": "haifa_30",
     "lat": 32.81280106081757,
     "lon": 34.99524356623287,
-    "name": "הנביאים",
+    "name": "מקלט כרמלית הנביאים",
     "address": "הנביאים 22",
     "city": "חיפה",
     "capacity": "125 אנשים",
@@ -622,6 +622,19 @@
     "source": "gov",
     "category": "public",
     "addressEn": "Sderot Eliyahu Golomb 44, Haifa"
+  },
+  {
+    "id": "haifa_carmelit_bnei_zion",
+    "lat": 32.8078,
+    "lon": 34.9908,
+    "name": "מקלט כרמלית בני ציון",
+    "address": "אליהו גולומב 35",
+    "city": "חיפה",
+    "capacity": "",
+    "type": "תחנת כרמלית",
+    "source": "manual",
+    "category": "public",
+    "addressEn": "Eliyahu Golomb 35, Haifa"
   },
   {
     "id": "haifa_50",
@@ -1420,7 +1433,7 @@
     "id": "haifa_111",
     "lat": 32.80969525528112,
     "lon": 34.99233587905758,
-    "name": "מסדה",
+    "name": "מקלט כרמלית מסדה",
     "address": "מסדה 29",
     "city": "חיפה",
     "capacity": "100 אנשים",
@@ -1719,7 +1732,7 @@
     "id": "haifa_134",
     "lat": 32.814600617051426,
     "lon": 34.99728207186882,
-    "name": "הדר-עירייה",
+    "name": "מקלט כרמלית הדר-עירייה",
     "address": "הנביאים 1",
     "city": "חיפה",
     "capacity": "125 אנשים",
@@ -2668,14 +2681,14 @@
     "id": "haifa_207",
     "lat": 32.804913215019916,
     "lon": 34.987903490121774,
-    "name": "גן האם",
+    "name": "מקלט כרמלית גן האם",
     "address": "שדרות הנשיא 122",
     "city": "חיפה",
     "capacity": "200 אנשים",
     "type": "תחנת כרמלית",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNassi Blvd 119, Haifa"
+    "addressEn": "HaNassi Blvd 122, Haifa"
   },
   {
     "id": "haifa_208",
