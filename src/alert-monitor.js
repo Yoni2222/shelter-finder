@@ -3,7 +3,7 @@
 const { sendToTopic, isReady } = require('./services/firebase');
 const { getZoneByName } = require('./data/zone-helpers');
 
-const OREF_API = 'https://www.oref.org.il/LifeshieldAPI/RedAlertGetter';
+const OREF_API = 'https://www.oref.org.il/warningMessages/alert/Alerts.json';
 const POLL_INTERVAL_MS = 8000;
 const SEEN_ALERT_TTL_MS = 5 * 60 * 1000; // 5 minutes
 
@@ -43,20 +43,36 @@ function purgeExpired() {
  * Returns an array of zone name strings, or empty array.
  */
 function parseAlerts(body) {
-  if (!body || body.trim() === '') return [];
+  if (!body) return [];
+
+  // Strip UTF-8 BOM and surrounding whitespace. The oref endpoint prefixes
+  // its JSON with a BOM (EF BB BF) and returns BOM + CRLF when idle.
+  const clean = body.replace(/^﻿/, '').trim();
+  if (clean === '') return [];
 
   try {
-    const parsed = JSON.parse(body);
+    const parsed = JSON.parse(clean);
 
-    // Response can be an array of objects with a 'data' field
+    const collect = (val) => {
+      if (!val) return [];
+      // Modern format: data is an array of zone-name strings
+      if (Array.isArray(val)) {
+        return val.map(s => String(s).trim()).filter(Boolean);
+      }
+      // Legacy format: data is a comma-separated string
+      return String(val).split(',').map(s => s.trim()).filter(Boolean);
+    };
+
+    // Modern endpoint: a single object { id, cat, title, data: [...], desc }
+    if (parsed && !Array.isArray(parsed) && parsed.data !== undefined) {
+      return collect(parsed.data);
+    }
+
+    // Legacy endpoint: an array of objects each with a .data field
     if (Array.isArray(parsed)) {
       const zones = [];
       for (const item of parsed) {
-        if (item && item.data) {
-          // 'data' can be a comma-separated string of zone names
-          const parts = String(item.data).split(',').map(s => s.trim()).filter(Boolean);
-          zones.push(...parts);
-        }
+        if (item && item.data !== undefined) zones.push(...collect(item.data));
       }
       return zones;
     }
@@ -88,9 +104,13 @@ async function poll() {
     const alertTime = new Date().toISOString();
 
     for (const zone of zones) {
-      const key = alertKey(zone, alertTime);
+      // Dedupe by zone name within the TTL window. The endpoint keeps
+      // returning the same active alert across polls; without this we would
+      // re-notify every poll interval. A genuinely new alert in the same
+      // zone re-fires after the TTL purge.
+      const key = zone;
 
-      if (recentAlerts.has(key)) continue; // Already processed
+      if (recentAlerts.has(key)) continue; // Already processed within TTL
       recentAlerts.set(key, now);
 
       // Look up zone data (topic + timeToShelter) from comprehensive zone mapping

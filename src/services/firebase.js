@@ -11,16 +11,27 @@ let firebaseInitialized = false;
  * Degrades gracefully if not configured.
  */
 function initFirebase() {
+  // Two ways to supply the service account:
+  //   1. FIREBASE_SERVICE_ACCOUNT_JSON — the full JSON pasted as an env var
+  //      (preferred on hosts like Koyeb where the file is not in the repo).
+  //   2. FIREBASE_SERVICE_ACCOUNT — a path to a JSON file on disk (local dev).
+  const inlineJson = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
   const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT;
 
-  if (!serviceAccountPath) {
-    console.warn('[Firebase] FIREBASE_SERVICE_ACCOUNT not set — push notifications disabled.');
-    return;
-  }
+  let serviceAccount = null;
 
   try {
-    const resolvedPath = require('path').resolve(__dirname, '..', '..', serviceAccountPath);
-    const serviceAccount = require(resolvedPath);
+    if (inlineJson) {
+      serviceAccount = JSON.parse(inlineJson);
+      console.log('[Firebase] Using service account from FIREBASE_SERVICE_ACCOUNT_JSON env var.');
+    } else if (serviceAccountPath) {
+      const resolvedPath = require('path').resolve(__dirname, '..', '..', serviceAccountPath);
+      serviceAccount = require(resolvedPath);
+      console.log('[Firebase] Using service account file:', serviceAccountPath);
+    } else {
+      console.warn('[Firebase] No service account configured (set FIREBASE_SERVICE_ACCOUNT_JSON or FIREBASE_SERVICE_ACCOUNT) — push notifications disabled.');
+      return;
+    }
 
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
