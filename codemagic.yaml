@@ -5,6 +5,10 @@ workflows:
     instance_type: mac_mini_m2
 
     environment:
+      # Tells Codemagic which App Store Connect API key to sign with. Without
+      # this, profile lookup fails with "No matching profiles found".
+      integrations:
+        app_store_connect: Shelter Finder ASC
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.shelterfinder.il
