@@ -24,8 +24,8 @@ ext_target = project.new_target(
 ext_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = 'com.shelterfinder.il.ShelterAlertExtension'
   config.build_settings['SWIFT_VERSION'] = '5.0'
-  config.build_settings['INFOPLIST_FILE'] = '$(SRCROOT)/App/ShelterAlertExtension/Info.plist'
-  config.build_settings['CODE_SIGN_ENTITLEMENTS'] = '$(SRCROOT)/App/ShelterAlertExtension/ShelterAlertExtension.entitlements'
+  config.build_settings['INFOPLIST_FILE'] = '$(SRCROOT)/ShelterAlertExtension/Info.plist'
+  config.build_settings['CODE_SIGN_ENTITLEMENTS'] = '$(SRCROOT)/ShelterAlertExtension/ShelterAlertExtension.entitlements'
   config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'NO'
   config.build_settings['CURRENT_PROJECT_VERSION'] = '1'
@@ -37,7 +37,7 @@ end
 # Find or create the extension group
 ext_group = project.main_group.find_subpath('ShelterAlertExtension', true)
 ext_group.set_source_tree('SOURCE_ROOT')
-ext_group.set_path('App/ShelterAlertExtension')
+ext_group.set_path('ShelterAlertExtension')
 
 # Add source file
 swift_ref = ext_group.new_reference('NotificationService.swift')

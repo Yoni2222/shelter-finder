@@ -6,7 +6,7 @@ workflows:
 
     environment:
       ios_signing:
-        distribution_type: development
+        distribution_type: app_store
         bundle_identifier: com.shelterfinder.il
       vars:
         XCODE_WORKSPACE: "client/ios/App/App.xcodeproj"
@@ -39,6 +39,15 @@ workflows:
       - name: Add Notification Service Extension target
         script: |
           ruby scripts/setup-ios-extension.rb
+
+      - name: Wire Firebase into the Xcode project
+        script: |
+          ruby scripts/setup-ios-firebase.rb
+
+      - name: Resolve Swift package dependencies
+        script: |
+          cd client/ios/App
+          xcodebuild -resolvePackageDependencies -project App.xcodeproj -scheme App
 
       - name: Install CocoaPods (if needed)
         script: |
