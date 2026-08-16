@@ -65,8 +65,18 @@ workflows:
           # --create makes Apple generate the distribution certificate and
           # profile if they do not exist yet. The extension ships inside the
           # app, so it needs its own App Store profile too.
-          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
-          app-store-connect fetch-signing-files "$BUNDLE_ID.ShelterAlertExtension" --type IOS_APP_STORE --create
+          # --certificate-key supplies a private key we control. Without it,
+          # a certificate that already exists in the Apple account cannot be
+          # used - its private key lived on a previous CI machine and is gone,
+          # so nothing gets downloaded and every target ends up unsigned.
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --certificate-key @env:CERTIFICATE_PRIVATE_KEY \
+            --create
+          app-store-connect fetch-signing-files "$BUNDLE_ID.ShelterAlertExtension" \
+            --type IOS_APP_STORE \
+            --certificate-key @env:CERTIFICATE_PRIVATE_KEY \
+            --create
 
           keychain add-certificates
 
