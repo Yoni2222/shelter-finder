@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+﻿#!/usr/bin/env ruby
 require 'xcodeproj'
 
 project_path = File.join(__dir__, '..', 'client', 'ios', 'App', 'App.xcodeproj')
@@ -29,7 +29,9 @@ ext_target.build_configurations.each do |config|
   config.build_settings['SWIFT_VERSION'] = '5.0'
   config.build_settings['INFOPLIST_FILE'] = '$(SRCROOT)/ShelterAlertExtension/Info.plist'
   config.build_settings['CODE_SIGN_ENTITLEMENTS'] = '$(SRCROOT)/ShelterAlertExtension/ShelterAlertExtension.entitlements'
-  config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
+  # Manual: CI has no signed-in Apple ID, so automatic signing cannot
+  # provision. xcode-project use-profiles supplies the profile instead.
+  config.build_settings['CODE_SIGN_STYLE'] = 'Manual'
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'NO'
   config.build_settings['CURRENT_PROJECT_VERSION'] = '1'
   config.build_settings['MARKETING_VERSION'] = '1.0'

@@ -1,4 +1,4 @@
-workflows:
+﻿workflows:
   ios-build:
     name: iOS Build
     max_build_duration: 60
@@ -69,7 +69,12 @@ workflows:
           app-store-connect fetch-signing-files "$BUNDLE_ID.ShelterAlertExtension" --type IOS_APP_STORE --create
 
           keychain add-certificates
-          xcode-project use-profiles
+
+          # Point at the project explicitly - run from the repo root the
+          # default search can miss it, leaving Xcode on automatic signing.
+          xcode-project use-profiles \
+            --project "client/ios/App/App.xcodeproj" \
+            --code-signing-setup-verbose-logging
 
       - name: Build iOS app
         script: |
