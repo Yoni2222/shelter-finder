@@ -89,15 +89,12 @@ workflows:
             --project "client/ios/App/App.xcodeproj" \
             --code-signing-setup-verbose-logging
 
-          # Diagnostic: show which entitlements each downloaded profile
-          # actually carries, so a capability mismatch is visible directly.
-          for prof in "$HOME/Library/MobileDevice/Provisioning Profiles/"*.mobileprovision; do
-            [ -e "$prof" ] || continue
-            echo "===== $prof"
-            security cms -D -i "$prof" > /tmp/prof.plist 2>/dev/null || continue
-            /usr/libexec/PlistBuddy -c 'Print :Name' /tmp/prof.plist 2>/dev/null || true
-            /usr/libexec/PlistBuddy -c 'Print :Entitlements' /tmp/prof.plist 2>/dev/null || true
-          done
+      - name: Set build number
+        script: |
+          cd client/ios/App
+          # TestFlight refuses a build number it has already accepted.
+          # Codemagic's BUILD_NUMBER increments per build, so it stays unique.
+          agvtool new-version -all "$BUILD_NUMBER"
 
       - name: Build iOS app
         script: |
@@ -110,6 +107,12 @@ workflows:
     artifacts:
       - client/ios/App/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        # Reuses the 'Shelter Finder ASC' integration declared above.
+        auth: integration
+        submit_to_testflight: true
 
 
   android-build:
