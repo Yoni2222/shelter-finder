@@ -10,9 +10,6 @@ workflows:
       app_store_connect: Shelter Finder ASC
 
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.shelterfinder.il
       vars:
         XCODE_WORKSPACE: "client/ios/App/App.xcodeproj"
         XCODE_SCHEME: "App"
@@ -63,6 +60,15 @@ workflows:
 
       - name: Set up code signing
         script: |
+          keychain initialize
+
+          # --create makes Apple generate the distribution certificate and
+          # profile if they do not exist yet. The extension ships inside the
+          # app, so it needs its own App Store profile too.
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+          app-store-connect fetch-signing-files "$BUNDLE_ID.ShelterAlertExtension" --type IOS_APP_STORE --create
+
+          keychain add-certificates
           xcode-project use-profiles
 
       - name: Build iOS app
