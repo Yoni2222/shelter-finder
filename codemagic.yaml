@@ -10,6 +10,9 @@ workflows:
       app_store_connect: Shelter Finder ASC
 
     environment:
+      # CERTIFICATE_PRIVATE_KEY lives in this Codemagic variable group.
+      groups:
+        - signin
       vars:
         XCODE_WORKSPACE: "client/ios/App/App.xcodeproj"
         XCODE_SCHEME: "App"
