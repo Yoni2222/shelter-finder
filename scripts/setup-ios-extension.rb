@@ -61,6 +61,10 @@ shelters_ref = project.main_group.find_subpath('App', false)&.find_subpath('Reso
 
 if shelters_ref.nil?
   resources_group = project.main_group.find_subpath('App/Resources', true)
+  # A freshly created group carries no path of its own, so files added to it
+  # resolve to App/<name> rather than App/Resources/<name> and the copy fails.
+  resources_group.set_source_tree('<group>')
+  resources_group.set_path('Resources')
   shelters_ref = resources_group.new_reference('all-shelters.json')
 end
 
