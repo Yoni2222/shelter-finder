@@ -23,6 +23,9 @@ ext_target = project.new_target(
 # Set bundle identifier and other build settings
 ext_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = 'com.shelterfinder.il.ShelterAlertExtension'
+  # Without an explicit PRODUCT_NAME the product builds as bare ".appex",
+  # which collides with the embed step ("Multiple commands produce").
+  config.build_settings['PRODUCT_NAME'] = 'ShelterAlertExtension'
   config.build_settings['SWIFT_VERSION'] = '5.0'
   config.build_settings['INFOPLIST_FILE'] = '$(SRCROOT)/ShelterAlertExtension/Info.plist'
   config.build_settings['CODE_SIGN_ENTITLEMENTS'] = '$(SRCROOT)/ShelterAlertExtension/ShelterAlertExtension.entitlements'
