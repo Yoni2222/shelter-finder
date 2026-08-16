@@ -14,7 +14,7 @@ workflows:
         XCODE_WORKSPACE: "client/ios/App/App.xcodeproj"
         XCODE_SCHEME: "App"
         BUNDLE_ID: "com.shelterfinder.il"
-      node: 18
+      node: 22
       xcode: latest
       cocoapods: default
 
@@ -94,7 +94,7 @@ workflows:
         - shelter_finder_keystore
       vars:
         PACKAGE_NAME: "com.shelterfinder.il"
-      node: 18
+      node: 22
       java: 17
 
     scripts:
