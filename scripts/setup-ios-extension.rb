@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env ruby
+#!/usr/bin/env ruby
 require 'xcodeproj'
 
 project_path = File.join(__dir__, '..', 'client', 'ios', 'App', 'App.xcodeproj')
