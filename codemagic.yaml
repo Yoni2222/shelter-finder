@@ -76,6 +76,16 @@ workflows:
             --project "client/ios/App/App.xcodeproj" \
             --code-signing-setup-verbose-logging
 
+          # Diagnostic: show which entitlements each downloaded profile
+          # actually carries, so a capability mismatch is visible directly.
+          for prof in "$HOME/Library/MobileDevice/Provisioning Profiles/"*.mobileprovision; do
+            [ -e "$prof" ] || continue
+            echo "===== $prof"
+            security cms -D -i "$prof" > /tmp/prof.plist 2>/dev/null || continue
+            /usr/libexec/PlistBuddy -c 'Print :Name' /tmp/prof.plist 2>/dev/null || true
+            /usr/libexec/PlistBuddy -c 'Print :Entitlements' /tmp/prof.plist 2>/dev/null || true
+          done
+
       - name: Build iOS app
         script: |
           cd client/ios/App
