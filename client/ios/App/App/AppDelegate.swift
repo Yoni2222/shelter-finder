@@ -9,9 +9,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Firebase must be configured before any FCM call (topic subscribe, token fetch).
-        FirebaseApp.configure()
-        Messaging.messaging().delegate = self
+        // Firebase must be configured before any FCM call (topic subscribe,
+        // token fetch). configure() aborts the process when the plist is
+        // absent, so check first - losing push is bad, crashing on launch is
+        // worse, and the map and search work without Firebase.
+        if Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist") != nil {
+            FirebaseApp.configure()
+            Messaging.messaging().delegate = self
+        } else {
+            print("[FCM] GoogleService-Info.plist missing - push notifications disabled")
+        }
         return true
     }
 

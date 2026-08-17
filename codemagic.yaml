@@ -22,6 +22,18 @@ workflows:
       cocoapods: default
 
     scripts:
+      - name: Restore Firebase config
+        script: |
+          # GoogleService-Info.plist is gitignored, so the build machine never
+          # receives it from the repo. Without it in the bundle,
+          # FirebaseApp.configure() aborts the process at launch.
+          if [ -z "$GOOGLE_SERVICE_INFO_PLIST" ]; then
+            echo "GOOGLE_SERVICE_INFO_PLIST is not set - aborting rather than shipping a build that crashes on launch."
+            exit 1
+          fi
+          echo "$GOOGLE_SERVICE_INFO_PLIST" | base64 --decode > client/ios/App/App/GoogleService-Info.plist
+          /usr/libexec/PlistBuddy -c 'Print :BUNDLE_ID' client/ios/App/App/GoogleService-Info.plist
+
       - name: Install Node dependencies
         script: |
           cd client
@@ -129,6 +141,18 @@ workflows:
       java: 17
 
     scripts:
+      - name: Restore Firebase config
+        script: |
+          # GoogleService-Info.plist is gitignored, so the build machine never
+          # receives it from the repo. Without it in the bundle,
+          # FirebaseApp.configure() aborts the process at launch.
+          if [ -z "$GOOGLE_SERVICE_INFO_PLIST" ]; then
+            echo "GOOGLE_SERVICE_INFO_PLIST is not set - aborting rather than shipping a build that crashes on launch."
+            exit 1
+          fi
+          echo "$GOOGLE_SERVICE_INFO_PLIST" | base64 --decode > client/ios/App/App/GoogleService-Info.plist
+          /usr/libexec/PlistBuddy -c 'Print :BUNDLE_ID' client/ios/App/App/GoogleService-Info.plist
+
       - name: Install Node dependencies
         script: |
           cd client
