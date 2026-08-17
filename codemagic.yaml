@@ -135,6 +135,8 @@ workflows:
     environment:
       android_signing:
         - shelter_finder_keystore
+      groups:
+        - signin
       vars:
         PACKAGE_NAME: "com.shelterfinder.il"
       node: 22
@@ -143,15 +145,14 @@ workflows:
     scripts:
       - name: Restore Firebase config
         script: |
-          # GoogleService-Info.plist is gitignored, so the build machine never
-          # receives it from the repo. Without it in the bundle,
-          # FirebaseApp.configure() aborts the process at launch.
-          if [ -z "$GOOGLE_SERVICE_INFO_PLIST" ]; then
-            echo "GOOGLE_SERVICE_INFO_PLIST is not set - aborting rather than shipping a build that crashes on launch."
+          # google-services.json is gitignored, so it never arrives with the
+          # clone. On Android this breaks the Gradle build rather than crashing
+          # at runtime, but fail early with a clear message either way.
+          if [ -z "$GOOGLE_SERVICES_JSON" ]; then
+            echo "GOOGLE_SERVICES_JSON is not set - cannot build without the Firebase config."
             exit 1
           fi
-          echo "$GOOGLE_SERVICE_INFO_PLIST" | base64 --decode > client/ios/App/App/GoogleService-Info.plist
-          /usr/libexec/PlistBuddy -c 'Print :BUNDLE_ID' client/ios/App/App/GoogleService-Info.plist
+          echo "$GOOGLE_SERVICES_JSON" | base64 --decode > client/android/app/google-services.json
 
       - name: Install Node dependencies
         script: |
