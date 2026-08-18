@@ -75,30 +75,33 @@ header {
   flex-shrink: 0;
   flex-wrap: wrap;
   position: relative;
-  z-index: 1000;
+  /* Leaflet's control pane is z-index 1000 and comes later in the DOM, so an
+     equal value let the zoom buttons paint over the autocomplete list. */
+  z-index: 1200;
 }
 .input-wrap { position: relative; flex: 1; min-width: 220px; }
 .search-input {
   width: 100%;
-  padding: 10px 38px 10px 13px;
+  /* The icon sits at the inline start, so the reserved space must be on the
+     same side. Previously the icon was at inline-end while the padding was
+     at inline-start, so in both languages the text ran under the icon. */
+  padding-block: 10px;
+  padding-inline-start: 38px;
+  padding-inline-end: 13px;
   border: 2px solid #dde2ec;
   border-radius: 9px;
   font-size: 15px;
   font-family: inherit;
   background: #f8fafc;
   transition: border-color .22s;
-  text-align: right;
-  direction: rtl;
+  /* Direction comes from the dir attribute React sets on the input. */
+  text-align: start;
 }
-html[dir="ltr"] .search-input { padding: 10px 13px 10px 38px; text-align: left; direction: ltr; }
-.search-input-ltr { padding: 10px 13px 10px 38px !important; text-align: left !important; direction: ltr !important; }
-.search-input::placeholder { text-align: right; direction: rtl; }
-html[dir="ltr"] .search-input::placeholder { direction: ltr; text-align: left; }
-.search-input-ltr::placeholder { direction: ltr !important; text-align: left !important; }
+.search-input::placeholder { text-align: start; }
 .search-input:focus { outline: none; border-color: #2563eb; background: #fff; }
 .search-icon {
   position: absolute;
-  inset-inline-end: 11px;
+  inset-inline-start: 11px;
   top: 50%;
   transform: translateY(-50%);
   color: #94a3b8;
@@ -318,12 +321,17 @@ html[dir="ltr"] .search-input::placeholder { direction: ltr; text-align: left; }
   .hdr-text p  { display: none; }   /* hide subtitle — saves 1 line */
   .hdr-badge   { display: none; }
 
-  /* ── Search bar: compact, stays single row ── */
+  /* ── Search bar: input gets its own row ── */
+  /* Squeezed onto one row the input collapsed to ~76px, so you could not
+     read what you were typing and the autocomplete list was equally narrow.
+     Give the input the full first row and let the controls wrap below it;
+     Search stays visible because it leads the second row. */
   .search-bar { padding: 7px 10px; gap: 6px; }
-  .input-wrap { min-width: 0; }       /* allow shrinking so row doesn't wrap */
-  .search-input { font-size: 14px; padding: 8px 32px 8px 10px; }
-  .search-input-ltr { padding: 8px 10px 8px 32px !important; }
-  html[dir="ltr"] .search-input { padding: 8px 10px 8px 32px; }
+  /* The input is first in the DOM, so a full-width basis alone puts it on
+     row one and wraps the controls beneath it. */
+  .input-wrap  { flex: 1 1 100%; min-width: 0; }
+  .radius-wrap { margin-inline-start: auto; }
+  .search-input { font-size: 14px; padding-block: 8px; padding-inline-start: 32px; padding-inline-end: 10px; }
 
   /* GPS button: show icon only, hide text label */
   .btn-gps span:last-child { display: none; }

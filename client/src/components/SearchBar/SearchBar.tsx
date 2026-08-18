@@ -120,7 +120,7 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
         <input
           key={lang}
           type="text"
-          className={`search-input ${lang === 'en' ? 'search-input-ltr' : ''}`}
+          className="search-input"
           placeholder={t.searchPlaceholder}
           value={inputVal}
           dir={lang === 'he' ? 'rtl' : 'ltr'}
