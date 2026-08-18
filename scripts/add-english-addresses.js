@@ -6,7 +6,15 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 if (!API_KEY) { console.error('Missing GOOGLE_API_KEY'); process.exit(1); }
 
 const dataDir = path.join(process.cwd(), 'data');
-const files = fs.readdirSync(dataDir).filter(f => f.endsWith('-shelters.json'));
+// Optional argument limits the run to matching city files, so a pilot can be
+// costed before committing to all ~8,700 lookups:
+//   node scripts/add-english-addresses.js arad
+const only = process.argv[2];
+const files = fs.readdirSync(dataDir)
+  .filter(f => f.endsWith('-shelters.json'))
+  .filter(f => !only || f.includes(only));
+
+if (files.length === 0) { console.error('No city files match: ' + only); process.exit(1); }
 
 function reverseGeocode(lat, lon) {
   return new Promise((resolve, reject) => {
