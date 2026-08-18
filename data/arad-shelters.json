@@ -621,7 +621,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Efroni St 31, Arad"
   },
   {
     "id": "ערד-49",
@@ -634,7 +634,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Tsofit St 11, Arad"
   },
   {
     "id": "ערד-50",
@@ -647,7 +647,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Tor St 1, Arad"
   },
   {
     "id": "ערד-51",
@@ -660,7 +660,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Ta'asiya St 4, Arad"
   },
   {
     "id": "ערד-52",
@@ -673,7 +673,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Sadan St 16, Arad"
   },
   {
     "id": "ערד-53",
@@ -686,6 +686,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Hen St 33, Arad, 8905824"
   }
 ]

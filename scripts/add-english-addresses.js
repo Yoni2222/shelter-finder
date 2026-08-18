@@ -16,6 +16,8 @@ const files = fs.readdirSync(dataDir)
 
 if (files.length === 0) { console.error('No city files match: ' + only); process.exit(1); }
 
+const HEBREW = /[\u0590-\u05FF]/;
+
 function reverseGeocode(lat, lon) {
   return new Promise((resolve, reject) => {
     const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lon}&key=${API_KEY}&language=en&region=il`;
@@ -46,11 +48,15 @@ async function processFile(file) {
   
   for (let i = 0; i < shelters.length; i++) {
     const s = shelters[i];
-    if (s.addressEn) { updated++; continue; }
+    // An earlier run stored values that still contain Hebrew (Google falls
+    // back to the local name when it has no English street data at that
+    // moment). Treat those as missing so they get another attempt.
+    const existing = (s.addressEn || '').trim();
+    if (existing && !HEBREW.test(existing)) { updated++; continue; }
     
     const en = await reverseGeocode(s.lat, s.lon);
     if (en) {
-      s.addressEn = en.replace(/, Israel$/, '').replace(/\d{7}, /, '');
+      s.addressEn = en.replace(/, Israel$/, '').replace(/\d{7}, /, '').replace(/,\s*\d{5,7}$/, '');
       updated++;
     }
     
