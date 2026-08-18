@@ -44,20 +44,37 @@ const HE_NUMBERS: Record<string, string> = {
 
 /** Convert Hebrew number words to digits in a transcript */
 function hebrewNumbersToDigits(text: string): string {
-  let result = text
+  // Matching with \b does not work here: JavaScript defines that boundary in
+  // terms of [A-Za-z0-9_], so a Hebrew word never sits next to one and the
+  // replacement silently never fired. Walk the tokens instead, trying the
+  // two-word forms ("אחת עשרה") before the single-word ones.
+  const tokens = text.split(/\s+/).filter(Boolean)
+  const out: string[] = []
 
-  // First replace multi-word numbers (e.g. "אחת עשרה") before single words
-  const sorted = Object.entries(HE_NUMBERS).sort((a, b) => b[0].length - a[0].length)
-  for (const [word, digit] of sorted) {
-    result = result.replace(new RegExp(`\\b${word}\\b`, 'g'), digit)
+  for (let i = 0; i < tokens.length; i++) {
+    // Keep any trailing punctuation so "רוטשילד שש," survives intact
+    const strip = (s: string) => s.replace(/[.,!?;:]+$/, '')
+    const tail  = (s: string) => s.slice(strip(s).length)
+
+    const two = i + 1 < tokens.length ? strip(tokens[i]) + ' ' + strip(tokens[i + 1]) : null
+    if (two && HE_NUMBERS[two]) {
+      out.push(HE_NUMBERS[two] + tail(tokens[i + 1]))
+      i++
+      continue
+    }
+
+    const one = strip(tokens[i])
+    // Spoken tens+units carry the conjunction prefix, e.g. the second word of
+    // 'twenty and three' arrives as one token beginning with vav.
+    const bare = one.startsWith('ו') ? one.slice(1) : null
+    const hit  = HE_NUMBERS[one] ?? (bare ? HE_NUMBERS[bare] : undefined)
+    out.push(hit ? hit + tail(tokens[i]) : tokens[i])
   }
 
-  // Combine compound numbers: "20 3" → "23" (tens + units with space)
-  result = result.replace(/\b(\d0)\s+(\d)\b/g, (_m, tens, units) =>
+  // Combine compound numbers: "20 3" -> "23"
+  return out.join(' ').replace(/(\d0)\s+(\d)(?!\d)/g, (_m, tens, units) =>
     String(parseInt(tens) + parseInt(units))
   )
-
-  return result
 }
 
 export function useVoiceSearch(
