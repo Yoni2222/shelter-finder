@@ -327,11 +327,14 @@ header {
      Give the input the full first row and let the controls wrap below it;
      Search stays visible because it leads the second row. */
   .search-bar { padding: 7px 10px; gap: 6px; }
-  /* The input is first in the DOM, so a full-width basis alone puts it on
-     row one and wraps the controls beneath it. */
-  .input-wrap  { flex: 1 1 100%; min-width: 0; }
+  /* A 70% basis leaves room for Search beside the input on row one, while
+     the mic, GPS and radius controls no longer fit and wrap to row two. */
+  .input-wrap  { flex: 1 1 70%; min-width: 0; }
   .radius-wrap { margin-inline-start: auto; }
-  .search-input { font-size: 14px; padding-block: 8px; padding-inline-start: 32px; padding-inline-end: 10px; }
+  /* 16px is the threshold below which iOS Safari auto-zooms on focus. The
+     zoom scrolled the Search button off screen and clipped the trailing
+     edge of the layout, so this size is deliberate - do not lower it. */
+  .search-input { font-size: 16px; padding-block: 8px; padding-inline-start: 32px; padding-inline-end: 10px; }
 
   /* GPS button: show icon only, hide text label */
   .btn-gps span:last-child { display: none; }

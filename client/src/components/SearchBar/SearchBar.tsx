@@ -152,6 +152,12 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
         )}
       </div>
 
+      {/* Search sits beside the input so it shares the first row and stays
+          reachable while the on-screen keyboard is open. */}
+      <button className="btn btn-search" onClick={doSearch}>
+        <span>{t.searchBtn}</span>
+      </button>
+
       {voice.supported && (
         <button
           className={`btn btn-mic${voice.listening ? ' listening' : ''}`}
@@ -161,10 +167,6 @@ export function SearchBar({ radiusM, onRadiusChange, onLocation, onError, onSear
           <span>{voice.listening ? '⏹️' : '🎙️'}</span>
         </button>
       )}
-
-      <button className="btn btn-search" onClick={doSearch}>
-        <span>{t.searchBtn}</span>
-      </button>
 
       <button
         className="btn btn-gps"
