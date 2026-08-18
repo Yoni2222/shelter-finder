@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 /* ── Header ── */
@@ -19,6 +20,11 @@ header {
   background: linear-gradient(135deg, #0d2137 0%, #1a3a5c 100%);
   color: white;
   padding: 13px 22px;
+  /* On notched iPhones the web view fills the whole screen, so without this
+     the header sits under the clock and battery. Zero everywhere else. */
+  padding-top: calc(13px + env(safe-area-inset-top, 0px));
+  padding-left: calc(22px + env(safe-area-inset-left, 0px));
+  padding-right: calc(22px + env(safe-area-inset-right, 0px));
   display: flex;
   align-items: center;
   gap: 12px;
