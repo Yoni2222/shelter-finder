@@ -151,8 +151,13 @@ function findSheltersByAddress(query, allShelters) {
       const inCity = (s.city && s.city === detectedCity) || s.address.includes(detectedCity);
       if (!inCity) return false;
     }
-    // Street match: try all variants (with/without \u05D4 prefix)
-    return streetRegexes.some(re => re.test(s.address) || re.test(s.name));
+    // Street match: try all variants (with/without ה prefix). addressEn is
+    // included so an English query can match too - the Hebrew fields alone
+    // never match a Latin-script street name, which is why searching
+    // 'Sderot Sinai 13' returned nearby shelters instead of that one.
+    return streetRegexes.some(re =>
+      re.test(s.address) || re.test(s.name) || (s.addressEn && re.test(s.addressEn))
+    );
   });
 
   return matches.slice(0, 20);
