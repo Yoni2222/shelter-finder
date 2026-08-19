@@ -29,7 +29,7 @@ const MAX_DRIFT_M = 400;
 const dataDir = path.join(process.cwd(), 'data');
 const only = process.argv[2];
 const files = fs.readdirSync(dataDir)
-  .filter(f => f.endsWith('-shelters.json'))
+  .filter(f => f.endsWith('-shelters.json') && f !== 'all-shelters.json')
   .filter(f => !only || f.includes(only));
 
 if (files.length === 0) { console.error('No city files match: ' + only); process.exit(1); }
@@ -116,23 +116,32 @@ async function processFile(file) {
     const s = shelters[i];
     if (!needsWork(s)) continue;
 
-    let out = null;
+    // Only a Latin-script answer is useful. Google sometimes returns the
+    // Hebrew name even with language=en, so treat that as a miss and let the
+    // coordinate lookup have a go instead of giving up on the record.
+    const usable = v => v && !HEBREW.test(v);
+
+    let out = null, from = null;
     const addr = (s.address || '').trim();
 
     if (addr) {
-      out = await forwardGeocode(addr, s.city || city, s.lat, s.lon);
+      const r = await forwardGeocode(addr, s.city || city, s.lat, s.lon);
       calls++;
-      if (out) fwd++;
+      if (usable(r)) { out = r; from = 'fwd'; }
     }
 
     if (!out) {
-      out = await reverseGeocode(s.lat, s.lon);
+      const r = await reverseGeocode(s.lat, s.lon);
       calls++;
-      if (out) rev++;
+      if (usable(r)) { out = r; from = 'rev'; }
     }
 
-    if (out && !HEBREW.test(out)) s.addressEn = out;
-    else failed++;
+    if (out) {
+      s.addressEn = out;
+      if (from === 'fwd') fwd++; else rev++;
+    } else {
+      failed++;
+    }
 
     if (calls % 25 === 0) process.stdout.write(`  [${city}] ${i + 1}/${shelters.length}\r`);
     await sleep(50);
