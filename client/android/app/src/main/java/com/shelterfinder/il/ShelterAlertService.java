@@ -14,6 +14,7 @@ import android.media.AudioAttributes;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.Settings;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -41,7 +42,7 @@ public class ShelterAlertService extends FirebaseMessagingService {
     private static final String TAG = "ShelterAlertService";
     // Android freezes a channel's sound and importance at creation time and
     // ignores later changes, so altering the settings requires a new id.
-    private static final String CHANNEL_ID = "shelter_alerts_v2";
+    private static final String CHANNEL_ID = "shelter_alerts_v3";
     private static final int NOTIFICATION_ID = 1001;
     private static final String PREFS_NAME = "shelter_finder_prefs";
     private static final long GPS_TIMEOUT_MS = 8000;
@@ -178,7 +179,7 @@ public class ShelterAlertService extends FirebaseMessagingService {
                 .setCategory(NotificationCompat.CATEGORY_ALARM)
                 .setAutoCancel(true)
                 .setContentIntent(contentIntent)
-                .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM))
+                .setSound(alertSoundUri())
                 .setVibrate(new long[]{0, 500, 200, 500, 200, 500})
                 .setFullScreenIntent(contentIntent, true);
 
@@ -186,6 +187,21 @@ public class ShelterAlertService extends FirebaseMessagingService {
                 == PackageManager.PERMISSION_GRANTED || Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {
             notificationManager.notify(NOTIFICATION_ID, builder.build());
         }
+    }
+
+    /**
+     * A sound that actually exists on this device.
+     *
+     * getDefaultUri(TYPE_ALARM) returns null when no default alarm is
+     * configured, and a null sound silences the channel outright - which is
+     * how an emergency alert ends up mute.
+     */
+    private Uri alertSoundUri() {
+        Uri sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
+        if (sound == null) sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        if (sound == null) sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE);
+        if (sound == null) sound = Settings.System.DEFAULT_NOTIFICATION_URI;
+        return sound;
     }
 
     private void createNotificationChannel() {
@@ -199,7 +215,7 @@ public class ShelterAlertService extends FirebaseMessagingService {
             channel.enableVibration(true);
             channel.setVibrationPattern(new long[]{0, 500, 200, 500, 200, 500});
             channel.setSound(
-                    RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM),
+                    alertSoundUri(),
                     new AudioAttributes.Builder()
                             .setUsage(AudioAttributes.USAGE_ALARM)
                             .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
