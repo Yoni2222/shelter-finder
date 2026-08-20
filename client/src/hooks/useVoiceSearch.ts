@@ -1,6 +1,14 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import type { Lang } from '../i18n/strings'
 
+import { Capacitor, registerPlugin } from '@capacitor/core'
+
+/** Native bridge that prompts for RECORD_AUDIO; Android only. */
+interface MicPermissionPlugin { ensure(): Promise<{ granted: boolean }> }
+const MicPermission = Capacitor.getPlatform() === 'android'
+  ? registerPlugin<MicPermissionPlugin>('MicPermission')
+  : null
+
 interface VoiceSearchState {
   listening: boolean
   supported: boolean
@@ -94,8 +102,21 @@ export function useVoiceSearch(
     setListening(false)
   }, [])
 
-  const start = useCallback(() => {
+  const start = useCallback(async () => {
     if (!supported) { onError?.('voice_unsupported'); return }
+
+    // Android: RECORD_AUDIO is a runtime permission and nothing else in the
+    // app asks for it, so speech recognition fails with 'not-allowed' until
+    // the user is prompted. Chromium logs 'No audio device will be available
+    // for recording' in that state.
+    if (MicPermission) {
+      try {
+        const { granted } = await MicPermission.ensure()
+        if (!granted) { onError?.('voice_denied'); return }
+      } catch {
+        // Older build without the plugin - fall through and let the browser try.
+      }
+    }
 
     // Stop any existing session
     if (recRef.current) { recRef.current.stop() }
