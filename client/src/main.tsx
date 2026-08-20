@@ -11,7 +11,7 @@ import './styles/global.css'
 // and env(safe-area-inset-top) reports 0 inside Capacitor - so CSS padding
 // cannot fix it. Tell the native layer to inset the web view instead, which
 // is what Android already does by default.
-if (Capacitor.getPlatform() === 'ios') {
+if (Capacitor.isNativePlatform()) {
   StatusBar.setOverlaysWebView({ overlay: false }).catch(() => {})
   // Light glyphs, because the header behind them is dark navy.
   StatusBar.setStyle({ style: Style.Dark }).catch(() => {})
