@@ -9,7 +9,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Avoda St 3, Kiryat Gat"
   },
   {
     "id": "קריית גת-8",
@@ -21,7 +22,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nitsana St 16, Kiryat Gat"
   },
   {
     "id": "קריית גת-9",
@@ -33,7 +35,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shunit St 13, Kiryat Gat"
   },
   {
     "id": "קריית גת-10",
@@ -45,7 +48,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Tsukim St 9, Kiryat Gat"
   },
   {
     "id": "קריית גת-11",
@@ -57,7 +61,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Bokek St 6, Kiryat Gat"
   },
   {
     "id": "קריית גת-12",
@@ -69,7 +74,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Almugim St 15, Kiryat Gat"
   },
   {
     "id": "קריית גת-13",
@@ -81,7 +87,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivta St 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-14",
@@ -93,7 +100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mamshit St 14, Kiryat Gat"
   },
   {
     "id": "קריית גת-15",
@@ -105,7 +113,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahel St 12, Kiryat Gat"
   },
   {
     "id": "קריית גת-16",
@@ -117,7 +126,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Timna St 19, Kiryat Gat"
   },
   {
     "id": "קריית גת-17",
@@ -129,7 +139,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein ha-Bsor St 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-18",
@@ -141,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Evrona St 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-19",
@@ -153,7 +165,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Netafim St 11, Kiryat Gat"
   },
   {
     "id": "קריית גת-20",
@@ -165,7 +178,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Yorke'am St 6, Kiryat Gat"
   },
   {
     "id": "קריית גת-21",
@@ -177,7 +191,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Mor St 10, Kiryat Gat"
   },
   {
     "id": "קריית גת-22",
@@ -189,7 +204,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ein Gedi St 12, Kiryat Gat"
   },
   {
     "id": "קריית גת-30",
@@ -201,7 +217,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaMegadim 7, Kiryat Gat"
   },
   {
     "id": "קריית גת-31",
@@ -213,7 +230,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTmarim St 12, Kiryat Gat"
   },
   {
     "id": "קריית גת-32",
@@ -225,7 +243,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Harimon St 2, Kiryat Gat"
   },
   {
     "id": "קריית גת-33",
@@ -237,7 +256,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Eshkolit St 14, Kiryat Gat"
   },
   {
     "id": "קריית גת-34",
@@ -249,7 +269,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTmarim St 9, Kiryat Gat"
   },
   {
     "id": "קריית גת-35",
@@ -261,7 +282,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTmarim St 19, Kiryat Gat"
   },
   {
     "id": "קריית גת-36",
@@ -273,7 +295,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTmarim St 11, Kiryat Gat"
   },
   {
     "id": "קריית גת-37",
@@ -285,7 +308,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGefen St 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-38",
@@ -297,7 +321,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Zayit St 33, Kiryat Gat"
   },
   {
     "id": "קריית גת-39",
@@ -309,7 +334,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Komemiyut St 22, Kiryat Gat"
   },
   {
     "id": "קריית גת-40",
@@ -321,7 +347,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Hairis 15, Kiryat Gat"
   },
   {
     "id": "קריית גת-41",
@@ -333,7 +360,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaShoshan 15, Kiryat Gat"
   },
   {
     "id": "קריית גת-42",
@@ -345,7 +373,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot HaAtsma'ut 66, Kiryat Gat"
   },
   {
     "id": "קריית גת-43",
@@ -357,7 +386,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaSaifan 22, Kiryat Gat"
   },
   {
     "id": "קריית גת-44",
@@ -369,7 +399,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaSaifan 60, Kiryat Gat"
   },
   {
     "id": "קריית גת-45",
@@ -381,7 +412,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaShoshan 58, Kiryat Gat"
   },
   {
     "id": "קריית גת-46",
@@ -393,7 +425,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Margalit St 38, Kiryat Gat"
   },
   {
     "id": "קריית גת-48",
@@ -405,7 +438,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Gat 30, Kiryat Gat"
   },
   {
     "id": "קריית גת-49",
@@ -417,7 +451,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yermiyahu St 2, Kiryat Gat"
   },
   {
     "id": "קריית גת-50",
@@ -429,7 +464,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Gat 52, Kiryat Gat"
   },
   {
     "id": "קריית גת-51",
@@ -441,7 +477,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mevo Yisha'ayahu 6, Kiryat Gat"
   },
   {
     "id": "קריית גת-52",
@@ -453,7 +490,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Gat 76, Kiryat Gat"
   },
   {
     "id": "קריית גת-53",
@@ -465,7 +503,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Gat 66, Kiryat Gat"
   },
   {
     "id": "קריית גת-54",
@@ -477,7 +516,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Komemiyut St 18, Kiryat Gat"
   },
   {
     "id": "קריית גת-55",
@@ -489,7 +529,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bilu St 1, Kiryat Gat"
   },
   {
     "id": "קריית גת-56",
@@ -501,7 +542,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bilu St 9, Kiryat Gat"
   },
   {
     "id": "קריית גת-57",
@@ -513,7 +555,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "He-Khaluts St 4, Kiryat Gat"
   },
   {
     "id": "קריית גת-58",
@@ -525,7 +568,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nili St 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-59",
@@ -537,7 +581,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Barazani St 13, Kiryat Gat"
   },
   {
     "id": "קריית גת-60",
@@ -549,7 +594,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Re'uven St 2, Kiryat Gat"
   },
   {
     "id": "קריית גת-66",
@@ -561,7 +607,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Gat 39, Kiryat Gat"
   },
   {
     "id": "קריית גת-68",
@@ -573,7 +620,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaGilbo'a 10, Kiryat Gat"
   },
   {
     "id": "קריית גת-69",
@@ -585,7 +633,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shomron St 56, Kiryat Gat"
   },
   {
     "id": "קריית גת-70",
@@ -597,7 +646,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaBashan St 6, Kiryat Gat"
   },
   {
     "id": "קריית גת-71",
@@ -609,7 +659,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaDishon 7, Kiryat Gat"
   },
   {
     "id": "קריית גת-72",
@@ -621,7 +672,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaErez St 29, Kiryat Gat"
   },
   {
     "id": "קריית גת-73",
@@ -633,7 +685,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Zayit St 68, Kiryat Gat"
   },
   {
     "id": "קריית גת-74",
@@ -645,7 +698,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Zayit St 68, Kiryat Gat"
   },
   {
     "id": "קריית גת-75",
@@ -657,7 +711,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Lachish 5, Kiryat Gat"
   },
   {
     "id": "קריית גת-76",
@@ -669,7 +724,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Adar St 30, Kiryat Gat"
   },
   {
     "id": "קריית גת-77",
@@ -681,7 +737,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Israel Polak 49, Kiryat Gat"
   },
   {
     "id": "קריית גת-78",
@@ -693,7 +750,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Israel Polak 43, Kiryat Gat"
   },
   {
     "id": "קריית גת-79",
@@ -705,7 +763,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mevo Sivan 22, Kiryat Gat"
   },
   {
     "id": "קריית גת-80",
@@ -717,7 +776,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mevo Sivan 26, Kiryat Gat"
   },
   {
     "id": "קריית גת-81",
@@ -729,7 +789,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natran St 17, Kiryat Gat"
   },
   {
     "id": "קריית גת-82",
@@ -741,7 +802,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natran St 5, Kiryat Gat"
   },
   {
     "id": "קריית גת-83",
@@ -753,7 +815,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mevo Sivan 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-84",
@@ -765,7 +828,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kislev St 5, Kiryat Gat"
   },
   {
     "id": "קריית גת-1",
@@ -777,7 +841,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Tsofar 7, Kiryat Gat"
   },
   {
     "id": "קריית גת-2",
@@ -789,7 +854,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Be'er Ora 17, Kiryat Gat"
   },
   {
     "id": "קריית גת-3",
@@ -801,7 +867,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Ktora 17, Kiryat Gat"
   },
   {
     "id": "קריית גת-4",
@@ -813,7 +880,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Shizafon 17, Kiryat Gat"
   },
   {
     "id": "קריית גת-5",
@@ -825,7 +893,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Grofit 14, Kiryat Gat"
   },
   {
     "id": "קריית גת-6",
@@ -837,7 +906,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Halutsa 8, Kiryat Gat"
   },
   {
     "id": "קריית גת-23",
@@ -849,7 +919,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Rotem 27, Kiryat Gat"
   },
   {
     "id": "קריית גת-24",
@@ -861,7 +932,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Yamin 16, Kiryat Gat"
   },
   {
     "id": "קריית גת-25",
@@ -873,7 +945,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Uvda 28, Kiryat Gat"
   },
   {
     "id": "קריית גת-26",
@@ -885,7 +958,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Mivtsa Horev 1, Kiryat Gat"
   },
   {
     "id": "קריית גת-27",
@@ -897,7 +971,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Mivtsa Yo'av 18, Kiryat Gat"
   },
   {
     "id": "קריית גת-28",
@@ -909,7 +984,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Mivtsa Hiram 28, Kiryat Gat"
   },
   {
     "id": "קריית גת-29",
@@ -921,7 +997,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Mivtsa Nahshon 27, Kiryat Gat"
   },
   {
     "id": "קריית גת-47",
@@ -933,7 +1010,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Tashach, Kiryat Gat"
   },
   {
     "id": "קריית גת-61",
@@ -945,7 +1023,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Yisahar 6, Kiryat Gat"
   },
   {
     "id": "קריית גת-62",
@@ -957,7 +1036,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Menashe 3, Kiryat Gat"
   },
   {
     "id": "קריית גת-63",
@@ -969,7 +1049,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Menashe 3, Kiryat Gat"
   },
   {
     "id": "קריית גת-64",
@@ -981,7 +1062,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Menashe 3, Kiryat Gat"
   },
   {
     "id": "קריית גת-65",
@@ -993,7 +1075,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rahvat Gad 3, Kiryat Gat"
   },
   {
     "id": "קריית גת-67",
@@ -1005,6 +1088,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kiryat Gat"
   }
 ]

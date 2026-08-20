@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הגפן, באר יעקב, ישראל"
+    "addressEn": "Ha-Gefen St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הרב קוק, באר יעקב, ישראל"
+    "addressEn": "HaRav Kuk St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "חזון אי\"ש, באר יעקב, ישראל"
+    "addressEn": "Hazon Ish St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האיריס, באר יעקב, ישראל"
+    "addressEn": "Hairis St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החבצלת, באר יעקב, ישראל"
+    "addressEn": "HaHavatselet St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האורן, באר יעקב, ישראל"
+    "addressEn": "Ha-Oren St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ז'בוטינסקי, באר יעקב, ישראל"
+    "addressEn": "Jabotinski St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "תלמי מנשה, באר יעקב, ישראל"
+    "addressEn": "Talmei Menashe, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "באר יעקב, ישראל"
+    "addressEn": "Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "באר יעקב, ישראל"
+    "addressEn": "Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-11",
@@ -129,7 +129,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "שלמ�� בן יוסף 22, באר יעקב, ישראל"
+    "addressEn": "Shlomo Ben Yosef St 22, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-12",
@@ -141,7 +141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "לאה גולדברג 1, באר יעקב, ישראל"
+    "addressEn": "Leah Goldberg St 1, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-13",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחום 7, באר יעקב, ישראל"
+    "addressEn": "Nahum St 7, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-14",
@@ -165,7 +165,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחום 9, באר יעקב, ישראל"
+    "addressEn": "Nahum St 9, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-15",
@@ -177,7 +177,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אב�� הלל סילבר 5, באר יעקב, ישראל"
+    "addressEn": "Aba Hillel Silver St 5, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-16",
@@ -189,7 +189,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האורן 6, באר יעקב, ישראל"
+    "addressEn": "Ha-Oren St 6, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-17",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קרן היסוד 10, באר יעקב, ישראל"
+    "addressEn": "Keren HaYesod St 10, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-18",
@@ -213,7 +213,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רבי מאיר בעל הנס 3, באר יעקב, ישראל"
+    "addressEn": "Rabbi Meir Ba'al HaNess St 3, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-19",
@@ -225,7 +225,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "התאנה 8, באר יעקב, ישראל"
+    "addressEn": "HaTe'ena St 8, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-20",
@@ -237,7 +237,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קרן היסוד 33, באר יעקב, ישראל"
+    "addressEn": "Keren HaYesod St 33, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-21",
@@ -249,7 +249,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יהודה 1, באר יעקב, ישראל"
+    "addressEn": "Yehuda St 1, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-22",
@@ -261,7 +261,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדובדבן 4, באר יעקב, ישראל"
+    "addressEn": "Ha-Duvdevan St 4, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-23",
@@ -273,7 +273,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "תלמי מנשה, באר יעקב, ישראל"
+    "addressEn": "Hadar St 26, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-24",
@@ -285,7 +285,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האקליפטוס, באר יעקב, ישראל"
+    "addressEn": "Ha-Ekaliptus St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-25",
@@ -297,7 +297,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החבצלת 1, באר יעקב, ישראל"
+    "addressEn": "HaHavatselet St 1, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-26",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הרב עוזיאל 22, באר יעקב, ישראל"
+    "addressEn": "HaRav Uziel St 22, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-27",
@@ -321,7 +321,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "התבור 10, באר יעקב, ישראל"
+    "addressEn": "Ha-Tavor St 10, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-28",
@@ -333,7 +333,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אליהו 35, באר יעקב, ישראל"
+    "addressEn": "Eliyahu St 35, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-29",
@@ -345,7 +345,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אליהו 18, באר יעקב, ישראל"
+    "addressEn": "Eliyahu St 18, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-30",
@@ -357,7 +357,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Vered St, Be'er Ya'akov"
   },
   {
     "id": "באר-יעקב-31",
@@ -369,6 +369,6 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Zahal St, Be'er Ya'akov"
   }
 ]

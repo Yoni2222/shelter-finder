@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הגפן 15, קרית טבעון, ישראל"
+    "addressEn": "Ha-Gefen St 15, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הורדים, קרית טבעון, ישראל"
+    "addressEn": "Ha-Vradim St 15, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "משעול הלוטם, קרית טבעון, ישראל"
+    "addressEn": "Mish'ol HaLotem, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הגפן 1, קרית טבעון, ישראל"
+    "addressEn": "Ha-Gefen St 1, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הברושים 85, קרית טבעון, ישראל"
+    "addressEn": "HaBroshim St 85, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הברושים 89, קרית טבעון, ישראל"
+    "addressEn": "HaBroshim St 89, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "התאנה 12, קרית טבעון, ישראל"
+    "addressEn": "HaTe'ena St 12, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "הנרקיסים, קרית טבעון, ישראל"
+    "addressEn": "Ha-Narkisim St, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הציפורנים 13, קרית טבעון, 3606613, ישראל"
+    "addressEn": "Ha-Tsipornim St 13, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החורש 64, קרית טבעון, ישראל"
+    "addressEn": "Ha-Khoresh St 64, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-11",
@@ -129,7 +129,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "סמטת האלה 2, קרית טבעון, ישראל"
+    "addressEn": "Simtat HaEla 2, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-12",
@@ -141,7 +141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האלה 2, קרית טבעון, ישראל"
+    "addressEn": "HaEla St 2, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-13",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אמנון ותמר 15, קרית טבעון, ישראל"
+    "addressEn": "Amnon veTamar St 15, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-14",
@@ -165,7 +165,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הרקפות 4, קרית טבעון, ישראל"
+    "addressEn": "HaShkedim St, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-15",
@@ -177,7 +177,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "המרגניות, קרית טבעון, ישראל"
+    "addressEn": "Ha-Marganiyot St 3, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-16",
@@ -189,7 +189,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדגניות 13, קרית טבעון, ישראל"
+    "addressEn": "Ha-Dganiyot St 13, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-17",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדגניות 12, קרית טבעון, ישראל"
+    "addressEn": "Ha-Dganiyot St 12, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-18",
@@ -213,7 +213,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רמז 67, קרית טבעון, ישראל"
+    "addressEn": "Remez St 67, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-19",
@@ -225,7 +225,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רמז 22, קרית טבעון, ישראל"
+    "addressEn": "Remez St 22, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-20",
@@ -237,7 +237,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רמז 1, קרית טבעון, ישראל"
+    "addressEn": "Remez St 1, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-21",
@@ -249,7 +249,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "האורנים 27, קרית טבעון, ישראל"
+    "addressEn": "Ha-Oranim St 27/27, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-22",
@@ -261,7 +261,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "סמטת החרוב, קרית טבעון, ישראל"
+    "addressEn": "Simtat HaHaruv, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-23",
@@ -273,7 +273,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יהודה הנשיא 21, קרית טב��ון, ישראל"
+    "addressEn": "Yehuda HaNassi St 21, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-24",
@@ -285,7 +285,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "חנה סנש 1, קרית טבעון, ישראל"
+    "addressEn": "Khana Szenes St 1, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-25",
@@ -297,7 +297,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יזרעאל 49, קרית טבעון, ישראל"
+    "addressEn": "Yizre'el St 49, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-26",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הבונים 33, קרית טבעון, ישראל"
+    "addressEn": "Ha-Bonim St 33, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-27",
@@ -321,7 +321,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "קק\"ל 19, קרית טבעון, ישראל"
+    "addressEn": "Kakal St 19, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-28",
@@ -333,7 +333,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "המייסדים, קרית טבעון, ישראל"
+    "addressEn": "Ha'Meyassdim St, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-29",
@@ -345,7 +345,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העמק 1, קרית טבעון, ישראל"
+    "addressEn": "Ha-Emek St 1, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-30",
@@ -357,7 +357,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כצנלסון 9, קרית טבעון, ישראל"
+    "addressEn": "Katzenelson St 9, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-31",
@@ -369,7 +369,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כצנלסון 11, קרית טבעון, ישראל"
+    "addressEn": "Katzenelson St 11, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-32",
@@ -381,7 +381,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "כצנלסון 35, קרית טבעון, ישראל"
+    "addressEn": "Katzenelson St 35, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-33",
@@ -393,7 +393,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "כצנלסון 35, קרית טבעון, ישראל"
+    "addressEn": "Katzenelson St 35, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-34",
@@ -405,7 +405,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "סמטת האחים פיש, קרית טבעון, ישראל"
+    "addressEn": "HaAhim Fish Alley, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-35",
@@ -417,7 +417,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "סמטת האחים פיש 35, קרית טבעון, ישראל"
+    "addressEn": "HaAhim Fish Alley 35, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-36",
@@ -429,7 +429,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אליהו התשבי 2, קרית טבעון, ישראל"
+    "addressEn": "Eliyahu ha-Tishbi St 2, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-37",
@@ -441,7 +441,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אליהו התשבי 23, קרית טב��ון, ישראל"
+    "addressEn": "Eliyahu ha-Tishbi St 23, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-38",
@@ -453,7 +453,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רותם, קרית טבעון, ישראל"
+    "addressEn": "Rotem St, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-39",
@@ -465,7 +465,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הנרייטה סאלד 10, קרית טבעון, ישראל"
+    "addressEn": "Henrietta Szold St 10, Kiryat Tiv'on"
   },
   {
     "id": "קריית טבעון-40",

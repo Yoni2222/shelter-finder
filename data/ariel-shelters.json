@@ -12,7 +12,7 @@
     "shelterType": "עילי - נגיש",
     "capacity": 20,
     "sqm": 25,
-    "addressEn": "העבודה 3, אריאל"
+    "addressEn": "Ha-Avoda St 3, Ari'el"
   },
   {
     "id": "אריאל-2",
@@ -27,7 +27,7 @@
     "shelterType": "עילי",
     "capacity": 64,
     "sqm": 80,
-    "addressEn": "העבודה 9, אריאל"
+    "addressEn": "Ha-Avoda St 9, Ari'el"
   },
   {
     "id": "אריאל-3",
@@ -42,7 +42,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 20,
     "sqm": 25,
-    "addressEn": "המלאכה 6, אריאל"
+    "addressEn": "HaMelacha St 6, Ari'el"
   },
   {
     "id": "אריאל-4",
@@ -57,7 +57,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 20,
     "sqm": 25,
-    "addressEn": "המלאכה 3, אריאל"
+    "addressEn": "HaMelacha St 3, Ari'el"
   },
   {
     "id": "אריאל-5",
@@ -72,7 +72,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 20,
     "sqm": 25,
-    "addressEn": "משעול הזית 1, אריאל"
+    "addressEn": "Mish'ol HaZayit 1, Ari'el"
   },
   {
     "id": "אריאל-6",
@@ -87,7 +87,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 20,
     "sqm": 25,
-    "addressEn": "משעול הזית 5, אריאל"
+    "addressEn": "Mish'ol HaZayit 5, Ari'el"
   },
   {
     "id": "אריאל-7",
@@ -102,7 +102,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 64,
     "sqm": 80,
-    "addressEn": "דרך הנחשונים 57, אריאל"
+    "addressEn": "Derech HaNahshonim 57, Ari'el"
   },
   {
     "id": "אריאל-8",
@@ -117,7 +117,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 0,
     "sqm": 180,
-    "addressEn": "דרך הנחשונים 37, אריאל"
+    "addressEn": "Derech HaNahshonim 37, Ari'el"
   },
   {
     "id": "אריאל-9",
@@ -132,7 +132,7 @@
     "shelterType": "עילי",
     "capacity": 65,
     "sqm": 81,
-    "addressEn": "דרך הנחשונים 16, אריאל"
+    "addressEn": "Derech HaNahshonim 16, Ari'el"
   },
   {
     "id": "אריאל-10",
@@ -147,7 +147,7 @@
     "shelterType": "עילי",
     "capacity": 65,
     "sqm": 81,
-    "addressEn": "רח' הדקל 25, אריאל"
+    "addressEn": "Hadekel St 25, Ari'el"
   },
   {
     "id": "אריאל-11",
@@ -162,7 +162,7 @@
     "shelterType": "עילי",
     "capacity": 65,
     "sqm": 81,
-    "addressEn": "רח' הדקל 37, אריאל"
+    "addressEn": "Hadekel St 37, Ari'el"
   },
   {
     "id": "אריאל-12",
@@ -177,7 +177,7 @@
     "shelterType": "עילי",
     "capacity": 65,
     "sqm": 81,
-    "addressEn": "רח' הדקל 70, אריאל"
+    "addressEn": "Hadekel St 70, Ari'el"
   },
   {
     "id": "אריאל-13",
@@ -192,7 +192,7 @@
     "shelterType": "עילי",
     "capacity": 65,
     "sqm": 81,
-    "addressEn": "האלון 9, אריאל"
+    "addressEn": "Ha-Alon St 9, Ari'el"
   },
   {
     "id": "אריאל-14",
@@ -207,7 +207,7 @@
     "shelterType": "עילי",
     "capacity": 38,
     "sqm": 48,
-    "addressEn": "הארז 1, אריאל"
+    "addressEn": "Ha-Erez St 1, Ari'el"
   },
   {
     "id": "אריאל-15",
@@ -222,7 +222,7 @@
     "shelterType": "עילי",
     "capacity": 50,
     "sqm": 63,
-    "addressEn": "השיקמה 1, אריאל"
+    "addressEn": "HaShikma St 1, Ari'el"
   },
   {
     "id": "אריאל-16",
@@ -237,7 +237,7 @@
     "shelterType": "עילי",
     "capacity": 119,
     "sqm": 149,
-    "addressEn": "השיקמה 4, אריאל"
+    "addressEn": "HaShikma St 4, Ari'el"
   },
   {
     "id": "אריאל-17",
@@ -252,7 +252,7 @@
     "shelterType": "עילי",
     "capacity": 119,
     "sqm": 149,
-    "addressEn": "השיקמה 8, אריאל"
+    "addressEn": "Hadekel St 47, Ari'el"
   },
   {
     "id": "אריאל-18",
@@ -267,7 +267,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 71,
     "sqm": 89,
-    "addressEn": "הסביונים 9, אריאל"
+    "addressEn": "HaSavyonim St 9, Ari'el"
   },
   {
     "id": "אריאל-19",
@@ -282,7 +282,7 @@
     "shelterType": "תת קרקעי",
     "capacity": 71,
     "sqm": 89,
-    "addressEn": "גנים 4, אריאל"
+    "addressEn": "Ganim St 4, Ari'el"
   },
   {
     "id": "אריאל-20",
@@ -297,7 +297,7 @@
     "shelterType": "עילי",
     "capacity": 32,
     "sqm": 40,
-    "addressEn": "גנים 7, אריאל"
+    "addressEn": "Ganim St 7, Ari'el"
   },
   {
     "id": "אריאל-21",
@@ -312,7 +312,7 @@
     "shelterType": "עילי",
     "capacity": 40,
     "sqm": 50,
-    "addressEn": "גנים 23, אריאל"
+    "addressEn": "Ganim St 23, Ari'el"
   },
   {
     "id": "אריאל-22",
@@ -327,7 +327,7 @@
     "shelterType": "עילי",
     "capacity": 40,
     "sqm": 50,
-    "addressEn": "גנים 41, אריאל"
+    "addressEn": "Ganim St 41, Ari'el"
   },
   {
     "id": "אריאל-23",
@@ -342,7 +342,7 @@
     "shelterType": "עילי",
     "capacity": 32,
     "sqm": 40,
-    "addressEn": "גנים 61, אריאל"
+    "addressEn": "Ganim St 61, Ari'el"
   },
   {
     "id": "אריאל-24",
@@ -357,7 +357,7 @@
     "shelterType": "עילי",
     "capacity": 29,
     "sqm": 36,
-    "addressEn": "דרך הציונות 14, אריאל"
+    "addressEn": "Derech HaTsiyonut 14, Ari'el"
   },
   {
     "id": "אריאל-25",
@@ -372,7 +372,7 @@
     "shelterType": "עילי",
     "capacity": 29,
     "sqm": 36,
-    "addressEn": "אריאל"
+    "addressEn": "Ha'Atsma'ut/Efron Road, Ari'el"
   },
   {
     "id": "אריאל-26",
@@ -387,7 +387,7 @@
     "shelterType": "עילי",
     "capacity": 48,
     "sqm": 60,
-    "addressEn": "צה\"ל 8, אריאל"
+    "addressEn": "Tsahal St 8, Ari'el"
   },
   {
     "id": "אריאל-27",
@@ -402,7 +402,7 @@
     "shelterType": "עילי",
     "capacity": 48,
     "sqm": 60,
-    "addressEn": "צה\"ל 12, אריאל"
+    "addressEn": "Tsahal St 12, Ari'el"
   },
   {
     "id": "אריאל-28",
@@ -417,7 +417,7 @@
     "shelterType": "עילי",
     "capacity": 58,
     "sqm": 72,
-    "addressEn": "רחוב ששת הימים 16, אריאל"
+    "addressEn": "Sheshet Ha-Yamim St 16, Ari'el"
   },
   {
     "id": "אריאל-29",
@@ -432,7 +432,7 @@
     "shelterType": "עילי",
     "capacity": 42,
     "sqm": 52,
-    "addressEn": "הנגב 60, אריאל"
+    "addressEn": "Ha-Negev St 60, Ari'el"
   },
   {
     "id": "אריאל-30",
@@ -447,6 +447,6 @@
     "shelterType": "עילי",
     "capacity": 42,
     "sqm": 52,
-    "addressEn": "הנגב 59, אריאל"
+    "addressEn": "Ha-Negev St 59, Ari'el"
   }
 ]

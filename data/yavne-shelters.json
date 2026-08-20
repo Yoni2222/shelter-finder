@@ -9,7 +9,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Har Sinai St 4, Yavne"
   },
   {
     "id": "יבנה-2",
@@ -21,7 +22,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Gilbo'a St 14, Yavne"
   },
   {
     "id": "יבנה-3",
@@ -33,7 +35,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Gilbo'a St 27, Yavne"
   },
   {
     "id": "יבנה-4",
@@ -45,7 +48,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Gilbo'a St 28, Yavne"
   },
   {
     "id": "יבנה-5",
@@ -57,7 +61,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tavor St & Hermon St, Yavne"
   },
   {
     "id": "יבנה-6",
@@ -69,7 +74,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Nesi'im St 11, Yavne"
   },
   {
     "id": "יבנה-7",
@@ -81,7 +87,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Nesi'im St 2, Yavne"
   },
   {
     "id": "יבנה-8",
@@ -93,7 +100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Elazar St 8, Yavne"
   },
   {
     "id": "יבנה-9",
@@ -105,7 +113,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Yonatan St 10, Yavne"
   },
   {
     "id": "יבנה-10",
@@ -117,7 +126,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bukhris St 3, Yavne"
   },
   {
     "id": "יבנה-11",
@@ -129,7 +139,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaLilach St 1, Yavne"
   },
   {
     "id": "יבנה-12",
@@ -141,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaLilach St 3, Yavne"
   },
   {
     "id": "יבנה-13",
@@ -153,7 +165,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shabazi St 10, Yavne"
   },
   {
     "id": "יבנה-14",
@@ -165,7 +178,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Du'ani 33, Yavne"
   },
   {
     "id": "יבנה-15",
@@ -177,7 +191,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Du'ani 55, Yavne"
   },
   {
     "id": "יבנה-16",
@@ -189,7 +204,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khavatselet St 35, Yavne"
   },
   {
     "id": "יבנה-17",
@@ -201,7 +217,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Khavatselet St & Abu Hatseira St, Yavne"
   },
   {
     "id": "יבנה-18",
@@ -213,7 +230,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Savyon St 2, Yavne"
   },
   {
     "id": "יבנה-19",
@@ -225,7 +243,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tsiv'oni St 21, Yavne"
   },
   {
     "id": "יבנה-20",
@@ -237,7 +256,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tsiv'oni St 27, Yavne"
   },
   {
     "id": "יבנה-21",
@@ -249,7 +269,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tsiv'oni St 31, Yavne"
   },
   {
     "id": "יבנה-22",
@@ -261,7 +282,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tsiv'oni St 45, Yavne"
   },
   {
     "id": "יבנה-23",
@@ -273,7 +295,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Tsiv'oni St 49, Yavne"
   },
   {
     "id": "יבנה-24",
@@ -285,7 +308,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yavne"
   },
   {
     "id": "יבנה-25",
@@ -297,7 +321,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaOrgim St 27, Yavne"
   },
   {
     "id": "יבנה-26",
@@ -309,7 +334,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 12, Yavne"
   },
   {
     "id": "יבנה-27",
@@ -321,7 +347,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 19, Yavne"
   },
   {
     "id": "יבנה-28",
@@ -333,7 +360,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 24, Yavne"
   },
   {
     "id": "יבנה-29",
@@ -345,7 +373,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 27, Yavne"
   },
   {
     "id": "יבנה-30",
@@ -357,7 +386,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaGuyava, Yavne"
   },
   {
     "id": "יבנה-31",
@@ -369,7 +399,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Klil Hahoresh St, Yavne"
   },
   {
     "id": "יבנה-32",
@@ -381,7 +412,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGolan St 37, Yavne"
   },
   {
     "id": "יבנה-33",
@@ -393,7 +425,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaGolan St 53, Yavne"
   },
   {
     "id": "יבנה-34",
@@ -405,7 +438,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nitsanit St 9, Yavne"
   },
   {
     "id": "יבנה-35",
@@ -417,7 +451,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nitsanit St 54, Yavne"
   },
   {
     "id": "יבנה-36",
@@ -429,7 +464,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 32, Yavne"
   },
   {
     "id": "יבנה-37",
@@ -441,7 +477,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 35, Yavne"
   },
   {
     "id": "יבנה-38",
@@ -453,7 +490,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 50, Yavne"
   },
   {
     "id": "יבנה-39",
@@ -465,7 +503,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ya'ara St 86, Yavne"
   },
   {
     "id": "יבנה-40",
@@ -477,7 +516,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Tsurit St 5, Yavne"
   },
   {
     "id": "יבנה-41",
@@ -489,7 +529,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Dolev St 22, Yavne"
   },
   {
     "id": "יבנה-42",
@@ -501,7 +542,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sigal St 7, Yavne"
   },
   {
     "id": "יבנה-43",
@@ -513,7 +555,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Kadesh St, Yavne"
   },
   {
     "id": "יבנה-44",
@@ -525,7 +568,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Arava St 20, Yavne"
   },
   {
     "id": "יבנה-45",
@@ -537,7 +581,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Arava St 50, Yavne"
   },
   {
     "id": "יבנה-46",
@@ -549,7 +594,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Arava St 60, Yavne"
   },
   {
     "id": "יבנה-47",
@@ -561,7 +607,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Du'ani 50, Yavne"
   },
   {
     "id": "יבנה-48",
@@ -573,7 +620,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Negev St, Yavne"
   },
   {
     "id": "יבנה-49",
@@ -585,7 +633,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaSharon/HaShfela, Yavne"
   },
   {
     "id": "יבנה-50",
@@ -597,7 +646,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaCarmel St 2, Yavne"
   },
   {
     "id": "יבנה-51",
@@ -609,7 +659,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 6, Yavne"
   },
   {
     "id": "יבנה-52",
@@ -621,7 +672,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 8, Yavne"
   },
   {
     "id": "יבנה-53",
@@ -633,7 +685,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Arava St 20, Yavne"
   },
   {
     "id": "יבנה-54",
@@ -645,7 +698,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shabazi St, Yavne"
   },
   {
     "id": "יבנה-55",
@@ -657,7 +711,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Dror St 21, Yavne"
   },
   {
     "id": "יבנה-56",
@@ -669,7 +724,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Nesher St, Yavne"
   },
   {
     "id": "יבנה-57",
@@ -681,7 +737,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Alon St 37, Yavne"
   },
   {
     "id": "יבנה-58",
@@ -693,7 +750,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTana'im St 1, Yavne"
   },
   {
     "id": "יבנה-59",
@@ -705,7 +763,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shabazi St 24, Yavne"
   },
   {
     "id": "יבנה-60",
@@ -717,7 +776,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Gilbo'a St 4, Yavne"
   },
   {
     "id": "יבנה-61",
@@ -729,7 +789,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaOren St 10, Yavne"
   },
   {
     "id": "יבנה-62",
@@ -741,7 +802,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nurit/Shezaf, Yavne"
   },
   {
     "id": "יבנה-63",
@@ -753,6 +815,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yavne"
   }
 ]

@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הר ארדון 6, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Har Ardon St 6, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הר ארדון 8, מצפה רמון, ישראל"
+    "addressEn": "Har Ardon St 8, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הר בוקר 10, מצפה רמון, ישרא��"
+    "addressEn": "Har Boker St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הר בוקר 12, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Har Boker St 12, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הר בוקר 4, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Har Boker St 4, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל איילות 29, מצפה ��מון, ישראל"
+    "addressEn": "Nakhal Ayalot St 29, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל גרופית 10, מצפה ��מון, ישראל"
+    "addressEn": "Nahal Gerofit St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל גרופית 11, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Nahal Gerofit St 11, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל האלה, מצפה רמון, ישראל"
+    "addressEn": "HaEla St, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל חמדה 40, מצפה רמון, י��ראל"
+    "addressEn": "Nakhal Khemda St 40, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-11",
@@ -129,7 +129,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל טרשים 10, מצפה רמו��, ישראל"
+    "addressEn": "Nahal Trashim St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-12",
@@ -141,7 +141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל כרכום 3, מצפה רמון, ישראל"
+    "addressEn": "Nahal Karkom St 3, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-13",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל מישר 10, מצפה רמון, י��ראל"
+    "addressEn": "Nakhal Meishar St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-14",
@@ -165,7 +165,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל ערבה 3, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Nakhal Arava St 3, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-15",
@@ -177,7 +177,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל ציחור 10, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Nakhal Tsikhor St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-16",
@@ -189,7 +189,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל צניפים 10, מצפה ��מון, ישראל"
+    "addressEn": "Nahal Tsnifim St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-17",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל רעים 6, מצפה רמון, ישראל"
+    "addressEn": "Nahal Re'im St 6, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-18",
@@ -213,7 +213,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "נחל רעף 8, מצפה רמון, ישראל"
+    "addressEn": "Nahal Ra'af St 8, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-19",
@@ -225,7 +225,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין משק 10, מצפה רמון, ישרא��"
+    "addressEn": "Ein Mashak St 10, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-20",
@@ -237,7 +237,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין משק 18, מצפה רמון, ישרא��"
+    "addressEn": "Ein Mashak St 18, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-21",
@@ -249,7 +249,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין משק 22, מצפה רמון, 80600, ישראל"
+    "addressEn": "Ein Mashak St 22, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-22",
@@ -261,7 +261,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין משק 26, מצפה רמון, 80600, ישראל"
+    "addressEn": "Ein Mashak St 26, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-23",
@@ -273,7 +273,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין משק 28, מצפה רמון, ישרא��"
+    "addressEn": "Ein Mashak St 28, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-24",
@@ -285,7 +285,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין שביב 51, מצפה רמון, י��ראל"
+    "addressEn": "Ein Shaviv St 51, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-25",
@@ -297,7 +297,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין שחק 21, מצפה רמון, ישרא��"
+    "addressEn": "Ein Shakhak St 21, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-26",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין שחק 8, מצפה רמון, ישראל"
+    "addressEn": "Ein Shakhak St 8, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-27",
@@ -321,7 +321,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שדרות דוד בן גוריון 4, מצפה רמון, ישראל"
+    "addressEn": "Sderot David Ben Gurion 4, Mitzpe Ramon"
   },
   {
     "id": "מצפה רמון-28",
@@ -333,6 +333,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שדרות דוד בן גוריון 6, מצפה רמון, 8060000, ישראל"
+    "addressEn": "Sderot David Ben Gurion 6, Mitzpe Ramon"
   }
 ]

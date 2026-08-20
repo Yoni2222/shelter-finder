@@ -10,7 +10,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaroshet St 12, Bat Yam"
+    "addressEn": "Ort Israel St 4, Bat Yam"
   },
   {
     "id": "בת ים-2",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "15, Bat Yam"
+    "addressEn": "Israel's St 5, Bat Yam"
   },
   {
     "id": "בת ים-14",
@@ -179,7 +179,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shaul Hadadi St 2, Bat Yam"
+    "addressEn": "Livyatan St 5, Bat Yam"
   },
   {
     "id": "בת ים-15",
@@ -322,7 +322,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Perlstein St 20, Bat Yam"
+    "addressEn": "Perlstein St 24, Bat Yam"
   },
   {
     "id": "בת ים-26",
@@ -543,7 +543,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "David Raziel St 5, Bat Yam"
+    "addressEn": "Mokhrei ha-Sigaryot St 2, Bat Yam"
   },
   {
     "id": "בת ים-43",
@@ -673,7 +673,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaGiborim St 34, Bat Yam"
+    "addressEn": "HaGiborim St 32, Bat Yam"
   },
   {
     "id": "בת ים-53",
@@ -712,6 +712,6 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Bar Ilan St 73, Bat Yam"
+    "addressEn": "Ha-Nevi'im St 52, Bat Yam"
   }
 ]

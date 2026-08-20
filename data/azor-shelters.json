@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "השקמה, אזור, ישראל"
+    "addressEn": "Ha-Metsuda St 3, Azor"
   },
   {
     "id": "אזור-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אחד במאי, אזור, ישראל"
+    "addressEn": "Ekhad be-Mai St, Azor"
   },
   {
     "id": "אזור-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יצחק שדה 8, אזור, ישראל"
+    "addressEn": "Yitshak Sadeh St 8, Azor"
   },
   {
     "id": "אזור-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יצחק שדה 18, אזור, 5801209, ישראל"
+    "addressEn": "Yitshak Sadeh St 18, Azor"
   },
   {
     "id": "אזור-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "חנה סנש, אזור, ישראל"
+    "addressEn": "Khana Szenes St, Azor"
   },
   {
     "id": "אזור-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קפלן 7, אזור, ישראל"
+    "addressEn": "Kaplan St 7, Azor"
   },
   {
     "id": "אזור-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "קפלן 15, אזור, ישראל"
+    "addressEn": "Kaplan St 15, Azor"
   },
   {
     "id": "אזור-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "השבעה, אזור, ישראל"
+    "addressEn": "Ha-Shiv'a St, Azor"
   },
   {
     "id": "אזור-9",
@@ -105,6 +105,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אנילביץ', אזור, ישראל"
+    "addressEn": "Anielewicz St, Azor"
   }
 ]

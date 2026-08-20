@@ -10,7 +10,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדובדבן 3, מגדל העמק, ישראל"
+    "addressEn": "Ha-Duvdevan St 3, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-2",
@@ -23,7 +23,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הצבר 4, מגדל העמק, ישראל"
+    "addressEn": "HaTsabar St 4, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-3",
@@ -36,7 +36,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הצבר 22, מגדל העמק, ישראל"
+    "addressEn": "HaTsabar St 22, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-4",
@@ -49,7 +49,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החרוב 7, מגדל העמק, ישראל"
+    "addressEn": "Ha-Kharuv St 7, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-5",
@@ -62,7 +62,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החרוב 12, מגדל העמק, ישראל"
+    "addressEn": "Ha-Kharuv St 12, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-6",
@@ -75,7 +75,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדובדבן 12, מגדל העמק, ישר��ל"
+    "addressEn": "Ha-Duvdevan St 12, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-7",
@@ -88,7 +88,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "השקד 9, מגדל העמק, ישראל"
+    "addressEn": "Ha-Shaked St 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-8",
@@ -101,7 +101,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שד' צבי אלדרוטי, מגדל העמק, ישראל"
+    "addressEn": "Zvi Alderoti Avenue/HaAriza, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-9",
@@ -114,7 +114,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שד' צבי אלדרוטי, מגדל העמק, ישראל"
+    "addressEn": "Zvi Alderoti Avenue/HaAriza, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-10",
@@ -127,7 +127,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "חימר 2, מגדל העמק, ישראל"
+    "addressEn": "Hemar St 2, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-11",
@@ -140,7 +140,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כליל החורש 10, מגדל העמק, ישראל"
+    "addressEn": "Klil Hahoresh St 10, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-12",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הערבה 16, מגדל העמק, ישראל"
+    "addressEn": "Ha-Arava St 16, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-13",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כליל החורש 9, מגדל הע��ק, ישראל"
+    "addressEn": "Klil Hahoresh St 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-14",
@@ -179,7 +179,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העצמאות 75, מגדל העמק, ישר��ל"
+    "addressEn": "HaAtsmaut St 75, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-15",
@@ -192,7 +192,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "חימר 12, מגדל העמק, ישראל"
+    "addressEn": "Hemar St 12, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-16",
@@ -205,7 +205,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "משעול הזמיר 9, מגדל העמק, ישראל"
+    "addressEn": "Mish'ol HaZamir 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-17",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "משעול הצבעוני 8, מגדל העמק, ישראל"
+    "addressEn": "Mish'ol HaTsiv'oni 8, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-18",
@@ -231,7 +231,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "זבולון 9, מגדל העמק, ישראל"
+    "addressEn": "Zevulun St 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-19",
@@ -244,7 +244,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הורד 4, מגדל העמק, ישראל"
+    "addressEn": "Ha-Vered St 4, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-20",
@@ -257,7 +257,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הורד 3, מגדל העמק, ישראל"
+    "addressEn": "Ha-Vered St 3, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-21",
@@ -270,7 +270,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הורד 6, מגדל העמק, ישראל"
+    "addressEn": "Ha-Vered St 6, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-22",
@@ -283,7 +283,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קדש 39, מגדל העמק, ישראל"
+    "addressEn": "Kadesh St 39, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-23",
@@ -296,7 +296,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שלום עליכם 12, מגדל העמק, ישראל"
+    "addressEn": "Shalom Aleichem St 12, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-24",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העצמאות 30, מגדל העמק, ישר��ל"
+    "addressEn": "HaAtsmaut St 30, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-25",
@@ -322,7 +322,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שלום עליכם 8, מגדל הע��ק, ישראל"
+    "addressEn": "Shalom Aleichem St 8, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-26",
@@ -335,7 +335,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "משעול הצבעוני 9, מגדל העמק, ישראל"
+    "addressEn": "Mish'ol HaTsiv'oni 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-27",
@@ -348,7 +348,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "תשי\"ג, מגדל העמק, ישראל"
+    "addressEn": "Tashyag St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-28",
@@ -361,7 +361,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העצמאות 7, מגדל העמק, ישראל"
+    "addressEn": "HaAtsmaut St 7, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-29",
@@ -374,7 +374,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "החורש 7, מגדל העמק, ישראל"
+    "addressEn": "Hahoresh St 7, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-30",
@@ -387,7 +387,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "זבולון 24, מגדל העמק, ישראל"
+    "addressEn": "Zevulun St 24, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-31",
@@ -400,7 +400,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tsoran St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-32",
@@ -413,7 +413,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaNapah St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-33",
@@ -426,7 +426,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tsoref St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-34",
@@ -439,7 +439,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tsoref St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-35",
@@ -452,7 +452,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaNagar St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-36",
@@ -465,7 +465,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Shayish St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-37",
@@ -478,7 +478,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tsoran St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-38",
@@ -491,7 +491,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 26, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-39",
@@ -504,7 +504,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 28, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-40",
@@ -517,7 +517,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaBroshim St 3, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-41",
@@ -530,7 +530,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Alonim St 10, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-42",
@@ -543,7 +543,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 19, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-43",
@@ -556,7 +556,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 19, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-44",
@@ -569,7 +569,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Mish'ol HaHadarim 3, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-45",
@@ -582,7 +582,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Meron St 27, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-46",
@@ -595,7 +595,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Nesi'im St 17, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-47",
@@ -608,7 +608,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 13, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-48",
@@ -621,7 +621,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Hativat Golani 12, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-49",
@@ -634,7 +634,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Mish'ol HaDkalim 1, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-50",
@@ -647,7 +647,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Atsmon St 23, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-51",
@@ -660,7 +660,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaTidhar St 10, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-52",
@@ -673,7 +673,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Nufar St 8, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-53",
@@ -686,7 +686,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaShikma St 1, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-54",
@@ -699,7 +699,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaShikma St 4, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-55",
@@ -712,7 +712,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaShikma St 7, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-56",
@@ -725,7 +725,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gil'ad St 4, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-57",
@@ -738,7 +738,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Bashan St 9, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-58",
@@ -751,7 +751,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaMasger St 1, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-59",
@@ -764,7 +764,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "HaNagar St 1, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-60",
@@ -777,7 +777,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tse'elon St 3, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-61",
@@ -790,7 +790,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Tsoref St, Migdal HaEmek"
   },
   {
     "id": "מגדל-העמק-62",
@@ -803,6 +803,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Nesi'im St, Migdal HaEmek"
   }
 ]

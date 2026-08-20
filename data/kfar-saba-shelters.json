@@ -101,7 +101,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda ha-Maccabi St 18, Kefar Sava"
+    "addressEn": "Yehuda ha-Maccabi St 5, Kefar Sava"
   },
   {
     "id": "kfarsaba_9",
@@ -140,7 +140,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sha'ul ha-Melekh St 13, Kefar Sava"
+    "addressEn": "Sha'ul ha-Melekh St 19, Kefar Sava"
   },
   {
     "id": "kfarsaba_12",
@@ -179,7 +179,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHaruv St 13, Kefar Sava"
+    "addressEn": "HaHaruv St 17, Kefar Sava"
   },
   {
     "id": "kfarsaba_15",
@@ -192,7 +192,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Ilanot St 22, Kefar Sava"
+    "addressEn": "HaTamar St 15, Kefar Sava"
   },
   {
     "id": "kfarsaba_16",
@@ -205,7 +205,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Ilanot St 25, Kefar Sava"
+    "addressEn": "Ha-Ilanot St 23, Kefar Sava"
   },
   {
     "id": "kfarsaba_17",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaTamar St 11, Kefar Sava"
+    "addressEn": "Harimon St 13, Kefar Sava"
   },
   {
     "id": "kfarsaba_18",
@@ -231,7 +231,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Harimon St 9, Kefar Sava"
+    "addressEn": "Harimon St 7, Kefar Sava"
   },
   {
     "id": "kfarsaba_19",
@@ -244,7 +244,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaZayit St 31, Kefar Sava"
+    "addressEn": "HaZayit St 6, Kefar Sava"
   },
   {
     "id": "kfarsaba_20",
@@ -283,7 +283,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yetsi'at Eropa St 14, Kefar Sava"
+    "addressEn": "Yetsi'at Eropa St 11, Kefar Sava"
   },
   {
     "id": "kfarsaba_23",
@@ -296,7 +296,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Graetz St 8, Kefar Sava"
+    "addressEn": "Graetz St 10, Kefar Sava"
   },
   {
     "id": "kfarsaba_24",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Rav Simkha Asaf St 11, Kefar Sava"
+    "addressEn": "Ha-Rav Simkha Asaf St 13, Kefar Sava"
   },
   {
     "id": "kfarsaba_25",
@@ -322,7 +322,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRav Kuk St 12, Kefar Sava"
+    "addressEn": "HaRav Kuk St 9, Kefar Sava"
   },
   {
     "id": "kfarsaba_26",
@@ -348,7 +348,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Rav Gold St 11, Kefar Sava"
+    "addressEn": "Ha-Rav Gold St 10, Kefar Sava"
   },
   {
     "id": "kfarsaba_28",
@@ -387,7 +387,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Akhad ha-Am St 57, Kefar Sava"
+    "addressEn": "Mapu St 1, Kefar Sava"
   },
   {
     "id": "kfarsaba_31",
@@ -491,7 +491,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Frug St 5, Kefar Sava"
+    "addressEn": "Frug St 6, Kefar Sava"
   },
   {
     "id": "kfarsaba_39",
@@ -686,7 +686,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Gilboa St 8, Kefar Sava"
+    "addressEn": "Avraham Keren St 31, Kefar Sava"
   },
   {
     "id": "kfarsaba_54",
@@ -777,7 +777,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMelech Yanai St 9, Kefar Sava"
+    "addressEn": "HaMelech Yanai St 1, Kefar Sava"
   },
   {
     "id": "kfarsaba_61",
@@ -816,7 +816,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMelachim St 10, Kefar Sava"
+    "addressEn": "HaNevi'im St 4, Kefar Sava"
   },
   {
     "id": "kfarsaba_64",
@@ -855,7 +855,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Har Ravid St 3, Kefar Sava"
+    "addressEn": "Har Ravid St 2, Kefar Sava"
   },
   {
     "id": "kfarsaba_67",
@@ -894,7 +894,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yoel St 15, Kefar Sava"
+    "addressEn": "Yoel St 17, Kefar Sava"
   },
   {
     "id": "kfarsaba_70",
@@ -946,7 +946,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "צמוד לצומח 80, Zetler St 5, Kfar Saba"
+    "addressEn": "Zetler St 5, Kefar Sava"
   },
   {
     "id": "kfarsaba_74",
@@ -1050,7 +1050,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ya'ara St 11, Kefar Sava"
+    "addressEn": "Ya'ara St 13, Kefar Sava"
   },
   {
     "id": "kfarsaba_82",
@@ -1102,7 +1102,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Yair Rozenblum St 25, Kefar Sava"
+    "addressEn": "Ofra Haza St 1, Kefar Sava"
   },
   {
     "id": "kfarsaba_86",
@@ -1310,7 +1310,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Bar Ilan St 73, Kefar Sava"
+    "addressEn": "Bar Ilan St 37, Kefar Sava"
   },
   {
     "id": "kfarsaba_102",
@@ -1349,7 +1349,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Tel-Hay St 68א, Kefar Sava"
+    "addressEn": "Tel-Hay St 68, Kefar Sava"
   },
   {
     "id": "kfarsaba_105",
@@ -1427,7 +1427,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaGvurot St 17, Kefar Sava"
+    "addressEn": "HaGvurot St 19, Kefar Sava"
   },
   {
     "id": "kfarsaba_111",
@@ -1440,7 +1440,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "גן אורן, Bat Yiftakh St 4, Kfar Saba"
+    "addressEn": "Bat Yiftakh St 4, Kefar Sava"
   },
   {
     "id": "kfarsaba_112",
@@ -1479,7 +1479,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Hoshe'a St 10, Kefar Sava"
+    "addressEn": "Hoshe'a St 9, Kefar Sava"
   },
   {
     "id": "kfarsaba_115",
@@ -1505,7 +1505,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Natan Alterman St 15, Kefar Sava"
+    "addressEn": "Natan Alterman St 11, Kefar Sava"
   },
   {
     "id": "kfarsaba_117",
@@ -1596,7 +1596,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "גן חסידה, Mish'ol Bik'at Be'er Sheva 5, Kfar Saba"
+    "addressEn": "Mish'ol Bik'at Be'er Sheva 5, Kfar Saba"
   },
   {
     "id": "kfarsaba_124",
@@ -1635,7 +1635,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Hahermon St 8, Kefar Sava"
+    "addressEn": "Hahermon St 5, Kefar Sava"
   },
   {
     "id": "kfarsaba_127",
@@ -1661,7 +1661,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Emek Dotan St 10, Kefar Sava"
+    "addressEn": "Emek Dotan St 15, Kefar Sava"
   },
   {
     "id": "kfarsaba_129",
@@ -1700,7 +1700,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Rapaport St 3, Kefar Sava"
+    "addressEn": "Rapaport St 6, Kefar Sava"
   },
   {
     "id": "kfarsaba_132",
@@ -1817,7 +1817,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Dr Moshe Sne St 13, Kefar Sava"
+    "addressEn": "Telem St 4, Kefar Sava"
   },
   {
     "id": "kfarsaba_141",
@@ -1869,7 +1869,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Simtat Shahaf 5, Kfar Saba"
+    "addressEn": "Simtat Shahaf 3, Kfar Saba"
   },
   {
     "id": "kfarsaba_145",
@@ -1882,7 +1882,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Natan Alterman St 15, Kefar Sava"
+    "addressEn": "Natan Alterman St 13, Kefar Sava"
   },
   {
     "id": "kfarsaba_146",
@@ -1895,7 +1895,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Bar Ilan St 15, Kefar Sava"
+    "addressEn": "Ha-Shalom St 10, Kefar Sava"
   },
   {
     "id": "kfarsaba_147",
@@ -1908,7 +1908,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Me'ir Ari'el St 14/4, Kefar Sava"
+    "addressEn": "Yossi Banai St, Kefar Sava"
   },
   {
     "id": "kfarsaba_148",
@@ -1921,7 +1921,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaBanim St 11, Kefar Sava"
+    "addressEn": "Avraham Keren St 37, Kefar Sava"
   },
   {
     "id": "kfarsaba_149",
@@ -2116,7 +2116,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ze'ev Geler St 12, Kefar Sava"
+    "addressEn": "Ze'ev Geler St 14, Kefar Sava"
   },
   {
     "id": "kfarsaba_164",
@@ -2168,7 +2168,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Azar St 8, Kefar Sava"
+    "addressEn": "Azar St 5, Kefar Sava"
   },
   {
     "id": "kfarsaba_168",
@@ -2181,7 +2181,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Eliyahu ha-Tishbi St 2, Kefar Sava"
+    "addressEn": "Yona St 10, Kefar Sava"
   },
   {
     "id": "kfarsaba_169",
@@ -2350,7 +2350,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Me'ir Ari'el St 2, Kefar Sava"
+    "addressEn": "Me'ir Ari'el St 1, Kefar Sava"
   },
   {
     "id": "kfarsaba_182",
@@ -2415,7 +2415,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Blum St 10, Kefar Sava"
+    "addressEn": "Einstein St 5, Kefar Sava"
   },
   {
     "id": "kfarsaba_187",
@@ -2428,7 +2428,7 @@
     "type": "מקלט גן",
     "source": "gov",
     "category": "school",
-    "addressEn": "Beit HaBad St 21, Kefar Sava"
+    "addressEn": "Ha-Ilanot St 28, Kefar Sava"
   },
   {
     "id": "kfarsaba_188",

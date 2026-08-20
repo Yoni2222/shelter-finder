@@ -57,7 +57,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Azar St 12, Petah Tikva"
+    "addressEn": "Janus Korczak St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_5",
@@ -72,7 +72,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Gadna St 6, Petah Tikva"
+    "addressEn": "Assaf Simhoni St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_7",
@@ -87,7 +87,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Kish St 38, Petah Tikva"
+    "addressEn": "Kish St 48, Petah Tikva"
   },
   {
     "id": "ptikva_muni_8",
@@ -102,7 +102,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Yosef Shprintsak St 11, Petah Tikva"
+    "addressEn": "Yosef Shprintsak St 17, Petah Tikva"
   },
   {
     "id": "ptikva_muni_9",
@@ -117,7 +117,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "David Raziel St 1, Petah Tikva"
+    "addressEn": "Sinai St 25, Petah Tikva"
   },
   {
     "id": "ptikva_muni_10",
@@ -132,7 +132,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Elkhanan St 8, Petah Tikva"
+    "addressEn": "Binyamin Minz St 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_11",
@@ -147,7 +147,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yosefsberg St 9, Petah Tikva"
+    "addressEn": "Yosefsberg St 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_12",
@@ -162,7 +162,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yosef Shprintsak St 4, Petah Tikva"
+    "addressEn": "Yosef Shprintsak St 2, Petah Tikva"
   },
   {
     "id": "ptikva_muni_14",
@@ -252,7 +252,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yekhi'am St 1, Petah Tikva"
+    "addressEn": "Yekhi'am St 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_21",
@@ -267,7 +267,7 @@
     "source": "gov",
     "category": "public",
     "status": "closed",
-    "addressEn": "Ha-Kharuv St 32, Petah Tikva"
+    "addressEn": "Ha-Kharuv St 40, Petah Tikva"
   },
   {
     "id": "ptikva_muni_23",
@@ -282,7 +282,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaShoshanim St 12, Petah Tikva"
+    "addressEn": "HaShoshanim St 60, Petah Tikva"
   },
   {
     "id": "ptikva_muni_24",
@@ -327,7 +327,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shalom Tsalah St 26, Petah Tikva"
+    "addressEn": "King Koresh St 31, Petah Tikva"
   },
   {
     "id": "ptikva_muni_27",
@@ -357,7 +357,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shalom Tsalah St 30, Petah Tikva"
+    "addressEn": "Shalom Tsalah St 32, Petah Tikva"
   },
   {
     "id": "ptikva_muni_29",
@@ -372,7 +372,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "50, Petah Tikva"
+    "addressEn": "Trumpeldor St 33, Petah Tikva"
   },
   {
     "id": "ptikva_muni_30",
@@ -387,7 +387,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ze'ev Brande St 27, Petah Tikva"
+    "addressEn": "Ze'ev Brande St 29, Petah Tikva"
   },
   {
     "id": "ptikva_muni_31",
@@ -402,7 +402,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Savyon St 21, Petah Tikva"
+    "addressEn": "Savyon St 23, Petah Tikva"
   },
   {
     "id": "ptikva_muni_32",
@@ -417,7 +417,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Kakal St 31, Petah Tikva"
+    "addressEn": "Shapira St 46, Petah Tikva"
   },
   {
     "id": "ptikva_muni_33",
@@ -432,7 +432,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Shmu'el Salant St 11, Petah Tikva, 4953016"
+    "addressEn": "Shmu'el Salant St 16, Petah Tikva"
   },
   {
     "id": "ptikva_muni_34",
@@ -447,7 +447,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Pascal St 4, Petah Tikva"
+    "addressEn": "Pascal St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_35",
@@ -477,7 +477,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Savyon St 15, Petah Tikva"
+    "addressEn": "Savyon St 11, Petah Tikva"
   },
   {
     "id": "ptikva_muni_37",
@@ -492,7 +492,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaRav Kuk St 33, Petah Tikva"
+    "addressEn": "HaRav Kuk St 32, Petah Tikva"
   },
   {
     "id": "ptikva_muni_39",
@@ -507,7 +507,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Gad Machnes St 4, Petah Tikva"
+    "addressEn": "Gad Machnes St 22, Petah Tikva"
   },
   {
     "id": "ptikva_muni_40",
@@ -522,7 +522,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ester ha-Malka St 1, Petah Tikva"
+    "addressEn": "Ester ha-Malka St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_41",
@@ -537,7 +537,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Брейтер дом 56, Petah Tikva"
+    "addressEn": "Sha'ul ha-Melekh St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_42",
@@ -552,7 +552,7 @@
     "source": "gov",
     "category": "public",
     "status": "closed",
-    "addressEn": "Kehilat Houston St 1, Petah Tikva"
+    "addressEn": "Kehilat Houston St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_43",
@@ -582,7 +582,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ester ha-Malka St 3, Petah Tikva"
+    "addressEn": "Ester ha-Malka St 2, Petah Tikva"
   },
   {
     "id": "ptikva_muni_45",
@@ -612,7 +612,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Brener St 19, Petah Tikva"
+    "addressEn": "Brener St 25, Petah Tikva"
   },
   {
     "id": "ptikva_muni_47",
@@ -627,7 +627,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaShomer St 28, Petah Tikva"
+    "addressEn": "HaShomer St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_48",
@@ -642,7 +642,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yavne St 8, Petah Tikva"
+    "addressEn": "Bat Sheva St 1, Petah Tikva"
   },
   {
     "id": "ptikva_muni_49",
@@ -657,7 +657,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Брейтер дом 56, Petah Tikva"
+    "addressEn": "Kehilat Prague St 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_50",
@@ -672,7 +672,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Masaryk St 30, Petah Tikva"
+    "addressEn": "Kehilat Prague St 2, Petah Tikva"
   },
   {
     "id": "ptikva_muni_51",
@@ -687,7 +687,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaRav Reines St 50, Petah Tikva"
+    "addressEn": "HaRav Reines St 54, Petah Tikva"
   },
   {
     "id": "ptikva_muni_52",
@@ -732,7 +732,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Yatkovski Achim St 10, Petah Tikva"
+    "addressEn": "Yatkovski Achim St 13, Petah Tikva"
   },
   {
     "id": "ptikva_muni_57",
@@ -777,7 +777,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ha-Nesi'im St 22, Petah Tikva"
+    "addressEn": "Zelig Bas St 9, Petah Tikva"
   },
   {
     "id": "ptikva_muni_60",
@@ -822,7 +822,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Montefiore St 13, Petah Tikva"
+    "addressEn": "Salor St 4, Petah Tikva"
   },
   {
     "id": "ptikva_muni_63",
@@ -837,7 +837,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Orde Wingate St 19, Petah Tikva"
+    "addressEn": "Prof. Schorr St 1, Petah Tikva"
   },
   {
     "id": "ptikva_muni_64",
@@ -867,7 +867,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ya'akov Krol St 5, Petah Tikva"
+    "addressEn": "Ze'ev Orlov St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_66",
@@ -882,7 +882,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Mohaliver St 11, Petah Tikva"
+    "addressEn": "Mohaliver St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_67",
@@ -897,7 +897,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "HaMore Eliyahu Yarkoni St 7, Petah Tikva"
+    "addressEn": "Se'adya Ga'on St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_69",
@@ -927,7 +927,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ha-Rishonim St 8, Petah Tikva"
+    "addressEn": "Ha-Rishonim St 4, Petah Tikva"
   },
   {
     "id": "ptikva_muni_71",
@@ -957,7 +957,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "David Wolfson St 44, Petah Tikva"
+    "addressEn": "David Wolfson St 46, Petah Tikva"
   },
   {
     "id": "ptikva_muni_73",
@@ -972,7 +972,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Rambam St 41, Petah Tikva"
+    "addressEn": "Rambam St 29, Petah Tikva"
   },
   {
     "id": "ptikva_muni_74",
@@ -987,7 +987,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ya'akov Krol St 3, Petah Tikva"
+    "addressEn": "Arthur Ruppin St 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_75",
@@ -1002,7 +1002,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Liberman St 4, Petah Tikva"
+    "addressEn": "Liberman St 1, Petah Tikva"
   },
   {
     "id": "ptikva_muni_76",
@@ -1017,7 +1017,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "מד''א/המכבים, Petah Tikva"
+    "addressEn": "HaMaccabim St 21, Petah Tikva"
   },
   {
     "id": "ptikva_muni_77",
@@ -1047,7 +1047,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Menachem Ratson St 29, Petah Tikva"
+    "addressEn": "Menachem Ratson St 26, Petah Tikva"
   },
   {
     "id": "ptikva_muni_79",
@@ -1062,7 +1062,7 @@
     "source": "gov",
     "category": "public",
     "status": "closed",
-    "addressEn": "Ba'al Shem Tov St 47, Petah Tikva, 4936002"
+    "addressEn": "Ba'al Shem Tov St 49, Petah Tikva"
   },
   {
     "id": "ptikva_muni_80",
@@ -1077,7 +1077,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Rachel HaMeshoreret St 16, Petah Tikva"
+    "addressEn": "Rachel HaMeshoreret St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_82",
@@ -1092,7 +1092,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "HaAri HaKadosh St 17, Petah Tikva"
+    "addressEn": "HaAri HaKadosh St 1, Petah Tikva"
   },
   {
     "id": "ptikva_muni_83",
@@ -1122,7 +1122,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Shmu'el ha-Nagid St 1, Petah Tikva"
+    "addressEn": "Shmu'el ha-Nagid St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_85",
@@ -1137,7 +1137,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Amsterdam St 6, Petah Tikva"
+    "addressEn": "Amsterdam St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_86",
@@ -1167,7 +1167,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Shlomo Kaplanski St 2, Petah Tikva"
+    "addressEn": "Shlomo Kaplanski St 1, Petah Tikva"
   },
   {
     "id": "ptikva_muni_88",
@@ -1182,7 +1182,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Alexander Zaid St 34, Petah Tikva"
+    "addressEn": "Alexander Zaid St 42, Petah Tikva"
   },
   {
     "id": "ptikva_muni_89",
@@ -1212,7 +1212,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaAviv St 4, Petah Tikva, 4970003"
+    "addressEn": "HaAviv St 2, Petah Tikva"
   },
   {
     "id": "ptikva_muni_91",
@@ -1227,7 +1227,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shalom Ash St 7, Petah Tikva"
+    "addressEn": "Shalom Ash St 4, Petah Tikva"
   },
   {
     "id": "ptikva_muni_92",
@@ -1242,7 +1242,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Asirei Tsiyon St 27, Petah Tikva"
+    "addressEn": "Asirei Tsiyon St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_93",
@@ -1257,7 +1257,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Aharon Katsnelson St 21, Petah Tikva"
+    "addressEn": "Aharon Katsnelson St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_94",
@@ -1287,7 +1287,7 @@
     "source": "gov",
     "category": "school",
     "status": "open",
-    "addressEn": "Kaplan St 43, Petah Tikva"
+    "addressEn": "Kaplan St 42, Petah Tikva"
   },
   {
     "id": "ptikva_muni_96",
@@ -1302,7 +1302,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Dov Gruner St 4, Petah Tikva"
+    "addressEn": "Dov Gruner St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_97",
@@ -1347,7 +1347,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ein Ganim St 25, Petah Tikva"
+    "addressEn": "Ein Ganim St 27, Petah Tikva"
   },
   {
     "id": "ptikva_muni_100",
@@ -1362,7 +1362,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Hazon Ish St 14, Petah Tikva"
+    "addressEn": "Hazon Ish St 4, Petah Tikva"
   },
   {
     "id": "ptikva_muni_101",
@@ -1422,7 +1422,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Shalom Tsalah St 3, Petah Tikva"
+    "addressEn": "Shalom Tsalah St 33, Petah Tikva"
   },
   {
     "id": "ptikva_muni_107",
@@ -1482,7 +1482,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Elkanyan St 16, Petah Tikva"
+    "addressEn": "Elkanyan St 14, Petah Tikva"
   },
   {
     "id": "ptikva_muni_114",
@@ -1497,7 +1497,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shevet Dan St 5, Petah Tikva"
+    "addressEn": "Shevet Dan St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_115",
@@ -1512,7 +1512,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Tsefat St 58, Petah Tikva"
+    "addressEn": "Tsefat St 53, Petah Tikva"
   },
   {
     "id": "ptikva_muni_117",
@@ -1527,7 +1527,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Tiberias St 47, Petah Tikva"
+    "addressEn": "Tsefat St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_118",
@@ -1542,7 +1542,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shevet Binyamin St 9, Petah Tikva"
+    "addressEn": "Shevet Binyamin St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_120",
@@ -1557,7 +1557,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ezra Unehemiah St 30, Petah Tikva"
+    "addressEn": "Ezra Unehemiah St 20, Petah Tikva"
   },
   {
     "id": "ptikva_muni_121",
@@ -1572,7 +1572,7 @@
     "source": "gov",
     "category": "school",
     "status": "open",
-    "addressEn": "HaTof St 17, Petah Tikva"
+    "addressEn": "HaGitit St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_122",
@@ -1602,7 +1602,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ahavat Tsiyon St 9, Petah Tikva"
+    "addressEn": "Ahavat Tsiyon St 11, Petah Tikva"
   },
   {
     "id": "ptikva_muni_124",
@@ -1617,7 +1617,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Israel Yisha'ayahu St 4, Petah Tikva"
+    "addressEn": "Israel Yisha'ayahu St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_125",
@@ -1632,7 +1632,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Derech Afek 5, Kfar Sirkin"
+    "addressEn": "HaBanim St 17, Kfar Sirkin"
   },
   {
     "id": "ptikva_muni_127",
@@ -1647,7 +1647,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "גינת כלבים, Mivtsa Kadesh St 24-26, Petah Tikva"
+    "addressEn": "Mivtsa Kadesh St 23, Petah Tikva"
   },
   {
     "id": "ptikva_muni_128",
@@ -1707,7 +1707,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Kikar Brosh 11, Petah Tikva"
+    "addressEn": "Kikar Brosh 5, Petah Tikva"
   },
   {
     "id": "ptikva_muni_133",
@@ -1722,7 +1722,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ya'akov Ahva St 19, Petah Tikva"
+    "addressEn": "Ya'akov Ahva St 21, Petah Tikva"
   },
   {
     "id": "ptikva_muni_134",
@@ -1737,7 +1737,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ha-Ma'apilim St 18, Petah Tikva"
+    "addressEn": "Ha-Ma'apilim St 16, Petah Tikva"
   },
   {
     "id": "ptikva_muni_135",
@@ -1752,7 +1752,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ya'akov Rabinovits St 7, Petah Tikva"
+    "addressEn": "Ya'akov Rabinovits St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_136",
@@ -1767,7 +1767,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ein Ganim St 25, Petah Tikva"
+    "addressEn": "Ein Ganim St 27, Petah Tikva"
   },
   {
     "id": "ptikva_muni_137",
@@ -1782,7 +1782,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "HaMeginim St 13, Petah Tikva"
+    "addressEn": "HaMeginim St 23, Petah Tikva"
   },
   {
     "id": "ptikva_muni_138",
@@ -1827,7 +1827,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shlomo Miller St 16, Petah Tikva"
+    "addressEn": "Amitsur Avraham St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_141",
@@ -1842,7 +1842,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Kibuts Galuyot St 38, Petah Tikva"
+    "addressEn": "Kibuts Galuyot St 11, Petah Tikva"
   },
   {
     "id": "ptikva_muni_142",
@@ -1857,7 +1857,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Paul Groninger St 103, Petah Tikva"
+    "addressEn": "Ya'akov Ahva St 109, Petah Tikva"
   },
   {
     "id": "ptikva_muni_143",
@@ -1872,7 +1872,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Paul Groninger St 103, Petah Tikva"
+    "addressEn": "Ya'akov Ahva St 85, Petah Tikva"
   },
   {
     "id": "ptikva_muni_144",
@@ -1887,7 +1887,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Paul Groninger St 45, Petah Tikva"
+    "addressEn": "David Bader St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_145",
@@ -1902,7 +1902,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "David Remez St 27, Petah Tikva"
+    "addressEn": "David Remez St 38, Petah Tikva"
   },
   {
     "id": "ptikva_muni_146",
@@ -1917,7 +1917,7 @@
     "source": "gov",
     "category": "public",
     "status": "closed",
-    "addressEn": "David Remez St 27, Petah Tikva"
+    "addressEn": "David Remez St 33, Petah Tikva"
   },
   {
     "id": "ptikva_muni_147",
@@ -1932,7 +1932,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Gush Etsyon St 6, Petah Tikva"
+    "addressEn": "Ya'akov Ahva St 112, Petah Tikva"
   },
   {
     "id": "ptikva_muni_150",
@@ -1947,7 +1947,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ya'akov Ahva St 27, Petah Tikva"
+    "addressEn": "Ya'akov Ahva St 66, Petah Tikva"
   },
   {
     "id": "ptikva_muni_151",
@@ -1962,7 +1962,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yona Grin St 18, Petah Tikva"
+    "addressEn": "22, Petah Tikva"
   },
   {
     "id": "ptikva_muni_152",
@@ -1977,7 +1977,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ha-Rav Unterman St 8, Petah Tikva"
+    "addressEn": "Ha-Rav Unterman St 14, Petah Tikva"
   },
   {
     "id": "ptikva_muni_153",
@@ -2052,7 +2052,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Rama St 16, Petah Tikva"
+    "addressEn": "Rama St 17, Petah Tikva"
   },
   {
     "id": "ptikva_muni_158",
@@ -2067,7 +2067,7 @@
     "source": "gov",
     "category": "school",
     "status": "open",
-    "addressEn": "HaAviv St 4, Petah Tikva, 4970003"
+    "addressEn": "Meyasdei Neve Oz Garden, HaAviv St 4, Petah Tikva"
   },
   {
     "id": "ptikva_muni_159",
@@ -2082,7 +2082,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "S.L. Gordon St 17, Petah Tikva, 4902504"
+    "addressEn": "S.L. Gordon St 17, Petah Tikva"
   },
   {
     "id": "ptikva_muni_161",
@@ -2097,7 +2097,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ze'ev Ya'avets St 39, Petah Tikva"
+    "addressEn": "Pki'in St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_162",
@@ -2112,7 +2112,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Pki'in St 28, Petah Tikva"
+    "addressEn": "Pki'in St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_163",
@@ -2127,7 +2127,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Khen St 9, Petah Tikva"
+    "addressEn": "Hans Andersen St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_164",
@@ -2157,7 +2157,7 @@
     "source": "gov",
     "category": "public",
     "status": "closed",
-    "addressEn": "HaPortsim St 15, Petah Tikva"
+    "addressEn": "HaPortsim St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_166",
@@ -2172,7 +2172,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Berl Katzenelson St 48, Petah Tikva, 4963144"
+    "addressEn": "Harzfeld St 6, Petah Tikva"
   },
   {
     "id": "ptikva_muni_167",
@@ -2187,7 +2187,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ha-Po'el ha-Tsa'ir St 11, Petah Tikva"
+    "addressEn": "Hans Andersen St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_168",
@@ -2202,7 +2202,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "הרב פינצי 8, Petah Tikva"
+    "addressEn": "Harzfeld St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_169",
@@ -2232,7 +2232,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Moshe Sharet St 18, Petah Tikva"
+    "addressEn": "Moshe Sharet St 16, Petah Tikva"
   },
   {
     "id": "ptikva_muni_173",
@@ -2277,7 +2277,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yokhelman St 4, Petah Tikva"
+    "addressEn": "Yokhelman St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_177",
@@ -2307,7 +2307,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaErez St 6, Petah Tikva"
+    "addressEn": "HaErez St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_179",
@@ -2322,7 +2322,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Huberman St 13, Petah Tikva"
+    "addressEn": "Huberman St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_180",
@@ -2337,7 +2337,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Binyamin Minz St 24, Petah Tikva"
+    "addressEn": "Eilat St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_181",
@@ -2352,7 +2352,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Yosef Sapir St 21, Petah Tikva"
+    "addressEn": "Shifer, Petah Tikva"
   },
   {
     "id": "ptikva_muni_182",
@@ -2367,7 +2367,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Yosef Sapir St 24, Petah Tikva"
+    "addressEn": "Eliyahu Golomb St 6, Petah Tikva"
   },
   {
     "id": "ptikva_muni_184",
@@ -2397,7 +2397,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Ovadya St 27, Petah Tikva"
+    "addressEn": "Knesset Yisra'el St 6, Petah Tikva"
   },
   {
     "id": "ptikva_muni_186",
@@ -2412,7 +2412,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Moriya St 19, Petah Tikva"
+    "addressEn": "Khalelei Minkhen Garden, Petah Tikva"
   },
   {
     "id": "ptikva_muni_187",
@@ -2442,7 +2442,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yona St 35, Petah Tikva"
+    "addressEn": "Yona St 39, Petah Tikva"
   },
   {
     "id": "ptikva_muni_189",
@@ -2457,7 +2457,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Yosef Shprintsak St 41, Petah Tikva"
+    "addressEn": "Ha-Khamisha St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_190",
@@ -2472,7 +2472,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ha-Rav Tse'iri St 10-24, Petah Tikva"
+    "addressEn": "Ha-Rav Tse'iri St 11, Petah Tikva"
   },
   {
     "id": "ptikva_muni_191",
@@ -2487,7 +2487,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Tfutsot Yisra'el St 10, Petah Tikva"
+    "addressEn": "Tfutsot Yisra'el St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_192",
@@ -2502,7 +2502,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "David Raziel St 18, Petah Tikva"
+    "addressEn": "David Raziel St 10, Petah Tikva"
   },
   {
     "id": "ptikva_muni_193",
@@ -2517,7 +2517,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Ha-Rav Tse'iri St 10-24, Petah Tikva"
+    "addressEn": "Ha-Rav Tse'iri St 15, Petah Tikva"
   },
   {
     "id": "ptikva_muni_194",
@@ -2547,7 +2547,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "David Raziel St 25, Petah Tikva"
+    "addressEn": "Lehi St 8, Petah Tikva"
   },
   {
     "id": "ptikva_muni_197",
@@ -2562,7 +2562,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Yona St 34, Petah Tikva"
+    "addressEn": "Yona St 3, Petah Tikva"
   },
   {
     "id": "ptikva_muni_198",
@@ -2577,7 +2577,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Khavakuk St 15, Petah Tikva"
+    "addressEn": "Khavakuk St, Petah Tikva"
   },
   {
     "id": "ptikva_muni_201",
@@ -2622,7 +2622,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "HaNevi'im St 30, Petah Tikva"
+    "addressEn": "HaNevi'im St 32, Petah Tikva"
   },
   {
     "id": "ptikva_muni_204",
@@ -2652,7 +2652,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "Tfutsot Yisra'el St 10, Petah Tikva"
+    "addressEn": "Tfutsot Yisra'el St 7, Petah Tikva"
   },
   {
     "id": "ptikva_muni_206",
@@ -2667,7 +2667,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Hisin St 8, Petah Tikva"
+    "addressEn": "Hisin St 6, Petah Tikva"
   },
   {
     "id": "ptikva_muni_207",
@@ -2682,7 +2682,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "HaRav Uziel St 10, Petah Tikva"
+    "addressEn": "HaRav Uziel St 16, Petah Tikva"
   },
   {
     "id": "ptikva_muni_208",
@@ -2712,7 +2712,7 @@
     "source": "gov",
     "category": "school",
     "status": "closed",
-    "addressEn": "רבי יהודה הנשיא 49, פתח תקווה"
+    "addressEn": "Zerakh Barnett St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_210",
@@ -2727,7 +2727,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shlomo Miller St 7, Petah Tikva"
+    "addressEn": "Yosef Fefer St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_211",
@@ -2742,7 +2742,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Shlomo Miller St 7, Petah Tikva"
+    "addressEn": "Yosef Fefer St 18, Petah Tikva"
   },
   {
     "id": "ptikva_muni_212",
@@ -2757,7 +2757,7 @@
     "source": "gov",
     "category": "public",
     "status": "open",
-    "addressEn": "Zirlson St 2, Petah Tikva"
+    "addressEn": "HaRav Uziel St 19, Petah Tikva"
   },
   {
     "id": "ptikva_muni_213",

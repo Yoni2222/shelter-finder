@@ -36,7 +36,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sokolov St 7, Kiryat Ono"
+    "addressEn": "Sokolov St 8, Kiryat Ono"
   },
   {
     "id": "קריית אונו-4",
@@ -127,7 +127,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehudit St 13, Ramat Gan"
+    "addressEn": "Yehudit St, Ramat Gan"
   },
   {
     "id": "קריית אונו-11",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שמואל הנגיד 17, Herzliya"
+    "addressEn": "HaMa'apilim St, Kiryat Ono"
   },
   {
     "id": "קריית אונו-13",
@@ -387,7 +387,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Bar Yehuda St 2, Kiryat Ono"
+    "addressEn": "Bar Yehuda St 1, Kiryat Ono"
   },
   {
     "id": "קריית אונו-31",

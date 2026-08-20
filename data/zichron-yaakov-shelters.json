@@ -10,7 +10,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "השזיף 10, זכרון יעקב, ישראל"
+    "addressEn": "HaShazif St 10, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-2",
@@ -23,7 +23,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "תרע\"ב 16, זכרון יעקב, ישראל"
+    "addressEn": "Tar'av St 16, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-3",
@@ -36,7 +36,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ביאליק 7, זכרון יעקב, ישראל"
+    "addressEn": "Bialik St 7, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-4",
@@ -49,7 +49,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העלייה 18, זכרון יעקב, ישראל"
+    "addressEn": "Ha-Aliya St 18, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-5",
@@ -62,7 +62,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "זכרון יעקב, ישראל"
+    "addressEn": "Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-6",
@@ -75,7 +75,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "טרומפלדור 21, זכרון יעקב, ��שראל"
+    "addressEn": "Trumpeldor St 21, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-7",
@@ -88,7 +88,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העבודה 8, זכרון יעקב, ישראל"
+    "addressEn": "Ha-Avoda St 8, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-8",
@@ -101,7 +101,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "השואבה, זכרון יעקב, ישראל"
+    "addressEn": "HaSho'eva St, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-9",
@@ -114,7 +114,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כנפי נשרים, זכרון יעקב, ישראל"
+    "addressEn": "Kanfei Nesharim St & Ge'ulim St, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-10",
@@ -127,7 +127,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שבי ציון 56, זכרון יעקב, ישראל"
+    "addressEn": "Shavei Tsiyon St 56, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-11",
@@ -140,7 +140,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גאולים, זכרון יעקב, ישראל"
+    "addressEn": "Ge'ulim St & Shavei Tsiyon St, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-12",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "המייסדים 100, זכרון יעקב, ישראל"
+    "addressEn": "Ha-Meyasdim St 100, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-13",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הנדיב 11, זכרון יעקב, ישראל"
+    "addressEn": "Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-14",
@@ -179,7 +179,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "השקד 14, זכרון יעקב, ישראל"
+    "addressEn": "HaShaked St 14, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-15",
@@ -192,7 +192,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הדגן 2, זכרון יעקב, 3095067, ישראל"
+    "addressEn": "HaDagan St 2, Zikhron Ya'akov"
   },
   {
     "id": "זכרון-יעקב-16",
@@ -205,6 +205,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "שדרות ניל\"י 63, זכרון יעקב, ישראל"
+    "addressEn": "Sderot Nili 63, Zihron Ya'akov"
   }
 ]

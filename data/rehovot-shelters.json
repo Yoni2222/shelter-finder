@@ -10,7 +10,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda Halevi St 17, Rehovot"
+    "addressEn": "Yehuda Halevi St 27, Rehovot"
   },
   {
     "id": "rehovot_pub_2",
@@ -23,7 +23,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Moshe Mizrahi St 13, Rehovot"
+    "addressEn": "Moshe Mizrahi St 11, Rehovot"
   },
   {
     "id": "rehovot_pub_3",
@@ -36,7 +36,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNarkisim St 5, Rehovot"
+    "addressEn": "HaNarkisim St 13, Rehovot"
   },
   {
     "id": "rehovot_pub_4",
@@ -49,7 +49,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Tayas Garden, HaYarden St 8, Rehovot"
+    "addressEn": "HaSigaliyot St 14, Rehovot"
   },
   {
     "id": "rehovot_pub_5",
@@ -62,7 +62,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dov Hoz St 2, Rehovot"
+    "addressEn": "Dov Hoz St 1, Rehovot"
   },
   {
     "id": "rehovot_pub_6",
@@ -75,7 +75,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Herman Haim Kaufman St 8, Rehovot"
+    "addressEn": "Dov Hoz St 11, Rehovot"
   },
   {
     "id": "rehovot_pub_7",
@@ -101,7 +101,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Po'el ha-Tsa'ir St 9, Rehovot"
+    "addressEn": "Ha-Khavura St, Rehovot"
   },
   {
     "id": "rehovot_pub_9",
@@ -114,7 +114,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "מגה - בוס בע\"מ, Ha-Histadrut St 3, Rehovot"
+    "addressEn": "Ha-Histadrut St 10, Rehovot"
   },
   {
     "id": "rehovot_pub_10",
@@ -127,7 +127,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Histadrut St 35, Rehovot, 7658719"
+    "addressEn": "Ha-Histadrut St 33, Rehovot"
   },
   {
     "id": "rehovot_pub_11",
@@ -140,7 +140,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Histadrut St 65, Rehovot"
+    "addressEn": "Ha-Histadrut St 63, Rehovot"
   },
   {
     "id": "rehovot_pub_12",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Histadrut St 63, Rehovot"
+    "addressEn": "Ha-Histadrut St 65, Rehovot"
   },
   {
     "id": "rehovot_pub_13",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Alumot St 39, Rehovot"
+    "addressEn": "Alumot St 37, Rehovot"
   },
   {
     "id": "rehovot_pub_14",
@@ -179,7 +179,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashi St 20, Rehovot"
+    "addressEn": "Rashi St 13, Rehovot"
   },
   {
     "id": "rehovot_pub_15",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hasam St 10, Rehovot"
+    "addressEn": "Lekhi St 36, Rehovot"
   },
   {
     "id": "rehovot_pub_18",
@@ -231,7 +231,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Gush Etsyon St 24, Rehovot"
+    "addressEn": "Gush Etsyon St 19, Rehovot"
   },
   {
     "id": "rehovot_pub_19",
@@ -244,7 +244,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Colonel Margolin St 22, Rehovot"
+    "addressEn": "Colonel Margolin St 20, Rehovot"
   },
   {
     "id": "rehovot_pub_20",
@@ -270,7 +270,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shomrim St 18, Rehovot"
+    "addressEn": "HaTsanhanim St 11, Rehovot"
   },
   {
     "id": "rehovot_pub_22",
@@ -283,7 +283,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shomrim St 22, Rehovot"
+    "addressEn": "HaTsanhanim St 15, Rehovot"
   },
   {
     "id": "rehovot_pub_23",
@@ -296,7 +296,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Menucha Venachala St 49, Rehovot"
+    "addressEn": "Avraham Goldberg St 6, Rehovot"
   },
   {
     "id": "rehovot_pub_24",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Y.L. Perets St 8, Rehovot"
+    "addressEn": "Y.L. Perets St 5\\2, Rehovot"
   },
   {
     "id": "rehovot_pub_25",
@@ -322,7 +322,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Nevi'im St 4, Rehovot"
+    "addressEn": "Giborei Yisra'el St 2, Rehovot"
   },
   {
     "id": "rehovot_pub_26",
@@ -335,7 +335,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Batya Makov St 20, Rehovot"
+    "addressEn": "Batya Makov St 2, Rehovot"
   },
   {
     "id": "rehovot_pub_27",
@@ -348,7 +348,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Brenner St 4, Rehovot"
+    "addressEn": "Brenner St 18, Rehovot"
   },
   {
     "id": "rehovot_pub_28",
@@ -361,7 +361,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yig'al Yikhya St 11, Rehovot"
+    "addressEn": "Yig'al Yikhya St 6, Rehovot"
   },
   {
     "id": "rehovot_pub_29",
@@ -374,7 +374,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kikar HaHashmonaim 53, Rehovot"
+    "addressEn": "Kikar HaHashmonaim, Rehovot"
   },
   {
     "id": "rehovot_pub_30",
@@ -400,7 +400,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "No'akh Kromer St 5, Rehovot"
+    "addressEn": "No'akh Kromer St 9, Rehovot"
   },
   {
     "id": "rehovot_pub_32",
@@ -413,7 +413,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Vulkani 16, Rehovot"
+    "addressEn": "Sderot Vulkani, Rehovot"
   },
   {
     "id": "rehovot_pub_33",
@@ -426,7 +426,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dov Ber Borokhov St 2, Rehovot"
+    "addressEn": "Dov Ber Borokhov St 14, Rehovot"
   },
   {
     "id": "rehovot_pub_34",
@@ -439,7 +439,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dov Ber Borokhov St 11, Rehovot"
+    "addressEn": "Dov Ber Borokhov St 2, Rehovot"
   },
   {
     "id": "rehovot_pub_35",
@@ -465,7 +465,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsvi Horowits St 147, Rehovot"
+    "addressEn": "HaBanim Garden, Rehovot"
   },
   {
     "id": "rehovot_pub_37",
@@ -491,7 +491,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ya'akov Tukhman St 155, Rehovot"
+    "addressEn": "HaBanim Garden, Rehovot"
   },
   {
     "id": "rehovot_pub_39",
@@ -504,7 +504,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ya'akov Tukhman St 73, Rehovot"
+    "addressEn": "Ya'akov Tukhman St 12, Rehovot"
   },
   {
     "id": "rehovot_pub_40",
@@ -530,7 +530,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Elazar St 30, Rehovot"
+    "addressEn": "David Elazar St 32, Rehovot"
   },
   {
     "id": "rehovot_pub_42",
@@ -543,7 +543,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Be'eri St 8, Rehovot"
+    "addressEn": "Be'eri St 26, Rehovot"
   },
   {
     "id": "rehovot_pub_43",
@@ -556,7 +556,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef Aharonovich St 14, Rehovot"
+    "addressEn": "Yosef Aharonovich St 5, Rehovot"
   },
   {
     "id": "rehovot_pub_44",
@@ -582,7 +582,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Kohavi St 20, Rehovot"
+    "addressEn": "David Kohavi St 22, Rehovot"
   },
   {
     "id": "rehovot_pub_46",
@@ -595,7 +595,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Nili St 9, Rehovot"
+    "addressEn": "Naftali Ben Efrayim St 5, Rehovot"
   },
   {
     "id": "rehovot_pub_47",
@@ -608,7 +608,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Gdud 52 St 52, Rehovot"
+    "addressEn": "Sinai St, Rehovot"
   },
   {
     "id": "rehovot_pub_48",
@@ -621,7 +621,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Maor Yosef St 29, Rehovot"
+    "addressEn": "Maor Yosef St, Rehovot"
   },
   {
     "id": "rehovot_pub_49",
@@ -660,7 +660,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sha'ul Tchernichovsky St 15, Rehovot"
+    "addressEn": "Ya'akov Reifen St 1, Rehovot"
   },
   {
     "id": "rehovot_sch_2",
@@ -764,7 +764,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha'Rav Nadav David St 15, Rehovot"
+    "addressEn": "Ha-Rav David Nadav St 5, Rehovot"
   },
   {
     "id": "rehovot_sch_10",
@@ -777,7 +777,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Dov Klein St 9, Rehovot"
+    "addressEn": "Dov Klein St 1, Rehovot"
   },
   {
     "id": "rehovot_sch_11",
@@ -790,7 +790,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaMered St 3, Rehovot"
+    "addressEn": "Ha-Rav Zekharya Madar St 26, Rehovot"
   },
   {
     "id": "rehovot_sch_12",
@@ -842,7 +842,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Menucha Venachala St 58, Rehovot"
+    "addressEn": "Menucha Venachala St 60, Rehovot"
   },
   {
     "id": "rehovot_sch_17",
@@ -881,7 +881,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Hei be-Iyar St 24, Rehovot"
+    "addressEn": "Hei be-Iyar St 22, Rehovot"
   },
   {
     "id": "rehovot_sch_20",
@@ -894,7 +894,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Rav Herzog St 11, Rehovot"
+    "addressEn": "Ha-Rav Herzog St 3, Rehovot"
   },
   {
     "id": "rehovot_sch_21",
@@ -907,7 +907,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Barukh Spinoza St 12, Rehovot"
+    "addressEn": "Akhim Kibovich St 5, Rehovot"
   },
   {
     "id": "rehovot_sch_22",
@@ -933,7 +933,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Bar Shaul St 16, Rehovot"
+    "addressEn": "HaRav Bar Shaul St, Rehovot"
   },
   {
     "id": "rehovot_sch_24",
@@ -998,7 +998,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Histadrut St 12, Rehovot"
+    "addressEn": "Ha-Histadrut St 10, Rehovot"
   },
   {
     "id": "rehovot_sch_29",
@@ -1050,7 +1050,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Ya'akov Mizrahi St 5, Rehovot"
+    "addressEn": "HaRav Ya'akov Mizrahi St, Rehovot"
   },
   {
     "id": "rehovot_sch_33",
@@ -1063,7 +1063,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sderot HaKibutsim 18, Rehovot"
+    "addressEn": "Sderot HaKibutsim 19, Rehovot"
   },
   {
     "id": "rehovot_sch_34",
@@ -1089,7 +1089,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Menucha Venachala St 43, Rehovot"
+    "addressEn": "HaRav Bar Shaul St 14, Rehovot"
   },
   {
     "id": "rehovot_sch_36",
@@ -1102,7 +1102,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Menucha Venachala St 58, Rehovot"
+    "addressEn": "Menucha Venachala St 60, Rehovot"
   },
   {
     "id": "rehovot_sch_37",
@@ -1141,7 +1141,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Dganiyot St 23, Rehovot"
+    "addressEn": "Ha-Dganiyot St 28, Rehovot"
   },
   {
     "id": "rehovot_sch_40",
@@ -1167,7 +1167,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Avraham Goldberg St 6, Rehovot"
+    "addressEn": "Avraham Goldberg St 4, Rehovot"
   },
   {
     "id": "rehovot_sch_42",
@@ -1180,7 +1180,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Shalom Dahari St 18, Rehovot"
+    "addressEn": "Shalom Dahari St 10, Rehovot"
   },
   {
     "id": "rehovot_sch_43",
@@ -1219,7 +1219,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sha'ul Tchernichovsky St 15, Rehovot"
+    "addressEn": "Ya'akov Reifen St 1, Rehovot"
   },
   {
     "id": "rehovot_sch_47",
@@ -1232,7 +1232,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Har Kna'an St 12, Rehovot"
+    "addressEn": "Har Kna'an St 9, Rehovot"
   },
   {
     "id": "rehovot_sch_48",
@@ -1271,7 +1271,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sha'ul Tchernichovsky St 1, Rehovot"
+    "addressEn": "Moshe Sharet St 6, Rehovot"
   },
   {
     "id": "rehovot_sch_51",
@@ -1323,7 +1323,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Shalom Shabazi St 10, Rehovot"
+    "addressEn": "Ha-Rav Me'ir St 1, Rehovot"
   },
   {
     "id": "rehovot_sch_55",
@@ -1336,7 +1336,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Rav David Nadav St 15, Rehovot"
+    "addressEn": "Ha-Rav David Nadav St 5, Rehovot"
   },
   {
     "id": "rehovot_sch_56",
@@ -1388,7 +1388,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sderot Hen 60, Rehovot"
+    "addressEn": "Sderot Hen 31, Rehovot"
   },
   {
     "id": "rehovot_sch_60",
@@ -1401,7 +1401,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "David Elazar St 38, Rehovot"
+    "addressEn": "David Elazar St 21, Rehovot"
   },
   {
     "id": "rehovot_sch_61",
@@ -1427,7 +1427,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "מגה - בוס בע\"מ, Ha-Histadrut St 3, Rehovot"
+    "addressEn": "Ha-Histadrut St 10, Rehovot"
   },
   {
     "id": "rehovot_sch_63",
@@ -1453,7 +1453,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Rav Herzog St 11, Rehovot"
+    "addressEn": "Ha-Rav Herzog St 3, Rehovot"
   },
   {
     "id": "rehovot_sch_65",
@@ -1492,7 +1492,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Amos Danieli St 6, Rehovot"
+    "addressEn": "Amos Danieli St 3, Rehovot"
   },
   {
     "id": "rehovot_sch_70",
@@ -1518,7 +1518,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Herman Haim Kaufman St 2, Rehovot, 7654642"
+    "addressEn": "Herman Haim Kaufman St 1, Rehovot"
   },
   {
     "id": "rehovot_sch_72",
@@ -1544,7 +1544,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Mordei ha-Geta'ot St 1-11, Rehovot"
+    "addressEn": "Mordei ha-Geta'ot St 13, Rehovot"
   },
   {
     "id": "rehovot_sch_74",
@@ -1635,6 +1635,6 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Carmel St 42, Rehovot"
+    "addressEn": "Carmel St 44, Rehovot"
   }
 ]

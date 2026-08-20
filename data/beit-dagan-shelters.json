@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כצנלסון 25, בית ��גן, ישראל"
+    "addressEn": "Katsanelson St 25, Beit Dagan"
   },
   {
     "id": "בית-דגן-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "כצנלסון 56, בית ��גן, ישראל"
+    "addressEn": "Katsanelson St 56, Beit Dagan"
   },
   {
     "id": "בית-דגן-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הגולן 3, בית דגן, ישראל"
+    "addressEn": "HaGolan St 3, Beit Dagan"
   },
   {
     "id": "בית-דגן-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קפלן 19, בית דגן, ישראל"
+    "addressEn": "Kaplan St 19, Beit Dagan"
   },
   {
     "id": "בית-דגן-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הבנים 25, בית דגן, ישראל"
+    "addressEn": "Ha-Banim St 25, Beit Dagan"
   },
   {
     "id": "בית-דגן-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שדרות מנחם בגין 50, בית דגן, ישראל"
+    "addressEn": "Sderot Menachem Begin 50, Beit Dagan"
   },
   {
     "id": "בית-דגן-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שדרות מנחם בגין 80, בית דגן, ישראל"
+    "addressEn": "Sderot Menachem Begin 80, Beit Dagan"
   },
   {
     "id": "בית-דגן-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "טרומפלדור 8, בית דגן, ישראל"
+    "addressEn": "Trumpeldor St 8, Beit Dagan"
   },
   {
     "id": "בית-דגן-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ארבעת המינים, בית דגן, ישראל"
+    "addressEn": "Arba'at ha-Minim St, Beit Dagan"
   },
   {
     "id": "בית-דגן-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ז'בוטינסקי 8, בית דגן, ישראל"
+    "addressEn": "Jabotinsky St 8, Beit Dagan"
   },
   {
     "id": "בית-דגן-11",
@@ -129,6 +129,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ז'בוטינסקי 25, בית דגן, ישראל"
+    "addressEn": "Jabotinsky St 25, Beit Dagan"
   }
 ]

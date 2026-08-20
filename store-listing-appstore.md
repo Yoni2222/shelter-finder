@@ -55,7 +55,6 @@ ONE-TAP NAVIGATION
 Tap any shelter to open Google Maps with walking directions.
 
 COVERAGE
-- 86 cities across Israel
 - More than 6,600 shelter locations
 - Hebrew and English, with automatic language detection
 

@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "דר�� הים 9, גני תקווה, ישראל"
+    "addressEn": "Derech HaYam 9, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "דרך הים 9, גני תקווה, ישראל"
+    "addressEn": "Derech HaYam 9, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "דר�� הים 3, גני תקווה, ישראל"
+    "addressEn": "Derech HaYam 3, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-4",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "הגליל 31, גני תקווה, ישרא��"
+    "addressEn": "Ha-Galil St 31, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "התבו�� 10, גני תקווה, ישראל"
+    "addressEn": "Ha-Tavor St 10, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "הגליל 22, גני תקווה, ישרא��"
+    "addressEn": "Ha-Galil St 22, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "הרי יהודה 28, גני תקווה, ישראל"
+    "addressEn": "Harei Yehuda St 28, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "קישו�� 20, גני תקווה, ישראל"
+    "addressEn": "Kishon St 20, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "סמטת עמק זבולון, גני תקווה, ישראל"
+    "addressEn": "Simtat Emek Zvulun, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-11",
@@ -129,7 +129,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הנגב 9, ג��י תקווה, ישראל"
+    "addressEn": "Ha-Negev St 9, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-12",
@@ -141,7 +141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הכרמל 1, גני תקווה, 5542133, ישראל"
+    "addressEn": "HaCarmel St 1, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-13",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הערבה, גני תקווה, ישראל"
+    "addressEn": "Ha-Arava St, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-14",
@@ -165,7 +165,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "עין גדי, גני תקווה, ישראל"
+    "addressEn": "Ein Gedi St, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-15",
@@ -177,7 +177,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "מרחביה 1, גני תקווה, ישראל"
+    "addressEn": "Merhavia St 1, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-16",
@@ -189,7 +189,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "התבור, גני תקווה, ישראל"
+    "addressEn": "Ha-Tavor St, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-17",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הגליל 33, גני תקווה, ישרא��"
+    "addressEn": "Ha-Galil St 33, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-18",
@@ -213,7 +213,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הנגב, גני תקווה, ישראל"
+    "addressEn": "Ha-Negev St, Ganei Tikva"
   },
   {
     "id": "גני-תקווה-19",
@@ -225,6 +225,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הכרמל, גני תקווה, ישראל"
+    "addressEn": "HaCarmel St, Ganei Tikva"
   }
 ]

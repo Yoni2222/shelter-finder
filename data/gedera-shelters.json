@@ -9,7 +9,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קדרון, ישראל"
+    "addressEn": "Kidron"
   },
   {
     "id": "גדרה-2",
@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "מרבד הקסמים 20, גדרה, ישראל"
+    "addressEn": "Marvad HaKsamim St 20, Gedera"
   },
   {
     "id": "גדרה-3",
@@ -33,7 +33,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "וייצמן 49, גדרה, ישראל"
+    "addressEn": "Weizman St 49, Gedera"
   },
   {
     "id": "גדרה-4",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אלי כהן 12, גדרה, ישראל"
+    "addressEn": "Eli Cohen St 12, Gedera"
   },
   {
     "id": "גדרה-5",
@@ -57,7 +57,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "הנשיא 4, גדרה, ישראל"
+    "addressEn": "HaNasi St 4, Gedera"
   },
   {
     "id": "גדרה-6",
@@ -69,7 +69,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "דוד רמז 19, גדרה, ישראל"
+    "addressEn": "David Remez St 19, Gedera"
   },
   {
     "id": "גדרה-7",
@@ -81,7 +81,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "משה נבט, גדרה, ישראל"
+    "addressEn": "Moshe Nevet St, Gedera"
   },
   {
     "id": "גדרה-8",
@@ -93,7 +93,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "פינס, גדרה, ישראל"
+    "addressEn": "Pines St, Gedera"
   },
   {
     "id": "גדרה-9",
@@ -105,7 +105,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "ארז 2, גדרה, ישראל"
+    "addressEn": "Erez St 2, Gedera"
   },
   {
     "id": "גדרה-10",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "school",
-    "addressEn": "גד 17, גדרה, ישראל"
+    "addressEn": "Gad 17, Gedera"
   },
   {
     "id": "גדרה-11",
@@ -129,7 +129,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "וייצמן, גדרה, ישראל"
+    "addressEn": "Weizman St, Gedera"
   },
   {
     "id": "גדרה-12",
@@ -141,7 +141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "לילינבלום, גדרה, ישראל"
+    "addressEn": "Lilienblum St, Gedera"
   },
   {
     "id": "גדרה-13",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "פייבל 5, גדרה, ישראל"
+    "addressEn": "Faybel St 5, Gedera"
   },
   {
     "id": "גדרה-14",
@@ -165,7 +165,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אשר 11, גדרה, ישראל"
+    "addressEn": "Asher St 11, Gedera"
   },
   {
     "id": "גדרה-15",
@@ -177,7 +177,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "שבזי, גדרה, ישראל"
+    "addressEn": "Shabazi St, Gedera"
   },
   {
     "id": "גדרה-16",
@@ -189,7 +189,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gamli'el St 5, Gedera"
   },
   {
     "id": "גדרה-17",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Motzkin St 5, Gedera"
   },
   {
     "id": "גדרה-18",
@@ -213,7 +213,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Menashe St 7, Gedera"
   },
   {
     "id": "גדרה-19",
@@ -225,7 +225,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Derech Erets 34, Gedera"
   },
   {
     "id": "גדרה-20",
@@ -237,7 +237,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Weizman St 44, Gedera"
   },
   {
     "id": "גדרה-21",
@@ -249,7 +249,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Yisahar St 41, Gedera"
   },
   {
     "id": "גדרה-22",
@@ -261,7 +261,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Shivtei Israel St 34, Gedera"
   },
   {
     "id": "גדרה-23",
@@ -273,7 +273,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Sprinzak St 36, Gedera"
   },
   {
     "id": "גדרה-24",
@@ -285,7 +285,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Reuven St 11, Gedera"
   },
   {
     "id": "גדרה-25",
@@ -297,7 +297,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "David Remez St 26, Gedera"
   },
   {
     "id": "גדרה-26",
@@ -309,7 +309,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Bilu Garden, Horvits St, Gedera"
   },
   {
     "id": "גדרה-27",
@@ -321,7 +321,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gamli'el St 18, Gedera"
   },
   {
     "id": "גדרה-28",
@@ -333,7 +333,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gedera"
   },
   {
     "id": "גדרה-29",
@@ -345,7 +345,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gedera"
   },
   {
     "id": "גדרה-30",
@@ -357,7 +357,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gedera"
   },
   {
     "id": "גדרה-31",
@@ -369,7 +369,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gedera"
   },
   {
     "id": "גדרה-32",
@@ -381,7 +381,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Katsanelson St 23, Gedera"
   },
   {
     "id": "גדרה-33",
@@ -393,7 +393,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Gedera"
   },
   {
     "id": "גדרה-34",
@@ -405,7 +405,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Ha-Biluyim St, Gedera"
   },
   {
     "id": "גדרה-35",
@@ -417,7 +417,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Shalom Aleichem St, Gedera"
   },
   {
     "id": "גדרה-36",
@@ -429,6 +429,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": ""
+    "addressEn": "Shim'on St, Gedera"
   }
 ]

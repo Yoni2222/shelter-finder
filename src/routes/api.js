@@ -427,7 +427,7 @@ router.get('/shelter-bundle', (_req, res) => {
 });
 
 // ─────────────────────────────────────────────
-// POST /api/register-token — stores device token for testing
+// POST /api/register-token - stores device token for testing
 // DISABLED in production (requires ADMIN_API_KEY)
 // ─────────────────────────────────────────────
 const testTokens = new Set();

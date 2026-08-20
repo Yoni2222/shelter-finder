@@ -75,7 +75,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mesada St 32, Dimona"
+    "addressEn": "Mesada St 43, Dimona"
   },
   {
     "id": "דימונה-7",
@@ -101,7 +101,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Pirhei Artsenu St 85, Dimona"
+    "addressEn": "Pirhei Artsenu St 153, Dimona"
   },
   {
     "id": "דימונה-9",
@@ -231,7 +231,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hashmona'im St 236, Dimona"
+    "addressEn": "Hashmona'im St 234, Dimona"
   },
   {
     "id": "דימונה-19",
@@ -257,7 +257,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaSport Promenade 293, Dimona"
+    "addressEn": "Dimona"
   },
   {
     "id": "דימונה-21",
@@ -296,7 +296,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bar Kochva St 208, Dimona"
+    "addressEn": "Bar Kochva St, Dimona"
   },
   {
     "id": "דימונה-24",
@@ -322,7 +322,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "המעפיל/בן גוריון, Dimona"
+    "addressEn": "HaMa'apil St, Dimona"
   },
   {
     "id": "דימונה-26",
@@ -348,7 +348,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMa'apil St 1015, Dimona"
+    "addressEn": "HaMa'apil St 1239, Dimona"
   },
   {
     "id": "דימונה-28",
@@ -374,7 +374,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "רחבת דוד המלך 70, Dimona"
+    "addressEn": "David HaMelech St 286, Dimona"
   },
   {
     "id": "דימונה-30",
@@ -387,7 +387,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaSport Promenade 293, Dimona"
+    "addressEn": "Dimona"
   },
   {
     "id": "דימונה-31",
@@ -608,7 +608,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Esh'har St 2, Dimona"
+    "addressEn": "Ekaliptus St 4, Dimona"
   },
   {
     "id": "דימונה-48",
@@ -621,7 +621,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Esh'har St 33, Dimona"
+    "addressEn": "Esh'har St 37, Dimona"
   },
   {
     "id": "דימונה-49",
@@ -647,7 +647,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dolev St 137, Dimona"
+    "addressEn": "Dolev St 26, Dimona"
   },
   {
     "id": "דימונה-51",
@@ -725,7 +725,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Adar St 21, Dimona"
+    "addressEn": "Adar St 22, Dimona"
   },
   {
     "id": "דימונה-57",
@@ -842,7 +842,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel Arad St 77, Dimona"
+    "addressEn": "Tel Arad St 32, Dimona"
   },
   {
     "id": "דימונה-66",
@@ -868,7 +868,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Petra St 13, Dimona"
+    "addressEn": "Petra St 11, Dimona"
   },
   {
     "id": "דימונה-68",
@@ -894,7 +894,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kal'at Nimrod St 25, Dimona"
+    "addressEn": "Kal'at Nimrod St, Dimona"
   },
   {
     "id": "דימונה-70",
@@ -920,7 +920,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel Afek St 32, Dimona"
+    "addressEn": "Tel Afek St 27, Dimona"
   },
   {
     "id": "דימונה-72",
@@ -946,6 +946,6 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsabar St 12, Dimona"
+    "addressEn": "Tsabar St 130, Dimona"
   }
 ]

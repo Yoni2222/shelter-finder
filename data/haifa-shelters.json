@@ -49,7 +49,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shivtei Israel St 27, Haifa, 2627716"
+    "addressEn": "HaShaked St 2, Haifa"
   },
   {
     "id": "haifa_5",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot HaMeginim 117, Haifa"
+    "addressEn": "Sderot HaMeginim 119, Haifa"
   },
   {
     "id": "haifa_15",
@@ -205,7 +205,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Herzl St 103, Haifa"
+    "addressEn": "Herzl St 101, Haifa"
   },
   {
     "id": "haifa_18",
@@ -231,7 +231,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Tzorfat Rd 79, Haifa"
+    "addressEn": "Tzorfat Rd 85, Haifa"
   },
   {
     "id": "haifa_20",
@@ -244,7 +244,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tverya St 18, Haifa"
+    "addressEn": "Tverya St 19, Haifa"
   },
   {
     "id": "haifa_21",
@@ -257,7 +257,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Natan Komoi St 30, Haifa"
+    "addressEn": "Komoly St 28, Haifa"
   },
   {
     "id": "haifa_22",
@@ -283,7 +283,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGiborim St 76, Haifa"
+    "addressEn": "HaHashmal St 8, Haifa"
   },
   {
     "id": "haifa_24",
@@ -296,7 +296,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ze'ev Banin St 11, Haifa"
+    "addressEn": "Ze'ev Banin St 12, Haifa"
   },
   {
     "id": "haifa_25",
@@ -348,7 +348,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "Ha-Nevi'im St 20, Haifa"
+    "addressEn": "Ha-Nevi'im St 18, Haifa"
   },
   {
     "id": "haifa_29",
@@ -387,7 +387,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kiesarya St 2, Haifa"
+    "addressEn": "Qesarya St 4, Haifa"
   },
   {
     "id": "haifa_32",
@@ -400,7 +400,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "Sderot Ben Gurion 6, Haifa"
+    "addressEn": "HaGanim St 10, Haifa"
   },
   {
     "id": "haifa_33",
@@ -426,7 +426,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaKibutsim St 4, Haifa"
+    "addressEn": "Shivtei Israel St 66, Haifa"
   },
   {
     "id": "haifa_35",
@@ -452,7 +452,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMelech David St 9, Haifa"
+    "addressEn": "HaMelech David St 7, Haifa"
   },
   {
     "id": "haifa_37",
@@ -478,7 +478,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Arye Levin St 3, Haifa"
+    "addressEn": "HaRav Arye Levin St 5, Haifa"
   },
   {
     "id": "haifa_39",
@@ -491,7 +491,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Emek ha-Zeitim St 10, Haifa"
+    "addressEn": "Emek ha-Zeitim St 9, Haifa"
   },
   {
     "id": "haifa_40",
@@ -517,7 +517,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yad LaBanim Road 59, Haifa"
+    "addressEn": "Hativat Carmeli St 10, Haifa"
   },
   {
     "id": "haifa_42",
@@ -530,7 +530,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "Khorev St 15, Haifa"
+    "addressEn": "Arthur Hantke St 6, Haifa"
   },
   {
     "id": "haifa_43",
@@ -543,7 +543,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Ben Harush St 3, Haifa"
+    "addressEn": "David Ben Harosh St 3, Haifa"
   },
   {
     "id": "haifa_44",
@@ -569,7 +569,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Arlozorov St 23, Haifa"
+    "addressEn": "Arlozorov St 19, Haifa"
   },
   {
     "id": "haifa_46",
@@ -582,7 +582,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "H. Leivik St 1, Haifa"
+    "addressEn": "Warburg Ave 7, Haifa"
   },
   {
     "id": "haifa_47",
@@ -595,7 +595,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Betsal'el St 7, Haifa"
+    "addressEn": "Betsal'el St 5, Haifa"
   },
   {
     "id": "haifa_48",
@@ -608,7 +608,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Deganya 29, Haifa"
+    "addressEn": "Dgania Ave 31, Haifa"
   },
   {
     "id": "haifa_49",
@@ -660,7 +660,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ze'ev Banin St 13, Haifa"
+    "addressEn": "Ze'ev Banin St 12, Haifa"
   },
   {
     "id": "haifa_52",
@@ -686,7 +686,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Oren St א'27, Haifa"
+    "addressEn": "Oren St 27, Haifa"
   },
   {
     "id": "haifa_54",
@@ -725,7 +725,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Ben Gurion 55, Haifa"
+    "addressEn": "Meir Rotenberg St 44, Haifa"
   },
   {
     "id": "haifa_57",
@@ -738,7 +738,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Besor St 40, Haifa"
+    "addressEn": "Arad St 37, Haifa"
   },
   {
     "id": "haifa_58",
@@ -751,7 +751,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "Jaffa Road 157, קומה 2, Haifa"
+    "addressEn": "Jaffa Road 157, Haifa"
   },
   {
     "id": "haifa_59",
@@ -764,7 +764,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Herzl St 71, Haifa"
+    "addressEn": "Herzl St 73, Haifa"
   },
   {
     "id": "haifa_60",
@@ -803,7 +803,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef St 49, Haifa"
+    "addressEn": "Yosef St, Haifa"
   },
   {
     "id": "haifa_63",
@@ -816,7 +816,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kibuts Galuyot St 18, Haifa"
+    "addressEn": "Kibuts Galuyot St 15, Haifa"
   },
   {
     "id": "haifa_64",
@@ -829,7 +829,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "רח' מונטיפיורי 15 חיפה IL 33725, Montefiore St 15, Haifa"
+    "addressEn": "Montefiore St 15, Haifa"
   },
   {
     "id": "haifa_65",
@@ -842,7 +842,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "El-Atiqa St 7, Haifa"
+    "addressEn": "El-Atiqa St 18, Haifa"
   },
   {
     "id": "haifa_66",
@@ -881,7 +881,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Khanita St 54, Haifa"
+    "addressEn": "Aharon Tcherniavsky St 20, Haifa"
   },
   {
     "id": "haifa_69",
@@ -907,7 +907,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Arye Levin St 3, Haifa"
+    "addressEn": "HaRav Arye Levin St 5, Haifa"
   },
   {
     "id": "haifa_71",
@@ -946,7 +946,7 @@
     "type": "מקלט מוסד עירוני",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ma'ale ha-Shikhrur St 19, Haifa"
+    "addressEn": "HaRav Marcus St 11, Haifa"
   },
   {
     "id": "haifa_74",
@@ -959,7 +959,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tzorfat Rd 83, Haifa"
+    "addressEn": "Tzorfat Rd 85, Haifa"
   },
   {
     "id": "haifa_75",
@@ -972,7 +972,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ibn Gabirol St 3, Haifa"
+    "addressEn": "Yodfat St 11, Haifa"
   },
   {
     "id": "haifa_76",
@@ -985,7 +985,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Natan Komoi St 3, Haifa"
+    "addressEn": "Komoly St 4, Haifa"
   },
   {
     "id": "haifa_77",
@@ -998,7 +998,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "דב פרומר &, HaMoledet St, Haifa"
+    "addressEn": "Ya'akov Kats St 5, Haifa"
   },
   {
     "id": "haifa_78",
@@ -1024,7 +1024,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yodfat St 5, Haifa"
+    "addressEn": "Ha-Shomer St 3, Haifa"
   },
   {
     "id": "haifa_80",
@@ -1050,7 +1050,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Derech Allenby 74, Haifa"
+    "addressEn": "Allenby Rd 72, Haifa"
   },
   {
     "id": "haifa_82",
@@ -1063,7 +1063,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Arye Levin St 1, Haifa"
+    "addressEn": "HaRav Arye Levin St 3, Haifa"
   },
   {
     "id": "haifa_83",
@@ -1115,7 +1115,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Plugot St 56, Haifa"
+    "addressEn": "Ha-Plugot St 54, Haifa"
   },
   {
     "id": "haifa_87",
@@ -1128,7 +1128,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ani Ma'amin St 14, Haifa"
+    "addressEn": "HaGiborim St 43, Haifa"
   },
   {
     "id": "haifa_88",
@@ -1193,7 +1193,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sara St 1, Haifa"
+    "addressEn": "Sara St 10, Haifa"
   },
   {
     "id": "haifa_93",
@@ -1206,7 +1206,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaNoter St 50, Haifa, 26308"
+    "addressEn": "HaNoter St 51, Haifa"
   },
   {
     "id": "haifa_94",
@@ -1232,7 +1232,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Avigdor Eshet St 83, Haifa"
+    "addressEn": "Mishmar ha-Emek St 10, Haifa"
   },
   {
     "id": "haifa_96",
@@ -1258,7 +1258,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Tchernikhovski St 75, Haifa"
+    "addressEn": "Tchernikhovski St 71, Haifa"
   },
   {
     "id": "haifa_98",
@@ -1297,7 +1297,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khoma u-Migdal St 3, Haifa"
+    "addressEn": "Brakha Fuld St 13, Haifa"
   },
   {
     "id": "haifa_101",
@@ -1440,7 +1440,7 @@
     "type": "תחנת כרמלית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Masada St 31, Haifa"
+    "addressEn": "Masada St 29, Haifa"
   },
   {
     "id": "haifa_112",
@@ -1453,7 +1453,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Michael St 30, Haifa"
+    "addressEn": "Ben-Bava St 4, Haifa"
   },
   {
     "id": "haifa_113",
@@ -1466,7 +1466,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHayil St 28, Haifa"
+    "addressEn": "Ha-Kala'im St 10, Haifa"
   },
   {
     "id": "haifa_114",
@@ -1518,7 +1518,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "דרך בירם 37 ביה\"ס אליאנס, Haifa"
+    "addressEn": "Biram Road/Internazional, Haifa"
   },
   {
     "id": "haifa_118",
@@ -1544,7 +1544,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMelech Uziyahu St 68, Haifa"
+    "addressEn": "HaMelech David St 26, Haifa"
   },
   {
     "id": "haifa_120",
@@ -1557,7 +1557,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "S.L. Gordon St 2, Haifa"
+    "addressEn": "Berl Katznelson St 3, Haifa"
   },
   {
     "id": "haifa_121",
@@ -1570,7 +1570,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Dor St 160, Haifa"
+    "addressEn": "Shabtai Levi St 26, Haifa"
   },
   {
     "id": "haifa_122",
@@ -1583,7 +1583,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Kasal St 9, Haifa"
+    "addressEn": "Kasal St 5, Haifa"
   },
   {
     "id": "haifa_123",
@@ -1635,7 +1635,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Amal St 101, Haifa"
+    "addressEn": "Amal St 31, Haifa"
   },
   {
     "id": "haifa_127",
@@ -1661,7 +1661,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Retsif Aharon Rosenfeld St 7, Haifa"
+    "addressEn": "Retsif Aharon Rosenfeld St 1, Haifa"
   },
   {
     "id": "haifa_129",
@@ -1687,7 +1687,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ashkelon St 5, Haifa"
+    "addressEn": "Ashkelon St 4, Haifa"
   },
   {
     "id": "haifa_131",
@@ -1700,7 +1700,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ya'akov Klivanov St 26, Haifa"
+    "addressEn": "Ya'akov Klivanov St 20, Haifa"
   },
   {
     "id": "haifa_132",
@@ -1765,7 +1765,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Lunz St 7, Haifa"
+    "addressEn": "Lunz St 4, Haifa"
   },
   {
     "id": "haifa_137",
@@ -1778,7 +1778,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "HaRav Raphael Anakua St 18, Haifa"
+    "addressEn": "HaRav Raphael Anakua St 20, Haifa"
   },
   {
     "id": "haifa_138",
@@ -1804,7 +1804,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaGalil St 69, Haifa"
+    "addressEn": "HaGalil St 79, Haifa"
   },
   {
     "id": "haifa_140",
@@ -1856,7 +1856,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot HaMeginim 29, Haifa"
+    "addressEn": "Allenby Rd 8, Haifa"
   },
   {
     "id": "haifa_144",
@@ -1882,7 +1882,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Melekh Yehoshafat St 9, Haifa"
+    "addressEn": "Ha-Melekh Yehoshafat St 6, Haifa"
   },
   {
     "id": "haifa_146",
@@ -1908,7 +1908,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ben Yehuda St 2, Haifa"
+    "addressEn": "Kassel St 18, Haifa"
   },
   {
     "id": "haifa_148",
@@ -1947,7 +1947,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitshak Sadeh St 28, Haifa"
+    "addressEn": "Yitshak Sadeh St 26, Haifa"
   },
   {
     "id": "haifa_151",
@@ -1960,7 +1960,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Alexander Zaid St 58א, Haifa"
+    "addressEn": "Ha-Rishonim St 55, Haifa"
   },
   {
     "id": "haifa_152",
@@ -1986,7 +1986,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khuri St 34, Haifa"
+    "addressEn": "Sh'Hada St, Haifa"
   },
   {
     "id": "haifa_154",
@@ -2012,7 +2012,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Mekor Baruch St 22, Haifa"
+    "addressEn": "Mekor Baruch St 20, Haifa"
   },
   {
     "id": "haifa_156",
@@ -2025,7 +2025,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Tikva St 16, Haifa"
+    "addressEn": "Ha-Tikva St 23, Haifa"
   },
   {
     "id": "haifa_157",
@@ -2077,7 +2077,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yosef St 18, Haifa"
+    "addressEn": "Tel Hai St 10, Haifa"
   },
   {
     "id": "haifa_161",
@@ -2103,7 +2103,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Kakal 4, Haifa"
+    "addressEn": "Alexander Zaid St 77, Haifa"
   },
   {
     "id": "haifa_163",
@@ -2142,7 +2142,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Se'adya Paz St 41, Haifa"
+    "addressEn": "Hahinanit St 3, Haifa"
   },
   {
     "id": "haifa_166",
@@ -2168,7 +2168,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Yakinton St 40, Haifa"
+    "addressEn": "Albert Einstein St 133, Haifa"
   },
   {
     "id": "haifa_168",
@@ -2181,7 +2181,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Moriah Ave 14, Haifa"
+    "addressEn": "Moriah Ave 16, Haifa"
   },
   {
     "id": "haifa_169",
@@ -2194,7 +2194,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaKibutsim St 75, Haifa"
+    "addressEn": "HaKibutsim St 73, Haifa"
   },
   {
     "id": "haifa_170",
@@ -2207,7 +2207,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaAliya HaShniya St 27, Haifa"
+    "addressEn": "HaAliya HaShniya St 25, Haifa"
   },
   {
     "id": "haifa_171",
@@ -2233,7 +2233,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Zayit St 7, Haifa"
+    "addressEn": "Ha-Zayit St 15, Haifa"
   },
   {
     "id": "haifa_173",
@@ -2272,7 +2272,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khaviva Reik St 78, Haifa"
+    "addressEn": "International St 20, Haifa"
   },
   {
     "id": "haifa_176",
@@ -2285,7 +2285,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Beit Alfa St 29, Haifa"
+    "addressEn": "Beit Alfa St 27, Haifa"
   },
   {
     "id": "haifa_177",
@@ -2298,7 +2298,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Tchernikhovski St 32, Haifa"
+    "addressEn": "Tchernikhovski St 34, Haifa"
   },
   {
     "id": "haifa_178",
@@ -2311,7 +2311,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אל מהדי2, Haifa"
+    "addressEn": "Al Mahdi St 12, Haifa"
   },
   {
     "id": "haifa_179",
@@ -2324,7 +2324,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "HaNassi Blvd 138, Haifa"
+    "addressEn": "Mahanayim St 7, Haifa"
   },
   {
     "id": "haifa_180",
@@ -2337,7 +2337,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Nun Bet St 51, Haifa"
+    "addressEn": "HaArazim St 65, Haifa"
   },
   {
     "id": "haifa_181",
@@ -2350,7 +2350,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sheshet ha-Yamim St 2, Haifa"
+    "addressEn": "Bechor Shitrit St 26, Haifa"
   },
   {
     "id": "haifa_182",
@@ -2363,7 +2363,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Lakhish St 69, Kiryat Yam"
+    "addressEn": "HaNoter St 53, Haifa"
   },
   {
     "id": "haifa_183",
@@ -2376,7 +2376,7 @@
     "type": "חניון תת-קרקעי",
     "source": "gov",
     "category": "parking",
-    "addressEn": "Hassan Shuqri St 8, Haifa"
+    "addressEn": "Hassan Shuqri St 5, Haifa"
   },
   {
     "id": "haifa_184",
@@ -2389,7 +2389,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Avraham Danino St 9, Haifa"
+    "addressEn": "Meir Schneider Garden, Avraham Danino St 2, Haifa"
   },
   {
     "id": "haifa_185",
@@ -2428,7 +2428,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Dror St 17, Haifa"
+    "addressEn": "Dror St 19, Haifa"
   },
   {
     "id": "haifa_188",
@@ -2441,7 +2441,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Tikhon St 39, Haifa"
+    "addressEn": "Tsiyon St 7, Haifa"
   },
   {
     "id": "haifa_189",
@@ -2480,7 +2480,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tsiklag St 104, Haifa"
+    "addressEn": "Tsiklag St 17, Haifa"
   },
   {
     "id": "haifa_192",
@@ -2532,7 +2532,7 @@
     "type": "מקלט בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Sderot Eliyahu Golomb 6, Haifa"
+    "addressEn": "Sderot Eliyahu Golomb 4, Haifa"
   },
   {
     "id": "haifa_196",
@@ -2558,7 +2558,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Yarden St 19, Haifa"
+    "addressEn": "Ha-Yarden St 21, Haifa"
   },
   {
     "id": "haifa_198",
@@ -2597,7 +2597,7 @@
     "type": "בית ספר (מתקן קליטה)",
     "source": "gov",
     "category": "school",
-    "addressEn": "Tel Aviv St 25, Haifa"
+    "addressEn": "Tel Aviv St 27, Haifa"
   },
   {
     "id": "haifa_201",
@@ -2636,7 +2636,7 @@
     "type": "מיגונית",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot HaNassi Truman 10, Haifa"
+    "addressEn": "Naot Beach"
   },
   {
     "id": "haifa_204",
@@ -2649,7 +2649,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hatzionut Ave 44, Haifa"
+    "addressEn": "Beit She'arim St 5, Haifa"
   },
   {
     "id": "haifa_205",
@@ -2675,7 +2675,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ben Yehuda St 48, Haifa"
+    "addressEn": "Hatzionut Ave 53, Haifa"
   },
   {
     "id": "haifa_207",
@@ -2701,7 +2701,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Berl Katznelson St 39-9, Haifa"
+    "addressEn": "Berl Katznelson St 29, Haifa"
   },
   {
     "id": "haifa_209",
@@ -2714,7 +2714,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tchernikhovski St 32, Haifa"
+    "addressEn": "Tchernikhovski St 34, Haifa"
   },
   {
     "id": "haifa_210",
@@ -2740,7 +2740,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Deganya 10, Haifa"
+    "addressEn": "Dgania Ave 4, Haifa"
   },
   {
     "id": "haifa_212",
@@ -2753,7 +2753,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Borokhov St 21, Haifa"
+    "addressEn": "Borokhov St 25, Haifa"
   },
   {
     "id": "haifa_213",
@@ -2766,7 +2766,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Brenner St 30, Haifa, 3254623"
+    "addressEn": "Khaviva Reik St 33, Haifa"
   },
   {
     "id": "haifa_214",
@@ -2779,7 +2779,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Deganya 33, Haifa"
+    "addressEn": "Dgania Ave 35, Haifa"
   },
   {
     "id": "haifa_215",
@@ -2792,7 +2792,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yitskhak Yatsiv St 26, Haifa"
+    "addressEn": "Yizhak Yatziv St 24, Haifa"
   },
   {
     "id": "haifa_216",

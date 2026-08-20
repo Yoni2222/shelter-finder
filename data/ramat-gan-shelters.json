@@ -21,7 +21,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaRa'aba St 6, Ramat Gan"
+    "addressEn": "HaRa'aba St 3, Ramat Gan"
   },
   {
     "id": "undefined-3",
@@ -45,7 +45,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Bnei ha-Nevi'im St 16, Ramat Gan"
+    "addressEn": "Bnei ha-Nevi'im St 14, Ramat Gan"
   },
   {
     "id": "undefined-5",
@@ -117,7 +117,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Derech Sheba 2, Ramat Gan, 5262656"
+    "addressEn": "Derech Sheba 2, Ramat Gan"
   },
   {
     "id": "undefined-11",
@@ -201,7 +201,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Aluf David St 53, Ramat Gan"
+    "addressEn": "Aluf David St 55, Ramat Gan"
   },
   {
     "id": "undefined-18",
@@ -237,7 +237,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yehuda garden, Le'an St 27, Ramat Gan"
+    "addressEn": "Le'an St 25, Ramat Gan"
   },
   {
     "id": "undefined-21",
@@ -333,7 +333,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khayim Landau St 9, Ramat Gan"
+    "addressEn": "Khayim Landau St 7, Ramat Gan"
   },
   {
     "id": "undefined-29",
@@ -381,7 +381,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashi St 15, Ramat Gan"
+    "addressEn": "Rashi St 13, Ramat Gan"
   },
   {
     "id": "undefined-33",
@@ -405,7 +405,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot HaYeled 5א, Ramat Gan"
+    "addressEn": "Sderot HaYeled 5, Ramat Gan"
   },
   {
     "id": "undefined-35",
@@ -609,7 +609,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azri'el St 24, Ramat Gan"
+    "addressEn": "Azri'el St 22, Ramat Gan"
   },
   {
     "id": "undefined-52",
@@ -777,7 +777,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Malki Tsedek St 209, Ramat Gan"
+    "addressEn": "Malki Tsedek St 23, Ramat Gan"
   },
   {
     "id": "undefined-66",
@@ -801,7 +801,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Eduard Bernstein St 21, Tel Aviv-Yafo"
+    "addressEn": "Eduard Bernstein St 25, Tel Aviv-Yafo"
   },
   {
     "id": "undefined-68",
@@ -837,7 +837,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ruchama St 37, Ramat Gan"
+    "addressEn": "Ruchama St 38, Ramat Gan"
   },
   {
     "id": "undefined-71",
@@ -849,7 +849,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "העליה הראשונה 1, Ramat Gan"
+    "addressEn": "Ha-Aliya ha-Rishona St 4, Ramat Gan"
   },
   {
     "id": "undefined-72",
@@ -861,7 +861,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ben Zvi Ave 38, Ramat Gan"
+    "addressEn": "Ben Zvi Ave 36, Ramat Gan"
   },
   {
     "id": "undefined-73",
@@ -885,7 +885,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zalman Shazar St 55, Ramat Gan"
+    "addressEn": "Zalman Shazar St 52, Ramat Gan"
   },
   {
     "id": "undefined-75",
@@ -945,7 +945,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mordehai St 16, Ramat Gan"
+    "addressEn": "Mordehai St 15, Ramat Gan"
   },
   {
     "id": "undefined-80",
@@ -969,7 +969,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHayil St 35, Ramat Gan"
+    "addressEn": "Sderot HaTsanhanim 31, Ramat Gan"
   },
   {
     "id": "undefined-82",
@@ -1005,7 +1005,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shalom Aleichem St 16, Ramat Gan"
+    "addressEn": "Shalom Aleichem St 18, Ramat Gan"
   },
   {
     "id": "undefined-85",
@@ -1017,7 +1017,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaMe'a Ve'ehad St 10, Ramat Gan"
+    "addressEn": "HaMe'a Ve'ehad St 5, Ramat Gan"
   },
   {
     "id": "undefined-86",
@@ -1269,7 +1269,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Azri'el St 24, Ramat Gan"
+    "addressEn": "Azri'el St 28, Ramat Gan"
   },
   {
     "id": "undefined-108",
@@ -1365,7 +1365,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "קופת חולים מכבי, Ramat Hen St 24, Ramat Gan"
+    "addressEn": "HaMe'a Ve'ehad St 24, Ramat Gan"
   },
   {
     "id": "undefined-116",
@@ -1461,7 +1461,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tel Khai St 20, Ramat Gan"
+    "addressEn": "Tel Khai St 6, Ramat Gan"
   },
   {
     "id": "undefined-124",
@@ -1473,7 +1473,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Banim Kfar Azar St 14, Ramat Gan"
+    "addressEn": "Shikun ha-Banim, Ramat Gan"
   },
   {
     "id": "undefined-125",

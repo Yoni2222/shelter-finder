@@ -9,7 +9,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Yitshak 915, Sderot"
   },
   {
     "id": "שדרות-2",
@@ -21,7 +22,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 89, Sderot"
   },
   {
     "id": "שדרות-3",
@@ -33,7 +35,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Elbaz St 83, Sderot"
   },
   {
     "id": "שדרות-4",
@@ -45,7 +48,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoseftal St 57, Sderot"
   },
   {
     "id": "שדרות-5",
@@ -57,7 +61,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menachem Begin Rd 35, Sderot"
   },
   {
     "id": "שדרות-6",
@@ -69,7 +74,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 1, Sderot"
   },
   {
     "id": "שדרות-7",
@@ -81,7 +87,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Brit Arim St 514, Sderot"
   },
   {
     "id": "שדרות-8",
@@ -93,7 +100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "1, Nir Am"
   },
   {
     "id": "שדרות-9",
@@ -105,7 +113,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-10",
@@ -117,7 +126,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaBanim St 1, Sderot"
   },
   {
     "id": "שדרות-11",
@@ -129,7 +139,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 450, Sderot"
   },
   {
     "id": "שדרות-12",
@@ -141,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 34, Sderot"
   },
   {
     "id": "שדרות-13",
@@ -153,7 +165,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bialik St 4, Sderot"
   },
   {
     "id": "שדרות-14",
@@ -165,7 +178,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 5, Sderot"
   },
   {
     "id": "שדרות-15",
@@ -177,7 +191,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Zerach St 351, Sderot"
   },
   {
     "id": "שדרות-16",
@@ -189,7 +204,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 9, Sderot"
   },
   {
     "id": "שדרות-17",
@@ -201,7 +217,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 505, Sderot"
   },
   {
     "id": "שדרות-18",
@@ -213,7 +230,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Helsinki St 1, Sderot"
   },
   {
     "id": "שדרות-19",
@@ -225,7 +243,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 36, Sderot"
   },
   {
     "id": "שדרות-20",
@@ -237,7 +256,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech Jerusalem 32, Sderot"
   },
   {
     "id": "שדרות-21",
@@ -249,7 +269,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zalman Shazar St 131, Sderot"
   },
   {
     "id": "שדרות-22",
@@ -261,7 +282,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yona St 45, Sderot"
   },
   {
     "id": "שדרות-23",
@@ -273,7 +295,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 37, Sderot"
   },
   {
     "id": "שדרות-24",
@@ -285,7 +308,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 16, Sderot"
   },
   {
     "id": "שדרות-25",
@@ -297,7 +321,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-26",
@@ -309,7 +334,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Brit Arim St 9, Sderot"
   },
   {
     "id": "שדרות-27",
@@ -321,7 +347,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaRav Shalom Ephirgen 4, Sderot"
   },
   {
     "id": "שדרות-28",
@@ -333,7 +360,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 120, Sderot"
   },
   {
     "id": "שדרות-29",
@@ -345,7 +373,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 57, Sderot"
   },
   {
     "id": "שדרות-30",
@@ -357,7 +386,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaBanim St 1, Sderot"
   },
   {
     "id": "שדרות-31",
@@ -369,7 +399,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-32",
@@ -381,7 +412,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khatsav St 405, Sderot"
   },
   {
     "id": "שדרות-33",
@@ -405,7 +437,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaHaapala 37, Sderot"
   },
   {
     "id": "שדרות-35",
@@ -417,7 +450,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yekhezkel St 1, Sderot"
   },
   {
     "id": "שדרות-36",
@@ -429,7 +463,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barlev St 4, Sderot"
   },
   {
     "id": "שדרות-37",
@@ -441,7 +476,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhum St 40, Sderot"
   },
   {
     "id": "שדרות-38",
@@ -453,7 +489,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech Moshe Dayan 9, Sderot"
   },
   {
     "id": "שדרות-39",
@@ -465,7 +502,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Kadesh St 53, Sderot"
   },
   {
     "id": "שדרות-40",
@@ -477,7 +515,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 25, Sderot"
   },
   {
     "id": "שדרות-41",
@@ -489,7 +528,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 57, Sderot"
   },
   {
     "id": "שדרות-42",
@@ -501,7 +541,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan St 3, Sderot"
   },
   {
     "id": "שדרות-43",
@@ -513,7 +554,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yona St 45, Sderot"
   },
   {
     "id": "שדרות-44",
@@ -525,7 +567,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yekhezkel St 48, Sderot"
   },
   {
     "id": "שדרות-45",
@@ -537,7 +580,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 9001, Sderot"
   },
   {
     "id": "שדרות-46",
@@ -549,7 +593,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 14, Sderot"
   },
   {
     "id": "שדרות-47",
@@ -561,7 +606,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Dolev 17, Sderot"
   },
   {
     "id": "שדרות-48",
@@ -573,7 +619,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 59, Sderot"
   },
   {
     "id": "שדרות-49",
@@ -585,7 +632,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bialik St 4, Sderot"
   },
   {
     "id": "שדרות-50",
@@ -597,7 +645,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Kadesh St 16, Sderot"
   },
   {
     "id": "שדרות-51",
@@ -609,7 +658,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 450, Sderot"
   },
   {
     "id": "שדרות-52",
@@ -633,7 +683,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bialik St 12, Sderot"
   },
   {
     "id": "שדרות-54",
@@ -645,7 +696,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zeharya St 167, Sderot"
   },
   {
     "id": "שדרות-55",
@@ -657,7 +709,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMeginim St 15, Sderot"
   },
   {
     "id": "שדרות-56",
@@ -669,7 +722,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "1, Nir Am"
   },
   {
     "id": "שדרות-57",
@@ -681,7 +735,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lotem St 3, Sderot"
   },
   {
     "id": "שדרות-58",
@@ -693,7 +748,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 119, Sderot"
   },
   {
     "id": "שדרות-59",
@@ -705,7 +761,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Zerach St 8, Sderot"
   },
   {
     "id": "שדרות-60",
@@ -717,7 +774,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 68, Sderot"
   },
   {
     "id": "שדרות-61",
@@ -729,7 +787,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Pa'amonit 29, Sderot"
   },
   {
     "id": "שדרות-62",
@@ -741,7 +800,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Tsiyon St 17, Sderot"
   },
   {
     "id": "שדרות-63",
@@ -753,7 +813,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Allenby St 5, Sderot"
   },
   {
     "id": "שדרות-64",
@@ -765,7 +826,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech Moshe Dayan 903, Sderot"
   },
   {
     "id": "שדרות-65",
@@ -777,7 +839,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM6+P4 Ibim"
   },
   {
     "id": "שדרות-66",
@@ -789,7 +852,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmiyahu St 195, Sderot"
   },
   {
     "id": "שדרות-67",
@@ -801,7 +865,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM5+FQ Ibim"
   },
   {
     "id": "שדרות-68",
@@ -813,7 +878,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Horad St 360, Sderot"
   },
   {
     "id": "שדרות-69",
@@ -825,7 +891,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShomer St 34, Sderot"
   },
   {
     "id": "שדרות-70",
@@ -837,7 +904,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Elbaz St 202, Sderot"
   },
   {
     "id": "שדרות-71",
@@ -849,7 +917,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trumpeldor St 1, Sderot"
   },
   {
     "id": "שדרות-72",
@@ -861,7 +930,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 29, Sderot"
   },
   {
     "id": "שדרות-73",
@@ -873,7 +943,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shalom Shabazi St 329, Sderot"
   },
   {
     "id": "שדרות-74",
@@ -885,7 +956,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaAtzmaut St 16, Sderot"
   },
   {
     "id": "שדרות-75",
@@ -897,7 +969,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Zerach St 351, Sderot"
   },
   {
     "id": "שדרות-76",
@@ -909,7 +982,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shalom Shabazi St 329, Sderot"
   },
   {
     "id": "שדרות-77",
@@ -921,7 +995,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Keren Kayemet le-Yisra'el St 5, Ashkelon"
   },
   {
     "id": "שדרות-78",
@@ -933,7 +1008,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 352, Sderot"
   },
   {
     "id": "שדרות-79",
@@ -945,7 +1021,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmiyahu St 207, Sderot"
   },
   {
     "id": "שדרות-80",
@@ -957,7 +1034,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Keren Kayemet le-Yisra'el St 5, Ashkelon"
   },
   {
     "id": "שדרות-81",
@@ -969,7 +1047,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lotem St 391, Sderot"
   },
   {
     "id": "שדרות-82",
@@ -981,7 +1060,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaDegel St 3, Sderot"
   },
   {
     "id": "שדרות-83",
@@ -993,7 +1073,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Rivka 11, Sderot"
   },
   {
     "id": "שדרות-84",
@@ -1005,7 +1086,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 800, Sderot"
   },
   {
     "id": "שדרות-85",
@@ -1029,7 +1111,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 430, Sderot"
   },
   {
     "id": "שדרות-87",
@@ -1041,7 +1124,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Hadas 466, Sderot"
   },
   {
     "id": "שדרות-88",
@@ -1053,7 +1137,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 9, Sderot"
   },
   {
     "id": "שדרות-89",
@@ -1065,7 +1150,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM6+MH Ibim"
   },
   {
     "id": "שדרות-90",
@@ -1101,7 +1187,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim/Daniel, Sderot"
   },
   {
     "id": "שדרות-93",
@@ -1113,7 +1200,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim/Daniel, Sderot"
   },
   {
     "id": "שדרות-94",
@@ -1137,7 +1225,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 7, Sderot"
   },
   {
     "id": "שדרות-96",
@@ -1149,7 +1238,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim St 260, Sderot"
   },
   {
     "id": "שדרות-97",
@@ -1185,7 +1275,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 21, Sderot"
   },
   {
     "id": "שדרות-100",
@@ -1209,7 +1300,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim St 260, Sderot"
   },
   {
     "id": "שדרות-102",
@@ -1221,7 +1313,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 21, Sderot"
   },
   {
     "id": "שדרות-103",
@@ -1233,7 +1326,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 21, Sderot"
   },
   {
     "id": "שדרות-104",
@@ -1245,7 +1339,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech HaAliya, Sderot"
   },
   {
     "id": "שדרות-105",
@@ -1257,7 +1352,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim St 261, Sderot"
   },
   {
     "id": "שדרות-106",
@@ -1269,7 +1365,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim St 261, Sderot"
   },
   {
     "id": "שדרות-107",
@@ -1281,7 +1378,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 120, Sderot"
   },
   {
     "id": "שדרות-108",
@@ -1293,7 +1391,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 120, Sderot"
   },
   {
     "id": "שדרות-109",
@@ -1305,7 +1404,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Khavakuk St 17, Sderot"
   },
   {
     "id": "שדרות-110",
@@ -1317,7 +1417,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 74, Sderot"
   },
   {
     "id": "שדרות-111",
@@ -1329,7 +1430,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 120, Sderot"
   },
   {
     "id": "שדרות-112",
@@ -1341,7 +1443,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM6+C8 Ibim"
   },
   {
     "id": "שדרות-113",
@@ -1353,7 +1456,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM5+GW Ibim"
   },
   {
     "id": "שדרות-114",
@@ -1365,7 +1469,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibim Junction"
   },
   {
     "id": "שדרות-115",
@@ -1377,7 +1482,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "5, Nir Am"
   },
   {
     "id": "שדרות-116",
@@ -1389,7 +1495,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nir Am/Ctr, Nir Am"
   },
   {
     "id": "שדרות-117",
@@ -1401,7 +1508,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GJM5+RQ Sderot"
   },
   {
     "id": "שדרות-118",
@@ -1413,7 +1521,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barlev St 4, Sderot"
   },
   {
     "id": "שדרות-119",
@@ -1425,7 +1534,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMa'apilim/Daniel, Sderot"
   },
   {
     "id": "שדרות-120",
@@ -1437,7 +1547,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 76, Sderot"
   },
   {
     "id": "שדרות-121",
@@ -1449,7 +1560,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Yetsiat Eropa 3, Sderot"
   },
   {
     "id": "שדרות-122",
@@ -1461,7 +1573,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-123",
@@ -1473,7 +1586,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Palmakh St 470, Sderot"
   },
   {
     "id": "שדרות-124",
@@ -1485,7 +1599,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Amsterdam St 10, Sderot"
   },
   {
     "id": "שדרות-125",
@@ -1497,7 +1612,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Amsterdam St 10, Sderot"
   },
   {
     "id": "שדרות-126",
@@ -1509,7 +1625,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Amsterdam St 10, Sderot"
   },
   {
     "id": "שדרות-127",
@@ -1521,7 +1638,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Herzog St 33, Sderot"
   },
   {
     "id": "שדרות-128",
@@ -1533,7 +1651,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GH8R+QW Sderot"
   },
   {
     "id": "שדרות-129",
@@ -1545,7 +1664,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Palmakh St 463, Sderot"
   },
   {
     "id": "שדרות-130",
@@ -1557,7 +1677,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaMeginim St 17, Sderot"
   },
   {
     "id": "שדרות-131",
@@ -1569,7 +1690,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 7, Sderot"
   },
   {
     "id": "שדרות-132",
@@ -1581,7 +1703,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 17, Sderot"
   },
   {
     "id": "שדרות-133",
@@ -1593,7 +1716,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Yehuda St 8, Sderot"
   },
   {
     "id": "שדרות-134",
@@ -1605,7 +1729,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Rabi Yosef Karo St 36, Sderot"
   },
   {
     "id": "שדרות-135",
@@ -1617,7 +1742,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech Jerusalem 36, Sderot"
   },
   {
     "id": "שדרות-136",
@@ -1629,7 +1755,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Harzfeld St 3, Sderot"
   },
   {
     "id": "שדרות-137",
@@ -1641,7 +1768,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 5, Sderot"
   },
   {
     "id": "שדרות-138",
@@ -1653,7 +1781,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Alterman St 335, Sderot"
   },
   {
     "id": "שדרות-139",
@@ -1665,7 +1794,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Alterman St 537, Sderot"
   },
   {
     "id": "שדרות-140",
@@ -1677,7 +1807,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Palmakh St 11, Sderot"
   },
   {
     "id": "שדרות-141",
@@ -1689,7 +1820,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lotem St 3, Sderot"
   },
   {
     "id": "שדרות-142",
@@ -1701,7 +1833,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Lotem St 3, Sderot"
   },
   {
     "id": "שדרות-143",
@@ -1713,7 +1846,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 800, Sderot"
   },
   {
     "id": "שדרות-144",
@@ -1725,7 +1859,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 112, Sderot"
   },
   {
     "id": "שדרות-145",
@@ -1737,7 +1872,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 4, Sderot"
   },
   {
     "id": "שדרות-146",
@@ -1749,7 +1885,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menachem Begin Rd 28, Sderot"
   },
   {
     "id": "שדרות-147",
@@ -1761,7 +1898,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 353, Sderot"
   },
   {
     "id": "שדרות-148",
@@ -1773,7 +1911,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 353, Sderot"
   },
   {
     "id": "שדרות-149",
@@ -1785,7 +1924,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Alterman St 337, Sderot"
   },
   {
     "id": "שדרות-150",
@@ -1809,7 +1949,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 353, Sderot"
   },
   {
     "id": "שדרות-152",
@@ -1821,7 +1962,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat HaShikma 3, Sderot"
   },
   {
     "id": "שדרות-153",
@@ -1833,7 +1975,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Arazim St 185, Sderot"
   },
   {
     "id": "שדרות-154",
@@ -1845,7 +1988,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol HaNatsiv 12, Sderot"
   },
   {
     "id": "שדרות-155",
@@ -1857,7 +2001,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Homa U'migdal 32, Sderot"
   },
   {
     "id": "שדרות-156",
@@ -1869,7 +2014,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 10, Sderot"
   },
   {
     "id": "שדרות-157",
@@ -1881,7 +2027,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Menachem Begin Rd 30, Sderot"
   },
   {
     "id": "שדרות-158",
@@ -1893,7 +2040,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maon shira, Natan Elbaz St 17, Sderot"
   },
   {
     "id": "שדרות-159",
@@ -1905,7 +2053,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Maon shira, Natan Elbaz St 17, Sderot"
   },
   {
     "id": "שדרות-160",
@@ -1917,7 +2066,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zalman Shazar St 129, Sderot"
   },
   {
     "id": "שדרות-161",
@@ -1929,7 +2079,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hagai St 107, Sderot"
   },
   {
     "id": "שדרות-162",
@@ -1941,7 +2092,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 37, Sderot"
   },
   {
     "id": "שדרות-163",
@@ -1953,7 +2105,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trumpeldor St 17, Sderot"
   },
   {
     "id": "שדרות-164",
@@ -1965,7 +2118,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trumpeldor St 17, Sderot"
   },
   {
     "id": "שדרות-165",
@@ -1977,7 +2131,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Public Library/Yitzhak Shamir, Sderot"
   },
   {
     "id": "שדרות-166",
@@ -1989,7 +2144,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Derech Jerusalem 2, Sderot"
   },
   {
     "id": "שדרות-167",
@@ -2001,7 +2157,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Trumpeldor St 11, Sderot"
   },
   {
     "id": "שדרות-168",
@@ -2013,7 +2170,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Brit Arim St 24, Sderot"
   },
   {
     "id": "שדרות-169",
@@ -2025,7 +2183,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mish'ol Homa U'migdal 10, Sderot"
   },
   {
     "id": "שדרות-170",
@@ -2049,7 +2208,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Keren Kayemet le-Yisra'el St 26, Sderot"
   },
   {
     "id": "שדרות-172",
@@ -2061,7 +2221,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rambam St 114, Sderot"
   },
   {
     "id": "שדרות-173",
@@ -2073,7 +2234,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Horad St 346, Sderot"
   },
   {
     "id": "שדרות-174",
@@ -2085,7 +2247,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoseftal St 57, Sderot"
   },
   {
     "id": "שדרות-175",
@@ -2097,7 +2260,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Histadrut St 3, Sderot"
   },
   {
     "id": "שדרות-176",
@@ -2109,7 +2273,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Horad St 344, Sderot"
   },
   {
     "id": "שדרות-177",
@@ -2121,7 +2286,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoseftal St 7, Sderot"
   },
   {
     "id": "שדרות-178",
@@ -2133,7 +2299,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yitshak Ben Zvi St 59, Sderot"
   },
   {
     "id": "שדרות-179",
@@ -2145,7 +2312,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barlev St 2, Sderot"
   },
   {
     "id": "שדרות-180",
@@ -2157,7 +2325,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yoseftal St 85, Sderot"
   },
   {
     "id": "שדרות-181",
@@ -2169,7 +2338,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rakefet St 7, Sderot"
   },
   {
     "id": "שדרות-182",
@@ -2181,7 +2351,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Barlev St 2, Sderot"
   },
   {
     "id": "שדרות-183",
@@ -2193,7 +2364,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simha Holtsberg St 3, Sderot"
   },
   {
     "id": "שדרות-184",
@@ -2205,7 +2377,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Shaked St 1, Sderot"
   },
   {
     "id": "שדרות-185",
@@ -2217,7 +2390,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Natan Elbaz St 149, Sderot"
   },
   {
     "id": "שדרות-186",
@@ -2229,7 +2403,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Sinai St 22, Sderot"
   },
   {
     "id": "שדרות-187",
@@ -2241,7 +2416,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhum St 50, Sderot"
   },
   {
     "id": "שדרות-188",
@@ -2253,7 +2429,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Michah St 33, Sderot"
   },
   {
     "id": "שדרות-189",
@@ -2265,7 +2442,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 120, Sderot"
   },
   {
     "id": "שדרות-190",
@@ -2277,7 +2455,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot South Intersection"
   },
   {
     "id": "שדרות-191",
@@ -2289,7 +2468,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Histadrut St 14, Sderot"
   },
   {
     "id": "שדרות-192",
@@ -2301,7 +2481,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hertsel St 448, Sderot"
   },
   {
     "id": "שדרות-193",
@@ -2313,7 +2494,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaShita St 11, Sderot"
   },
   {
     "id": "שדרות-194",
@@ -2325,7 +2507,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehuda ha-Levi St 504, Sderot"
   },
   {
     "id": "שדרות-195",
@@ -2337,7 +2520,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yig'al Alon St 82, Sderot"
   },
   {
     "id": "שדרות-196",
@@ -2349,7 +2533,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Elazar St 53, Sderot"
   },
   {
     "id": "שדרות-197",
@@ -2361,7 +2546,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 5, Sderot"
   },
   {
     "id": "שדרות-198",
@@ -2373,7 +2559,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ibn Gabirol St 4, Sderot"
   },
   {
     "id": "שדרות-199",
@@ -2385,7 +2572,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 14, Sderot"
   },
   {
     "id": "שדרות-200",
@@ -2397,7 +2585,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Atuna St 3, Sderot"
   },
   {
     "id": "שדרות-201",
@@ -2409,7 +2598,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "1, Nir Am"
   },
   {
     "id": "שדרות-202",
@@ -2433,7 +2623,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7, Nir Am"
   },
   {
     "id": "שדרות-204",
@@ -2445,7 +2636,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-205",
@@ -2457,7 +2649,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "143, Nir Am"
   },
   {
     "id": "שדרות-206",
@@ -2469,7 +2662,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "7, Nir Am"
   },
   {
     "id": "שדרות-207",
@@ -2481,7 +2675,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nir Am/Ctr, Nir Am"
   },
   {
     "id": "שדרות-208",
@@ -2505,7 +2700,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "GH8W+G2 Sderot"
   },
   {
     "id": "שדרות-210",
@@ -2517,7 +2713,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "David Elazar St 81, Sderot"
   },
   {
     "id": "שדרות-211",
@@ -2529,7 +2726,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yahadut Italya St 27, Sderot"
   },
   {
     "id": "שדרות-212",
@@ -2541,7 +2739,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 25, Sderot"
   },
   {
     "id": "שדרות-213",
@@ -2553,7 +2752,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ahavat Yisra'el St 8, Sderot"
   },
   {
     "id": "שדרות-214",
@@ -2565,7 +2765,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Horad St 346, Sderot"
   },
   {
     "id": "שדרות-215",
@@ -2577,7 +2778,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Horad St 61, Sderot"
   },
   {
     "id": "שדרות-216",
@@ -2589,7 +2791,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Nakhum St 15, Sderot"
   },
   {
     "id": "שדרות-217",
@@ -2601,7 +2804,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Moshe Rabenu St 16, Sderot"
   },
   {
     "id": "שדרות-218",
@@ -2613,7 +2817,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yisha'ayahu St 2, Sderot"
   },
   {
     "id": "שדרות-219",
@@ -2625,7 +2830,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yirmiyahu St 196, Sderot"
   },
   {
     "id": "שדרות-220",
@@ -2637,7 +2843,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "govmap",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Daniel St 7, Sderot"
   },
   {
     "id": "שדרות-221",

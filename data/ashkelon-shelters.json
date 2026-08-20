@@ -10,7 +10,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaOfan St 25, Ashkelon, Israel"
+    "addressEn": "HaOfan St 15, Ashkelon"
   },
   {
     "id": "ashkelon-2",
@@ -205,7 +205,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaHavatselet St 17, Ashkelon, Israel"
+    "addressEn": "HaHavatselet St 15, Ashkelon"
   },
   {
     "id": "ashkelon-17",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Lilakh St 4, Ashkelon, Israel"
+    "addressEn": "Ha-Lilakh St, Ashkelon"
   },
   {
     "id": "ashkelon-18",
@@ -244,7 +244,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "HaShikma St 65, Ashkelon, Israel"
+    "addressEn": "HaEshel St, Ashkelon"
   },
   {
     "id": "ashkelon-20",
@@ -322,7 +322,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yoel St 10, Ashkelon, Israel"
+    "addressEn": "Yoel St 40, Ashkelon"
   },
   {
     "id": "ashkelon-26",
@@ -335,7 +335,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yisha'ayahu St 19, Ashkelon, Israel"
+    "addressEn": "Yisha'ayahu St 16, Ashkelon"
   },
   {
     "id": "ashkelon-27",
@@ -348,7 +348,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Natan HaNavi St 42, Ashkelon, Israel"
+    "addressEn": "Eliyahu ha-Navi St 5, Ashkelon"
   },
   {
     "id": "ashkelon-28",
@@ -374,7 +374,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shmu'el St 2, Ashkelon, Israel"
+    "addressEn": "Natan HaNavi St 38, Ashkelon"
   },
   {
     "id": "ashkelon-30",
@@ -426,7 +426,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yona St 37, Ashkelon, Israel"
+    "addressEn": "Yona St 38, Ashkelon"
   },
   {
     "id": "ashkelon-34",
@@ -465,7 +465,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yisha'ayahu St 17, Ashkelon, Israel"
+    "addressEn": "Hananya St 10, Ashkelon"
   },
   {
     "id": "ashkelon-37",
@@ -491,7 +491,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shivat Tsiyon St 99, Ashkelon, Israel"
+    "addressEn": "Shivat Tsiyon St 40, Ashkelon"
   },
   {
     "id": "ashkelon-39",
@@ -504,7 +504,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shivat Tsiyon St 51, Ashkelon, Israel"
+    "addressEn": "Shivat Tsiyon St 49, Ashkelon"
   },
   {
     "id": "ashkelon-40",
@@ -621,7 +621,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "David Yellin St 1, Ashkelon, Israel"
+    "addressEn": "David Yellin St 5, Ashkelon"
   },
   {
     "id": "ashkelon-49",
@@ -660,7 +660,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Shvatim St 2, Ashkelon, Israel"
+    "addressEn": "Ha-Shvatim St 5, Ashkelon"
   },
   {
     "id": "ashkelon-52",
@@ -764,7 +764,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Exodus St 12, Ashkelon, Israel"
+    "addressEn": "Exodus St 10, Ashkelon"
   },
   {
     "id": "ashkelon-60",
@@ -777,7 +777,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Hofit St 15, Ashkelon, Israel"
+    "addressEn": "Hofit St 11, Ashkelon"
   },
   {
     "id": "ashkelon-61",
@@ -790,7 +790,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Mivtsa Moshe St 17, Ashkelon, Israel"
+    "addressEn": "Mivtsa Moshe St 15, Ashkelon"
   },
   {
     "id": "ashkelon-62",
@@ -829,7 +829,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "She'ar Yashuv St 40, Ashkelon, Israel"
+    "addressEn": "Ginosar St 21, Ashkelon"
   },
   {
     "id": "ashkelon-65",
@@ -842,7 +842,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Exodus St 40, Ashkelon, Israel"
+    "addressEn": "Kinneret St 11, Ashkelon"
   },
   {
     "id": "ashkelon-66",
@@ -881,7 +881,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Tiran St 1, Ashkelon, Israel"
+    "addressEn": "Ami'ad St 37, Ashkelon"
   },
   {
     "id": "ashkelon-69",
@@ -894,7 +894,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ha-Sharon St 6, Ashkelon, Israel"
+    "addressEn": "HaShfela St 10, Ashkelon"
   },
   {
     "id": "ashkelon-70",
@@ -920,7 +920,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ofira St 21, Ashkelon, Israel"
+    "addressEn": "Ofira St 8, Ashkelon"
   },
   {
     "id": "ashkelon-72",
@@ -959,7 +959,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Kanfei Nesharim St 28, Ashkelon, Israel"
+    "addressEn": "Khatseva St 2, Ashkelon"
   },
   {
     "id": "ashkelon-75",
@@ -972,7 +972,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Zar'it St 20, Ashkelon, Israel"
+    "addressEn": "Zar'it St 42, Ashkelon"
   },
   {
     "id": "ashkelon-76",
@@ -985,7 +985,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Snir St 17, Ashkelon, Israel"
+    "addressEn": "Snir St 9, Ashkelon"
   },
   {
     "id": "ashkelon-77",
@@ -1011,7 +1011,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "אריאל 6 בסניף יד שרה, Ashkelon, Israel"
+    "addressEn": "Ari'el St 6, Ashkelon"
   },
   {
     "id": "ashkelon-79",
@@ -1024,7 +1024,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Goshen St 32, Ashkelon, Israel"
+    "addressEn": "Goshen St 34, Ashkelon"
   },
   {
     "id": "ashkelon-80",
@@ -1141,7 +1141,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ben Zoma St 3, Ashkelon, 7828575, Israel"
+    "addressEn": "Ben Zoma St, Ashkelon"
   },
   {
     "id": "ashkelon-89",
@@ -1154,7 +1154,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shpinoza St 5, Ashkelon, Israel"
+    "addressEn": "Hida St 2, Ashkelon"
   },
   {
     "id": "ashkelon-90",
@@ -1193,7 +1193,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khatam Sofer St 41, Ashkelon, Israel"
+    "addressEn": "Dibulet St, Ashkelon"
   },
   {
     "id": "ashkelon-93",
@@ -1219,7 +1219,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Abarbanel St 5, Ashkelon, Israel"
+    "addressEn": "Ba'al Shem Tov St, Ashkelon"
   },
   {
     "id": "ashkelon-95",
@@ -1258,7 +1258,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "יהודה הלוי/של��ם עליכם, Ashkelon, Israel"
+    "addressEn": "Yehuda Halevi St, Ashkelon"
   },
   {
     "id": "ashkelon-98",
@@ -1375,7 +1375,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Ephraim Tsur St 9, Ashkelon, Israel"
+    "addressEn": "Archie Sherman St, Ashkelon"
   },
   {
     "id": "ashkelon-107",
@@ -1414,7 +1414,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Khovevei Tsiyon St 10, Ashkelon, Israel"
+    "addressEn": "Khovevei Tsiyon St 9, Ashkelon"
   },
   {
     "id": "ashkelon-110",
@@ -1505,7 +1505,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "גדוד הפורצים 5, Ashkelon, Israel"
+    "addressEn": "Simtat Gdud HaPortsim 6, Ashkelon"
   },
   {
     "id": "ashkelon-117",
@@ -1531,7 +1531,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Simtat Gdud HaPortsim 8, Ashkelon, Israel"
+    "addressEn": "Simtat Gdud HaPortsim 10, Ashkelon"
   },
   {
     "id": "ashkelon-119",
@@ -1622,7 +1622,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Olei HaGardom St 60, Ashkelon, Israel"
+    "addressEn": "Olei HaGardom St 62, Ashkelon"
   },
   {
     "id": "ashkelon-126",

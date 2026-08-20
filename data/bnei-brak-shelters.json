@@ -23,7 +23,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashi St 8, Bnei Brak"
+    "addressEn": "Bnei Brak"
   },
   {
     "id": "בני ברק-3",
@@ -36,7 +36,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Rashi St 8, Bnei Brak"
+    "addressEn": "Bnei Brak"
   },
   {
     "id": "בני ברק-4",
@@ -62,7 +62,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rav Hai Gaon St 13, Bnei Brak"
+    "addressEn": "Rav Hai Gaon St 15, Bnei Brak"
   },
   {
     "id": "בני ברק-6",
@@ -75,7 +75,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Biriya St 6-8, Bnei Brak"
+    "addressEn": "Biriya St 8, Bnei Brak"
   },
   {
     "id": "בני ברק-7",
@@ -88,7 +88,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Matityahu St 5, Bnei Brak"
+    "addressEn": "Matityahu St 1, Bnei Brak"
   },
   {
     "id": "בני ברק-8",
@@ -114,7 +114,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rashi St 8, Bnei Brak"
+    "addressEn": "Bnei Brak"
   },
   {
     "id": "בני ברק-10",
@@ -153,7 +153,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Yismakh Moshe St 30, Bnei Brak"
+    "addressEn": "Yismakh Moshe St 21, Bnei Brak"
   },
   {
     "id": "בני ברק-13",
@@ -166,7 +166,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Rabi Aba Grossbard St 7, Bnei Brak"
+    "addressEn": "Bartenura St 19, Bnei Brak"
   },
   {
     "id": "בני ברק-14",
@@ -218,7 +218,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Sderot Kfar Etsyon 8, Bnei Brak"
+    "addressEn": "Sderot Kfar Etsyon 3, Bnei Brak"
   },
   {
     "id": "בני ברק-18",
@@ -231,7 +231,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Be'eri St 17, Bnei Brak"
+    "addressEn": "Be'eri St 18, Bnei Brak"
   },
   {
     "id": "בני ברק-19",
@@ -387,7 +387,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Rashi St 8, Bnei Brak"
+    "addressEn": "Bnei Brak"
   },
   {
     "id": "בני ברק-31",
@@ -400,7 +400,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "תורה ועבודה 21, דירה 20, ראשון לציון"
+    "addressEn": "Tora Va'Avoda St, Rishon LeZion"
   },
   {
     "id": "בני ברק-32",
@@ -478,7 +478,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Rashi St 8, Bnei Brak"
+    "addressEn": "Bnei Brak"
   },
   {
     "id": "בני ברק-38",
@@ -517,7 +517,7 @@
     "type": "מקלט ציבורי",
     "source": "gov",
     "category": "public",
-    "addressEn": "Shmu'el Weinberg St 6, Bnei Brak"
+    "addressEn": "Avodat Israel St 8, Bnei Brak"
   },
   {
     "id": "בני ברק-41",
@@ -556,7 +556,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Rav Kharlap St 13, Bnei Brak"
+    "addressEn": "Ha-Rav Kharlap St 27, Bnei Brak"
   },
   {
     "id": "בני ברק-44",
@@ -608,7 +608,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Shlomo Ben Yosef St 24, Bnei Brak"
+    "addressEn": "Shlomo Ben Yosef St 26, Bnei Brak"
   },
   {
     "id": "בני ברק-48",
@@ -634,7 +634,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Ha-Maccabim St 43, Bnei Brak"
+    "addressEn": "Ha-Maccabim St 23, Bnei Brak"
   },
   {
     "id": "בני ברק-50",
@@ -673,7 +673,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Yitshak Sadeh St 38, Ramat Hasharon"
+    "addressEn": "Abu Khatsera St 25, Ramat Hasharon"
   },
   {
     "id": "בני ברק-53",
@@ -725,7 +725,7 @@
     "type": "מרחב מוגן בית ספרי",
     "source": "gov",
     "category": "school",
-    "addressEn": "Noruk St 6, Herzliya"
+    "addressEn": "Noruk St, Herzliya"
   },
   {
     "id": "בני ברק-57",

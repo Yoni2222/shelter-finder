@@ -9,7 +9,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mivtsa Sinai St 5, Kiryat Ata"
   },
   {
     "id": "קריית אתא-2",
@@ -21,7 +22,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Maccabim St 8, Kiryat Ata"
   },
   {
     "id": "קריית אתא-3",
@@ -33,7 +35,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Ami St 30, Kiryat Ata"
   },
   {
     "id": "קריית אתא-4",
@@ -45,7 +48,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ben Ami St 46, Kiryat Ata"
   },
   {
     "id": "קריית אתא-5",
@@ -57,7 +61,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Kochva St 6, Kiryat Ata"
   },
   {
     "id": "קריית אתא-6",
@@ -69,7 +74,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Bar Kochva St 9, Kiryat Ata"
   },
   {
     "id": "קריית אתא-7",
@@ -81,7 +87,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yitshak Sadeh St 4, Kiryat Ata"
   },
   {
     "id": "קריית אתא-8",
@@ -93,7 +100,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yitshak Sadeh St 6, Kiryat Ata"
   },
   {
     "id": "קריית אתא-9",
@@ -105,7 +113,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yitshak Sadeh St 26, Kiryat Ata"
   },
   {
     "id": "קריית אתא-10",
@@ -117,7 +126,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Mordekhai Anielewicz St 18, Kiryat Ata"
   },
   {
     "id": "קריית אתא-11",
@@ -129,7 +139,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Eli Cohen St 9, Kiryat Ata"
   },
   {
     "id": "קריית אתא-12",
@@ -141,7 +152,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Palmakh St 16, Kiryat Ata"
   },
   {
     "id": "קריית אתא-13",
@@ -153,7 +165,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Palmakh St 3, Kiryat Ata"
   },
   {
     "id": "קריית אתא-14",
@@ -165,7 +178,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yavni'eli St 25, Kiryat Ata"
   },
   {
     "id": "קריית אתא-15",
@@ -177,7 +191,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yavni'eli St 2, Kiryat Ata"
   },
   {
     "id": "קריית אתא-16",
@@ -189,7 +204,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avraham Tabib St 18, Kiryat Ata"
   },
   {
     "id": "קריית אתא-17",
@@ -201,7 +217,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kiryat Ata"
   },
   {
     "id": "קריית אתא-18",
@@ -213,7 +230,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yehoshua Bin Nun St, Kiryat Ata"
   },
   {
     "id": "קריית אתא-19",
@@ -225,7 +243,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shmu'el Azar St 26, Kiryat Ata"
   },
   {
     "id": "קריית אתא-20",
@@ -237,7 +256,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avigdor Eshet St 44, Kiryat Ata"
   },
   {
     "id": "קריית אתא-21",
@@ -249,7 +269,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Avigdor Eshet St 32, Kiryat Ata"
   },
   {
     "id": "קריית אתא-22",
@@ -261,7 +282,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Weizman St 24, Kiryat Ata"
   },
   {
     "id": "קריית אתא-23",
@@ -273,7 +295,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Rav Uzi'el St 25, Kiryat Ata"
   },
   {
     "id": "קריית אתא-24",
@@ -285,7 +308,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Zamenhoff St 7, Kiryat Ata"
   },
   {
     "id": "קריית אתא-25",
@@ -297,7 +321,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Einstein St 17, Kiryat Ata"
   },
   {
     "id": "קריית אתא-26",
@@ -309,7 +334,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Weizman St 2, Kiryat Ata"
   },
   {
     "id": "קריית אתא-27",
@@ -321,7 +347,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Weizman St 1, Kiryat Ata"
   },
   {
     "id": "קריית אתא-28",
@@ -333,7 +360,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Aharon Ben Yosef St 1, Kiryat Ata"
   },
   {
     "id": "קריית אתא-29",
@@ -345,7 +373,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair St 12, Kiryat Ata"
   },
   {
     "id": "קריית אתא-30",
@@ -357,7 +386,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair St 6, Kiryat Ata"
   },
   {
     "id": "קריית אתא-31",
@@ -369,7 +399,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yair St 12, Kiryat Ata"
   },
   {
     "id": "קריית אתא-32",
@@ -381,7 +412,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaTsanhanim St 23, Kiryat Ata"
   },
   {
     "id": "קריית אתא-33",
@@ -393,7 +425,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Borochov 1, Kiryat Ata"
   },
   {
     "id": "קריית אתא-34",
@@ -405,7 +438,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sderot Yoseftal 61, Kiryat Ata"
   },
   {
     "id": "קריית אתא-35",
@@ -417,7 +451,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Assaf Simhoni St 16, Kiryat Ata"
   },
   {
     "id": "קריית אתא-36",
@@ -429,7 +464,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Assaf Simhoni St 44, Kiryat Ata"
   },
   {
     "id": "קריית אתא-37",
@@ -441,7 +477,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sirkin St 24, Kiryat Ata"
   },
   {
     "id": "קריית אתא-38",
@@ -453,7 +490,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hugo Moler St 31, Kiryat Ata"
   },
   {
     "id": "קריית אתא-39",
@@ -465,7 +503,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ruppin St 7, Kiryat Ata"
   },
   {
     "id": "קריית אתא-40",
@@ -477,7 +516,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ruppin St 6, Kiryat Ata"
   },
   {
     "id": "קריית אתא-41",
@@ -489,7 +529,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Hugo Moler St 51/53, Kiryat Ata"
   },
   {
     "id": "קריית אתא-42",
@@ -501,7 +542,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Sokolov St 63, Kiryat Ata"
   },
   {
     "id": "קריית אתא-43",
@@ -513,7 +555,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kikar B'nai B'rith 8, Kiryat Ata"
   },
   {
     "id": "קריית אתא-44",
@@ -525,7 +568,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Ha-Atsma'ut St 49, Kiryat Ata"
   },
   {
     "id": "קריית אתא-45",
@@ -537,7 +581,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivat Tsiyon St 23, Kiryat Ata"
   },
   {
     "id": "קריית אתא-46",
@@ -549,7 +594,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shivat Tsiyon St 37, Kiryat Ata"
   },
   {
     "id": "קריית אתא-47",
@@ -561,7 +607,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Havatikim St 5, Kiryat Ata"
   },
   {
     "id": "קריית אתא-48",
@@ -573,7 +620,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Bar Ilan St 8, Kiryat Ata"
   },
   {
     "id": "קריית אתא-49",
@@ -585,7 +633,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kibuts Galuyot St 4, Kiryat Ata"
   },
   {
     "id": "קריית אתא-50",
@@ -597,7 +646,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kibuts Galuyot St 5, Kiryat Ata"
   },
   {
     "id": "קריית אתא-51",
@@ -609,7 +659,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kibuts Galuyot St 9, Kiryat Ata"
   },
   {
     "id": "קריית אתא-52",
@@ -621,7 +672,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "HaRav Shabazi St 19, Kiryat Ata"
   },
   {
     "id": "קריית אתא-53",
@@ -633,7 +685,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Kiryat Ata"
   },
   {
     "id": "קריית אתא-54",
@@ -645,7 +698,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Yikhya Tsalakh Garden, Kiryat Ata"
   },
   {
     "id": "קריית אתא-55",
@@ -657,7 +711,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Shtand St 24, Kiryat Ata"
   },
   {
     "id": "קריית אתא-56",
@@ -669,7 +724,8 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Simtat Nahum, Kiryat Ata"
   },
   {
     "id": "קריית אתא-57",
@@ -681,6 +737,7 @@
     "neighborhood": "",
     "type": "מקלט ציבורי",
     "source": "gov",
-    "category": "public"
+    "category": "public",
+    "addressEn": "Elbaz St, Kiryat Ata"
   }
 ]
