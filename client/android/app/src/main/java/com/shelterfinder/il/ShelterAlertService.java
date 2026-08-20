@@ -39,7 +39,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class ShelterAlertService extends FirebaseMessagingService {
 
     private static final String TAG = "ShelterAlertService";
-    private static final String CHANNEL_ID = "shelter_alerts";
+    // Android freezes a channel's sound and importance at creation time and
+    // ignores later changes, so altering the settings requires a new id.
+    private static final String CHANNEL_ID = "shelter_alerts_v2";
     private static final int NOTIFICATION_ID = 1001;
     private static final String PREFS_NAME = "shelter_finder_prefs";
     private static final long GPS_TIMEOUT_MS = 8000;
@@ -263,19 +265,44 @@ public class ShelterAlertService extends FirebaseMessagingService {
     }
 
     private Location getCachedLocation() {
+        // Written by this service after a successful fix.
         SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         float lat = prefs.getFloat("cached_lat", 0f);
         float lon = prefs.getFloat("cached_lon", 0f);
         long timestamp = prefs.getLong("cached_location_time", 0);
 
-        if (lat == 0f && lon == 0f) return null;
-        if (System.currentTimeMillis() - timestamp > CACHED_LOCATION_MAX_AGE_MS) return null;
+        if (lat != 0f || lon != 0f) {
+            if (System.currentTimeMillis() - timestamp <= CACHED_LOCATION_MAX_AGE_MS) {
+                Location loc = new Location("cached");
+                loc.setLatitude(lat);
+                loc.setLongitude(lon);
+                loc.setTime(timestamp);
+                return loc;
+            }
+        }
 
-        Location loc = new Location("cached");
-        loc.setLatitude(lat);
-        loc.setLongitude(lon);
-        loc.setTime(timestamp);
-        return loc;
+        // Fall back to whatever the app itself last saw. Without this the
+        // store above is empty until the service manages its own fix, so a
+        // fresh install always fell through to the generic alert text even
+        // though the app had a perfectly good position on file.
+        return getLocationFromAppStorage();
+    }
+
+    /** Reads lastLat/lastLon written by the web layer via Capacitor Preferences. */
+    private Location getLocationFromAppStorage() {
+        SharedPreferences capStore = getSharedPreferences("CapacitorStorage", Context.MODE_PRIVATE);
+        String lat = capStore.getString("lastLat", null);
+        String lon = capStore.getString("lastLon", null);
+        if (lat == null || lon == null) return null;
+
+        try {
+            Location loc = new Location("app");
+            loc.setLatitude(Double.parseDouble(lat));
+            loc.setLongitude(Double.parseDouble(lon));
+            return loc;
+        } catch (NumberFormatException e) {
+            return null;
+        }
     }
 
     private void cacheLocation(Location location) {
