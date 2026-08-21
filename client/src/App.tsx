@@ -37,19 +37,27 @@ function errorCodeToMsg(code: string, t: Strings): string {
 export default function App() {
   const { t } = useLanguage()
 
+  // Gate for the location request - see the effect below.
+  const [permissionsReady, setPermissionsReady] = useState(false)
+
   // Push notifications and zone subscription (no-op on web)
   useEffect(() => {
     import('@capacitor/core').then(({ Capacitor }) => {
       console.log('[App] Platform:', Capacitor.getPlatform(), 'isNative:', Capacitor.isNativePlatform());
     });
+    // Ask for notifications first, then let the location request follow.
+    // Firing both at once meant Android dropped the second dialog, so the
+    // location prompt only appeared on the next launch.
     initPushNotifications().then(ok => {
       console.log('[App] Push notifications initialized:', ok);
     }).catch(err => {
       console.error('[App] Push init error:', err);
+    }).finally(() => {
+      setPermissionsReady(true);
     });
     initNotificationActions();
   }, []);
-  useZoneSubscription();
+  useZoneSubscription(permissionsReady);
   useShelterBundle();
 
   const [userPos, setUserPos]   = useState<{ lat: number; lon: number } | null>(null)

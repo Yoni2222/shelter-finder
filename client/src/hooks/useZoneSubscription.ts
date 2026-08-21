@@ -99,7 +99,7 @@ function findZoneByCoords(
 
 // ── Hook ──
 
-export function useZoneSubscription(): ZoneSubscriptionState {
+export function useZoneSubscription(enabled: boolean = true): ZoneSubscriptionState {
   const [currentZone, setCurrentZone] = useState<string | null>(null);
   const [subscribedTopics, setSubscribedTopics] = useState<string[]>([]);
   const [zoneName, setZoneName] = useState<string | null>(null);
@@ -150,6 +150,11 @@ export function useZoneSubscription(): ZoneSubscriptionState {
   // Periodically check location and update zone subscription
   useEffect(() => {
     if (!isNative()) return;
+    // Android shows one permission dialog at a time and silently drops a
+    // second request made while one is open. Asking for GPS at the same
+    // moment as the notification prompt meant location was never asked for
+    // until the next launch - and without it there is no zone, so no alerts.
+    if (!enabled) return;
 
     const checkZone = async () => {
       try {
@@ -199,7 +204,7 @@ export function useZoneSubscription(): ZoneSubscriptionState {
     const interval = setInterval(checkZone, LOCATION_CHECK_INTERVAL);
 
     return () => clearInterval(interval);
-  }, [updateSubscriptions]);
+  }, [updateSubscriptions, enabled]);
 
   return { currentZone, subscribedTopics, zoneName, timeToShelter };
 }
