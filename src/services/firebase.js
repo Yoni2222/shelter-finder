@@ -67,15 +67,21 @@ async function sendToTopic(topic, data) {
     apns: {
       headers: {
         'apns-priority': '10',
+        // Required from iOS 13. Must be 'alert': a payload carrying
+        // content-available is sent as a background push, which iOS never
+        // displays - that is why iPhones saw nothing.
+        'apns-push-type': 'alert',
       },
       payload: {
         aps: {
+          // Lets ShelterAlertExtension rewrite the body with the nearest
+          // shelter before it is shown.
           'mutable-content': 1,
-          'content-available': 1,
           alert: {
             title: 'Rocket Alert',
             body: 'Seek shelter immediately',
           },
+          sound: 'default',
         },
       },
     },
@@ -102,12 +108,18 @@ async function sendToToken(token, data) {
     data,
     android: { priority: 'high', ttl: 0 },
     apns: {
-      headers: { 'apns-priority': '10' },
+      headers: {
+        'apns-priority': '10',
+        'apns-push-type': 'alert',
+      },
       payload: {
         aps: {
           'mutable-content': 1,
-          'content-available': 1,
-          alert: { title: 'Rocket Alert', body: 'Seek shelter immediately' },
+          alert: {
+            title: 'Rocket Alert',
+            body: 'Seek shelter immediately',
+          },
+          sound: 'default',
         },
       },
     },
