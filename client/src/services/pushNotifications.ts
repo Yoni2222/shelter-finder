@@ -10,6 +10,8 @@ import { getApiBase } from '../config/api';
 interface FirebaseTopicPlugin {
   subscribeToTopic(options: { topic: string }): Promise<void>;
   unsubscribeFromTopic(options: { topic: string }): Promise<void>;
+  /** iOS only: the FCM registration token, which differs from the APNs one. */
+  getToken(): Promise<{ token: string }>;
 }
 
 const FirebaseTopics = Capacitor.isNativePlatform()
@@ -37,13 +39,25 @@ export async function initPushNotifications(): Promise<boolean> {
   await PushNotifications.register();
 
   PushNotifications.addListener('registration', async (token) => {
-    console.log('[Push] Registered with token:', token.value);
-    // Register token with our server for testing
+    // Android hands back the FCM token already. iOS hands back the APNs
+    // token, which the server cannot send to - Firebase addresses devices by
+    // its own registration token - so ask the native bridge for that instead.
+    let registrationToken = token.value;
+
+    if (Capacitor.getPlatform() === 'ios' && FirebaseTopics) {
+      try {
+        const { token: fcmToken } = await FirebaseTopics.getToken();
+        if (fcmToken) registrationToken = fcmToken;
+      } catch (err) {
+        console.warn('[Push] Could not read the FCM token, using the APNs one:', err);
+      }
+    }
+
     try {
       await fetch(`${getApiBase()}/api/register-token`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token: token.value }),
+        body: JSON.stringify({ token: registrationToken }),
       });
       console.log('[Push] Token registered with server');
     } catch (err) {
