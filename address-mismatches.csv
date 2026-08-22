@@ -1,0 +1,514 @@
+﻿city,row_in_file,id,name,address_he,address_en_current,issue,lat,lon
+afula,75,afula_school_4,בית ספר בן-צבי,"האירוסים 4, עפולה","אירוס 4, Afula, Israel",English field still contains Hebrew,32.617982,35.29564999999999
+afula,102,afula_public_12,אצולת העמק,"בגין 67, עפולה","Sderot Menachem Begin 80, Afula",house number differs (67 vs 80),32.6032252,35.2987434
+afula,105,afula_public_15,היכל התרבות,"חטיבה 9, עפולה","Hativa TeSha St, Afula, Israel",no house number in English,32.6161168,35.2888106
+akko,20,akko_20,מקלט - קיבוץ גלויות 4,"קיבוץ גלויות 4, עכו","Kibuts Galuyot St, Acre, Israel",no house number in English,32.92666,35.084852
+ariel,17,אריאל-17,מקלט 17,רחוב השקמה 8,"Hadekel St 47, Ari'el",house number differs (8 vs 47),32.1069658,35.1746775
+ariel,25,אריאל-25,מקלט 25,דרך הציונות 18,"Ha'Atsma'ut/Efron Road, Ari'el",no house number in English,32.1046376,35.1745145
+ashdod,1,אשדוד-1,השקמה,השקמה 10,"225, Bnei Darom",house number differs (10 vs 225),31.8180563,34.690693
+ashdod,4,אשדוד-4,כוכב הים,מרזוק 17,"Moshe Marzuk and Shmuel Ezer St 10, Ashdod",house number differs (17 vs 10),31.8094,34.6455
+ashkelon,17,ashkelon-17,מקלט - הלילך 13,"הלילך 13, אשקלון","Ha-Lilakh St, Ashkelon",no house number in English,31.6763918,34.5677982
+ashkelon,19,ashkelon-19,מקלט - האשל 74,"האשל 74, אשקלון","HaEshel St, Ashkelon",no house number in English,31.6786884,34.5662912
+ashkelon,23,ashkelon-23,מקלט - בן צבי 268,"בן צבי 268, אשקלון","Ashkelon Academic College / Itzhak Ben Zvi, Ashkelon, Israel",no house number in English,31.669028,34.570348
+ashkelon,77,ashkelon-77,מקלט - כל ישראל חברים 9,"כל ישראל חברים 9, אשקלון","Gilad/Kol Israel Haverim, Ashkelon, Israel",no house number in English,31.6792528,34.5841332
+ashkelon,88,ashkelon-88,מקלט - בן זומא 153,"בן זומא 153, אשקלון","Ben Zoma St, Ashkelon",no house number in English,31.6616028,34.5691542
+ashkelon,92,ashkelon-92,מקלט - דיבולט 12,"דיבולט 12, אשקלון","Dibulet St, Ashkelon",no house number in English,31.6626935,34.5637378
+ashkelon,94,ashkelon-94,מקלט - הבעל שם טוב 307,"הבעל שם טוב 307, אשקלון","Ba'al Shem Tov St, Ashkelon",no house number in English,31.66043,34.563611
+ashkelon,106,ashkelon-106,מקלט - ארצ'י שרמן 4,"ארצ'י שרמן 4, אשקלון","Archie Sherman St, Ashkelon",no house number in English,31.6563288,34.5664281
+atlit,4,atlit_9,מקלט 9,"הארגמן 34, עתלית","Ha-Argaman St, Atlit, Israel",no house number in English,32.6814438,34.940076
+atlit,5,atlit_10,מקלט 10,"הארגמן 20, עתלית","Ha-Argaman St, Atlit, Israel",no house number in English,32.6814438,34.940076
+atlit,6,atlit_11,מקלט 11,"הארגמן 10, עתלית","Ha-Argaman St, Atlit, Israel",no house number in English,32.6814438,34.940076
+azor,9,אזור-9,מקלט אנליביץ,אנליביץ 6,"Anielewicz St, Azor",no house number in English,32.0240221,34.8112926
+bat-yam,19,בת ים-19,"ממ""ד צפוני",קרוואנים 1,"Yoseftal/HaRav Nissenbaum, Bat Yam",no house number in English,32.0151439,34.752885
+bat-yam,20,בת ים-20,"ממ""ד אמצעי",קרוואנים 1,"Yoseftal/HaRav Nissenbaum, Bat Yam",no house number in English,32.0151439,34.752885
+bat-yam,21,בת ים-21,"ממ""ד דרומי",קרוואנים 1,"Yoseftal/HaRav Nissenbaum, Bat Yam",no house number in English,32.0151439,34.752885
+bat-yam,49,בת ים-49,יעד,נחום ניר 25,"Yoseftal/HaRav Nissenbaum, Bat Yam",no house number in English,32.0151439,34.752885
+beer-yaakov,9,באר-יעקב-9,מקלט ק1,אש נס 17,Be'er Ya'akov,no house number in English,31.943507,34.83904
+beer-yaakov,10,באר-יעקב-10,מקלט ק2,שבטי 2,Be'er Ya'akov,no house number in English,31.943507,34.83904
+beit-shemesh,22,beit_shemesh_10,מקלט 10 - שכונת הגפן,"שביל השקד 38, בית שמש","Shvil HaShaked, Beit Shemesh, Israel",no house number in English,31.7463435,34.9892234
+beit-shemesh,51,beit_shemesh_m11,מיגונית 11,"אביי 28, בית שמש","אביי 28, Beit Shemesh, Israel",English field still contains Hebrew,31.7084121,34.9699122
+beit-shemesh,52,beit_shemesh_m12,מיגונית 12,"רב המנונא 11, בית שמש","Rav Hamnuna/Abaye, Bet Shemesh",no house number in English,31.712094,34.9678129
+binyamina,27,בנימינה-27,מקלט 27,בית ספר גבע,,missing English address,32.5174593,35.0041377
+bnei-brak,2,בני ברק-2,אורליאן 25,אורליאן 25,Bnei Brak,no house number in English,32.084932,34.835226
+bnei-brak,3,בני ברק-3,בית כנסת זכרון מאיר,אורליאן 3,Bnei Brak,no house number in English,32.084932,34.835226
+bnei-brak,9,בני ברק-9,בית כנסת מרוקאי,נחשוני 3,Bnei Brak,no house number in English,32.084932,34.835226
+bnei-brak,11,בני ברק-11,בית כנסת גורדון,גורדון 6,"ליב, J. L. Gordon St 6, Tel Aviv-Jaffa",English field still contains Hebrew,32.0825669,34.7693129
+bnei-brak,30,בני ברק-30,כיתות,פובורסקי 11,Bnei Brak,no house number in English,32.084932,34.835226
+bnei-brak,31,בני ברק-31,כיתות ואולם ספורט,תורה ועבודה 2,"Tora Va'Avoda St, Rishon LeZion",no house number in English,31.9895258,34.7853787
+bnei-brak,37,בני ברק-37,כיתה ושירותים,מימון 31,Bnei Brak,no house number in English,32.084932,34.835226
+bnei-brak,56,בני ברק-56,חדר התעמלות,נורוק 31,"Noruk St, Herzliya",no house number in English,32.1548687,34.8407408
+dimona,20,דימונה-20,הסנהדרין 276,הסנהדרין 276,Dimona,no house number in English,31.069419,35.033363
+dimona,23,דימונה-23,בר כוכבא 217,בר כוכבא 217,"Bar Kochva St, Dimona",no house number in English,31.064571,35.0362883
+dimona,30,דימונה-30,הנשיא 46,הנשיא 46,Dimona,no house number in English,31.069419,35.033363
+dimona,69,דימונה-69,קלעת נמרוד 26,קלעת נמרוד 26,"Kal'at Nimrod St, Dimona",no house number in English,31.05426,35.0354484
+eilat,9,eilat_ב__1,מקלט ב'-1 - שד' ירושליים השלמה 34,שד' ירושליים השלמה 34,"ירושלים השלמה 34, Eilat, Israel",English field still contains Hebrew,29.563279,34.945986
+eilat,10,eilat_ב__10,מקלט ב'-10 - מישר 4,מישר 4,"מלון פירסט קלאב, מישר 4, אילת, Israel",English field still contains Hebrew,29.560483,34.9503113
+eilat,22,eilat_ב__9,מקלט ב'-9 - מישר 4,מישר 4,"מלון פירסט קלאב, מישר 4, אילת, Israel",English field still contains Hebrew,29.560483,34.9503113
+eilat,23,eilat_ג__11,מקלט ג'-11 - מרווה 31,מרווה 31,"Marva St, Eilat, Israel",no house number in English,29.5590744,34.9453609
+ganei-tikva,4,גני-תקווה-4,בית הספר אמירים,דרך המשי 9,"��רך המשי 9, גני תקווה, ישראל",English field still contains Hebrew,32.063267,34.867449
+givatayim,5,גבעתיים-5,גן הבנים,"ל""ה 22",Giv'atayim,no house number in English,32.075318,34.8086113
+hadera,18,hadera_18,מחסה תת קרקעי קניון מול הפרדסי,"קותיאל אדם 7, חדרה",,missing English address,32.416011,34.95198
+haifa,17,haifa_18,בן גוריון,קרן הייסוד 33,"Ben Gurion School/Keren HaYesod, Haifa",no house number in English,32.79002105880941,35.00037614583096
+haifa,26,haifa_27,מקלט חיפה - גוטליב שומאכר 2 א',גוטליב שומאכר 2 א',"Gottlieb Schumacher St 1-17, Haifa",house number differs (2 vs 1),32.820156036337465,34.98836198230319
+haifa,42,haifa_43,מקלט חיפה - מרכוס 11,מרכוס 11,"David Ben Harosh St 3, Haifa",house number differs (11 vs 3),32.81158984698846,35.001370342704284
+haifa,54,haifa_54,מקלט חיפה - חומה ומגדל 18 א',חומה ומגדל 18 א',"Khoma u-Migdal St 16, Haifa",house number differs (18 vs 16),32.81745108640424,35.074662976378214
+haifa,62,haifa_62,מקלט חיפה - יוסף (הגדם) 47,יוסף (הגדם) 47,"Yosef St, Haifa",no house number in English,32.806000900638054,34.9991681848633
+haifa,71,haifa_71,ליאו-בק,דרך צרפת 50,"Tzorfat Rd 90, Haifa",house number differs (50 vs 90),32.822806836136664,34.968369749117294
+haifa,77,haifa_77,"מקלט חיפה - הרי""ף 11 / יעקב כץ 5","הרי""ף 11 / יעקב כץ 5","Ya'akov Kats St 5, Haifa",house number differs (11 vs 5),32.83780885642069,35.06926245861925
+haifa,96,haifa_96,בית ספרארלוזורוב,הקיבוצים 65,"Kharuv St 20, Haifa",house number differs (65 vs 20),32.8143230130698,34.9683099140576
+haifa,117,haifa_117,אליאנס,דרך בירם 37,"Biram Road/Internazional, Haifa",no house number in English,32.77441647122581,35.01069442268189
+haifa,129,haifa_129,תיכון קריית חיים,הנוטר 32 הגדוד העברי 48,"HaGdud Haivri St 48, Haifa",house number differs (32 vs 48),32.823856511960784,35.06855902349124
+haifa,141,haifa_141,"תיכון עתיד תיירות ומלונאות ע""ש טומי לפיד",בעל השם טוב 20,"Hannah Szenes/Wingate, Haifa",no house number in English,32.80235090111711,34.99496909480051
+haifa,152,haifa_152,בסמת,המלך דוד 33,"HaMelekh David/Etzel, Haifa",no house number in English,32.81167057542513,34.95818374817038
+haifa,153,haifa_153,מיגונית-2,שחאדה שלח 11 א',"Sh'Hada St, Haifa",no house number in English,32.81781316382392,34.99390992778187
+haifa,161,haifa_161,אילנות,הסנה 8 א,"Ha-Sene St 8א, Haifa",English field still contains Hebrew,32.812474764466685,34.96890315055575
+haifa,164,haifa_164,מקלט חיפה - יד לבנים 4,יד לבנים 4,"Yad LaBanim/Bar Yehuda, Haifa",no house number in English,32.80319274780447,35.010226263000945
+haifa,166,haifa_166,מקלט חיפה - פרנק אנה 11,פרנק אנה 11,"Ben Ami St 1, Haifa",house number differs (11 vs 1),32.82835335668512,35.064222656922546
+haifa,174,haifa_174,"גב-ים מת""מ D2",הרכס 1,"Nahum Het St 16, Haifa",house number differs (1 vs 16),32.78725524457432,34.95944661518721
+haifa,184,haifa_184,מיגונית - בן צבי יצחק 16,בן צבי יצחק 16,"Meir Schneider Garden, Avraham Danino St 2, Haifa",house number differs (16 vs 2),32.81847200427269,35.06659584794456
+haifa,185,haifa_185,מקלט חיפה - חרב ליאת 35 / הקונגרס 43 א',חרב ליאת 35 / הקונגרס 43 א',"Ha-Kongres St 43, Haifa",house number differs (35 vs 43),32.83520582004546,35.05663722770968
+haifa,190,haifa_190,אבן גבירול,בודנהיימר 7,"אבן גבירול/ביל''ו, Haifa",English field still contains Hebrew,32.807439150250296,35.005477456866274
+haifa,192,haifa_192,נאות פרס,אפרים קציר 3,"Yif'a St 5, Haifa",house number differs (3 vs 5),32.78143770296215,34.9679911894276
+haifa,203,haifa_203,מיגונית-1,טרומן 12  מיגונית חוף נאות / דגניה/טרומן,Naot Beach,no house number in English,32.834837057198975,35.05330494365174
+haifa,210,haifa_210,מקלט חיפה - בן ציון ישראלי 41,בן ציון ישראלי 41,"Bentsiyon Yisra'eli St 43, Haifa",house number differs (41 vs 43),32.83389356174385,35.0590536748418
+herzliya,14,herzliya_14,מקלט 134,"רביבים 23, הרצליה","Har Sinai/Revivim, Herzliya",no house number in English,32.1735853,34.8529266
+herzliya,26,herzliya_26,מקלט 136,"הצנחנים 2, הרצליה","Bar Kokhba/HaTsanhanim, Herzliya",no house number in English,32.1568874,34.8395304
+herzliya,28,herzliya_28,מקלט 166,"אבו חצירא 40, הרצליה","Takhkemoni St 326, Ramat Hasharon",house number differs (40 vs 326),32.1329807,34.8481421
+herzliya,43,herzliya_43,מקלט 167,"רמז דוד 61, הרצליה","Shaul Garden, Y.L. Perets St, Herzliya",no house number in English,32.1628376,34.8536608
+herzliya,69,herzliya_69,"מקלט ביה""ס שזר","הנוטרים 11, הרצליה","בית ספר שז""ר, הנוטרים 11, הרצליה",English field still contains Hebrew,32.1664751,34.8506761
+hod-hasharon,5,hod_pub_8,מקלט 8,"השחל, הוד השרון","שח''ל, Hod HaSharon, Israel",English field still contains Hebrew,32.154823,34.917065
+hod-hasharon,66,hod_school_24,תיכון עמל,"החרש 9, הוד השרון","Amal 1 College, HaHarash St 9, Hod Hasharon",house number differs (9 vs 1),32.1317761,34.8981483
+holon,19,holon_19,מקלט 19,"ברנדיס לואי 6, חולון","Brandeis St, Holon",no house number in English,32.0114334,34.791122
+holon,29,holon_29,מקלט 31,"חומה ומגדל 3, חולון","Herzl Garden, Ha-Histadrut St, Holon",no house number in English,32.02018,34.7721557
+holon,41,holon_41,מקלט 44,"ש ג'סי כהן 10, חולון","Jessi Cohen, Holon",no house number in English,32.00349,34.764201
+holon,48,holon_48,מקלט 51,"החי""ם 2, חולון","Ha-Histadrut St 34, Holon",house number differs (2 vs 34),32.0180655,34.7706369
+holon,67,holon_67,מיגונית - גבעת חולון 2,"גבעת חולון 2, חולון","גבעת חולון 7, Holon",English field still contains Hebrew,32.00061,34.788186
+holon,68,holon_68,מיגונית - דן שומרון (תחנת היובל),"דן שומרון, חולון","דן שומרון 1, Holon",English field still contains Hebrew,31.9956039,34.7624978
+jerusalem,31,ירושלים-31,מקלט ציבורי מספר 826,אוצר הספרים 6,"Otsar HaSfarim St, Jerusalem",no house number in English,31.78649294,35.2253953
+jerusalem,45,ירושלים-45,מקלט ציבורי מספר 639,פינס מיכל 2,"Yehiel Michel Pines St 4, Jerusalem",house number differs (2 vs 4),31.78596058,35.21521827
+jerusalem,66,ירושלים-66,מקלט ציבורי מספר 673,מלל 3,"King George St 21, Jerusalem",house number differs (3 vs 21),31.78075326,35.21629892
+jerusalem,82,ירושלים-82,מקלט ציבורי מספר 828,הרב חסדא 10,,missing English address,31.75971235,35.21328746
+jerusalem,89,ירושלים-89,מקלט ציבורי מספר 967,אנטיגונוס 7,"Raban Yohanan ben Zakai St 25, Jerusalem",house number differs (7 vs 25),31.75888667,35.209264
+jerusalem,104,ירושלים-104,מקלט ציבורי מספר 739,שמורק 3,"Schmoreck Garden, Jerusalem",no house number in English,31.76613405,35.17604607
+jerusalem,111,ירושלים-111,מקלט ציבורי מספר 983 - מקלט נגיש,גורדון 10,"A.D. Gordon St 15, Jerusalem",house number differs (10 vs 15),31.76657686,35.17703862
+jerusalem,151,ירושלים-151,חניון בית בנית,האומן 14,"Ha-Aparsa St 3, Jerusalem",house number differs (14 vs 3),31.750919531149275,35.209708247427
+jerusalem,154,ירושלים-154,חניון הגן הטכנולוגי 4,"הגן הטכנולוגי, דרך אגודת ספורט הפועל 2",,missing English address,31.750026940030864,35.18600107453311
+jerusalem,155,ירושלים-155,חניון הגן הטכנולוגי בניין 1- 2 -בנין המגדל,אגודת הפועל 2,,missing English address,31.750036063320643,35.185990347427136
+jerusalem,156,ירושלים-156,חניון הגן הטכנולוגי בניין 5,"הגן הטכנולוגי, דרך אגודת ספורט הפועל 2",,missing English address,31.750063433170816,35.186011803368515
+jerusalem,157,ירושלים-157,חניון הגן הטכנולוגי בניינים 8-9,"הגן הטכנולוגי, דרך אגודת ספורט הפועל 2, ירושלים","Malha Train Parking/Disembark, Jerusalem",no house number in English,31.749565159736868,35.1866391712211
+jerusalem,163,ירושלים-163,חניון בונהבנטורה,אנצ'ו בונהונטורה 5,"Enzo Bonaventura St, Jerusalem",no house number in English,31.75326482559817,35.22716150336833
+jerusalem,185,ירושלים-185,חניון ספרא,יפו 26 /שבטי ישראל 7,"Shivtei Israel St 7, Jerusalem",house number differs (26 vs 7),31.77993978283809,35.22492106277103
+jerusalem,201,ירושלים-201,בית ספר אשבאל אלקודס,אל-ופא' סמ4 1,"Jericho Road/Al-Waffa, Jerusalem",no house number in English,31.77195649883001,35.251005982526976
+jerusalem,233,ירושלים-233,אבן חלדון לבנים מקיף,אל מרכז 12,"Al Merkaz/Al Qaser, Jerusalem",no house number in English,31.820652870995982,35.230205754601336
+jerusalem,235,ירושלים-235,חטב סילואן בנים,ראס אל עמוד 23,"Bait Hanina Road/Al Abbas, Jerusalem",no house number in English,31.83420489394228,35.22888966313887
+jerusalem,236,ירושלים-236,מקיף בית חנינא בנות,אסאקקיני כליל 1,R6JF+CX Jerusalem,house number differs (1 vs 6),31.831059223219714,35.224973896236534
+jerusalem,238,ירושלים-238,בית ספר אלחיואר יסודי,אל טואל 20,"al Towell/Sharafat, Jerusalem",no house number in English,31.742259264544046,35.19232161625113
+jerusalem,239,ירושלים-239,בית ספר בית צפאפא יסודי ב,אל ועד 15,,missing English address,31.745964466568875,35.20314728863773
+jerusalem,241,ירושלים-241,בית ספר אבן אלהיתם אל סואחרה אל גרביה מכין בנים,האמאם אבו חניפה 6,"Abu Hanifa St, Jerusalem",no house number in English,31.786962288542775,35.23813308784994
+jerusalem,242,ירושלים-242,אלסוואחרה תיכון בנים,חיי אל מדארס 57,"Hai Al-Madaris/Jam'a a-Zawia, Jerusalem",no house number in English,31.74812568913666,35.244558043236474
+jerusalem,243,ירושלים-243,מקיף אלביאן,אבו רביע 7,"Abu Rabia/Barazani, Jerusalem",no house number in English,31.746467818020303,35.24021254780001
+jerusalem,244,ירושלים-244,בית ספר סואחרה מכין בנות,חיי אל מדארס 72,"Al-Mdares St, Jerusalem",no house number in English,31.830969810942893,35.225621305011025
+jerusalem,245,ירושלים-245,בית ספר סוואחרה יסודי בנים א,חיי אל מדארס 70,"Al-Mdares St, Jerusalem",no house number in English,31.831015387441326,35.225535474319024
+jerusalem,246,ירושלים-246,בית ספר סלעה יסודי בנות,עמר אבן אל עאס סמטה 4 88,"Zala'a School/Jabel Mukaber Road, Jerusalem",no house number in English,31.75606130542941,35.24388500547135
+jerusalem,247,ירושלים-247,בית ספר צלעה יסודי בנים,עמר אבן אל עאס סמטה 1 94,"Zala'a School/Jabel Mukaber Road, Jerusalem",no house number in English,31.75606746224162,35.24382816624986
+jerusalem,249,ירושלים-249,א-טור מכין בנות,ראבעה אל עדאוויה 75,"A-Tur Junction/Rabi'a Al-Adawiya, Jerusalem",no house number in English,31.785598609470362,35.24796946082589
+jerusalem,256,ירושלים-256,אלביאן יסודי מעורב,אום ליסון סמטה 3 0,"Umm Lisun Road A, Jerusalem",no house number in English,31.737107886720118,35.2469915436395
+jerusalem,258,ירושלים-258,אלטור יסודי בנים_ב,אל-סהל אל-ג'דיד 25,"A-Sahl Aljadid/Al-Hardub, Jerusalem",no house number in English,31.781015153896128,35.25066673208295
+jerusalem,259,ירושלים-259,אלטור מקיף בנים,ראבעה אל-עדוויה סמ2 17,"A-Tur Junction/Rabi'a Al-Adawiya, Jerusalem",no house number in English,31.785571250126452,35.24793727432008
+jerusalem,264,ירושלים-264,אלתורי יסודי בנות,אל ת'ורי סמטה 5 135,"A-Thuri, Jerusalem",no house number in English,31.764965587525033,35.23144383388026
+jerusalem,270,ירושלים-270,בית ספר בית צפאפא יסודי א,אל בראעם 35,"El Bara'am, Jerusalem",no house number in English,31.74142873363179,35.205578230979654
+jerusalem,271,ירושלים-271,זהרת אלמדאיין,חיי אל מדארס 0,"Al-Mdares St, Jerusalem",no house number in English,31.831042733320547,35.225632031988994
+jerusalem,273,ירושלים-273,מכין אבו חאמד אלגזאלי,אום ליסון 135,"Umm Lisun, Jerusalem",no house number in English,31.740626584381474,35.242133302218306
+jerusalem,274,ירושלים-274,בית ספר ממ יאנוש קורצאק,בר כוכבא 99,,missing English address,31.802546400184028,35.240019134304774
+jerusalem,282,ירושלים-282,בית ספר מכללת אורט,פרופ' מנדי רודן 1,"Mandy Rodin St, Jerusalem",no house number in English,31.777883087712862,35.19444071494687
+jerusalem,284,ירושלים-284,התיכון ליד האקדמיה למוסיקה ולמחול,מנדי רודן 1 ירושלים,"Mandy Rodin St, Jerusalem",no house number in English,31.77819676221133,35.194311553969825
+jerusalem,308,ירושלים-308,בית ספר גילה ב למדעים ואומנויות עש אלי כהן,מרגלית 411,"HaMargalit St 407, Jerusalem",house number differs (411 vs 407),31.72987320115094,35.18634698263267
+jerusalem,312,ירושלים-312,בית ספר חרדי מנחי יד אשר בנות,אחלמה 8,"Almog St 213, Jerusalem",house number differs (8 vs 213),31.72789011109422,35.19008746314466
+jerusalem,319,ירושלים-319,בית ספר ממ עופרים,שביבי אש 5,"Yitzhak Raphael St 4, Jerusalem",house number differs (5 vs 4),31.72409964975359,35.21609372081664
+jerusalem,323,ירושלים-323,בית ספר אביעזרי,הרב שאול אבן דנאן 28,"Ha-Rav Sha'ul Even Dnan St, Jerusalem",no house number in English,31.780975599255758,35.17307478044004
+jerusalem,332,ירושלים-332,בית ספר הר נוף,הרב שאול אבן דנאן 30,"Ha-Rav Sha'ul Even Dnan St, Jerusalem",no house number in English,31.781558458636987,35.17262663281553
+jerusalem,339,ירושלים-339,בית ספר ממ קשת תלפז,דוד רזיאל 13,"804 Me'ir Feinstein St, Jerusalem",house number differs (13 vs 804),31.750174646589908,35.23301794965117
+jerusalem,360,ירושלים-360,ביס הצנע לכת,הרב שי זווין 4,"Ha-Rav Zevin St 47, Jerusalem",house number differs (4 vs 47),31.841930730534838,35.24977998863361
+jerusalem,361,ירושלים-361,בית ספר לחם הביכורים,הרב שלמה יוסף אליאך 6,"Ha-Shlomo Yosef Eli'akh St, Jerusalem",no house number in English,31.841379159713117,35.250270620810305
+jerusalem,366,ירושלים-366,ביס תורת העמק,הרב שי זווין 40,,missing English address,31.84087227,35.24929808
+jerusalem,367,ירושלים-367,ביס תורת יוסף (שערי ציון),שד נוה יעקב 36,,missing English address,31.83837292,35.23903097
+jerusalem,371,ירושלים-371,ביס סלואן יסודי מעורב,בטן אל הווא 2,"Football Field/Al-Madaris, Jerusalem",no house number in English,31.770731635422024,35.238599276177574
+jerusalem,372,ירושלים-372,ביס סלואן מכין בנות,בטן אל הווא 3,"Football Field/Al-Madaris, Jerusalem",no house number in English,31.770758999156094,35.238695835706075
+jerusalem,373,ירושלים-373,ביס ראס אלעמוד מקיף בנים,אל-סוויח 15,"A-Sawih/A-Shafay, Jerusalem",no house number in English,31.768209325697836,35.24306809152376
+jerusalem,377,ירושלים-377,ביס נתיבות יעקב,סנהדריה מורחבת 112,"Sanhedria Murhevet, Jerusalem",no house number in English,31.803619460455124,35.21634564956339
+jerusalem,379,ירושלים-379,אלעיסוויה תיכון בנים,טריק אל מדארס סמטה 1 9,"Tariq Al Madaris, Jerusalem",no house number in English,31.798700644023274,35.254589766948925
+jerusalem,380,ירושלים-380,ביס מקיף עיסאוויה לבנות,טריק אל מדארס 10,"Tariq Al Madaris, Jerusalem",no house number in English,31.798632632667303,35.25461874402664
+jerusalem,381,ירושלים-381,סילואן ביס יסודי החדש,טריק אל מדארס 17,"Tariq Al Madaris, Jerusalem",no house number in English,31.79869152553709,35.25458977617611
+jerusalem,382,ירושלים-382,עיסאוויה ביס חטיבת ביניים לבנים,טריק אל מדארס 14,"Tariq Al Madaris, Jerusalem",no house number in English,31.79875535493318,35.25458977617611
+jerusalem,395,ירושלים-395,אום טובא ביס מכין בנות,אלתון 48,"Umm Tuba 6, Jerusalem",house number differs (48 vs 6),31.732042590035505,35.23234821173616
+jerusalem,396,ירושלים-396,אום טובא ביס מכין בנים,אלסדר 19,P6JM+RR Jerusalem,house number differs (19 vs 6),31.732115590474177,35.234579809636536
+jerusalem,397,ירושלים-397,אום טובא ביס תיכון בנים,אלסדר 13,P6JP+F5 Jerusalem,house number differs (13 vs 6),31.73117209249253,35.235396921948826
+jerusalem,398,ירושלים-398,ביס צור באהר אבן רושד תיכון בנים,אל מדינה אל מונאוורה 171,"Sur Baher St 1, Jerusalem",house number differs (171 vs 1),31.73814175853294,35.22924945084251
+jerusalem,399,ירושלים-399,ביס צור באהר יסודי בנות שמס אלגד,ד'את אל נטאקין 23,"Umm Lisson/Sur Baher 7, Jerusalem",house number differs (23 vs 7),31.733550922360962,35.242444276179505
+jerusalem,400,ירושלים-400,ביס צור באהר מכין בנות,שקאא'יק אל נעמאן 7,"Abu Bakr alSiddiq School/al Madina alMunawra, Jerusalem",no house number in English,31.73731039,35.23009658
+jerusalem,401,ירושלים-401,ביס צור באהר תיכון בנות,אל מדינה אל מונאוורה 146,"Sur Baher St 1, Jerusalem",house number differs (146 vs 1),31.739335109439097,35.22911081511643
+jerusalem,408,ירושלים-408,ישיבת מקור חיים-שפע,י.נ. אפשטיין 5,"Shmaryahu Levin St 4, Jerusalem",house number differs (5 vs 4),31.770013992030893,35.17864782289583
+jerusalem,410,ירושלים-410,בית ספר ממ גוואטמלה,החרצית 9,,missing English address,31.75823927885591,35.16371226314303
+jerusalem,424,ירושלים-424,בית ספר דרכי רחל,הרב מנחם בצרי 1,"Rabbi Menachem Betsari St, Jerusalem",no house number in English,31.79946167737104,35.211018777262
+jerusalem,446,ירושלים-446,בית ספר אוהל תורה - הרואה,הרואה 8,,missing English address,31.8199498200386,35.19931703811371
+jerusalem,451,ירושלים-451,בית ספר ממ רמות אלון - עש יגאל אלון,אסירי ציון 2,,missing English address,31.816023193029448,35.19505566313985
+jerusalem,453,ירושלים-453,בית ספר ממד אהבת ישראל- בנים,מעוז 1,"Sulam Ya'akov St 9, Jerusalem",house number differs (1 vs 9),31.82004024807849,35.2022471651919
+jerusalem,455,ירושלים-455,בית ספר בנות אלישבע,מרן הגריש אלישיב 2,"Binyamin Minz St 45, Jerusalem",house number differs (2 vs 45),31.823936516212697,35.189839542328315
+jerusalem,461,ירושלים-461,בית ספר תבל - רמות,רקנטי 7,"Avaraham Rekanati St 3, Jerusalem",house number differs (7 vs 3),31.815238112596116,35.19398027116436
+jerusalem,465,ירושלים-465,בית ספר חכמת שלמה רמות א,טרומן הרי 3,"Henry Morgenthau St 1440, Jerusalem",house number differs (3 vs 1440),31.813544016985077,35.20623976312209
+jerusalem,472,ירושלים-472,בית ספר משך חכמה חניכי הישיבות - רמות,הרב חזקיה שבתאי 12,"Ha-Rav Khizkiya Shabtai St 10, Jerusalem",house number differs (12 vs 10),31.82028816841556,35.19898188945476
+jerusalem,485,ירושלים-485,בית ספר מעלה ערב,ארן זלמן 7,"Zalman Aran St, Jerusalem",no house number in English,31.801401826344694,35.226414234885034
+jerusalem,488,ירושלים-488,בית ספר המסורה רמת שלמה,האדמור מלובביץ 52,"Rosh Pina St 6, Jerusalem",house number differs (52 vs 6),31.794269680678134,35.20106376901531
+jerusalem,499,ירושלים-499,בית ספר אלסופרא,אל אסמאעי סמטה 4 2,"Hafez Ibrahim St 5, Jerusalem",house number differs (4 vs 5),31.81352648067036,35.231955555310144
+jerusalem,502,ירושלים-502,בית ספר שועפאט יסודי בנות- ב,אבו אלעלא אל מערי 4,"Shuafat 30, Jerusalem",house number differs (4 vs 30),31.81484915567278,35.22911084683756
+jerusalem,503,ירושלים-503,בית ספר שועפאט מכין בנות א,אל-ח'נסאא 21,"A-ShaBi St 9, Jerusalem",house number differs (21 vs 9),31.817471634195336,35.229859482613406
+jerusalem,504,ירושלים-504,בית ספר שועפאט תיכון,אלעלם 6,R68J+CF Jerusalem,house number differs (6 vs 68),31.816075811048474,35.23123036443829
+jerusalem,506,ירושלים-506,בית ספר שועפט יסודי בנים א,אחמד שאוקי סמטה 3 15,"Ahmed Shawqi St, Jerusalem",no house number in English,31.8136518430987,35.23021807553548
+jerusalem,511,ירושלים-511,בית ספר מקיף ראס אלעמוד לבנות,דרך בית לחם הישנה 17,"Comprehensive Girls School/Old Bethlehem Road, Jerusalem",no house number in English,31.771041345779526,35.24242959193109
+jerusalem,512,ירושלים-512,בית ספר בית וגן - בנים (לויכטר),יצחק יעקב לויכטר 3,"Ha-Rav Eli'ezer Bergman St 28, Jerusalem",house number differs (3 vs 28),31.767964533940553,35.180540473015085
+jerusalem,513,ירושלים-513,בית ספר תיכון ליד האוניברסיטה,פרופ' מנשה הראל 1,,missing English address,31.78128675,35.19704616
+jerusalem,533,ירושלים-533,מגדל תורה (נחלת שמואל),הרב שי זווין 5,,missing English address,31.840512432689497,35.247930809974584
+karmiel,4,כרמיאל-4,מקלט 104,החשמל 25,"החשמל 25, כרמיאל, ישראל",English field still contains Hebrew,32.9209396,35.3168136
+karmiel,102,כרמיאל-muni-101,מקלט הארזים 71,"הארזים 71, כרמיאל","HaArazim St 77-71, Karmiel",house number differs (71 vs 77),32.9167,35.297876
+kfar-saba,79,kfarsaba_79,"מקלט בי""ס דבורה עומר","הזמיר 3, כפר סבא","Zamir Emanuel St 8, Kefar Sava",house number differs (3 vs 8),32.1867553,34.8935047
+kfar-saba,109,kfarsaba_109,גן אגמית,"אירוס 6, כפר סבא","Khavatselet ha-Sharon St 22, Kefar Sava",house number differs (6 vs 22),32.1737349,34.8950367
+kfar-saba,129,kfarsaba_129,גן דוכיפת,"זמיר 5, כפר סבא","Zamir/HaNesher, Kefar Sava",no house number in English,32.1845648,34.92776449999999
+kfar-saba,147,kfarsaba_147,גן חצוצרה,"בנאי יוסי 3, כפר סבא","Yossi Banai St, Kefar Sava",no house number in English,32.1889888,34.895234
+kfar-tavor,7,כפר-תבור-7,מקלט 16,הזית 7,"HaZayit St 20, Kfar Tavor",house number differs (7 vs 20),32.6879312,35.41853
+kfar-tavor,15,כפר-תבור-15,מקלט 11,דובדבן 13,"33, Kfar Tavor",house number differs (13 vs 33),32.687101,35.417823
+kfar-vradim,6,כפר-ורדים-6,מיגונית 6,גן משחקים כיכר 9,Kfar Vradim,no house number in English,32.9969981,35.2628012
+kfar-vradim,13,כפר-ורדים-13,מיגונית 15,תחנת הסעה כיכר 8,Kfar Vradim,no house number in English,32.9969981,35.2628012
+kfar-vradim,15,כפר-ורדים-15,מיגונית 17,"כניסה עליונה בי""ס תפן ליד כיכר 6","Tefen Experimental School, Kfar Vradim",no house number in English,32.9958479,35.2641727
+kiryat-ata,17,קריית אתא-17,מקלט 117,19 א,Kiryat Ata,no house number in English,32.809144,35.119773
+kiryat-ata,18,קריית אתא-18,מקלט 118,יהושע בן 5,"Yehoshua Bin Nun St, Kiryat Ata",no house number in English,32.8113829,35.1181199
+kiryat-ata,53,קריית אתא-53,מקלט 153,צלאח 15,Kiryat Ata,no house number in English,32.809144,35.119773
+kiryat-ata,56,קריית אתא-56,מקלט 157,12 ק. נחום,"Simtat Nahum, Kiryat Ata",no house number in English,32.815891,35.118398
+kiryat-ekron,16,קריית-עקרון-16,מקלט 16,הרצל 20,,missing English address,31.8778431,34.8186206
+kiryat-gat,1,קריית גת-7,מקלט ז,עובדת 17,"Ha-Avoda St 3, Kiryat Gat",house number differs (17 vs 3),31.6049597,34.7720717
+kiryat-gat,29,קריית גת-42,מקלט 37,הציפורן 6,"Sderot HaAtsma'ut 66, Kiryat Gat",house number differs (6 vs 66),31.6094627,34.7672444
+kiryat-gat,73,קריית גת-25,מקלט כה,מבצע עובדה 29,"Rahvat Uvda 28, Kiryat Gat",house number differs (29 vs 28),31.6044127,34.7525204
+kiryat-gat,74,קריית גת-26,מקלט כו,מבצע חורב 23,"Rahvat Mivtsa Horev 1, Kiryat Gat",house number differs (23 vs 1),31.6051966,34.7521013
+kiryat-gat,75,קריית גת-27,מקלט כז,מבצע יואב 6,"Rahvat Mivtsa Yo'av 18, Kiryat Gat",house number differs (6 vs 18),31.6060874,34.7517731
+kiryat-gat,76,קריית גת-28,מקלט כח,מבצע חירם 20,"Rahvat Mivtsa Hiram 28, Kiryat Gat",house number differs (20 vs 28),31.6066653,34.75163
+kiryat-gat,77,קריית גת-29,מקלט כט,מבצע נחשון 23,"Rahvat Mivtsa Nahshon 27, Kiryat Gat",house number differs (23 vs 27),31.6075179,34.7515961
+kiryat-gat,78,קריית גת-47,מקלט 33,"מבוא תש""ח 88","Mish'ol Tashach, Kiryat Gat",no house number in English,31.6066673,34.7635279
+kiryat-gat,79,קריית גת-61,מקלט 200,יששכר 9,"Rahvat Yisahar 6, Kiryat Gat",house number differs (9 vs 6),31.61613,34.7704598
+kiryat-gat,81,קריית גת-63,מקלט 204,מנשה 6,"Mish'ol Menashe 3, Kiryat Gat",house number differs (6 vs 3),31.6163002,34.7695483
+kiryat-gat,82,קריית גת-64,מקלט 205,מנשה 6,"Mish'ol Menashe 3, Kiryat Gat",house number differs (6 vs 3),31.6163002,34.7695483
+kiryat-gat,83,קריית גת-65,מקלט 206,גד 11,"Rahvat Gad 3, Kiryat Gat",house number differs (11 vs 3),31.6166998,34.7684517
+kiryat-gat,84,קריית גת-67,מקלט 12,התבור 2,Kiryat Gat,no house number in English,31.6123431,34.7741854
+kiryat-malachi,14,קריית-מלאכי-14,מקלט 14,בן גוריון 42,"Ben Gurion, Kiryat Malakhi",no house number in English,31.730459,34.742865
+kiryat-malachi,40,קריית-מלאכי-40,מקלט 41,בן גוריון 74,"Ben Gurion, Kiryat Malakhi",no house number in English,31.730459,34.742865
+kiryat-motzkin,10,קריית מוצקין-10,מקלט 10,נתיב הבנים 9,"Netiv HaBanim, Kiryat Motskin",no house number in English,32.832568,35.077288
+kiryat-ono,10,קריית אונו-10,מקלט,יהודית 8,"Yehudit St, Ramat Gan",no house number in English,32.0895107,34.8043678
+kiryat-ono,25,קריית אונו-25,"ביה""ס רונה רמון",שולמית אלוני 3,"שולמית אלוני 3, Kiryat Ono, 5552504",English field still contains Hebrew,32.0626175,34.841336
+kiryat-ono,27,קריית אונו-27,"ביה""ס גולדה מאיר",נאוה סמל,"נאוה סמל 16, Kiryat Ono",English field still contains Hebrew,32.0389678,34.8611321
+kiryat-shmona,68,kiryat_shmona_218,מקלט 218,"חושן 25, קריית שמונה","חושן 25, Kiryat Shmona, Israel",English field still contains Hebrew,33.1965916,35.5753887
+kiryat-shmona,69,kiryat_shmona_236,מקלט 236,"חושן 34, קריית שמונה","חושן 34, Kiryat Shmona, Israel",English field still contains Hebrew,33.1958662,35.5713252
+kiryat-yam,3,קריית ים-3,מקלט 3,הרצל 73,"Sderot Herzl 71, Kiryat Yam",house number differs (73 vs 71),32.8406589,35.0672038
+kiryat-yam,4,קריית ים-4,מקלט 4,צהל 19,"Tsahal St 4, Kiryat Motzkin",house number differs (19 vs 4),32.850936,35.0903859
+lod,14,lod_621,מקלט 621,"אצ""ל 2, לוד","האצ""ל, Lod, Israel",English field still contains Hebrew,31.9647991,34.878776
+maale-adumim,29,מעלה-אדומים-29,מקלט - הצלצל 6,הצלצל 6,Ma'ale Adumim,no house number in English,31.777369,35.297955
+maale-adumim,34,מעלה-אדומים-34,מקלט - הנבל 7,הנבל 7,Ma'ale Adumim,no house number in English,31.777369,35.297955
+maale-adumim,75,מעלה-אדומים-75,מקלט - חוט השני 46,חוט השני 46,"Pri Megadim/Bat Nadiv, Ma'ale Adumim",no house number in English,31.77111559999999,35.2912598
+maalot-tarshiha,3,מעלות-3,מקלט 3,תבור 3,"Tavor St, Ma'alot-Tarshiha",no house number in English,33.012375,35.2864311
+maalot-tarshiha,4,מעלות-4,מקלט 4,תבור 4,"Tavor St, Ma'alot-Tarshiha",no house number in English,33.012375,35.2864311
+maalot-tarshiha,9,מעלות-9,מקלט 9,מעלה חסון 146,"Ma'ale Hasson St, Ma'alot-Tarshiha",no house number in English,33.015646,35.28182
+maalot-tarshiha,10,מעלות-10,מקלט 10,מעלה חסון 148,"Ma'ale Hasson St, Ma'alot-Tarshiha",no house number in English,33.015646,35.28182
+maalot-tarshiha,11,מעלות-11,מקלט 11,מעלה חסון 143,"Ma'ale Hasson St, Ma'alot-Tarshiha",no house number in English,33.015646,35.28182
+maalot-tarshiha,14,מעלות-14,מקלט 14,הגליל 13,"Ha-Galil St, Ma'alot-Tarshiha",no house number in English,33.0140131,35.2817691
+maalot-tarshiha,36,מעלות-47,מקלט 28,ירושלים 13,Ma'alot-Tarshiha,no house number in English,33.0148,35.277
+maalot-tarshiha,50,מעלות-50,מקלט 25,ירושלים 20,Ma'alot-Tarshiha,no house number in English,33.0155,35.277
+maalot-tarshiha,51,מעלות-51,מקלט 26,ירושלים 17,Ma'alot-Tarshiha,no house number in English,33.0152,35.2773
+maalot-tarshiha,52,מעלות-52,מקלט 28,ירושלים 13,Ma'alot-Tarshiha,no house number in English,33.0148,35.2777
+migdal-haemek,8,מגדל-העמק-8,מקלט 35,צבי אלדרוטי 12,"Zvi Alderoti Avenue/HaAriza, Migdal HaEmek",no house number in English,32.664657,35.2387212
+migdal-haemek,9,מגדל-העמק-9,מקלט 36,צבי אלדרוטי 1,"Zvi Alderoti Avenue/HaAriza, Migdal HaEmek",no house number in English,32.664657,35.2387212
+mitzpe-ramon,9,מצפה רמון-9,מקלט ציבורי,נחל האלה 3,"HaEla St, Mitzpe Ramon",no house number in English,30.6095707,34.8041806
+modiin-illit,1,modiin_illit_1,"מרכז קהילתי הגר""א",הגרא 1,"W2FX+WJP, Modi'in Ilit",house number differs (1 vs 2),31.9247493,35.0494265
+nahariya,28,nahariya_300,מקלט 300 - אשכול 24,אשכול 24,"Gaaton 28, Nahariyya",house number differs (24 vs 28),33.0085361,35.0980514
+nahariya,40,nahariya_367,מקלט 367 - בן צבי 23,בן צבי 23,Nahariyya,no house number in English,33.0085361,35.0980514
+nes-ziona,5,נס-ציונה-5,מקלט 5,מועדון נוער אפרים 23,"Kibuts Galuyot St 24, Ness Ziona",house number differs (23 vs 24),31.9329517,34.8043423
+nes-ziona,9,נס-ציונה-9,מקלט 9,ניר גן נורדאו 53,"Nordau St 51, Ness Ziona",house number differs (53 vs 51),31.9276694,34.8070232
+nesher,5,נשר-5,היכל שלמה,הרב בר מוחא 12,"Bar Moha/Barak, Nesher",no house number in English,32.7692062,35.046609
+nesher,18,נשר-18,מקלט המתמיד,המתמיד 5,"HaTechnion Road/HaMatmid, Nesher",no house number in English,32.7753079,35.0337652
+netanya,25,netanya_pub_30,מקלט 41 - אלומות 31,אלומות 31,"Alumot St, Netanya",no house number in English,32.3202712,34.8885863
+netanya,29,netanya_pub_36,מקלט 47 - שפרינצק 20,שפרינצק 20,"Yosef Shprintsak St 42, Netanya",house number differs (20 vs 42),32.3134269,34.8831427
+netanya,30,netanya_pub_37,מקלט 48 - עובדיה 32,עובדיה 32,"Ovadya Avraham ha-Cohen St 22, Netanya",house number differs (32 vs 22),32.3162418,34.8894756
+netanya,34,netanya_pub_42,מקלט 53 - גולד 14,גולד 14,"HaRav Zirlson St 9, Netanya",house number differs (14 vs 9),32.3099967,34.8838699
+netivot,5,נתיבות-4,מקלט 4,אלפסי 1074,"Hai Taib St 77, Netivot",house number differs (1074 vs 77),31.4216395,34.5870689
+netivot,6,נתיבות-5,מקלט 5,אלי כהן 59,"Eli Cohen St, Netivot",no house number in English,31.4286515,34.5974437
+netivot,11,נתיבות-10,מקלט 10,הרב אל נקווה 507,"HaRav Alnekave St, Netivot",no house number in English,31.4253688,34.5969528
+netivot,49,נתיבות-51,מקלט 51,שדרות ירושלים 173,,missing English address,31.4217194,34.5719241
+netivot,50,נתיבות-52,מקלט 52,שדרות ירושלים 173,,missing English address,31.4217194,34.5719241
+netivot,51,נתיבות-53,מקלט 53,הרצל 32,Netivot,no house number in English,31.423132,34.5946466
+netivot,52,נתיבות-54,מקלט 54,שדרות ירושלים 146,,missing English address,31.4217194,34.5719241
+netivot,54,נתיבות-56,מקלט 56,שדרות ירושלים 152,,missing English address,31.4217194,34.5719241
+netivot,55,נתיבות-57,מקלט 57,שדרות ירושלים 222,,missing English address,31.4217194,34.5719241
+netivot,56,נתיבות-58,מקלט 58,שדרות ירושלים 181,,missing English address,31.4217194,34.5719241
+nof-hagalil,3,נוף-הגליל-3,מקלט 03,מנחם אריאב 48,"Carmel St 12, Nof HaGalil",house number differs (48 vs 12),32.7038982,35.3174372
+nof-hagalil,4,נוף-הגליל-4,מקלט 04,מנחם אריאב 56,"Carmel St 12, Nof HaGalil",house number differs (56 vs 12),32.7038982,35.3174372
+nof-hagalil,5,נוף-הגליל-5,מקלט 05,מנחם אריאב 44,"Carmel St 12, Nof HaGalil",house number differs (44 vs 12),32.7038982,35.3174372
+nof-hagalil,6,נוף-הגליל-6,מקלט 06,מנחם אריאב 38,"שד' מנחם אריאב 38, נוף הגליל, 1759192, ישראל",English field still contains Hebrew,32.7064076,35.3246256
+nof-hagalil,8,נוף-הגליל-8,מקלט 08,מנחם אריאב 30,"Carmel St 12, Nof HaGalil",house number differs (30 vs 12),32.7038982,35.3174372
+nof-hagalil,28,נוף-הגליל-28,מקלט 28,בית ספר חרמון 4,Nof HaGalil,no house number in English,32.7066535,35.3188476
+nof-hagalil,29,נוף-הגליל-29,מקלט 29,מנחם אריאב 7,"שד' מנחם אריאב 7, נוף הגליל, ישראל",English field still contains Hebrew,32.702772,35.313849
+ofakim,20,אופקים-20,מקלט 32,קיבוץ גלויות 1407,"Kibuts Galuyot St, Ofakim",no house number in English,31.313995,34.61485
+ofakim,24,אופקים-24,מקלט 37א,הרצל,"הרצל, אופקים, ישראל",English field still contains Hebrew,31.3061764,34.6194012
+ofakim,39,אופקים-39,מקלט 64,"הרי""ף 157","HaRif, Ofakim",no house number in English,31.312237,34.623961
+or-akiva,3,אור-עקיבא-3,מקלט 5,איחוד העם 9,"Ihud Ha'Am St, Or Akiva",no house number in English,32.5096842,34.9168895
+or-akiva,5,אור-עקיבא-5,מקלט 7,הרצל פינת ביאליק 6,"Balfour St 195, Or Akiva",house number differs (6 vs 195),32.5103943,34.9181607
+or-akiva,23,אור-עקיבא-23,מקלט 3,הנשיא פינת סטנלי מאיר 1,"HaNasi St 16, Binyamina-Giv'at Ada",house number differs (1 vs 16),32.5207421,34.9462432
+or-yehuda,39,אור יהודה-39,הרב כדורי יצחק 13,הרב כדורי 13,"מנחם בגין 6, Or Yehuda, 60200",English field still contains Hebrew,32.029748,34.85617300000001
+or-yehuda,48,אור יהודה-48,"ד""ר אטרקצ'י 72",אטרקצ'י 72,Or Yehuda,no house number in English,32.029748,34.85617300000001
+or-yehuda,53,אור יהודה-53,לשם 3,לשם 3,"Leshem St, Or Yehuda",no house number in English,32.0302338,34.8610517
+pardes-hanna,14,פרדס-חנה-14,מקלט 14,"התקומה 2, שב""ל 1","Shaval St 1, Pardes Hanna-Karkur",house number differs (2 vs 1),32.4718329,34.9533362
+pardes-hanna,15,פרדס-חנה-15,מקלט 15,"ליד בית 202, שב""ל 2","Shaval St 564/2, Pardes Hanna-Karkur",house number differs (202 vs 564),32.4716438,34.9549667
+pardes-hanna,16,פרדס-חנה-16,מקלט 16,"התקומה 6, שב""ל 3","Shaval St 3, Pardes Hanna-Karkur",house number differs (6 vs 3),32.4717633,34.953569
+pardes-hanna,17,פרדס-חנה-17,מקלט 17,"שובל פינת אחדות, שב""ל 4","Ha-Dkalim St 76, Pardes Hanna-Karkur",house number differs (4 vs 76),32.4728028,34.9742001
+pardes-hanna,18,פרדס-חנה-18,מקלט 18,"בית 276, התקומה 10, שב""ל 5","Shaval St 5, Pardes Hanna-Karkur",house number differs (276 vs 5),32.4717114,34.9538083
+pardes-hanna,20,פרדס-חנה-20,מקלט 20,"בית 588, שב""ל 7","Ha-Dkalim St 76, Pardes Hanna-Karkur",house number differs (588 vs 76),32.4728028,34.9742001
+pardes-hanna,21,פרדס-חנה-21,מקלט 21,"בית 589, שב""ל 8","Ha-Dkalim St 76, Pardes Hanna-Karkur",house number differs (589 vs 76),32.4728028,34.9742001
+pardes-hanna,22,פרדס-חנה-22,מקלט 22,"בית 594, שב""ל 9","Ha-Dkalim St 76, Pardes Hanna-Karkur",house number differs (594 vs 76),32.4728028,34.9742001
+pardes-hanna,24,פרדס-חנה-24,מקלט 24,"התקומה 8א, שב""ל 11","Shaval St 11, Pardes Hanna-Karkur",house number differs (8 vs 11),32.47173720000001,34.9536886
+pardes-hanna,38,פרדס-חנה-38,מקלט 38,"קק""ל, נווה אשר, מול בית 13","Neve Asher, Pardes Hana-Karkur",no house number in English,32.463479,34.9774779
+pardes-hanna,39,פרדס-חנה-39,מקלט 39,"ההסתדרות, ליד גן וייל, מול בית 29","ההסתדרות 29, פרדס חנ�� כרכור, ישראל",English field still contains Hebrew,32.4660228,34.9779489
+pardes-hanna,43,פרדס-חנה-43,מקלט 44,הנחל מול בית 4,"HaNahal St 7, Pardes Hanna-Karkur",house number differs (4 vs 7),32.4677963,34.9958621
+pardes-hanna,45,פרדס-חנה-45,מקלט 46,"ההגנה, בין בית 27 ל-29","Hagana St 19, Pardes Hanna-Karkur",house number differs (27 vs 19),32.4760915,34.9787481
+pardes-hanna,49,פרדס-חנה-49,מקלט 50,"המייסדים 77, בי""ס ממלכתי כרכור","Ha-Meyasdim St 73, Pardes Hanna-Karkur",house number differs (77 vs 73),32.4763708,34.9905028
+pardes-hanna,53,פרדס-חנה-53,מקלט 55,"חן 11, ליד מועדון הצופים","Hen St 4, Pardes Hanna-Karkur",house number differs (11 vs 4),32.4722946,34.9761958
+pardes-hanna,61,פרדס-חנה-61,מקלט 42,"כוכב פינת העליה, ליד בית 7","Kohav St 1, Pardes Hanna-Karkur",house number differs (7 vs 1),32.4765908,35.0000578
+petah-tikva,4,ptikva_muni_4,מקלט - יאנוש קורצאק מול 18,יאנוש קורצאק מול 18,"Janus Korczak St, Petah Tikva",no house number in English,32.06983687141463,34.8937807775961
+petah-tikva,14,ptikva_muni_16,"מקלט - כ""ץ 87","כ""ץ 87","Kaf Zayin be-Nisan St 8, Petah Tikva",house number differs (87 vs 8),32.0861784,34.8996501
+petah-tikva,15,ptikva_muni_17,"מקלט - כ""ץ 83","כ""ץ 83","Kaf Zayin be-Nisan St 8, Petah Tikva",house number differs (83 vs 8),32.0861784,34.8996501
+petah-tikva,42,ptikva_muni_47,מקלט - השומר מול 26,השומר מול 26,"HaShomer St, Petah Tikva",no house number in English,32.09313896663786,34.90698477150633
+petah-tikva,50,ptikva_muni_57,"בי""ס אורי אורבך - שולזינגר 11",שולזינגר 11,"Eliyahu David Shulzinger St 8, Petah Tikva",house number differs (11 vs 8),32.0765734,34.8765814
+petah-tikva,61,ptikva_muni_69,גן מנדולינה - פרנקפורטר 24,פרנקפורטר 24,"Frankfurter/Trumpeldor, Petah Tikva",no house number in English,32.0856618,34.8794943
+petah-tikva,63,ptikva_muni_71,מקלט - ז'בוטינסקי 13,ז'בוטינסקי 13,"Yitskhak Sadeh St 2, Petah Tikva",house number differs (13 vs 2),32.0902010058942,34.87783462024012
+petah-tikva,77,ptikva_muni_86,"בי""ס נוה עוז, מקלט וממ""דים - לוי אשכול 2",לוי אשכול 2,"Ono Interchange/Road 471, Petah Tikva",house number differs (2 vs 471),32.069012,34.8602904
+petah-tikva,92,ptikva_muni_101,"בי""ס גורדון - וולפסון 31",וולפסון 31,"City Hall/David Wolfson, Petah Tikva",no house number in English,32.086374,34.8882804
+petah-tikva,100,ptikva_muni_114,מקלט - שבט דן מול 3,שבט דן מול 3,"Shevet Dan St, Petah Tikva",no house number in English,32.07145600453042,34.91377448310058
+petah-tikva,102,ptikva_muni_117,מקלט - צפת מול 106,צפת מול 106,"Tsefat St, Petah Tikva",no house number in English,32.071766755773574,34.91858882933991
+petah-tikva,103,ptikva_muni_118,מקלט - שבט בנימין מול 20,שבט בנימין מול 20,"Shevet Binyamin St, Petah Tikva",no house number in English,32.070360324600315,34.91574554466715
+petah-tikva,109,ptikva_muni_125,"בי""ס קרול - הבנים 9",הבנים 9,"HaBanim St 17, Kfar Sirkin",house number differs (9 vs 17),32.0762072,34.92276
+petah-tikva,111,ptikva_muni_128,גן אננס - רוטשילד 17,רוטשילד 17,"רוטשילד - קופ''ח, Petah Tikva",English field still contains Hebrew,32.0817963,34.8835091
+petah-tikva,117,ptikva_muni_135,מקלט - המגינים מול 16 (מול רבינוביץ 10),המגינים מול 16 (מול רבינוביץ 10),"Ya'akov Rabinovits St 10, Petah Tikva",house number differs (16 vs 10),32.08721948955497,34.89732254752408
+petah-tikva,118,ptikva_muni_136,"חט""ב ברנר - עין גנים 71",עין גנים 71,"Ein Ganim St 27, Petah Tikva",house number differs (71 vs 27),32.0878696,34.8945415
+petah-tikva,120,ptikva_muni_138,"מתנ""ס עין גנים - האילנות 7",האילנות 7,"Ha-Ilanot St 24, Kfar Sirkin",house number differs (7 vs 24),32.0745227,34.9219868
+petah-tikva,122,ptikva_muni_140,מקלט - עמיצור מול 3,עמיצור מול 3,"Amitsur Avraham St, Petah Tikva",no house number in English,32.08904233687453,34.898765130113524
+petah-tikva,138,ptikva_muni_158,מקלט - בירנבוים 18 בקצה הסמטה בגן ילדים,בירנבוים 18 בקצה הסמטה בגן ילדים,"Meyasdei Neve Oz Garden, HaAviv St 4, Petah Tikva",house number differs (18 vs 4),32.07613828415128,34.86437399120395
+petah-tikva,139,ptikva_muni_159,"מקלט - של""ג 1","של""ג 1","S.L. Gordon St 17, Petah Tikva",house number differs (1 vs 17),32.09020523263673,34.847868059869114
+petah-tikva,140,ptikva_muni_161,"בי""ס יובלים - פקיעין 23",פקיעין 23,"Pki'in St, Petah Tikva",no house number in English,32.089101629078,34.85211190672471
+petah-tikva,141,ptikva_muni_162,מקלט - פקיעין 21,פקיעין 21,"Pki'in St, Petah Tikva",no house number in English,32.0881144,34.8520172
+petah-tikva,147,ptikva_muni_168,מקלט - הרצפלד בין בניין 3 לבניין 5,הרצפלד בין בניין 3 לבניין 5,"Harzfeld St, Petah Tikva",no house number in English,32.08529837431327,34.874147196482305
+petah-tikva,149,ptikva_muni_171,מקלט - שרת 9,שרת 9,"Moshe Sharet St 16, Petah Tikva",house number differs (9 vs 16),32.08793180499846,34.873300464424396
+petah-tikva,150,ptikva_muni_173,מקלט - ז'בוטינסקי 15,ז'בוטינסקי 15,"Jabotinsky / Yitzhak Sadeh, Petah Tikva",no house number in English,32.09024201033996,34.87742265217948
+petah-tikva,157,ptikva_muni_181,"בי""ס שיפר - שיפר 43",שיפר 43,"Shifer, Petah Tikva",no house number in English,32.0969428,34.8913771
+petah-tikva,161,ptikva_muni_186,מקלט - עמוס 12 (גן חללי מינכן),עמוס 12 (גן חללי מינכן),"Khalelei Minkhen Garden, Petah Tikva",no house number in English,32.072183053308194,34.900925607446794
+petah-tikva,162,ptikva_muni_187,מקלט - אפריים כוכבי פינת הנביאים,אפריים כוכבי פינת הנביאים,"שמואל יבנאלי 60, Petah Tikva",English field still contains Hebrew,32.06942615506672,34.89849689045325
+petah-tikva,172,ptikva_muni_198,מקלט - חבקוק מול 13,חבקוק מול 13,"Khavakuk St, Petah Tikva",no house number in English,32.068371260967496,34.901451391379375
+petah-tikva,185,ptikva_muni_213,מגרש הפועל - הרב עובדיה יוסף,הרב עובדיה יוסף,"ספורטק/ועד ארבע ארצות, Petah Tikva",English field still contains Hebrew,32.0811993,34.9065041
+petah-tikva,186,ptikva_muni_214,"מרכז הכנה לצה""ל - הרב עובדיה יוסף",הרב עובדיה יוסף,"גינת כלבים, Mivtsa Kadesh St 24-26, Petah Tikva",English field still contains Hebrew,32.0969278673189,34.884935070838225
+petah-tikva,187,ptikva_muni_215,ספורטק סירקין - הרב עובדיה יוסף,הרב עובדיה יוסף,"ספורטק/ועד ארבע ארצות, Petah Tikva",English field still contains Hebrew,32.0811993,34.9065041
+petah-tikva,188,ptikva_muni_216,אולפנית הדר גנים - הרב עובדיה יוסף 1,הרב עובדיה יוסף 1,"ספורטק/ועד ארבע ארצות, Petah Tikva",English field still contains Hebrew,32.0811993,34.9065041
+raanana,13,raanana_pub_13,מקלט 13,"התחיה 39, רעננה","התחיה 39, Ra'anana, Israel",English field still contains Hebrew,32.19617,34.854477
+raanana,19,raanana_pub_21,מקלט 21,"קרן היסוד 75, רעננה","המכללה העירונית, Keren HaYesod 75, Ra'anana, 4330622, Israel",English field still contains Hebrew,32.1919304,34.8740208
+ramat-gan,10,undefined-10,מקלט 10,תל השומר ביתן 5 רמת גן,"Derech Sheba 2, Ramat Gan",house number differs (5 vs 2),32.0462827,34.8435342
+ramat-gan,65,undefined-65,מקלט 65,שדרות ויצו 10 רמת גן,"Malki Tsedek St 23, Ramat Gan",house number differs (10 vs 23),32.0508596,34.8198425
+ramat-gan,71,undefined-71,מקלט 71,עליה ראשונה 7 רמת גן,"Ha-Aliya ha-Rishona St 4, Ramat Gan",house number differs (7 vs 4),32.0595678,34.8344038
+ramat-gan,123,undefined-124,מקלט 124,שיכון הבנים 20 רמת גן,"Shikun ha-Banim, Ramat Gan",no house number in English,32.052409,34.839314
+ramat-hasharon,7,rs_306,מקלט יהודה הנשיא 2,"יהודה הנשיא 2, רמת השרון","Bet Hilel/Yehuda HaNassi, Ramat Hasharon, Israel",no house number in English,32.135552,34.8558122
+ramat-hasharon,36,rs_339,מקלט הדקל 18,"הדקל 18, רמת השרון","Dekel St, Ramat Hasharon",no house number in English,32.1325204,34.8399357
+ramat-hasharon,60,rs_366,מקלט הזרזיר 4,"הזרזיר 4, רמת השרון","Zarzir St, Ramat Hasharon",no house number in English,32.140273,34.828521
+ramat-hasharon,97,rs_411,מקלט ביאליק 41,"ביאליק 41, רמת השרון",Ramat Hasharon,no house number in English,32.137793,34.840278
+ramle,8,ramle_380,מקלט 380,"לוחמי גוש עציון 29, רמלה","Lokhamei Gush Etsyon St, Ramla, Israel",no house number in English,31.933674,34.863594
+ramle,12,ramle_453,מקלט 453,"שפיק עדס 1, רמלה","Adas Shafik St, Ramla, Israel",no house number in English,31.9271286,34.8699767
+ramle,35,ramle_121,מקלט 121,"הלילך 18, רמלה","HaLilach St, Ramla, Israel",no house number in English,31.922176,34.8627718
+rehovot,8,rehovot_pub_8,מקלט 10 - החבורה (גן הבנים),החבורה (גן הבנים) 12,"Ha-Khavura St, Rehovot",no house number in English,31.881539056000065,34.82029345800004
+rehovot,20,rehovot_pub_20,מקלט 62 - דוב לאוטמן,דוב לאוטמן 3,"Haim Sireni St 36, Rehovot",house number differs (3 vs 36),31.89738297400004,34.82164633900004
+rehovot,24,rehovot_pub_24,מקלט 8 - י.ל פרץ,י.ל פרץ 2,"Y.L. Perets St 5\2, Rehovot",house number differs (2 vs 5),31.89376434600007,34.812863794000066
+rehovot,29,rehovot_pub_29,מקלט 53 - כיכר החשמונאים מול 7,כיכר החשמונאים מול 7 7,"Kikar HaHashmonaim, Rehovot",no house number in English,31.885387458000025,34.802535628000044
+rehovot,32,rehovot_pub_32,מקלט 6 - שדרות וולקני מול בית 14,שדרות וולקני מול בית 14 2ב,"Sderot Vulkani, Rehovot",no house number in English,31.89007250800006,34.79568856000003
+rehovot,36,rehovot_pub_36,מקלט 73 - אשרוב (גן הבנים),אשרוב (גן הבנים) 23,"HaBanim Garden, Rehovot",no house number in English,31.887482861000024,34.78769411600007
+rehovot,37,rehovot_pub_37,מקלט 5 - גן הבנים קיריית משה,גן הבנים קיריית משה 10ב,"Stolvov/Horowitz, Rehovot",no house number in English,31.88822678200006,34.78778053700006
+rehovot,38,rehovot_pub_38,מקלט 72 - סטולבוב (גן הבנים),סטולבוב (גן הבנים) מול 12,"HaBanim Garden, Rehovot",no house number in English,31.888119104000054,34.787285301000054
+rehovot,40,rehovot_pub_40,מקלט 85 - דוד בן גוריון 32,דוד בן גוריון 32 12ב,"אטד 36, Rehovot",English field still contains Hebrew,31.8943075,34.7743821
+rehovot,46,rehovot_pub_46,"מקלט 87 - נפתלי בן אפריים (בית ספר חב""ד בנות תיכון)","נפתלי בן אפריים (בית ספר חב""ד בנות תיכון) 3","Naftali Ben Efrayim St 5, Rehovot",house number differs (3 vs 5),31.889224531000025,34.820789551000075
+rehovot,47,rehovot_pub_47,מקלט 32 - רחוב סיני מול 1,רחוב סיני מול 1 1,"Sinai St, Rehovot",no house number in English,31.889200049000067,34.80787742600006
+rehovot,48,rehovot_pub_48,מקלט 2 - מאור יוסף ליד 27,מאור יוסף ליד 27 27,"Maor Yosef St, Rehovot",no house number in English,31.892605263000064,34.82257002700004
+rehovot,66,rehovot_sch_17,גן רימונים - שיטה מלבינה 5 (בחצר הגן) 5,שיטה מלבינה 5 (בחצר הגן) 5,"David Elazar/Ben Gurion, Rehovot",no house number in English,31.892738318000056,34.77447549900006
+rehovot,71,rehovot_sch_22,תחכמוני - מילר טובה וטוביה 10,מילר טובה וטוביה 10,"מילר 10, רחובות",English field still contains Hebrew,31.9003504,34.8187491
+rehovot,72,rehovot_sch_23,"בית ספר שחר - בר שאול - ממ""מ מחוץ לבית הספר 14","בר שאול - ממ""מ מחוץ לבית הספר 14","HaRav Bar Shaul St, Rehovot",no house number in English,31.898408120000056,34.815250785000046
+rehovot,76,rehovot_sch_27,גן ציפורן - מנוחה ונחלה 3,מנוחה ונחלה 3,"Menuha VeNahala/Ezra, Rehovot",no house number in English,31.892823399000065,34.81787738000003
+rehovot,81,rehovot_sch_32,גן דביר - יעקב מזרחי 8,יעקב מזרחי 8,"HaRav Ya'akov Mizrahi St, Rehovot",no house number in English,31.882873118000077,34.79189179900004
+rehovot,83,rehovot_sch_34,"בית ספר בני הישיבות - מתתנ""ס תקוותינו - הרצל 108",הרצל 108,"Tsvi Horowits St 154, Rehovot",house number differs (108 vs 154),31.88648254800006,34.78740151300008
+rehovot,89,rehovot_sch_40,גן ציפורן - מנוחה ונחלה 3,מנוחה ונחלה 3,"Menuha VeNahala/Ezra, Rehovot",no house number in English,31.892823399000065,34.81787738000003
+rehovot,92,rehovot_sch_43,גן שקמה - מלצר 4,מלצר 4,"HaRav Yehuda Tsvi Meltser St 6, Rehovot",house number differs (4 vs 6),31.901255130000038,34.81642076700007
+rehovot,93,rehovot_sch_44,בית ספר בראשית - נגיש - שדרות ירושלים 34,שדרות ירושלים 34,"Ha-Parag St 8, Rehovot",house number differs (34 vs 8),31.88721298300004,34.83337989800003
+rehovot,109,rehovot_sch_61,גן רימונים - שיטה מלבינה 5,שיטה מלבינה 5,"David Elazar/Ben Gurion, Rehovot",no house number in English,31.892738318000056,34.77447549900006
+rehovot,116,rehovot_sch_70,גן פעמונית - דב לאוטמן 3,דב לאוטמן 3,"Haim Sireni St 36, Rehovot",house number differs (3 vs 36),31.89732734636195,34.821592540732425
+rehovot,122,rehovot_mig_2,פארק המיידסים - הרצל 135,הרצל 135,"Hertsel St 2, Rehovot",house number differs (135 vs 2),31.8788272,34.8184178
+rehovot,123,rehovot_mig_4,פארק היובל - דרך ירושלים 22,דרך ירושלים 22,Yitzhak Rabin Hwy,no house number in English,31.7919399,34.831536
+rishon-lezion,38,ראשון-לציון-38,"מקלט בי""ס יסוד המעלה",צמח 7,"ביס יסור המעלה, Tsemakh St 7, Rishon LeZion, ישראל",English field still contains Hebrew,31.97005,34.7945027
+rosh-haayin,8,roshhaayin_6,מקלט - אמנון ותמר  3 (גבעת טל),אמנון ותמר  3,"Irit/Amnon VeTamar, Rosh Haayin",no house number in English,32.09726474248856,34.96798772963699
+rosh-haayin,21,roshhaayin_44,מקלט - אבן עזרא מול  33,אבן עזרא מול  33,"Ibn Ezra St, Rosh Haayin",no house number in English,32.10254203938869,34.94634398212492
+rosh-haayin,26,roshhaayin_35,מקלט - המוביל 34,המוביל 34,"The National Water Carrier, Rosh Haayin",no house number in English,32.09875763600296,34.938253839803224
+rosh-haayin,43,roshhaayin_31,מקלט - תפוח 17 (גבעת טל),תפוח 17,"Jabotinsky/Zayit, Rosh Haayin",no house number in English,32.0932293477155,34.96121713320502
+rosh-haayin,44,roshhaayin_39,מקלט - רמת הגולן מול 14,רמת הגולן מול 14,"Ramat ha-Golan St, Rosh Haayin",no house number in English,32.09131202349104,34.958856585365844
+rosh-haayin,47,roshhaayin_47,מקלט - גן חורב מהריקא 5,גן חורב מהריקא 5,"Maharika St 9, Rosh Haayin",house number differs (5 vs 9),32.09987922209847,34.942941757761616
+rosh-haayin,48,roshhaayin_48,"מקלט - גן רימון צמוד לת""ת בעקבי הצאן - רחוב הרב משה פנחס 6","גן רימון צמוד לת""ת בעקבי הצאן - רחוב הרב משה פנחס 6","הרב משה פנחס 9, Rosh Haayin",English field still contains Hebrew,32.10374920982052,34.94231450829462
+rosh-haayin,51,roshhaayin_51,מקלט - בתי כנסת יבילים מתחם 811 רחוב גרטי קורי,בתי כנסת יבילים מתחם 811 רחוב גרטי קורי,"Gerty and Carl Cori St, Rosh Haayin",no house number in English,32.08589068317953,34.97019684949525
+rosh-haayin,60,roshhaayin_60,מקלט - גן תשבר מהריקא 5,גן תשבר מהריקא 5,"Maharika St 9, Rosh Haayin",house number differs (5 vs 9),32.09987521230802,34.942784476950806
+rosh-haayin,61,roshhaayin_61,מקלט - גן השלום מהריקא 5,גן השלום מהריקא 5,"Shalom Mantsura St, Rosh Haayin",no house number in English,32.099898382458775,34.94329813613245
+rosh-haayin,79,roshhaayin_79,מקלט - תלמוד תורה בעקבי הצאן רחוב הרב משה פנחס 6,תלמוד תורה בעקבי הצאן רחוב הרב משה פנחס 6,"הרב משה פנחס 9, Rosh Haayin",English field still contains Hebrew,32.10385790082295,34.94244744756461
+rosh-haayin,82,roshhaayin_82,מקלט - גני מרגנית צבעוני רחוב רמת הגולן מול 10,גני מרגנית צבעוני רחוב רמת הגולן מול 10,"Ramat ha-Golan St, Rosh Haayin",no house number in English,32.09149963570003,34.95908464293296
+rosh-haayin,84,roshhaayin_84,מקלט - גני גפן ארז בעקבי הצאן רחוב הרב משה פנחס 6,גני גפן ארז בעקבי הצאן רחוב הרב משה פנחס 6,"הרב משה פנחס 9, Rosh Haayin",English field still contains Hebrew,32.10375410267093,34.943048742347756
+rosh-pinna,7,ראש פינה-7,מקלט 23,שביל הברושים 6,"Shvil HaBroshim, Rosh Pina",no house number in English,32.9674324,35.5430502
+rosh-pinna,10,ראש פינה-10,מקלט 27,משעול הזיתים 18,"Mish'ol HaZeitim, Rosh Pina",no house number in English,32.963222,35.5430061
+safed,14,צפת-14,מקלט כ4,ליד בית הכנסת יוספטל,"גיורא יוספטל, צפת, ישראל",English field still contains Hebrew,32.9688515,35.5038302
+safed,19,צפת-19,מקלט כ9,קיבוץ גלויות 49,"קיבוץ גלויות 49, צפת, ישראל",English field still contains Hebrew,32.9670427,35.503146
+safed,23,צפת-23,מקלט כ13,מתחת בית הכנסת (אחרי 231),"Canaan Quarter Intersection, Safed",no house number in English,32.971298,35.50685900000001
+safed,44,צפת-44,מקלט ד8,ויצמן 5 בתוך גן האם,"HaEm Garden, Safed",no house number in English,32.95727189999999,35.4983346
+safed,49,צפת-49,מקלט ד13,רחוב ה-11 301,"Eliyahu Fromenchenko St 9, Safed",house number differs (11 vs 9),32.9619365,35.5005869
+safed,51,צפת-51,מקלט ד15,דוד רמז מול בניין 103,"David Remez St, Safed",no house number in English,32.9552917,35.4988594
+safed,83,צפת-83,מקלט א1,הנשרים ליד בית 364,"Ha-Nesharim St, Safed",no house number in English,32.984668,35.508046
+safed,84,צפת-84,מקלט א2,חוחית ליד בית 343,"Hohit St, Safed",no house number in English,32.9832253,35.5085657
+safed,85,צפת-85,מקלט א3,חוחית ליד בית 356,"Hohit St 359, Safed",house number differs (356 vs 359),32.9832253,35.5085657
+safed,86,צפת-86,מקלט א4,התור ליד בית 415,"Tor St, Safed",no house number in English,32.9845557,35.5100473
+safed,87,צפת-87,מקלט א5,זמיר ליד בית 394,"Zamir St, Safed",no house number in English,32.9863148,35.509807
+safed,88,צפת-88,מקלט א6,יסעור ליד בית 421,"Yas'ur St, Safed",no house number in English,32.9850763,35.5102576
+safed,89,צפת-89,מקלט א7,זמיר ליד בית 400,"Zamir St, Safed",no house number in English,32.9863148,35.509807
+safed,90,צפת-90,מקלט א8,זמיר ליד בית 453,"Zamir St, Safed",no house number in English,32.9863148,35.509807
+safed,91,צפת-91,מקלט א9,הנשרים ליד בית 472,"Ha-Nesharim St, Safed",no house number in English,32.984668,35.508046
+safed,92,צפת-92,מקלט א10,הנשרים ליד בית 491,"Ha-Nesharim St, Safed",no house number in English,32.984668,35.508046
+savyon,9,סביון-9,מרכז מסחרי,צומת סביון,,missing English address,32.0333625,34.8659705
+savyon,13,סביון-13,תחנת דלק פז,צומת סביון,,missing English address,32.0333625,34.8659705
+sderot,33,שדרות-33,מקלט 33,הרב עובדיה יוסף 100,,missing English address,31.527682,34.601344
+sderot,52,שדרות-52,מקלט 52,662 662,,missing English address,31.520982,34.581096
+sderot,64,שדרות-64,מקלט 64,הרב בן-ציון אבא שאול 10,"Derech Moshe Dayan 903, Sderot",house number differs (10 vs 903),31.529619,34.603024
+sderot,85,שדרות-85,מקלט 85,משעול רחל 1,,missing English address,31.535308,34.580746
+sderot,89,שדרות-89,מקלט 89,232,GJM6+MH Ibim,house number differs (232 vs 6),31.534152,34.611441
+sderot,90,שדרות-90,מקלט 90,האקדמיה 5,,missing English address,31.533846,34.593044
+sderot,91,שדרות-91,מקלט 91,האקדמיה 5,,missing English address,31.533402,34.592729
+sderot,92,שדרות-92,מקלט 92,האקדמיה 5,"HaMa'apilim/Daniel, Sderot",no house number in English,31.533976,34.592478
+sderot,93,שדרות-93,מקלט 93,האקדמיה 5,"HaMa'apilim/Daniel, Sderot",no house number in English,31.53406,34.592882
+sderot,94,שדרות-94,מקלט 94,האקדמיה 1,,missing English address,31.533386,34.592603
+sderot,97,שדרות-97,מקלט 97,האקדמיה 3,,missing English address,31.533096,34.591867
+sderot,98,שדרות-98,מקלט 98,האקדמיה 3,,missing English address,31.532889,34.591777
+sderot,100,שדרות-100,מקלט 100,האקדמיה 3,,missing English address,31.532881,34.591499
+sderot,112,שדרות-112,מקלט 112,3529,GJM6+C8 Ibim,house number differs (3529 vs 6),31.533616,34.610758
+sderot,114,שדרות-114,מקלט 114,3529,Ibim Junction,no house number in English,31.53321,34.611252
+sderot,119,שדרות-119,מקלט 119,האקדמיה 5,"HaMa'apilim/Daniel, Sderot",no house number in English,31.533831,34.592388
+sderot,150,שדרות-150,מקלט 150,אחד העם 143,,missing English address,31.524167,34.6005
+sderot,165,שדרות-165,מקלט 165,הרב עובדיה יוסף 102,"Public Library/Yitzhak Shamir, Sderot",no house number in English,31.526802,34.601093
+sderot,170,שדרות-170,מקלט 170,קרן קימת לישראל 17,,missing English address,31.530929,34.583584
+sderot,190,שדרות-190,מקלט 190,34,Sderot South Intersection,no house number in English,31.516081,34.586216
+sderot,202,שדרות-202,מקלט 202,רחוב,,missing English address,31.518417,34.578653
+sderot,205,שדרות-205,מקלט 205,662 662,"143, Nir Am",house number differs (662 vs 143),31.520607,34.58027
+sderot,206,שדרות-206,מקלט 206,662 662,"7, Nir Am",house number differs (662 vs 7),31.520599,34.58044
+sderot,208,שדרות-208,מקלט 208,662 662,,missing English address,31.520913,34.581635
+sderot,221,שדרות-221,מקלט 221,34,,missing English address,31.51592,34.58557
+shlomi,2,שלומי-2,מקלט 2,יפה נוף 242,"Yefe Nof St, Shlomi",no house number in English,33.0697429,35.1458102
+shlomi,7,שלומי-7,מקלט 7,ששת הימים 6001 - מאחורי הבלוק,"Sheshet ha-Yamim St, Shlomi",no house number in English,33.0701435,35.1439075
+shlomi,9,שלומי-9,מקלט 10,אלי לוי - מאחור (דדו 287),"HaRav Uziel St 80/1, Shlomi",house number differs (287 vs 80),33.070559,35.145848
+shlomi,22,שלומי-22,מקלט 23,בן גוריון צמוד לבלוק 248,"David Ben Gurion St, Shlomi",no house number in English,33.070664,35.1493824
+tel-aviv,7,תל-אביב-7,"בית ספר רש""י בנות","שז""ר זלמן 39","שז""ר זלמן 39, תל אביב-יפו",English field still contains Hebrew,32.039134,34.764362
+tel-aviv,8,תל-אביב-8,ברודי חיים 10,ברודי חיים 10,"Kfar Yona St 19, Tel Aviv-Yafo",house number differs (10 vs 19),32.110108,34.800486
+tel-aviv,25,תל-אביב-25,מלון מגדל המלך דוד,הרברט סמואל 94,"הרברט סמואל 94, תל אביב-יפו",English field still contains Hebrew,32.078846,34.767253
+tel-aviv,26,תל-אביב-26,קלמר משה 6,קלמר משה 6,"HaPalmah St 34, Tel Aviv-Yafo",house number differs (6 vs 34),32.062599,34.797607
+tel-aviv,76,תל-אביב-76,שבתי דון יחייא 1,שבתי דון יחייא 1,"HaMered/Pines, Tel Aviv-Yafo",no house number in English,32.065089,34.764911
+tel-aviv,82,תל-אביב-82,בית ספר כפיר,אנקאווא רפאל הרב 13,"אנקאווא רפאל הרב 13א, תל אביב-יפו",English field still contains Hebrew,32.04822,34.801165
+tel-aviv,85,תל-אביב-85,פרנקל ידידיה 44,פרנקל ידידיה 44,"HaRav Yizkhak Yedidya Frenkel 43, Tel Aviv-Yafo",house number differs (44 vs 43),32.057127,34.771129
+tel-aviv,92,תל-אביב-92,"ק""ם 83","ק""ם 83","Biriya St 13, Tel Aviv-Yafo",house number differs (83 vs 13),32.113878,34.837587
+tel-aviv,98,תל-אביב-98,"אצ""ל 34","אצ""ל 34","Etsel St 32, Tel Aviv-Yafo",house number differs (34 vs 32),32.051837,34.791474
+tel-aviv,132,תל-אביב-132,"ק""ם 34","ק""ם 34","Kam St 36, Tel Aviv-Yafo",house number differs (34 vs 36),32.117508,34.835643
+tel-aviv,133,תל-אביב-133,בית ספר הגליל,גבעתי 4,"Giv'ati/Kiryati, Tel Aviv-Yafo",no house number in English,32.051146,34.79627
+tel-aviv,139,תל-אביב-139,זכות משה 10,זכות משה 10,"Kehilat Lodz St 19א, Tel Aviv-Yafo",English field still contains Hebrew,32.108695,34.8174
+tel-aviv,153,תל-אביב-153,"אצ""ל 22","אצ""ל 22","Etsel St 20, Tel Aviv-Yafo",house number differs (22 vs 20),32.05254,34.791394
+tel-aviv,158,תל-אביב-158,בית ספר רמת החייל,"ק""ם 65","Kam St 65ב, Tel Aviv-Yafo",English field still contains Hebrew,32.115899,34.8382
+tel-aviv,160,תל-אביב-160,בית ספר תל נורדאו,מנדלי מוכר ספרים 19,Tel Nordau School، Tel Aviv-Yafo,no house number in English,32.079218,34.77143
+tel-aviv,170,תל-אביב-170,קרני יהודה 9,קרני יהודה 9,"Harari St 8ג, Tel Aviv-Yafo",English field still contains Hebrew,32.104892,34.793336
+tel-aviv,173,תל-אביב-173,בית ספר יחד,"לח""י 66","HaArgazim / Lehi, Tel Aviv-Yafo",no house number in English,32.047079,34.79658
+tel-aviv,180,תל-אביב-180,אופטושו יוסף 2,אופטושו יוסף 2,"Opatoshu St, Tel Aviv-Yafo",no house number in English,32.041476,34.781172
+tel-aviv,184,תל-אביב-184,אשרמן יוסף 9,אשרמן יוסף 9,"Asherman St, Tel Aviv-Yafo",no house number in English,32.057631,34.808042
+tel-aviv,188,תל-אביב-188,גן החשמל,סמטת הגינה 3,"Gan HaHashmal, Levontin St, Tel Aviv-Yafo",no house number in English,32.061464,34.774985
+tel-aviv,207,תל-אביב-207,צ'ק פוינט,הסוללים 5,"Tuval St 9, Tel Aviv-Yafo",house number differs (5 vs 9),32.069859,34.79601
+tel-aviv,214,תל-אביב-214,בלבן מאיר 3,בלבן מאיר 3,"בלבן מאיר 3, תל אביב-יפו",English field still contains Hebrew,32.049464,34.778053
+tel-aviv,223,תל-אביב-223,יוסי בן יוסי 1א,יוסי בן יוסי 1א,"Yosi Ben Yosi St 1א, Tel Aviv-Yafo",English field still contains Hebrew,32.052149,34.756994
+tel-aviv,230,תל-אביב-230,ורד 9ב,ורד 9ב,"Vered St 9ב, Tel Aviv-Yafo",English field still contains Hebrew,32.052748,34.793953
+tel-aviv,236,תל-אביב-236,בית ספר ארזים,לויטן יצחק 7,"Levitan St, Tel Aviv-Yafo",no house number in English,32.119499,34.798107
+tel-aviv,237,תל-אביב-237,גינת השרון,החשמל 9,"Gan HaHashmal, Levontin St, Tel Aviv-Yafo",no house number in English,32.061188,34.77512
+tel-aviv,241,תל-אביב-241,יפו 44,יפו 44,"693 1, Tel Aviv-Yafo",house number differs (44 vs 693),32.0605,34.77201
+tel-aviv,284,תל-אביב-284,בית דרור,הברזל 21א,"HaBarzel St 21א, Tel Aviv-Yafo",English field still contains Hebrew,32.108677,34.838578
+tel-aviv,285,תל-אביב-285,ההגנה 110,ההגנה 110,"HaHagana Road/Giv'ati, Tel Aviv-Yafo",no house number in English,32.053326,34.796912
+tel-aviv,293,תל-אביב-293,"תחנת יהודית (ת""א) כניסה A",מקלף מרדכי 1,"Maklef St, Tel Aviv-Yafo",no house number in English,32.070475,34.78823
+tel-aviv,294,תל-אביב-294,"תחנת שאול המלך (ת""א) כניסה A",בגין מנחם  151א,"Azrieli Center, Menakhem Begin Rd, Tel Aviv-Yafo",no house number in English,32.077337,34.792172
+tel-aviv,300,תל-אביב-300,בית תמי,שינקין מנחם 4,"Sheinkin St, Tel Aviv-Yafo",no house number in English,32.069791,34.772684
+tel-aviv,312,תל-אביב-312,חניון מגדל לוינשטיין,בגין מנחם  23,"Levinstein Tower, Tel Aviv-Yafo",no house number in English,32.063822,34.78001
+tel-aviv,318,תל-אביב-318,חניון - הרב טראב יעקב 2-4,טראב יעקב הרב 2,"Shtulim St 55, Tel Aviv-Yafo",house number differs (2 vs 55),32.044008,34.795874
+tel-aviv,321,תל-אביב-321,ועד הבית -דודו,טראב יעקב הרב 8,"טראב יעקב הרב 8, Tel Aviv-Jaffa",English field still contains Hebrew,32.044217,34.797182
+tel-aviv,329,תל-אביב-329,חניון שרונה מרקט,מגן קלמן אלוף 3,"Aluf Kalman Magen St 2, Tel Aviv-Yafo",house number differs (3 vs 2),32.071331,34.787598
+tel-aviv,340,תל-אביב-340,חניון ויצמן 14,ויצמן 14,"Weizmann St 12, Tel Aviv-Yafo",house number differs (14 vs 12),32.081283,34.789488
+tel-aviv,342,תל-אביב-342,רונימור מגדל ויתניה,דבורה הנביאה 122,"Dvora HaNevi'a/Raul Wallenberg, Tel Aviv-Yafo",no house number in English,32.1141,34.841003
+tel-aviv,359,תל-אביב-359,גן ילדים נמש - מו,צוקרמן אנטק יצחק 28,"Zuckerman St, Tel Aviv-Yafo",no house number in English,32.046462,34.809342
+tel-aviv,362,תל-אביב-362,בית שרבט / היכל סיטי,שנקר אריה 3,"מרכז הטקסטיל והאופנה, שנקר 3, תל אביב-יפו",English field still contains Hebrew,32.062739,34.7626
+tel-aviv,376,תל-אביב-376,הבית לאומנויות,מונש ג'ון סר 1,"מונאש 1, תל אביב-יפו",English field still contains Hebrew,32.054788,34.79325
+tel-aviv,382,תל-אביב-382,גן ילדים,למדן יצחק 7,"Lamdan St, Tel Aviv-Yafo",no house number in English,32.118677,34.821498
+tel-aviv,427,תל-אביב-427,בית ספר שובו,נחמן מברסלב 17,"Rabi Nakhman mi-Braslav St 25, Tel Aviv-Yafo",house number differs (17 vs 25),32.040301,34.75406
+tel-aviv,430,תל-אביב-430,בית ספר יפה ירקוני,אלוני ניסים 8א,"Nissim Aloni St 10, Tel Aviv-Yafo",house number differs (8 vs 10),32.088651,34.797784
+tel-aviv,463,תל-אביב-463,בית יעקב ד' שערי ציון,"לח""י 8א","לח""י 8א, תל אביב-יפו",English field still contains Hebrew,32.047104,34.78918
+tel-aviv,464,תל-אביב-464,גן ילדים פד,קיציס יוסף 6,"Kitzis St, Tel Aviv-Yafo",no house number in English,32.106404,34.819424
+tel-aviv,472,תל-אביב-472,גן ילדים הרובע -נ,רבי פנחס 4ו,"Rabi Pinkhas St 4ו, Tel Aviv-Yafo",English field still contains Hebrew,32.052402,34.754679
+tel-aviv,473,תל-אביב-473,אשכול גנים צמרות,דוש (קריאל גרדוש) 6,"Nissim Aloni St 10, Tel Aviv-Yafo",house number differs (6 vs 10),32.088884,34.797905
+tel-aviv,487,תל-אביב-487,בית ספר כפיר,אנקאווא רפאל הרב 13,"Ha-Rav Alnekave St 9, Tel Aviv-Yafo",house number differs (13 vs 9),32.047889,34.800815
+tel-aviv,504,תל-אביב-504,בריכת נווה גולן,"הבעש""ט 8","הבעש""ט 8, תל אביב-יפו",English field still contains Hebrew,32.037192,34.752243
+tel-aviv,505,תל-אביב-505,המרכז הגאה,המלך ג'ורג' 33א,"King George St 33א, Tel Aviv-Yafo",English field still contains Hebrew,32.072613,34.772486
+tel-aviv,514,תל-אביב-514,גלגול,ברטונוב יהושע 7,"Bertonov St, Tel Aviv-Yafo",no house number in English,32.11757,34.828521
+tel-aviv,515,תל-אביב-515,תבור,ברנפלד שמעון 17,"ברנפלד שמעון 17, תל אביב-יפו",English field still contains Hebrew,32.061758,34.803496
+tel-aviv,519,תל-אביב-519,גן ילדים קסד -מיתר,"ד""ר צ'רטוק שמשון 8","ד""ר צ'רטוק שמשון 8, תל אביב-יפו",English field still contains Hebrew,32.120167,34.797453
+tel-aviv,542,תל-אביב-542,עומר,"יוצ""ר 7","יוצ""ר 7, תל אביב-יפו",English field still contains Hebrew,32.089335,34.779187
+tel-aviv,544,תל-אביב-544,רביד,לוי יצחק 24,"Ha-Rav Levi Yitskhak St 22, Tel Aviv-Yafo",house number differs (24 vs 22),32.08803,34.776766
+tel-aviv,545,תל-אביב-545,מיגונית פיקוד העורף,"חב""ד 26","חב""ד 26, תל אביב-יפו",English field still contains Hebrew,32.041502,34.754093
+tel-aviv,546,תל-אביב-546,מיגונית פיקוד העורף,הכרמל 4,"Carmelit Terminal/Hacarmel, Tel Aviv-Yafo",no house number in English,32.065964,34.765386
+tel-aviv,561,תל-אביב-561,מקלט גני יהושע חמשת החושים,רוקח ישראל 98,"רוקח ישראל 98, תל אביב-יפו",English field still contains Hebrew,32.099857,34.808465
+tel-aviv,565,תל-אביב-565,ממ''ד משרדי גני יהושע,רוקח ישראל 90א,"רוקח ישראל 90א, תל אביב-יפו",English field still contains Hebrew,32.10092,34.807015
+tiberias,6,טבריה-6,מקלט 6,טולדנו 50,"Brurya St 8, Tiberias",house number differs (50 vs 8),32.795859,35.530973
+tiberias,13,טבריה-13,מקלט 16,משה הכהן 39,"משה שרת, טבריה, ישראל",English field still contains Hebrew,32.7766268,35.5084703
+tiberias,16,טבריה-16,מקלט 19,משה הכהן 37,"משה שרת, טבריה, ישראל",English field still contains Hebrew,32.7766268,35.5084703
+tiberias,26,טבריה-26,מקלט 42,מודיעין 774,"Modi'in St, Tiberias",no house number in English,32.7960802,35.5332759
+tiberias,42,טבריה-42,מקלט 66,בית וגן 11,Tiberias,no house number in English,32.795859,35.530973
+tiberias,43,טבריה-43,מקלט 67,בית וגן 12,Tiberias,no house number in English,32.795859,35.530973
+tiberias,73,טבריה-73,מקלט 108,אהבת ציון 223,"Ahavat Tsiyon St, Tiberias",no house number in English,32.7853429,35.5083827
+tiberias,74,טבריה-74,מקלט 109,אהבת ציון 266,"Ahavat Tsiyon St, Tiberias",no house number in English,32.7853429,35.5083827
+tiberias,76,טבריה-76,מקלט 111,אהבת ציון 280,"Ahavat Tsiyon St, Tiberias",no house number in English,32.7853429,35.5083827
+tiberias,86,טבריה-86,מקלט 121,חזון איש,"חזון איש, טבריה, ישראל",English field still contains Hebrew,32.7819382,35.5114813
+tiberias,90,טבריה-90,מקלט 125,יפתח גלעדי 11,Tiberias,no house number in English,32.795859,35.530973
+tiberias,93,טבריה-93,מקלט 128,משה שפירא 24,Tiberias,no house number in English,32.795859,35.530973
+tiberias,94,טבריה-94,מקלט 129,משה שפירא 467,"Moshe Sharet St, Tiberias",no house number in English,32.775469,35.51196
+tiberias,100,טבריה-100,מקלט 152,ז'בוטינסקי 1018,"Jabotinski St, Tiberias",no house number in English,32.7790402,35.5125254
+tiberias,101,טבריה-101,מקלט 154,ז'בוטינסקי 1012,"Jabotinski St, Tiberias",no house number in English,32.7790402,35.5125254
+tiberias,102,טבריה-102,מקלט 155,ז'בוטינסקי 1071,"Jabotinski St, Tiberias",no house number in English,32.7790402,35.5125254
+tiberias,104,טבריה-104,מקלט 157,ז'בוטינסקי 1072,"Jabotinski St, Tiberias",no house number in English,32.7790402,35.5125254
+tiberias,105,טבריה-105,מקלט 158,ז'בוטינסקי 1077,"Jabotinski St, Tiberias",no house number in English,32.7790402,35.5125254
+tiberias,107,טבריה-107,מקלט 160,הרב קוק 838,"HaRav Uziel St, Tiberias",no house number in English,32.7778354,35.5086059
+tiberias,108,טבריה-108,מקלט 161,הרב קוק 843,"HaRav Uziel St, Tiberias",no house number in English,32.7778354,35.5086059
+tiberias,111,טבריה-111,מקלט 164,אלפסי 846,"Alfasi St, Tiberias",no house number in English,32.7769069,35.5135263
+tiberias,133,טבריה-133,מקלט 186,שרת 1060,"Moshe Sharet St 1042, Tiberias",house number differs (1060 vs 1042),32.775469,35.51196
+tiberias,137,טבריה-137,מקלט 190,נווה חן 155,"נוה חן, טבריה, ישראל",English field still contains Hebrew,32.7775819,35.5176495
+tiberias,138,טבריה-138,מקלט 191,נווה חן 142,"נוה חן, טבריה, ישראל",English field still contains Hebrew,32.7775819,35.5176495
+tiberias,139,טבריה-139,מקלט 192,נווה חן 170,"נוה חן, טבריה, ישראל",English field still contains Hebrew,32.7775819,35.5176495
+tirat-carmel,10,טירת-כרמל-10,מקלט 10,הגורדים 5,Tirat Carmel,no house number in English,32.762127,34.97298
+tirat-carmel,11,טירת-כרמל-11,מקלט 11,הגורדים 11,Tirat Carmel,no house number in English,32.762127,34.97298
+tirat-carmel,13,טירת-כרמל-13,מקלט 13,הרב ויינרב 9,"Herzel St 10, Tirat Carmel",house number differs (9 vs 10),32.762127,34.97298
+tirat-carmel,14,טירת-כרמל-14,מקלט 14,הרב ויינרב 28,"Ha-Rav Veinrob St, Tirat Carmel",no house number in English,32.7615681,34.9717207
+tirat-carmel,15,טירת-כרמל-15,מקלט 15,הרב ויינרב 39,"Ha-Rav Veinrob St, Tirat Carmel",no house number in English,32.7615681,34.9717207
+tirat-carmel,32,טירת-כרמל-32,מקלט 32,"הח""ם 22",Tirat Carmel,no house number in English,32.762127,34.97298
+tirat-carmel,34,טירת-כרמל-34,מקלט 33,שי עגנון 12,"Rambam St 78, Tirat Carmel",house number differs (12 vs 78),32.767,34.974
+tirat-carmel,40,טירת-כרמל-40,מיגונית - הגל 2,הגל 2,,missing English address,32.7558069,34.9675307
+tirat-carmel,43,טירת-כרמל-43,מיגונית - שרון 14,שרון 14,Tirat Carmel,no house number in English,32.762127,34.97298
+tivon,14,קריית טבעון-14,מקלט 15 - רקפות,רקפות 4 פינת אמנון ותמר (במגרש החניה),"HaShkedim St, Kiryat Tiv'on",no house number in English,32.7233361,35.130377
+tivon,40,קריית טבעון-40,מקלט 50 - גני ילדים צל אורנים,מנחם בגין 1,"מנחם בגין 1, ישראל",English field still contains Hebrew,32.7141034,35.104942
+yehud,8,yehud_501,מקלט 501,"יונה 2, יהוד","Brener St 1, Yehud-Monosson",house number differs (2 vs 1),32.0295665,34.8835582
+yehud,29,yehud_308,גן אשל,"ביל""ו 4, יהוד","ביאליק 4, Yahud Monoson, Israel",English field still contains Hebrew,32.0361956,34.8849227
+yehud,36,yehud_901,קניון סביונים,"משה דיין 3, יהוד","קניון סביונים, דרך משה דיין 3, יהוד מונוסון, Israel",English field still contains Hebrew,32.0302169,34.8780712
+yokneam,21,יקנעם-21,מקלט 21,לילך 1,"Lilach St, Yokne'am Illit",no house number in English,32.6595379,35.1110946
+yokneam,25,יקנעם-25,מקלט 25,אזור תעשיה 7,"HaKidma St 10, Yokne'am Illit",house number differs (7 vs 10),32.6682165,35.106361
